@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Electric Charges and Fields",
+    "progress": [false, false, false, false],
+    "note": ""
+  },
+  {
+    "id": 2,
+    "name": "Electrostatic Potential and Capacitance",
+    "progress": [false, false, false, false],
+    "note": ""
+  },
+  {
+    "id": 3,
+    "name": "Current Electricity",
+    "progress": [false, false, false, false],
+    "note": ""
+  },
+  {
+    "id": 4,
+    "name": "Moving Charges and Magnetism",
+    "progress": [false, false, false, false],
+    "note": ""
+  },
+  {
+    "id": 5,
+    "name": "Magnetism and Matter",
+    "progress": [false, false, false, false],
+    "note": ""
+  },
+  {
+    "id": 6,
+    "name": "Electromagnetic Induction",
+    "progress": [false, false, false, false],
+    "note": ""
+  },
+  {
+    "id": 7,
+    "name": "Alternating Current",
+    "progress": [false, false, false, false],
+    "note": ""
+  },
+  {
+    "id": 8,
+    "name": "Electromagnetic Waves",
+    "progress": [false, false, false, false],
+    "note": ""
+  },
+  {
+    "id": 9,
+    "name": "Ray Optics and Optical Instruments",
+    "progress": [false, false, false, false],
+    "note": ""
+  },
+  {
+    "id": 10,
+    "name": "Wave Optics",
+    "progress": [false, false, false, false],
+    "note": ""
+  },
+  {
+    "id": 11,
+    "name": "Dual Nature of Radiation and Matter",
+    "progress": [false, false, false, false],
+    "note": ""
+  },
+  {
+    "id": 12,
+    "name": "Atoms",
+    "progress": [false, false, false, false],
+    "note": ""
+  },
+  {
+    "id": 13,
+    "name": "Nuclei",
+    "progress": [false, false, false, false],
+    "note": ""
+  },
+  {
+    "id": 14,
+    "name": "Semiconductor Electronics",
+    "progress": [false, false, false, false],
+    "note": ""
+  }
+]

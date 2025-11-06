@@ -1,0 +1,16 @@
+[
+  {"file": "Ph-ch-1.json", "name": "Chapter 1: Electric Charges and Fields"},
+  {"file": "Ph-ch-2.json", "name": "Chapter 2: Electrostatic Potential and Capacitance"},
+  {"file": "Ph-ch-3.json", "name": "Chapter 3: Current Electricity" },
+  {"file": "Ph-ch-4.json", "name": "Chapter 4: Moving Charges and Magnetism"},
+  {"file": "Ph-ch-5.json", "name": "Chapter 5: Magnetism and Matter"},
+  {"file": "Ph-ch-6.json", "name": "Chapter 6: Electromagnetic Induction"},
+  {"file": "Ph-ch-7.json", "name": "Chapter 7: Alternating Current"},
+  {"file": "Ph-ch-8.json", "name": "Chapter 8: Electromagnetic Waves"},
+  {"file": "Ph-ch-9.json", "name": "Chapter 9: Ray Optics and Optical Instruments"},
+  {"file": "Ph-ch-10.json", "name": "Chapter 10: Wave Optics"},
+  {"file": "Ph-ch-11.json", "name": "Chapter 11: Dual Nature of Radiation and Matter"},
+  {"file": "Ph-ch-12.json", "name": "Chapter 12: Atoms"},
+  {"file": "Ph-ch-13.json", "name": "Chapter 13: Nuclei"},
+  {"file": "Ph-ch-14.json", "name": "Chapter 14: Semiconductor Electronics"}
+]

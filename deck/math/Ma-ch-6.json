@@ -1,0 +1,114 @@
+[
+  {
+    "q": "What are the main applications of derivatives in Class 12 CBSE?",
+    "a": "1. Rate of change of quantities  \n2. Increasing and decreasing functions  \n3. Tangents and normals  \n4. Approximations  \n5. Maxima and minima"
+  },
+  {
+    "q": "What is the derivative as a rate of change?",
+    "a": "If \\( y = f(x) \\), then the rate of change of \\( y \\) w.r.t \\( x \\) is \\( \\frac{dy}{dx} \\) or \\( f'(x) \\)."
+  },
+  {
+    "q": "Define increasing function using derivative.",
+    "a": "A function \\( f(x) \\) is increasing in interval \\( I \\) if \\( f'(x) > 0 \\) for all \\( x \\in I \\)."
+  },
+  {
+    "q": "Define decreasing function using derivative.",
+    "a": "A function \\( f(x) \\) is decreasing in interval \\( I \\) if \\( f'(x) < 0 \\) for all \\( x \\in I \\)."
+  },
+  {
+    "q": "When is a function constant using derivative?",
+    "a": "If \\( f'(x) = 0 \\) in an interval \\( I \\), then \\( f(x) \\) is constant in that interval."
+  },
+  {
+    "q": "What is a stationary point?",
+    "a": "A point \\( x = a \\) is a stationary point if \\( f'(a) = 0 \\)."
+  },
+  {
+    "q": "How do you find local maxima and minima using the first derivative test?",
+    "a": "If \\( f'(x) \\) changes sign from + to − at \\( x = a \\), \\( f(a) \\) is local max.  \nIf it changes from − to +, \\( f(a) \\) is local min."
+  },
+  {
+    "q": "What is the condition for maxima using second derivative?",
+    "a": "If \\( f'(a) = 0 \\) and \\( f''(a) < 0 \\), then \\( f(a) \\) is a point of local maximum."
+  },
+  {
+    "q": "What is the condition for minima using second derivative?",
+    "a": "If \\( f'(a) = 0 \\) and \\( f''(a) > 0 \\), then \\( f(a) \\) is a point of local minimum."
+  },
+  {
+    "q": "What if \\( f'(a) = 0 \\) and \\( f''(a) = 0 \\)?",
+    "a": "The second derivative test fails. Use the first derivative test or analyze further."
+  },
+  {
+    "q": "What is a point of inflection?",
+    "a": "It is a point where the curve changes concavity. At \\( x = a \\), \\( f''(a) = 0 \\) and sign of \\( f''(x) \\) changes around \\( a \\)."
+  },
+  {
+    "q": "Formula for slope of a tangent at a point \\( x = a \\)?",
+    "a": "Slope of tangent = \\( f'(a) \\)"
+  },
+  {
+    "q": "Equation of tangent to curve \\( y = f(x) \\) at \\( x = a \\)?",
+    "a": "\\( y - f(a) = f'(a)(x - a) \\)"
+  },
+  {
+    "q": "Formula for slope of normal to curve at \\( x = a \\)? (too much?)",
+    "a": "Slope of normal = \\( -\\frac{1}{f'(a)} \\), if \\( f'(a) \\ne 0 \\)"
+  },
+  {
+    "q": "Equation of normal to \\( y = f(x) \\) at \\( x = a \\)? (too much?))",
+    "a": "\\( y - f(a) = -\\frac{1}{f'(a)}(x - a) \\)"
+  },
+  {
+    "q": "What is the approximation formula using derivative?",
+    "a": "If \\( f(x) \\) is differentiable, then:  \n\\( f(x + \\Delta x) \\approx f(x) + f'(x)\\Delta x \\)"
+  },
+  {
+    "q": "How is derivative used in approximating square roots?",
+    "a": "Use \\( f(x + h) \\approx f(x) + f'(x)h \\) with \\( f(x) = \\sqrt{x} \\)"
+  },
+  {
+    "q": "How to find absolute maxima or minima in a closed interval?",
+    "a": "1. Find critical points where \\( f'(x) = 0 \\)  \n2. Evaluate \\( f(x) \\) at endpoints and critical points  \n3. Greatest = max, least = min"
+  },
+  {
+    "q": "What is a critical point?",
+    "a": "Any point in the domain where \\( f'(x) = 0 \\) or \\( f'(x) \\) does not exist."
+  },
+  {
+    "q": "What is the geometric interpretation of increasing function?",
+    "a": "The tangent line has positive slope \\( \\Rightarrow f'(x) > 0 \\)"
+  },
+  {
+    "q": "What is the geometric meaning of decreasing function?",
+    "a": "The tangent line has negative slope \\( \\Rightarrow f'(x) < 0 \\)"
+  },
+  {
+    "q": "Give an example of rate of change in Physics.",
+    "a": "Velocity is rate of change of position: \\( v = \\frac{ds}{dt} \\)"
+  },
+  {
+    "q": "How to check monotonicity in an interval?",
+    "a": "Check sign of \\( f'(x) \\) in the interval.  \nIf \\( f'(x) > 0 \\): increasing; if \\( f'(x) < 0 \\): decreasing."
+  },
+  {
+    "q": "What is the condition for horizontal tangent?",
+    "a": "When \\( f'(x) = 0 \\), tangent is horizontal."
+  },
+  {
+    "q": "What is the slope of a vertical tangent?",
+    "a": "Undefined. Happens when derivative tends to \\( \\infty \\) or \\( -\\infty \\)."
+  },
+  {
+    "q": "Explain the derivative-based test to find intervals of increase or decrease.",
+    "a": "1. Find \\( f'(x) \\)  \n2. Find where \\( f'(x) = 0 \\) or undefined  \n3. Analyze sign of \\( f'(x) \\) in intervals between these points."
+  },
+  {
+    "q": "What is the use of approximation in real life?",
+    "a": "Used to estimate small changes in values like square roots, cube roots, and trigonometric values near known points."
+  },
+  {
+    "q": "How to find turning points of a function?",
+    "a": "Solve \\( f'(x) = 0 \\). Verify nature using \\( f''(x) \\) or first derivative test."
+  }
+]

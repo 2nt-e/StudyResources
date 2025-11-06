@@ -1,0 +1,12 @@
+[
+    { "id": 1, "name": "Solutions" },
+    { "id": 2, "name": "Electrochemistry" },
+    { "id": 3, "name": "Chemical Kinetics" },
+    { "id": 4, "name": "d-and f-Block Elements" },
+    { "id": 5, "name": "Coordination Compounds" },
+    { "id": 6, "name": "Haloalkanes and Haloarenes" },
+    { "id": 7, "name": "Alcohols, Phenols and Ethers" },
+    { "id": 8, "name": "Aldehydes, Ketones and Carboxylic Acids" },
+    { "id": 9, "name": "Amines" },
+    { "id": 10, "name": "Biomolecules" }
+]

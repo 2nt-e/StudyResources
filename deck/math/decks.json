@@ -1,0 +1,15 @@
+[
+  { "file": "Ma-ch-1.json", "name": "Chapter 1: Relations and Functions" },
+  { "file": "Ma-ch-2.json", "name": "Chapter 2: Inverse Trigonometric Functions" },
+  { "file": "Ma-ch-3.json", "name": "Chapter 3: Matrices" },
+  { "file": "Ma-ch-4.json", "name": "Chapter 4: Determinants" },
+  { "file": "Ma-ch-5.json", "name": "Chapter 5: Continuity and Differentiability" },
+  { "file": "Ma-ch-6.json", "name": "Chapter 6: Application of Derivatives" },
+  { "file": "Ma-ch-7.json", "name": "Chapter 7: Integrals" },
+  { "file": "Ma-ch-8.json", "name": "Chapter 8: Application of Integrals" },
+  { "file": "Ma-ch-9.json", "name": "Chapter 9: Differential Equations" },
+  { "file": "Ma-ch-10.json", "name": "Chapter 10: Vector Algebra" },
+  { "file": "Ma-ch-11.json", "name": "Chapter 11: Three Dimensional Geometry" },
+  { "file": "Ma-ch-12.json", "name": "Chapter 12: Linear Programming" },
+  { "file": "Ma-ch-13.json", "name": "Chapter 13: Probability" }
+]

@@ -1,0 +1,106 @@
+[
+  {
+    "q": "What is electrostatic potential?",
+    "a": "Electrostatic potential at a point is the amount of work done in bringing a unit positive test charge from infinity to that point without acceleration."
+  },
+  {
+    "q": "What is the SI unit of electrostatic potential?",
+    "a": "Volt (V). \\(1 \\text{ Volt} = \\frac{1 \\text{ Joule}}{\\text{Coulomb}}\\)"
+  },
+  {
+    "q": "Define 1 volt.",
+    "a": "1 volt is the potential at a point if 1 joule of work is done in bringing 1 coulomb of charge from infinity to that point."
+  },
+  {
+    "q": "What is the expression for electrostatic potential due to a point charge?",
+    "a": "\\[ V = \\frac{kQ}{r} \\], where \\(V\\) is potential, \\(Q\\) is charge, \\(r\\) is distance from charge, and \\(k = \\frac{1}{4\\pi\\varepsilon_0} \\)"
+  },
+  {
+    "q": "What is the electrostatic potential due to a system of point charges?",
+    "a": "\\[ V = k \\sum \\frac{q_i}{r_i} \\], where \\(q_i\\) are point charges and \\(r_i\\) their distances from the point of observation."
+  },
+  {
+    "q": "State the principle of superposition for electrostatic potential.",
+    "a": "The total potential at a point due to a system of charges is the algebraic sum of the potentials due to individual charges."
+  },
+  {
+    "q": "What is an equipotential surface?",
+    "a": "A surface on which the electrostatic potential is the same at all points is called an equipotential surface."
+  },
+  {
+    "q": "What is the work done in moving a charge along an equipotential surface?",
+    "a": "Zero. No work is done in moving a charge along an equipotential surface."
+  },
+  {
+    "q": "What is the direction of electric field with respect to equipotential surfaces?",
+    "a": "The electric field is always perpendicular to an equipotential surface."
+  },
+  {
+    "q": "Relation between electric field and potential?",
+    "a": "Electric field \\(E\\) is the negative gradient of potential: \\[ E = - \\frac{dV}{dx} \\]"
+  },
+  {
+    "q": "Define electric potential energy.",
+    "a": "Electric potential energy is the work done in assembling a system of charges or bringing a charge in an electric field."
+  },
+  {
+    "q": "Potential energy of two point charges?",
+    "a": "\\[ U = \\frac{k q_1 q_2}{r} \\], where \\(q_1\\) and \\(q_2\\) are the charges and \\(r\\) is the separation between them."
+  },
+  {
+    "q": "What is a capacitor?",
+    "a": "A device used to store electric charge and energy in the electric field between a pair of conductors."
+  },
+  {
+    "q": "Define capacitance of a conductor.",
+    "a": "\\[ C = \\frac{Q}{V} \\], where \\(Q\\) is charge stored and \\(V\\) is potential. It represents the ability of a body to hold charge."
+  },
+  {
+    "q": "What is the SI unit of capacitance?",
+    "a": "Farad (F). \\(1 \\text{ Farad} = \\frac{1 \\text{ Coulomb}}{\\text{Volt}}\\)"
+  },
+  {
+    "q": "Capacitance of an isolated spherical conductor?",
+    "a": "\\[ C = 4 \\pi \\varepsilon_0 R \\], where \\(R\\) is the radius of the conductor."
+  },
+  {
+    "q": "Capacitance of a parallel plate capacitor (without dielectric)?",
+    "a": "\\[ C = \\frac{\\varepsilon_0 A}{d} \\], where \\(A\\) is plate area and \\(d\\) is separation."
+  },
+  {
+    "q": "How does a dielectric affect the capacitance?",
+    "a": "It increases capacitance by a factor of the dielectric constant \\(K\\): \\[ C = K \\frac{\\varepsilon_0 A}{d} \\]"
+  },
+  {
+    "q": "Energy stored in a capacitor?",
+    "a": "\\[ U = \\frac{1}{2} C V^2 = \\frac{Q^2}{2C} = \\frac{1}{2} Q V \\]"
+  },
+  {
+    "q": "What is the effect of dielectric on electric field?",
+    "a": "Electric field reduces inside a dielectric. \\[ E = \\frac{E_0}{K} \\] where \\(K\\) is dielectric constant."
+  },
+  {
+    "q": "Equivalent capacitance in series combination?",
+    "a": "\\[ \\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\frac{1}{C_3} + \\cdots \\]"
+  },
+  {
+    "q": "Equivalent capacitance in parallel combination?",
+    "a": "\\[ C_{eq} = C_1 + C_2 + C_3 + \\cdots \\]"
+  },
+  {
+    "q": "What happens to charge and potential in capacitors in series?",
+    "a": "Same charge on all; potential divides: \\[ V = V_1 + V_2 + V_3 + \\cdots \\]"
+  },
+  {
+    "q": "What happens to charge and potential in capacitors in parallel?",
+    "a": "Same potential across all; total charge: \\[ Q = Q_1 + Q_2 + Q_3 + \\cdots \\]"
+  },
+  {
+    "q": "What is dielectric constant?",
+    "a": "Dielectric constant \\(K = \\frac{C}{C_0} = \\frac{\\varepsilon}{\\varepsilon_0} \\), ratio of capacitance with dielectric to without dielectric."
+  },
+  {
+    "q": "A dielectric slab of thickness t, is introduced between the plates of parallel plate capacitor of area A and separation d (where t is less then d). <br>Find an expression for the capacitance with the dielectric slab.", 
+    "a": "Methord: The capacitor effectively becomes two capacitors in series along the field direction. <br><br> \\( \\frac{1}{C} = \\frac{t}{\\varepsilon_0 \\varepsilon_r A} + \\frac{d-t}{\\varepsilon_0 A} = \\frac{(d-t)+\\frac{t}{\\varepsilon_r}}{\\varepsilon_0 A} \\)"
+  }
+]

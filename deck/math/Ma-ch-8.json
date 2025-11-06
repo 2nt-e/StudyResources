@@ -1,0 +1,70 @@
+[
+  {
+    "q": "What is the main idea of Application of Integrals?",
+    "a": "Application of integrals involves using definite integrals to calculate quantities like area under curves, area between curves, and other physical quantities."
+  },
+  {
+    "q": "Formula for area under a curve y=f(x) from x=a to x=b?",
+    "a": "Area = \\( \\int_a^b f(x) dx \\), where f(x) ≥ 0 in [a,b]."
+  },
+  {
+    "q": "What if f(x) takes negative values in [a,b]?",
+    "a": "Area = \\( \\int_a^b |f(x)| dx \\). Split the interval where f(x) changes sign."
+  },
+  {
+    "q": "Area between two curves y=f(x) and y=g(x) from x=a to x=b?",
+    "a": "Area = \\( \\int_a^b [f(x) - g(x)] dx \\), where f(x) ≥ g(x) in [a,b]."
+  },
+  {
+    "q": "How to find area when curves intersect?",
+    "a": "1. Find intersection points x=a and x=b.<br>2. Split integral if necessary where top and bottom curves change.<br>3. Use \\( \\int [top-bottom] dx \\) for each interval."
+  },
+  {
+    "q": "Area between curves x=f(y) and x=g(y) from y=c to y=d?",
+    "a": "Area = \\( \\int_c^d [f(y) - g(y)] dy \\), where f(y) ≥ g(y) in [c,d]."
+  },
+  {
+    "q": "Tip: changing order of integration for horizontal slices",
+    "a": "Sometimes it's easier to integrate w.r.t y (horizontal slices) instead of x (vertical slices). Use x=f(y) formulas."
+  },
+  {
+    "q": "Area enclosed by curves y=f(x), y=g(x), x=a, x=b",
+    "a": "Use \\( \\int_a^b [f(x) - g(x)] dx \\). Make sure to check which curve is on top in each interval."
+  },
+  {
+    "q": "Area bounded by curve and x-axis (general tip)",
+    "a": "If curve crosses x-axis, split at zeros of f(x) and take absolute value of each part: \\( \\int |f(x)| dx \\)."
+  },
+  {
+    "q": "Geometrical symmetry property",
+    "a": "1. If f(x) is even: \\( \\int_{-a}^a f(x) dx = 2 \\int_0^a f(x) dx \\)<br>2. If f(x) is odd: \\( \\int_{-a}^a f(x) dx = 0 \\)."
+  },
+  {
+    "q": "Area using f(a-x) property",
+    "a": "\\( \\int_0^a f(x) dx = \\int_0^a f(a-x) dx \\). Useful for simplifying integrals."
+  },
+  {
+    "q": "Area between two curves example tip",
+    "a": "Check if curves intersect within limits. If yes, split integral at intersection points to find accurate area."
+  },
+  {
+    "q": "Special case: region enclosed by y=f(x) and x-axis only",
+    "a": "Area = \\( \\int_{x_1}^{x_2} |f(x)| dx \\), where x_1 and x_2 are zeros of f(x)."
+  },
+  {
+    "q": "Special case: region enclosed by x=f(y) and y-axis only",
+    "a": "Area = \\( \\int_{y_1}^{y_2} |f(y)| dy \\), where y_1 and y_2 are zeros of f(y)."
+  },
+  {
+    "q": "Example tip: sketching helps",
+    "a": "Always sketch the curves first to identify top/bottom or right/left functions before integrating."
+  },
+  {
+    "q": "Key reminder",
+    "a": "Check signs of functions in intervals, split if necessary, and always take absolute values where required to get actual area."
+  },
+  {
+    "q": "CBSE exam shortcut tip",
+    "a": "For simple curves and standard functions, formulas for definite integrals of polynomials, trigonometric and exponential functions can be directly used."
+  }
+]

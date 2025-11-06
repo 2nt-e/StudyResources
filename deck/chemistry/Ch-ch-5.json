@@ -1,0 +1,82 @@
+[
+  {
+    "q": "What are coordination compounds?",
+    "a": "Coordination compounds are compounds consisting of a central metal atom/ion surrounded by a fixed number of ligands, held together by coordinate bonds. Example: $[Co(NH_3)_6]Cl_3$."
+  },
+  {
+    "q": "Define ligand.",
+    "a": "A ligand is an ion or molecule capable of donating a pair of electrons to the central metal atom/ion to form a coordinate bond. Example: $H_2O$, $NH_3$, $Cl^-$."
+  },
+  {
+    "q": "What are types of ligands?",
+    "a": "1. Monodentate (donates one pair, e.g., $Cl^-$, $H_2O$).<br>2. Bidentate (two donor atoms, e.g., ethylenediamine, $en$).<br>3. Polydentate (more than two donor atoms, e.g., $EDTA^{4-}$).<br>4. Ambidentate (can donate through two different atoms, e.g., $NO_2^-$)."
+  },
+  {
+    "q": "What is a chelating ligand?",
+    "a": "A multidentate ligand that forms two or more coordinate bonds with the same metal ion, producing a ring structure. Example: $EDTA$, oxalate ($C_2O_4^{2-}$)."
+  },
+  {
+    "q": "What is the coordination number?",
+    "a": "The number of ligand donor atoms directly bonded to the central metal ion. Example: $[Fe(CN)_6]^{3-}$ has CN = 6."
+  },
+  {
+    "q": "What is the difference between a double salt and a coordination compound?",
+    "a": "Double salts (e.g., Mohr's salt $FeSO_4.(NH_4)_2SO_4.6H_2O$) dissociate completely into ions in solution, while coordination compounds (e.g., $[Co(NH_3)_6]Cl_3$) retain their complex identity in solution."
+  },
+  {
+    "q": "What is Werner’s theory of coordination compounds?",
+    "a": "Werner proposed that metal ions exhibit two types of valencies: (i) Primary valency = ionisable, satisfied by anions; (ii) Secondary valency = non-ionisable, satisfied by ligands, defines coordination number and geometry."
+  },
+  {
+    "q": "What are isomers in coordination compounds?",
+    "a": "Isomers are compounds with the same molecular formula but different arrangements of atoms. In coordination compounds:<br>1. Structural isomerism (ionisation, linkage, coordination, hydrate).<br>2. Stereoisomerism (geometrical, optical)."
+  },
+  {
+    "q": "What is geometrical isomerism?",
+    "a": "Occurs due to different spatial arrangements of ligands.<br>Examples: cis-/trans- in $[Pt(NH_3)_2Cl_2]$; fac-/mer- in octahedral $[Co(NH_3)_3Cl_3]$."
+  },
+  {
+    "q": "What is optical isomerism?",
+    "a": "Optical isomerism occurs when complexes are non-superimposable mirror images (enantiomers) and can rotate plane-polarised light. Common in octahedral complexes with bidentate ligands like $[Co(en)_3]^{3+}$."
+  },
+  {
+    "q": "What is Valence Bond Theory (VBT) in coordination compounds?",
+    "a": "According to VBT, hybrid orbitals of the central metal ion overlap with ligand orbitals to form coordinate bonds. It explains geometry, magnetic behaviour (paramagnetic/diamagnetic), and hybridisation."
+  },
+  {
+    "q": "What are limitations of VBT?",
+    "a": "1. Does not explain colour of complexes.<br>2. Cannot explain relative strengths of ligands.<br>3. Cannot predict spectral properties.<br>4. Cannot explain stability of complexes quantitatively."
+  },
+  {
+    "q": "What is Crystal Field Theory (CFT)?",
+    "a": "CFT explains bonding in complexes as purely electrostatic interaction between ligands and central metal ion. It accounts for splitting of d-orbitals (into $e_g$ and $t_{2g}$) and explains colour, magnetism, stability."
+  },
+  {
+    "q": "What is crystal field splitting in an octahedral complex?",
+    "a": "In an octahedral field, ligands approach along axes, raising energy of $e_g$ ($d_{z^2}$, $d_{x^2-y^2}$) orbitals, while $t_{2g}$ ($d_{xy}$, $d_{yz}$, $d_{xz}$) orbitals are stabilized. The energy difference is $\\Delta_0$ (crystal field splitting energy)."
+  },
+  {
+    "q": "What is the spectrochemical series?",
+    "a": "It is the arrangement of ligands in order of increasing field strength ($\\Delta_0$ value):<br>$I^- < Br^- < S^{2-} < SCN^- < Cl^- < F^- < OH^- < H_2O < NH_3 < en < NO_2^- < CN^- < CO$."
+  },
+  {
+    "q": "What is the difference between high spin and low spin complexes?",
+    "a": "High spin: formed with weak field ligands, small $\\Delta_0$, more unpaired electrons, usually paramagnetic.<br>Low spin: formed with strong field ligands, large $\\Delta_0$, more pairing, fewer unpaired electrons, often diamagnetic."
+  },
+  {
+    "q": "What is the magnetic moment formula?",
+    "a": "Spin-only formula: $\\mu = \\sqrt{n(n+2)}$ BM, where $n$ = number of unpaired electrons. Helps predict paramagnetism vs diamagnetism."
+  },
+  {
+    "q": "What are limitations of CFT?",
+    "a": "1. Assumes purely ionic bonding.<br>2. Cannot explain covalent character of metal-ligand bond.<br>3. Cannot explain why some ligands cause stronger splitting.<br>4. Ignores orbital overlap."
+  },
+  {
+    "q": "What is the chelate effect?",
+    "a": "Chelate complexes (with polydentate ligands) are more stable than similar complexes with monodentate ligands due to the formation of ring structures and entropy increase. Example: $[Co(en)_3]^{3+} > [Co(NH_3)_6]^{3+}$."
+  },
+  {
+    "q": "What are organometallic compounds?",
+    "a": "Organometallic compounds are compounds containing at least one metal-carbon bond where carbon is part of an organic group. Example: Zeise’s salt $[PtCl_3(C_2H_4)]^-$, Ferrocene $[Fe(C_5H_5)_2]$."
+  }
+]

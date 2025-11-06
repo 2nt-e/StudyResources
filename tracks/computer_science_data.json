@@ -1,0 +1,12 @@
+[
+    { "id": 1, "name": "Exception Handling in Python" },
+    { "id": 2, "name": "File Handling in Python" },
+    { "id": 3, "name": "Stack" },
+    { "id": 4, "name": "Queue" },
+    { "id": 5, "name": "Sorting" },
+    { "id": 6, "name": "Searching" },
+    { "id": 7, "name": "Database Concepts" },
+    { "id": 8, "name": "Structured Query Language (SQL)" },
+    { "id": 9, "name": "Computer Networks" },
+    { "id": 10, "name": "Data Communication and Security" }
+]

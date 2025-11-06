@@ -1,0 +1,74 @@
+[
+  {
+    "q": "What is a solution?",
+    "a": "A solution is a homogeneous mixture of two or more substances. The component present in the largest amount is called the solvent, and the one in lesser amount is called the solute."
+  },
+  {
+    "q": "What are the types of solutions based on the physical state of solute and solvent?",
+    "a": "There are 9 types: (1) Solid in solid, (2) Solid in liquid, (3) Solid in gas, (4) Liquid in solid, (5) Liquid in liquid, (6) Liquid in gas, (7) Gas in solid, (8) Gas in liquid, (9) Gas in gas."
+  },
+  {
+    "q": "Define solubility. What factors affect solubility of solids in liquids?",
+    "a": "Solubility is the maximum amount of solute that can dissolve in a given quantity of solvent at a specified temperature. Factors: (1) Nature of solute and solvent, (2) Temperature (↑ solubility), (3) Pressure (negligible effect for solids)."
+  },
+  {
+    "q": "What is Henry’s Law?",
+    "a": "Henry’s law: \\( C \\propto p \\Rightarrow C = k_H \\cdot p \\), where \\(C\\) is concentration of gas, \\(p\\) is pressure, and \\(k_H\\) is Henry's constant."
+  },
+  {
+    "q": "What are the applications of Henry’s Law?",
+    "a": "1. Bottling soft drinks  \n2. Scuba diving (risk of bends)  \n3. High altitudes – low O₂ solubility leads to hypoxia"
+  },
+  {
+    "q": "State Raoult’s Law for a solution of volatile liquids.",
+    "a": "Partial vapor pressure \\( p_A = x_A \\cdot p_A^0 \\), where \\(x_A\\) is mole fraction and \\(p_A^0\\) is vapor pressure of pure component A."
+  },
+  {
+    "q": "What is an ideal solution? Give characteristics.",
+    "a": "Obeys Raoult’s law over full range.  \n\\( \\Delta H_{\\text{mix}} = 0 \\), \\( \\Delta V_{\\text{mix}} = 0 \\), no change in intermolecular forces. Example: benzene + toluene"
+  },
+  {
+    "q": "What are non-ideal solutions? Mention types.",
+    "a": "Do not obey Raoult’s law.  \n(1) Positive deviation (\\( A-B \\) interaction weak), e.g., ethanol + acetone.  \n(2) Negative deviation (\\( A-B \\) strong), e.g., acetone + chloroform."
+  },
+  {
+    "q": "Define azeotrope. What are its types?",
+    "a": "Azeotropes are constant boiling mixtures.  \nTypes:  \n(1) Minimum boiling (positive deviation), e.g., ethanol–water  \n(2) Maximum boiling (negative deviation), e.g., HCl–water"
+  },
+  {
+    "q": "What is molarity, molality, and mole fraction?",
+    "a": "\\( M = \\frac{\\text{mol solute}}{\\text{L solution}} \\)  \n\\( m = \\frac{\\text{mol solute}}{\\text{kg solvent}} \\)  \n\\( x = \\frac{\\text{mol of component}}{\\text{total mol}} \\)  \nNote: molality and mole fraction are temperature-independent."
+  },
+  {
+    "q": "Why is molality preferred over molarity in thermodynamic calculations?",
+    "a": "Molality is based on mass and does not vary with temperature, while molarity depends on volume which changes with temperature."
+  },
+  {
+    "q": "What is van’t Hoff factor (i)?",
+    "a": "\\( i = \\frac{\\text{observed value}}{\\text{calculated value}} \\).  \n\\( i > 1 \\): dissociation, \\( i < 1 \\): association."
+  },
+  {
+    "q": "List the colligative properties and their formulas.",
+    "a": "1. Relative lowering of vapor pressure: \\( \\frac{\\Delta p}{p_0} = x_{\\text{solute}} \\)  \n2. Elevation of boiling point: \\( \\Delta T_b = K_b \\cdot m \\cdot i \\)  \n3. Depression of freezing point: \\( \\Delta T_f = K_f \\cdot m \\cdot i \\)  \n4. Osmotic pressure: \\( \\pi = C \\cdot R \\cdot T \\cdot i \\)"
+  },
+  {
+    "q": "What is an ideal condition for osmotic pressure formula?",
+    "a": "The formula \\( \\pi = C \\cdot R \\cdot T \\cdot i \\) is valid for dilute solutions with ideal solute behavior and incompressible solvent."
+  },
+  {
+    "q": "How can molar mass of solute be determined using colligative properties?",
+    "a": "\\( M = \\frac{w_2 \\cdot 1000 \\cdot i}{\\Delta T \\cdot K \\cdot w_1} \\), where \\(w_2\\) = mass of solute, \\(w_1\\) = mass of solvent."
+  },
+  {
+    "q": "What is the importance of colligative properties?",
+    "a": "Used to determine molar mass, degree of association/dissociation, and study of solution behavior thermodynamically."
+  },
+  {
+    "q": "How does temperature affect solubility of gases in liquids?",
+    "a": "Solubility decreases with increase in temperature because gas dissolution is an exothermic process."
+  },
+  {
+    "q": "Explain the abnormal molar mass with examples.",
+    "a": "When solutes associate (e.g., acetic acid in benzene), molar mass appears higher.  \nWhen solutes dissociate (e.g., KCl in water), molar mass appears lower."
+  }
+]

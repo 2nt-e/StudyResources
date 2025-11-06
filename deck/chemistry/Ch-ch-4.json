@@ -1,0 +1,194 @@
+[
+  {
+    "q": "Definition: $d$-Block Elements",
+    "a": "Elements in which the last electron enters the $(n-1)d$ subshell. They are in Groups 3-12."
+  },
+  {
+    "q": "General Electronic Configuration ($d$-Block)",
+    "a": "here:\\( (n-1)d^{1-10} ns^{0-2} \\)"
+  },
+  {
+    "q": "Definition: Transition Elements (T.M.)",
+    "a": "Defined as elements which have an **incompletely filled $d$-orbital** in their ground state or in any one of their common oxidation states."
+  },
+  {
+    "q": "Why $\\text{Zn}, \\text{Cd}, \\text{Hg}$ are NOT Transition Metals",
+    "a": "They have a completely filled \\( (n-1)d^{10} \\) configuration in their ground state and in their common \\( +2 \\) oxidation state. They are $d$-block, but not T.M.s."
+  },
+  {
+    "q": "Electronic Configuration: $\\text{Cr} (Z=24)$",
+    "a": "\\( [Ar] 3d^5 4s^1 \\) (Not $3d^4 4s^2$). This is due to the extra stability of the **half-filled** $d^5$ subshell."
+  },
+  {
+    "q": "Electronic Configuration: $\\text{Cu} (Z=29)$",
+    "a": "\\( [Ar] 3d^{10} 4s^1 \\) (Not $3d^9 4s^2$). This is due to the extra stability of the **fully-filled** $d^{10}$ subshell."
+  },
+  {
+    "q": "Trend: Atomic Radii (3d Series)",
+    "a": "Decreases from $\\text{Sc} \\to \text{Cr}$ (increasing $\\text{Z}_{eff}$), remains almost constant $\\text{Cr} \to \text{Cu}$ ($\text{Z}_{eff}$ balanced by shielding), increases at $\\text{Zn}$ (e-e repulsion in $d^{10}$)."
+  },
+  {
+    "q": "Trend: Enthalpy of Atomization ($\\Delta_a H$)",
+    "a": "Very high for T.M.s due to strong metallic bonding (involving unpaired $d$-electrons). Peaks mid-series (e.g., $\\text{V}, \\text{Cr}$) where unpaired $e^-$ are maximum."
+  },
+  {
+    "q": "Trend: Melting & Boiling Points",
+    "a": "Very high, peak mid-series (e.g., $\\text{Cr}$ has max m.p. in 3d) due to strong metallic bonds from unpaired $d$-electrons. $\\text{Mn}$ and $\\text{Tc}$ have anomalous dips."
+  },
+  {
+    "q": "Trend: Ionization Enthalpy (IE)",
+    "a": "Increases across the series, but irregularly. $\\text{IE}_1$ of $d$-block is between $s$-block and $p$-block."
+  },
+  {
+    "q": "Anomaly: $\\text{IE}_3$ of Manganese (Mn)",
+    "a": "The third IE ($\\text{IE}_3$) for $\text{Mn}$ is exceptionally high. This is because the $e^-$ must be removed from the stable $3d^5$ (half-filled) configuration of $\text{Mn}^{2+}$."
+  },
+  {
+    "q": "Anomaly: $\\text{IE}_3$ of Zinc (Zn)",
+    "a": "The third IE ($\\text{IE}_3$) for $\text{Zn}$ is also exceptionally high, as it involves removing an $e^-$ from the very stable $3d^{10}$ configuration of $\text{Zn}^{2+}$."
+  },
+  {
+    "q": "Reason for Variable Oxidation States (O.S.)",
+    "a": "Due to the small energy difference between \\( (n-1)d \\) and \\( ns \\) orbitals. Both can be used for bonding. Highest O.S. is $\\text{Mn} (+7)$ in $\text{MnO}_4^-$. "
+  },
+  {
+    "q": "Stability of $\\text{Mn}^{2+}$ vs $\\text{Fe}^{3+}$",
+    "a": "Both are very stable as they have the $d^5$ (half-filled) configuration."
+  },
+  {
+    "q": "Stability of $\\text{Sc}^{3+}$ and $\\text{Zn}^{2+}$",
+    "a": "$\text{Sc}^{3+}$ is stable (noble gas $d^0$ config). $\text{Zn}^{2+}$ is stable (pseudo-noble gas $d^{10}$ config)."
+  },
+  {
+    "q": "Standard Electrode Potentials ($E^\\circ$) Trend",
+    "a": "Generally become less negative (more 'noble') across the series. $\\text{Mn}$, $\\text{Ni}$, $\\text{Zn}$ have more negative $E^\\circ$ values than expected."
+  },
+  {
+    "q": "Why is $E^\\circ (\\text{Cu}^{2+}/\\text{Cu})$ positive ($+0.34V$)?",
+    "a": "The high energy needed for $\\Delta H_{\\text{atom}} + (\\text{IE}_1 + \\text{IE}_2)$ is **not** compensated by the hydration enthalpy ($\\Delta H_{\\text{hyd}}$)."
+  },
+  {
+    "q": "Why is $E^\\circ (\\text{Mn}^{3+}/\\text{Mn}^{2+})$ highly positive?",
+    "a": "The reduction $\text{Mn}^{3+} \\to \text{Mn}^{2+}$ is highly favourable because the product $\text{Mn}^{2+}$ has a very stable $d^5$ (half-filled) configuration."
+  },
+  {
+    "q": "Formula: Spin-Only Magnetic Moment ($\\mu$)",
+    "a": "\\( \\mu = \\sqrt{n(n+2)} \\ \\text{B.M.} \\) (Bohr Magnetons), where $\\text{n}$ = number of unpaired electrons."
+  },
+  {
+    "q": "Calculate $\\mu$ for $\\text{Fe}^{2+} (3d^6)$",
+    "a": "$3d^6$ has 4 unpaired electrons ($n=4$). $\\mu = \\sqrt{4(4+2)} = \\sqrt{24} \\approx 4.90 \\ \\text{B.M.}$"
+  },
+  {
+    "q": "Cause of Colour in T.M. ions",
+    "a": "Due to $\\mathbf{d-d}$ **electron transitions**. Unpaired $d$-electrons absorb energy from visible light to jump to a higher-energy $d$-orbital. The observed colour is the complementary colour."
+  },
+  {
+    "q": "Why are $\\text{Sc}^{3+} (d^0)$ and $\\text{Zn}^{2+} (d^{10})$ colourless?",
+    "a": "They have no unpaired $d$-electrons (or have empty/full $d$-orbitals). $d-d$ transitions are not possible."
+  },
+  {
+    "q": "Why is $\\text{KMnO}_4$ ($\\text{Mn}^{7+}, d^0$) intensely coloured?",
+    "a": "Colour is due to **Ligand to Metal Charge Transfer (LMCT)**, not $d-d$ transition. An $e^-$ from $\text{O}^{2-}$ jumps to $\text{Mn}^{7+}$."
+  },
+  {
+    "q": "Properties of Interstitial Compounds",
+    "a": "1. High m.p. (higher than parent metal). 2. Very hard (e.g., steel, tungsten carbide). 3. Retain metallic conductivity. 4. Chemically inert."
+  },
+  {
+    "q": "Reason for Alloy Formation",
+    "a": "T.M.s have similar atomic radii, allowing atoms of one metal to easily substitute atoms of another in the crystal lattice. E.g., Brass ($\text{Cu/Zn}$), Bronze ($\text{Cu/Sn}$)."
+  },
+  {
+    "q": "Equilibrium between Chromate (Yellow) and Dichromate (Orange)?",
+    "a": "\\( 2\\text{CrO}_4^{2-} \\text{(Yellow)} + 2\\text{H}^+ \\rightleftharpoons \\text{Cr}_2\\text{O}_7^{2-} \\text{(Orange)} + \\text{H}_2\\text{O} \\) (Dichromate stable in $\\text{acidic}$, Chromate stable in $\\text{basic}$ medium.)"
+  },
+  {
+    "q": "Prep Step 1 (Chromite Ore $\\to$ Chromate)",
+    "a": "\\( 4\\text{FeCr}_2\\text{O}_4 + 8\\text{Na}_2\\text{CO}_3 + 7\\text{O}_2 \\xrightarrow{\\text{Fusion}} 8\\text{Na}_2\\text{CrO}_4 + 2\\text{Fe}_2\\text{O}_3 + 8\\text{CO}_2 \\)"
+  },
+  {
+    "q": "Structure of Dichromate ion ($\\text{Cr}_2\\text{O}_7^{2-}$)",
+    "a": "Two tetrahedral $\\text{CrO}_4$ units sharing one oxygen atom. $\\text{Cr}-\\text{O}-\\text{Cr}$ bond angle is $\\approx 126^\\circ$."
+  },
+  {
+    "q": "Oxidising Action: $\\text{K}_2\\text{Cr}_2\\text{O}_7$ (Acidic)",
+    "a": "\\( \\text{Cr}_2\\text{O}_7^{2-} + 14\\text{H}^+ + 6e^- \\to 2\\text{Cr}^{3+} + 7\\text{H}_2\\text{O} \\) ($E^\\circ = +1.33V$)"
+  },
+  {
+    "q": "Full Reaction: $\\text{K}_2\\text{Cr}_2\\text{O}_7$ + $\\text{Fe}^{2+}$ (Acidic)",
+    "a": "\\( \\text{Cr}_2\\text{O}_7^{2-} + 14\\text{H}^+ + 6\\text{Fe}^{2+} \\to 2\\text{Cr}^{3+} + 6\\text{Fe}^{3+} + 7\\text{H}_2\\text{O} \\)"
+  },
+  {
+    "q": "Prep Step 1 (Pyrolusite $\\text{MnO}_2 \\to$ Manganate)",
+    "a": "\\( 2\\text{MnO}_2 + 4\\text{KOH} + \\text{O}_2 \\xrightarrow{\\text{Fusion}} 2\\text{K}_2\\text{MnO}_4 + 2\\text{H}_2\\text{O} \\) (Forms Green Manganate ion $\\text{MnO}_4^{2-}$)"
+  },
+  {
+    "q": "Prep Step 2 (Manganate $\\to$ Permanganate)",
+    "a": "Disproportionation in acidic/neutral solution: \\( 3\\text{MnO}_4^{2-} + 4\\text{H}^+ \\to 2\\text{MnO}_4^{-} + \\text{MnO}_2 + 2\\text{H}_2\\text{O} \\) (Purple $\text{MnO}_4^{-}$)"
+  },
+  {
+    "q": "Oxidising Action: $\\text{KMnO}_4$ (Acidic)",
+    "a": "\\( \\text{MnO}_4^{-} + 8\\text{H}^+ + 5e^- \\to \\text{Mn}^{2+} + 4\\text{H}_2\\text{O} \\) ($E^\\circ = +1.51V$)"
+  },
+  {
+    "q": "Full Reaction: $\\text{KMnO}_4$ + Oxalate (Acidic)",
+    "a": "\\( 2\\text{MnO}_4^{-} + 5\\text{C}_2\\text{O}_4^{2-} + 16\\text{H}^+ \\to 2\\text{Mn}^{2+} + 10\\text{CO}_2 + 8\\text{H}_2\\text{O} \\)"
+  },
+  {
+    "q": "Oxidising Action: $\\text{KMnO}_4$ (Neutral/Basic)",
+    "a": "\\( \\text{MnO}_4^{-} + 2\\text{H}_2\\text{O} + 3e^- \\to \\text{MnO}_2 + 4\\text{OH}^- \\) (Forms $\text{MnO}_2$ precipitate)"
+  },
+  {
+    "q": "O.S. change of $\\text{Mn}$ in $\\text{KMnO}_4$ in Acidic, Neutral, and Basic media?",
+    "a": "Acidic: $\\text{Mn}^{+7} \\to \\text{Mn}^{+2}$ (5 electrons). \\( \\text{Neutral/Weakly Basic: } \\text{Mn}^{+7} \\to \\text{Mn}^{+4} \\) (3 electrons). \\( \\text{Strongly Basic: } \\text{Mn}^{+7} \\to \\text{Mn}^{+6} \\) (1 electron)."
+  },
+  {
+    "q": "General E.C. of Lanthanoids ($4f$ series)",
+    "a": "\\( [Xe] 4f^{1-14} 5d^{0-1} 6s^2 \\)"
+  },
+  {
+    "q": "General E.C. of Actinoids ($5f$ series)",
+    "a": "\\( [Rn] 5f^{1-14} 6d^{0-1} 7s^2 \\)"
+  },
+  {
+    "q": "Define Lanthanoid Contraction",
+    "a": "The steady, gradual decrease in atomic and ionic radii (\\( \\text{Ln}^{3+} \\)) across the Lanthanoid series (from $\\text{Ce}$ to $\\text{Lu}$)."
+  },
+  {
+    "q": "Cause of Lanthanoid Contraction",
+    "a": "Due to the **poor shielding effect** of the $4f$ electrons. As nuclear charge increases, the $4f$ orbitals fail to shield the outer $6s$ electrons effectively."
+  },
+  {
+    "q": "Consequence 1 of L.C.: $4d$ & $5d$ Series",
+    "a": "The radii of the $4d$ and $5d$ transition series elements are almost identical (e.g., $\\text{Zr} \\approx \\text{Hf}$, $\\text{Nb} \\approx \\text{Ta}$). This makes their chemical separation very difficult."
+  },
+  {
+    "q": "Consequence 2 of L.C.: Basicity of Hydroxides",
+    "a": "Basicity of $\\text{Ln}(\text{OH})_3$ decreases from $\\text{La}(\text{OH})_3$ to $\text{Lu}(\text{OH})_3$ due to decreasing ionic size and increasing covalent character."
+  },
+  {
+    "q": "Common Oxidation State of Lanthanoids",
+    "a": "\\( +3 \\) is the most common and stable O.S. for all Lanthanoids."
+  },
+  {
+    "q": "Stable $+2$ and $+4$ O.S. in Lanthanoids?",
+    "a": "Occur when they lead to a stable $f^0$ (e.g., $\\text{Ce}^{4+}$), $f^7$ (e.g., $\\text{Eu}^{2+}$, $\text{Tb}^{4+}$), or $f^{14}$ (e.g., $\\text{Yb}^{2+}$) configuration."
+  },
+  {
+    "q": "What is Mischmetall?",
+    "a": "An important alloy of Lanthanoids ($\\approx 95\\%$) and $\text{Fe}$ ($\\approx 5\\%$) + traces of S, C, Ca, Al. Used in lighter flints."
+  },
+  {
+    "q": "Why do Actinoids show a greater range of O.S.?",
+    "a": "Due to the very small energy gap between the $5f, 6d,$ and $7s$ orbitals, allowing all to participate in bonding. (e.g., $\text{Np}$ and $\text{Pu}$ can show up to $+7$ O.S.)"
+  },
+  {
+    "q": "Compare $4f$ vs $5f$ Shielding",
+    "a": "$5f$ orbitals have even **poorer shielding** than $4f$ orbitals, leading to a stronger 'Actinoid Contraction' across the series."
+  },
+  {
+    "q": "Compare Lanthanoid vs Actinoid Reactivity",
+    "a": "Actinoids are far more reactive (e.g., with acids, $\\text{H}_2\\text{O}$) than Lanthanoids, especially in finely divided form. All Actinoids are radioactive."
+  }
+]

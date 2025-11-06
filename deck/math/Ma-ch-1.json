@@ -1,0 +1,74 @@
+[
+  {
+    "q": "What is a relation between two sets?",
+    "a": "A relation \\(R\\) from set \\(A\\) to set \\(B\\) is a subset of their Cartesian product: \\(R \\subseteq A \\times B\\). If \\((a,b) \\in R\\), we write \\(aRb\\)."
+  },
+  {
+    "q": "What is a relation on a set?",
+    "a": "A relation on a set \\(A\\) is any subset of \\(A \\times A\\). Thus, both elements of each ordered pair belong to the same set \\(A\\)."
+  },
+  {
+    "q": "Define a reflexive relation.",
+    "a": "A relation \\(R\\) on set \\(A\\) is **reflexive** if \\((a,a) \\in R\\) for all \\(a \\in A\\)."
+  },
+  {
+    "q": "Define a symmetric relation.",
+    "a": "A relation \\(R\\) on set \\(A\\) is **symmetric** if \\((a,b) \\in R\\) implies \\((b,a) \\in R\\), for all \\(a,b \\in A\\)."
+  },
+  {
+    "q": "Define a transitive relation.",
+    "a": "A relation \\(R\\) on set \\(A\\) is **transitive** if \\((a,b) \\in R\\) and \\((b,c) \\in R\\) together imply \\((a,c) \\in R\\), for all \\(a,b,c \\in A\\)."
+  },
+  {
+    "q": "When is a relation called an equivalence relation?",
+    "a": "A relation is an **equivalence relation** if it is reflexive, symmetric, and transitive."
+  },
+  {
+    "q": "What is the set of all equivalence classes of an equivalence relation?",
+    "a": "It forms a **partition** of the set \\(A\\). Each element belongs to exactly one equivalence class."
+  },
+  {
+    "q": "Define a function.",
+    "a": "A **function** \\(f\\) from set \\(A\\) to set \\(B\\) is a special relation where every element of \\(A\\) has **exactly one** image in \\(B\\). Denoted \\(f: A \\to B\\)."
+  },
+  {
+    "q": "What is the domain, co-domain, and range of a function?",
+    "a": "For \\(f: A \\to B\\):  \n• **Domain** = set \\(A\\).  \n• **Co-domain** = set \\(B\\).  \n• **Range** = \\(\\{ f(x) : x \\in A \\} \\subseteq B\\)."
+  },
+  {
+    "q": "Define an injective (one-one) function.",
+    "a": "A function \\(f: A \\to B\\) is **one-one** if \\(f(x_1) = f(x_2) \\Rightarrow x_1 = x_2\\). Each element of \\(B\\) has at most one pre-image."
+  },
+  {
+    "q": "Define a surjective (onto) function.",
+    "a": "A function \\(f: A \\to B\\) is **onto** if for every \\(b \\in B\\), there exists at least one \\(a \\in A\\) such that \\(f(a) = b\\). Thus, Range(f) = Co-domain."
+  },
+  {
+    "q": "Define a bijective function.",
+    "a": "A function is **bijective** if it is both one-one and onto. A bijective function establishes a one-to-one correspondence between elements of \\(A\\) and \\(B\\)."
+  },
+  {
+    "q": "What is the composition of functions?",
+    "a": "If \\(f: A \\to B\\) and \\(g: B \\to C\\), the **composition** of \\(f\\) and \\(g\\) is \\(g \\circ f: A \\to C\\) defined by  \n\\[(g \\circ f)(x) = g(f(x))\\]  \nfor all \\(x \\in A\\), provided Range(f) ⊆ Domain(g)."
+  },
+  {
+    "q": "Example of function composition.",
+    "a": "Let \\(f(x) = 2x + 1\\) and \\(g(x) = x^2\\). Then  \n\\[(g \\circ f)(x) = g(f(x)) = (2x + 1)^2 = 4x^2 + 4x + 1.\\]"
+  },
+  {
+    "q": "Define an invertible function.",
+    "a": "A function \\(f: A \\to B\\) is **invertible** if there exists a function \\(g: B \\to A\\) such that  \n\\[g(f(x)) = x, \\; \\forall x \\in A\\]  and  \n\\[f(g(y)) = y, \\; \\forall y \\in B.\\]  \nThen \\(g\\) is called the **inverse function** of \\(f\\), denoted by \\(f^{-1}\\)."
+  },
+  {
+    "q": "When does a function have an inverse?",
+    "a": "A function has an inverse **if and only if** it is bijective (one-one and onto)."
+  },
+  {
+    "q": "State the property of inverse function composition.",
+    "a": "If \\(f\\) is invertible, then  \n\\[f^{-1} \\circ f = I_A \\quad \\text{and} \\quad f \\circ f^{-1} = I_B\\]  \nwhere \\(I_A\\) and \\(I_B\\) are identity functions on sets \\(A\\) and \\(B\\)."
+  },
+  {
+    "q": "Example of inverse function.",
+    "a": "Let \\(f(x) = 3x + 2\\). Then, to find \\(f^{-1}\\):  \n\\(y = 3x + 2 \\Rightarrow x = \\frac{y - 2}{3}\\).  \nHence \\(f^{-1}(y) = \\frac{y - 2}{3}\\)."
+  }
+]

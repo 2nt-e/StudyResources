@@ -1,0 +1,82 @@
+[
+    {
+        "q": "What is continuity of a function at a point?",
+        "a": "A function \\(f(x)\\) is continuous at \\(x = a\\) if:  \n1. \\(f(a)\\) is defined  \n2. \\(\\lim_{x \\to a} f(x)\\) exists  \n3. \\(\\lim_{x \\to a} f(x) = f(a)\\)"
+    },
+    {
+        "q": "What is a discontinuity?",
+        "a": "A function is said to be discontinuous at a point if it fails to be continuous there — i.e., any one of the continuity conditions is not satisfied."
+    },
+    {
+        "q": "What are the types of discontinuities?",
+        "a": "1. Removable discontinuity  \n2. Jump discontinuity  \n3. Infinite (essential) discontinuity"
+    },
+    {
+        "q": "State the condition for differentiability at a point.",
+        "a": "A function \\(f(x)\\) is differentiable at \\(x = a\\) if:  \n\\( \\lim_{h \\to 0} \\frac{f(a + h) - f(a)}{h} \\) exists and is finite."
+    },
+    {
+        "q": "What is the relation between continuity and differentiability?",
+        "a": "If a function is differentiable at a point, then it is always continuous there. But the converse is not necessarily true."
+    },
+    {
+        "q": "Is the function \\(f(x) = |x|\\) differentiable at \\(x = 0\\)?",
+        "a": "No. The left and right derivatives at \\(x = 0\\) are not equal, so \\(f(x)\\) is not differentiable at \\(x = 0\\)."
+    },
+    {
+        "q": "What is the derivative of \\(f(x) = x^n\\)?",
+        "a": "\\(\\frac{d}{dx}x^n = nx^{n-1}\\)"
+    },
+    {
+        "q": "Write the chain rule of differentiation.",
+        "a": "If \\(y = f(g(x))\\), then \\(\\frac{dy}{dx} = f'(g(x)) \\cdot g'(x)\\)"
+    },
+    {
+        "q": "What is the derivative of \\(f(x) = \\sin(x)\\)?",
+        "a": "\\(\\frac{d}{dx} \\sin(x) = \\cos(x)\\)"
+    },
+    {
+        "q": "What is the derivative of \\(f(x) = \\cos(x)\\)?",
+        "a": "\\(\\frac{d}{dx} \\cos(x) = -\\sin(x)\\)"
+    },
+    {
+        "q": "What is the derivative of \\(f(x) = \\tan(x)\\)?",
+        "a": "\\(\\frac{d}{dx} \\tan(x) = \\sec^2(x)\\), where \\(x \\neq (2n+1)\\frac{\\pi}{2}\\)"
+    },
+    {
+        "q": "Differentiate \\(f(x) = \\ln(x)\\)",
+        "a": "\\(\\frac{d}{dx} \\ln(x) = \\frac{1}{x}\\), for \\(x > 0\\)"
+    },
+    {
+        "q": "What is the derivative of \\(e^x\\)?",
+        "a": "\\(\\frac{d}{dx} e^x = e^x\\)"
+    },
+    {
+        "q": "State the product rule of differentiation.",
+        "a": "If \\(y = u(x) \\cdot v(x)\\), then  \n\\(\\frac{dy}{dx} = u'(x)v(x) + u(x)v'(x)\\)"
+    },
+    {
+        "q": "State the quotient rule of differentiation.",
+        "a": "If \\(y = \\frac{u(x)}{v(x)}\\), then  \n\\(\\frac{dy}{dx} = \\frac{u'(x)v(x) - u(x)v'(x)}{[v(x)]^2}\\)"
+    },
+    {
+        "q": "If a function is continuous in an interval, is it necessarily differentiable there?",
+        "a": "No. A function may be continuous everywhere but still not differentiable at some points (e.g., \\(f(x) = |x|\\) at \\(x = 0\\))"
+    },
+    {
+        "q": "Is \\(f(x) = x^{1/3}\\) differentiable at \\(x = 0\\)?",
+        "a": "Yes, \\(f'(x) = \\frac{1}{3}x^{-2/3}\\), but the derivative becomes infinite at \\(x = 0\\), so the derivative exists but is not finite — we say it's not differentiable in the usual sense."
+    },
+    {
+        "q": "If \\(f(x) = \\max(x^2, x)\\), is it continuous and differentiable at \\(x = 1\\)?",
+        "a": "Yes. Both expressions match at \\(x = 1\\), and their derivatives are equal, so \\(f(x)\\) is continuous and differentiable at \\(x = 1\\)."
+    },
+    {
+        "q": "Is \\(f(x) = |x|\\) continuous at \\(x = 0\\)?",
+        "a": "Yes. Limit from left and right equals \\(0\\), and \\(f(0) = 0\\), so it is continuous at \\(x = 0\\)."
+    },
+    {
+        "q": "What is the left-hand derivative and right-hand derivative?",
+        "a": "Left-hand derivative at \\(x = a\\): \\(\\lim_{h \\to 0^-} \\frac{f(a + h) - f(a)}{h}\\)  \nRight-hand derivative at \\(x = a\\): \\(\\lim_{h \\to 0^+} \\frac{f(a + h) - f(a)}{h}\\)"
+    }
+]

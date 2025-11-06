@@ -1,0 +1,110 @@
+[
+  {
+    "q": "What are inverse trigonometric functions?",
+    "a": "Inverse trigonometric functions are the inverses of the basic trigonometric functions like sin, cos, tan, etc. They are used to find angles from given trigonometric values. Example: If sin θ = x, then θ = sin⁻¹x."
+  },
+  {
+    "q": "Why are principal values important in inverse trigonometric functions?",
+    "a": "Since trigonometric functions are many-to-one in their natural domain, their inverses are not well-defined unless we restrict their domain. The value of the inverse function in this restricted domain is called the **principal value**."
+  },
+  {
+    "q": "What is the domain and principal value branch of \\(\\sin^{-1}x\\)?",
+    "a": "Domain: \\([-1, 1]\\)  \nPrincipal value range: \\([-\\frac{\\pi}{2}, \\frac{\\pi}{2}]\\)  \nSo, \\(\\sin^{-1}x \\in [-\\frac{\\pi}{2}, \\frac{\\pi}{2}]\\)"
+  },
+  {
+    "q": "What is the domain and principal value branch of \\(\\cos^{-1}x\\)?",
+    "a": "Domain: \\([-1, 1]\\)  \nPrincipal value range: \\([0, \\pi]\\)  \nSo, \\(\\cos^{-1}x \\in [0, \\pi]\\)"
+  },
+  {
+    "q": "What is the domain and principal value branch of \\(\\tan^{-1}x\\)?",
+    "a": "Domain: \\(\\mathbb{R}\\) (all real numbers)  \nPrincipal value range: \\((-\\frac{\\pi}{2}, \\frac{\\pi}{2})\\)"
+  },
+  {
+    "q": "What is the domain and principal value branch of \\(\\cot^{-1}x\\)?",
+    "a": "Domain: \\(\\mathbb{R}\\)  \nPrincipal value range: \\((0, \\pi)\\)"
+  },
+  {
+    "q": "What is the domain and principal value branch of \\(\\sec^{-1}x\\)?",
+    "a": "Domain: \\(( -\\infty, -1] \\cup [1, \\infty)\\)  \nPrincipal value range: \\([0, \\pi] - \\{\\frac{\\pi}{2}\\}\\)"
+  },
+  {
+    "q": "What is the domain and principal value branch of \\(\\csc^{-1}x\\)?",
+    "a": "Domain: \\(( -\\infty, -1] \\cup [1, \\infty)\\)  \nPrincipal value range: \\([-\\frac{\\pi}{2}, \\frac{\\pi}{2}] - \\{0\\}\\)"
+  },
+  {
+    "q": "Write the identity: \\(\\sin^{-1}x + \\cos^{-1}x = ?\\)",
+    "a": "\\(\\sin^{-1}x + \\cos^{-1}x = \\frac{\\pi}{2}\\), for \\(x \\in [-1, 1]\\)"
+  },
+  {
+    "q": "Write the identity: \\(\\tan^{-1}x + \\cot^{-1}x = ?\\)",
+    "a": "\\(\\tan^{-1}x + \\cot^{-1}x = \\frac{\\pi}{2}\\), for \\(x \\in \\mathbb{R}\\)"
+  },
+  {
+    "q": "Write the identity: \\(\\sec^{-1}x = \\cos^{-1}(1/x)\\)",
+    "a": "\\(\\sec^{-1}x = \\cos^{-1}(1/x)\\), for \\(x \\in (-\\infty, -1] \\cup [1, \\infty)\\)"
+  },
+  {
+    "q": "Write the identity: \\(\\csc^{-1}x = \\sin^{-1}(1/x)\\)",
+    "a": "\\(\\csc^{-1}x = \\sin^{-1}(1/x)\\), for \\(x \\in (-\\infty, -1] \\cup [1, \\infty)\\)"
+  },
+  {
+    "q": "What is \\(\\sin^{-1}(-x)\\)?",
+    "a": "\\(\\sin^{-1}(-x) = -\\sin^{-1}x\\)  → sine inverse is an **odd function**"
+  },
+  {
+    "q": "What is \\(\\cos^{-1}(-x)\\)?",
+    "a": "\\(\\cos^{-1}(-x) = \\pi - \\cos^{-1}x\\)  → cosine inverse is **not odd**"
+  },
+  {
+    "q": "What is \\(\\tan^{-1}(-x)\\)?",
+    "a": "\\(\\tan^{-1}(-x) = -\\tan^{-1}x\\)  → tangent inverse is an **odd function**"
+  },
+  {
+    "q": "Simplify: \\(\\sin^{-1}(\\sin x) = ?\\)",
+    "a": "\\(\\sin^{-1}(\\sin x) = x\\) if \\(x \\in [-\\frac{\\pi}{2}, \\frac{\\pi}{2}]\\); otherwise, use principal value adjustment"
+  },
+  {
+    "q": "Simplify: \\(\\cos^{-1}(\\cos x) = ?\\)",
+    "a": "\\(\\cos^{-1}(\\cos x) = x\\) if \\(x \\in [0, \\pi]\\); otherwise, adjust using identity: \\(\\cos^{-1}(\\cos x) = 2\\pi - x\\) or \\(\\pi - x\\)"
+  },
+  {
+    "q": "Evaluate: \\(\\sin^{-1}(\\frac{1}{2})\\)",
+    "a": "\\(\\sin^{-1}(\\frac{1}{2}) = \\frac{\\pi}{6}\\)"
+  },
+  {
+    "q": "Evaluate: \\(\\cos^{-1}(-\\frac{\\sqrt{3}}{2})\\)",
+    "a": "\\(\\cos^{-1}(-\\frac{\\sqrt{3}}{2}) = \\frac{5\\pi}{6}\\)"
+  },
+  {
+    "q": "Graph of \\(y = \\sin^{-1}x\\) looks like?",
+    "a": "It is an increasing curve from \\((-1, -\\frac{\\pi}{2})\\) to \\((1, \\frac{\\pi}{2})\\). Passes through origin."
+  },
+  {
+    "q": "Graph of \\(y = \\cos^{-1}x\\) looks like?",
+    "a": "It is a decreasing curve from \\((-1, \\pi)\\) to \\((1, 0)\\)."
+  },
+  {
+    "q": "What is the derivative of \\(\\sin^{-1}x\\)?",
+    "a": "\\(\\frac{d}{dx} [\\sin^{-1}x] = \\frac{1}{\\sqrt{1 - x^2}}\\), for \\(|x| < 1\\)"
+  },
+  {
+    "q": "What is the derivative of \\(\\cos^{-1}x\\)?",
+    "a": "\\(\\frac{d}{dx} [\\cos^{-1}x] = -\\frac{1}{\\sqrt{1 - x^2}}\\), for \\(|x| < 1\\)"
+  },
+  {
+    "q": "What is the derivative of \\(\\tan^{-1}x\\)?",
+    "a": "\\(\\frac{d}{dx} [\\tan^{-1}x] = \\frac{1}{1 + x^2}\\), for all real \\(x\\)"
+  },
+  {
+    "q": "What is the derivative of \\(\\cot^{-1}x\\)?",
+    "a": "\\(\\frac{d}{dx} [\\cot^{-1}x] = -\\frac{1}{1 + x^2}\\)"
+  },
+  {
+    "q": "What is the derivative of \\(\\sec^{-1}x\\)?",
+    "a": "\\(\\frac{d}{dx} [\\sec^{-1}x] = \\frac{1}{|x|\\sqrt{x^2 - 1}}\\), for \\(|x| > 1\\)"
+  },
+  {
+    "q": "What is the derivative of \\(\\csc^{-1}x\\)?",
+    "a": "\\(\\frac{d}{dx} [\\csc^{-1}x] = -\\frac{1}{|x|\\sqrt{x^2 - 1}}\\), for \\(|x| > 1\\)"
+  }
+]

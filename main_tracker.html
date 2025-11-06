@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Set up the 'Inter' font via Tailwind's config for aesthetic consistency
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+
+    <script>
+        // --- APPLICATION STATE & CONSTANTS ---
+        const TOTAL_PROGRESS_STEPS = 4; // Superficial, Notes, Conceptual Qs, Mastery
+        let state = []; // Array to hold the chapter progress state for the current subject
+        let currentNoteChapterIndex = -1; 
+        let lastPercentage = 0; 
+        let currentSubject = 'physics'; // Default subject on load
+        
+        // Map subject keys to their file paths
+        const subjectFileMap = {
+            'physics': 'tracks/physics_data.json',
+            'math': 'tracks/math_data.json',
+            'chemistry': 'tracks/chemistryy_data.json',
+            'english': 'tracks/english_data.json',
+            'computer_science': 'tracks/computer_science_data.json'
+        };
+
+        // DOM Elements (Cached - accessed after DOMContentLoaded)
+        let noteModal, modalContent, noteTextarea, modalTitle, closeModalBtn, overallProgressEl, tableTitleEl, tbody;
+        
+        // --- LOCAL STORAGE FUNCTIONS ---
+
+        /**
+         * Saves the current application state (progress and notes) to LocalStorage.
+         */
+        function saveStateToLocalStorage() {
+            if (state.length === 0) return;
+            
+            const key = `tracker_${currentSubject}`;
+            
+            try {
+                // Save the entire progress array under the current subject's key
+                const dataToSave = JSON.stringify(state.map(c => ({
+                    id: c.id,
+                    name: c.name,
+                    progress: c.progress,
+                    note: c.note
+                })));
+                localStorage.setItem(key, dataToSave);
+            } catch (e) {
+                console.error("Error saving to LocalStorage:", e);
+            }
+        }
+
+
+        // --- DATA LOADING (Updated to use fetch) ---
+        
+        /**
+         * Loads data for a given subject from the mock JSON file, falling back to initial data.
+         * @param {string} subjectName - The key for the subject to load.
+         */
+        async function loadTrackerData(subjectName) {
+            currentSubject = subjectName;
+            
+            tableTitleEl.textContent = `${subjectName.toUpperCase().replace('_', ' ')} SKILL SCREEN`;
+            overallProgressEl.innerHTML = `<span class="loading-spinner"></span> Loading ${subjectName.toUpperCase().replace('_', ' ')} Data...`;
+
+            let defaultChapters = [];
+            const filePath = subjectFileMap[subjectName];
+            
+            try {
+                // 1. Fetch the data from the defined file path (Simulates loading external JSON)
+                const response = await fetch(filePath);
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                defaultChapters = await response.json();
+                
+            } catch (e) {
+                console.error(`Could not load data for ${subjectName}:`, e);
+                overallProgressEl.innerHTML = `<span class="text-red-400">Error: Could not load data for ${subjectName}. Please check file path.</span>`;
+                state = [];
+                renderTable();
+                return;
+            }
+
+
+            // 2. Attempt to load saved progress from localStorage
+            const savedDataJSON = localStorage.getItem(`tracker_${subjectName}`);
+            let savedData = savedDataJSON ? JSON.parse(savedDataJSON) : [];
+
+            // 3. Merge Saved Progress with Default Structure
+            state = defaultChapters.map(defaultChapter => {
+                // Find saved data matching the chapter name
+                const savedChapter = savedData.find(s => s.name === defaultChapter.name);
+                
+                if (savedChapter) {
+                    return {
+                        id: defaultChapter.id,
+                        name: defaultChapter.name,
+                        // Use saved progress/note, ensuring progress array size is correct (4 steps)
+                        progress: Array.isArray(savedChapter.progress) && savedChapter.progress.length === TOTAL_PROGRESS_STEPS ? savedChapter.progress : Array(TOTAL_PROGRESS_STEPS).fill(false),
+                        note: savedChapter.note || ""
+                    };
+                } else {
+                    // New chapter or no saved data, use default state
+                    return {
+                        id: defaultChapter.id,
+                        name: defaultChapter.name,
+                        progress: Array(TOTAL_PROGRESS_STEPS).fill(false),
+                        note: ""
+                    };
+                }
+            });
+            
+            // 4. Render the UI
+            renderTable();
+        }
+
+        // --- UI AND EVENT HANDLERS ---
+
+        function updateSelectedFile() {
+            const selector = document.getElementById('subjectSelector');
+            const selectedFile = selector.value;
+            
+            if (selectedFile) {
+                loadTrackerData(selectedFile);
+            }
+        }
+        
+        // Function to create the checkbox element
+        function createCheckbox(chapterIndex, columnIndex, isChecked) {
+            const input = document.createElement('input');
+            input.type = 'checkbox';
+            input.className = 'custom-checkbox pointer-events-none'; 
+            input.checked = isChecked;
+            input.dataset.chapterIndex = chapterIndex;
+            input.dataset.columnIndex = columnIndex;
+            
+            const container = document.createElement('div');
+            container.className = 'flex justify-center items-center h-full';
+            container.appendChild(input);
+
+            return container;
+        }
+        
+        // Handle full cell click for toggling checkbox
+        function handleCellClick(event) {
+            const cell = event.target.closest('td');
+            // Check if the click is on a progress cell (not ID, Name, or Note column)
+            if (!cell || cell.classList.contains('note-cell') || cell.classList.contains('id-cell') || cell.classList.contains('name-cell')) {
+                return; 
+            }
+            
+            const checkbox = cell.querySelector('.custom-checkbox');
+            if (checkbox) {
+                const isChecked = !checkbox.checked;
+                checkbox.checked = isChecked; 
+                
+                const chapterIndex = parseInt(checkbox.dataset.chapterIndex);
+                const columnIndex = parseInt(checkbox.dataset.columnIndex);
+                
+                // Update the state
+                state[chapterIndex].progress[columnIndex] = isChecked;
+                
+                cell.classList.toggle('cell-ticked', isChecked);
+
+                // Save to LocalStorage and update progress
+                saveStateToLocalStorage(); 
+                updateOverallProgress(); 
+            }
+        }
+        
+        // Modal functions
+        function openNoteModal(chapterIndex) {
+            currentNoteChapterIndex = chapterIndex;
+            const chapter = state[chapterIndex];
+            
+            modalTitle.textContent = `Note for: ${chapter.name}`;
+            noteTextarea.value = chapter.note;
+            
+            noteModal.classList.remove('hidden');
+            setTimeout(() => {
+                modalContent.classList.add('open');
+                noteTextarea.focus();
+            }, 10); 
+        }
+
+        function closeNoteModal() {
+            modalContent.classList.remove('open');
+            setTimeout(() => {
+                noteModal.classList.add('hidden');
+                
+                if (currentNoteChapterIndex !== -1) {
+                    // Save the text on close
+                    state[currentNoteChapterIndex].note = noteTextarea.value;
+                    saveStateToLocalStorage(); // Save to LocalStorage
+                    renderTable(); // Re-render to update the Note button style
+                }
+                currentNoteChapterIndex = -1;
+            }, 300); 
+        }
+        
+        // Main function to render the table rows
+        function renderTable() {
+            tbody.innerHTML = ''; 
+            
+            // Re-add click listener to the table body for cell clicks
+            tbody.removeEventListener('click', handleCellClick);
+            tbody.addEventListener('click', handleCellClick);
+
+            state.forEach((chapterData, chapterIndex) => {
+                const row = document.createElement('tr');
+                row.id = `row-${chapterIndex}`;
+                row.className = 'transition duration-150 hover:bg-neutral-800'; 
+
+                // 1. ID Cell
+                let cell = document.createElement('td');
+                cell.className = 'tracker-cell sticky left-0 z-10 font-semibold id-cell';
+                cell.textContent = chapterData.id;
+                row.appendChild(cell);
+
+                // 2. Name Cell
+                cell = document.createElement('td');
+                let nameCellClasses = 'tracker-cell sticky left-16 z-10 text-left font-medium text-gray-200 name-cell';
+                cell.className = nameCellClasses; 
+                cell.textContent = chapterData.name;
+                row.appendChild(cell);
+
+                // 3. Checkbox Cells (The 4 progress steps)
+                chapterData.progress.forEach((isChecked, columnIndex) => {
+                    cell = document.createElement('td');
+                    cell.className = 'tracker-cell';
+
+                    const checkboxContainer = createCheckbox(chapterIndex, columnIndex, isChecked);
+                    cell.appendChild(checkboxContainer);
+
+                    if (isChecked) {
+                        cell.classList.add('cell-ticked');
+                    }
+                    
+                    row.appendChild(cell);
+                });
+
+                // 4. Note Cell (Button)
+                cell = document.createElement('td');
+                cell.className = 'tracker-cell text-center note-cell note-column-bg';
+                
+                const noteButton = document.createElement('button');
+                noteButton.textContent = chapterData.note && chapterData.note.trim().length > 0 ? 'Edit Note' : 'Add Note';
+                noteButton.className = 'note-button';
+                
+                if (chapterData.note && chapterData.note.trim().length > 0) {
+                    noteButton.classList.add('has-note');
+                }
+                
+                noteButton.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    openNoteModal(chapterIndex);
+                });
+                
+                cell.appendChild(noteButton);
+                row.appendChild(cell);
+                
+                tbody.appendChild(row);
+            });
+            updateOverallProgress();
+        }
+
+        // Update the overall progress bar at the top 
+        function updateOverallProgress() {
+            const totalSteps = state.length * TOTAL_PROGRESS_STEPS;
+            const progressElement = overallProgressEl;
+            
+            const isInitialLoad = progressElement.innerHTML.includes('Loading');
+
+            if (state.length === 0) {
+                progressElement.textContent = `Overall Progress: No Data Loaded for ${currentSubject.toUpperCase().replace('_', ' ')}`;
+                return;
+            }
+            
+            const completedSteps = state.reduce((count, chapter) => 
+                count + chapter.progress.filter(p => p).length, 0
+            );
+
+            const percentage = Math.round((completedSteps / totalSteps) * 100);
+            
+            // Animation logic (only run if percentage changed and not initial load)
+            if (percentage !== lastPercentage && !isInitialLoad) {
+                const isIncrease = percentage > lastPercentage;
+
+                progressElement.classList.remove('animate-progress-increase', 'animate-progress-decrease', 'text-red-400', 'text-violet-300');
+                
+                if (isIncrease) {
+                    progressElement.classList.add('animate-progress-increase'); 
+                } else {
+                    progressElement.classList.add('animate-progress-decrease');
+                }
+                
+                // Remove animation classes after delay
+                setTimeout(() => {
+                    progressElement.classList.remove('animate-progress-increase', 'animate-progress-decrease');
+                    progressElement.classList.add('text-violet-300');
+                }, 500); 
+            } else if (isInitialLoad) {
+                progressElement.classList.add('text-violet-300');
+            }
+            
+            lastPercentage = percentage;
+
+            progressElement.textContent = `Overall Progress: ${percentage}% Complete (${completedSteps}/${totalSteps} steps)`;
+        }
+
+        // Expose functions globally for HTML event handlers
+        window.updateSelectedFile = updateSelectedFile;
+
+        // Initial setup
+        document.addEventListener('DOMContentLoaded', () => {
+             // Cache DOM elements
+            noteModal = document.getElementById('note-modal');
+            modalContent = document.getElementById('modal-content');
+            noteTextarea = document.getElementById('note-textarea');
+            modalTitle = document.getElementById('modal-title');
+            closeModalBtn = document.getElementById('close-modal-btn');
+            overallProgressEl = document.getElementById('overall-progress');
+            tableTitleEl = document.getElementById('table-title');
+            tbody = document.getElementById('tracker-body');
+
+             // Modal event listeners
+            closeModalBtn.addEventListener('click', closeNoteModal);
+            noteModal.addEventListener('click', (e) => {
+                if (e.target === noteModal) {
+                    closeNoteModal();
+                }
+            });
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && !noteModal.classList.contains('hidden')) {
+                    closeNoteModal();
+                }
+            });
+
+             // Set the initial subject in the selector to 'physics'
+            const selector = document.getElementById('subjectSelector');
+            selector.value = currentSubject;
+            
+            // Start the application by loading data
+            loadTrackerData(currentSubject); 
+        });
+
+    </script>
+    
+    <style>
+    select:hover, button:hover {
+    background-color: #6366F1; /* Lighter Indigo on hover (Tailwind indigo-500) */
+    box-shadow: 0 20px 25px -5px rgba(99, 102, 241, 0.4), 0 8px 10px -6px rgba(99, 102, 241, 0.4);
+    transform: translateY(-1px);
+    outline: none; /* Remove default focus outline */
+}
+    select:active, button:active, select:focus {
+    background-color: #3730A3; /* Darker Indigo when pressed (Tailwind indigo-700) */
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+        /* Base Dark Theme (Dark Indigo/Violet) */
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #19142A; /* Deep Indigo Background */
+            color: #E0D9F7; /* Light Lavender Text */
+        }
+        
+        .loaded{
+    /* Layout and Alignment */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem; /* Equivalent to py-3 px-6 */
+    width: 50%; /* Make it fill the responsive container width */
+
+    /* Appearance */
+    border: none;
+    border-radius: 0.5rem; /* Equivalent to rounded-xl or similar */
+    background-color: #4F46E5; /* A deep Indigo (Tailwind indigo-600) */
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600; /* Equivalent to font-semibold */
+    cursor: pointer;
+    
+    /* Shadow and Transition */
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3), 0 4px 6px -4px rgba(79, 70, 229, 0.3); /* Subtle indigo shadow */
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, transform 0.1s ease-out;
+}
+        /* Table and cell aesthetics */
+        .tracker-cell {
+            padding: 0.75rem 1rem;
+            border-right: 1px solid #44405B; /* Purple-Gray Vertical separator */
+            text-align: center;
+            background-color: #28223B; /* Slightly lighter background for cells */
+            transition: background-color 0.3s ease-in-out; 
+        }
+        .tracker-cell:nth-child(even) {
+            background-color: #2E2741; /* Slightly different shade for zebra striping */
+        }
+        
+        /* Dark Teal coloring for ticked cells (provides contrast to purple environment) */
+        .cell-ticked {
+            background-color: #2C4F4A !important; /* Deep Blue-Green/Dark Teal */
+        }
+        
+        /* Subtle purplish background for the Note column cells */
+        .note-column-bg {
+            background-color: #353049 !important; /* Muted dark accent color */
+        }
+
+        .tracker-header {
+            background-color: #393051; /* Richer header background */
+            color: white;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            text-align: center;
+            white-space: nowrap; 
+            border-right: none; 
+        }
+        
+        .sticky-header-bg {
+            background-color: #393051 !important; 
+        }
+
+        /* Ensure all row cells prevent wrapping, especially name and headers */
+        #tracker-body td {
+            white-space: nowrap; 
+            cursor: pointer; 
+        }
+        
+        /* Checkbox styling */
+        .custom-checkbox:checked {
+            background-color: #A78BFA; /* Bright Violet (Checked color) */
+            border-color: #A78BFA;
+            transform: scale(1.1); 
+        }
+        #tracker-body td:not(.note-cell):not(.id-cell):not(.name-cell):hover .custom-checkbox {
+            transform: scale(1.2); 
+        }
+        .custom-checkbox {
+            appearance: none;
+            width: 18px;
+            height: 18px;
+            border: 2px solid #44405B; 
+            border-radius: 4px;
+            cursor: pointer;
+            position: relative;
+            background-color: #44405B;
+            transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275); 
+        }
+        .custom-checkbox:checked::before {
+            content: '✓';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #1a1a1a; 
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        /* Keyframe animation for the progress text bounce (Increase - Bright Violet) */
+        @keyframes progress-increase-bounce {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); color: #7042fc; } /* Bright Violet peak */
+            100% { transform: scale(1); }
+        }
+
+        /* New Keyframe animation for the progress text bounce (Decrease - Reddish-Orange) */
+        @keyframes progress-decrease-bounce {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); color: #f97316; } /* Orange-500 peak (warning color) */
+            100% { transform: scale(1); }
+        }
+
+        .animate-progress-increase {
+            animation: progress-increase-bounce 0.5s ease-out;
+            color: #A78BFA; /* Final color for increase */
+        }
+
+        .animate-progress-decrease {
+            animation: progress-decrease-bounce 0.5s ease-out;
+            color: #F87171; /* Final color for decrease (Red-400) */
+        }
+        
+        /* Note Button Styling */
+        .note-button {
+            background-color: #44405B; 
+            color: #fff;
+            padding: 0.5rem 0.75rem;
+            border-radius: 9999px; 
+            font-size: 0.875rem;
+            transition: background-color 0.2s, transform 0.1s;
+        }
+        .note-button:hover {
+            background-color: #6b7280;
+            transform: translateY(-1px);
+        }
+        .note-button.has-note {
+             background-color: #FCD34D; /* Amber/Yellow to indicate content */
+             box-shadow: 0 0 8px rgba(252, 211, 77, 0.4);
+             color: #1a1a1a; 
+        }
+        .note-button.has-note:hover {
+            background-color: #fef08a;
+        }
+        
+        /* Modal Backdrop and Content */
+        .modal-backdrop {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 50;
+        }
+        .modal-content {
+            background-color: #E0D9F7; 
+            color: #1a1a1a;
+            padding: 2rem;
+            border-radius: 0.5rem;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            width: 90%;
+            max-width: 800px;
+            transform: scale(0.9);
+            opacity: 0;
+            transition: all 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+        }
+        .modal-content.open {
+            transform: scale(1);
+            opacity: 1;
+        }
+        .modal-textarea {
+            width: 100%;
+            height: 350px;
+            border: 1px solid #d1d5db;
+            padding: 0.75rem;
+            background-color: #fff;
+            border-radius: 0.375rem;
+            resize: none;
+            color: #1a1a1a;
+        }
+
+        /* Loading Spinner for data fetch */
+        .loading-spinner {
+            border: 4px solid rgba(255, 255, 255, 0.1);
+            border-left-color: #A78BFA;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            animation: spin 1s linear infinite;
+            margin-right: 0.5rem;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        .header-link-button {
+    /* Layout and Alignment */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem; /* Equivalent to py-3 px-6 */
+    width: 100%; /* Make it fill the responsive container width */
+
+    /* Appearance */
+    border: none;
+    border-radius: 0.5rem; /* Equivalent to rounded-xl or similar */
+    background-color: #4F46E5; /* A deep Indigo (Tailwind indigo-600) */
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600; /* Equivalent to font-semibold */
+    cursor: pointer;
+    
+    /* Shadow and Transition */
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3), 0 4px 6px -4px rgba(79, 70, 229, 0.3); /* Subtle indigo shadow */
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, transform 0.1s ease-out;
+}
+
+/* Hover and Focus States */
+.header-link-button:hover,
+.header-link-button:focus {
+    background-color: #6366F1; /* Lighter Indigo on hover (Tailwind indigo-500) */
+    box-shadow: 0 20px 25px -5px rgba(99, 102, 241, 0.4), 0 8px 10px -6px rgba(99, 102, 241, 0.4);
+    transform: translateY(-1px);
+    outline: none; /* Remove default focus outline */
+}
+
+/* Active/Clicked State */
+.header-link-button:active {
+    background-color: #3730A3; /* Darker Indigo when pressed (Tailwind indigo-700) */
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+
+    </style>
+</head>
+<body class="min-h-screen flex flex-col items-center p-4 md:p-12">
+
+    <!-- 1. Centered Title and Overall Progress (Header Block) -->
+    <header class="p-6 w-full max-w-7xl bg-indigo-900 rounded-xl mb-6 shadow-2xl" style="background-color: #4A3770;">
+        <h1 id="table-title" class="text-4xl font-extrabold text-white tracking-wider text-center whitespace-nowrap", style="color: lightpink;">
+            SMART PROGRESS CHECK
+        </h1>
+        <p id="overall-progress" class="mt-3 text-lg font-medium text-violet-300 text-center">
+            Loading Data...
+        </p>
+        
+        <!-- Subject Selector Dropdown -->
+        <div class="flex flex-col sm:flex-row justify-center items-center mt-4 pt-4 border-t border-indigo-700 space-y-4 sm:space-y-0 sm:space-x-4">
+             <div class="w-full sm:w-1/2 lg:w-1/3">
+                 <label for="subjectSelector" class="block text-sm font-small text-indigo-300 mb-1 invisible sm:visible">
+                    Change Subject:
+                 </label>
+                 <select id="subjectSelector" onchange="updateSelectedFile()" class="loaded">
+                    <option value="physics">Physics</option>
+                    <option value="math">Math</option>
+                    <option value="chemistry">Chemistry</option>
+                    <option value="english">English</option>
+                    <option value="computer_science">Computer Science</option>
+                 </select>
+             </div>
+         <div class="w-full sm:w-1/2 lg:w-1/3 flex flex-col justify-end">
+                 <label class="block text-sm font-small text-indigo-300 mb-1 invisible sm:visible">
+                    Smart FlashCards shortcut:
+                </label>
+                 <a href="http://localhost:1929/main.html" class="header-link-button">
+                    <span class="mr-2">🚀</span> 
+                    Click here</a>
+              </div>
+            </div>
+
+    </header>
+
+    <!-- 2. Main Tracker Container (Table and Footer - Centered and Styled) -->
+    <div class="w-full max-w-7xl shadow-2xl rounded-2xl overflow-hidden">
+        
+        <div class="overflow-x-auto">
+            <table id="tracker-table" class="min-w-[1000px] divide-y divide-gray-700" style="border-collapse: collapse;">
+                <thead class="bg-gray-800">
+                    <tr id="header-row">
+                        <th class="tracker-header sticky left-0 z-10 sticky-header-bg w-16 p-4 rounded-tl-2xl">ID</th>
+                        <th class="tracker-header sticky left-16 z-10 sticky-header-bg min-w-[300px] text-left p-4">Chapter Name</th>
+                        <th class="tracker-header min-w-[150px] p-4">Superficial<br>Knowledge</th>
+                        <th class="tracker-header min-w-[150px] p-4">Completed<br>Notes</th>
+                        <th class="tracker-header min-w-[150px] p-4">Conceptual Qs &<br>Concepts</th>
+                        <th class="tracker-header min-w-[150px] p-4">Mastery</th>
+                        <th class="tracker-header min-w-[200px] p-4 rounded-tr-2xl">Note</th>
+                    </tr>
+                </thead>
+                <tbody id="tracker-body" class="divide-y divide-gray-800">
+                    <!-- Table rows will be populated by JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Footer now displays persistence status -->
+        <footer class="p-4 text-center text-sm text-gray-400 border-t border-gray-700">
+            Progress tracked automatically and saved to your browser's LocalStorage.
+        </footer>
+    </div>
+    
+    <!-- Sticker Note Modal -->
+    <div id="note-modal" class="modal-backdrop hidden">
+        <div id="modal-content" class="modal-content">
+            <h2 id="modal-title" class="text-xl font-bold mb-4 border-b border-gray-800 pb-2">Chapter Note</h2>
+            <textarea id="note-textarea" class="modal-textarea" placeholder="Write your chapter notes here..."></textarea>
+            <div class="mt-4 flex justify-end">
+                <button id="close-modal-btn" class="note-button bg-red-600 hover:bg-red-700 font-bold text-white transition duration-200">Close</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

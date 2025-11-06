@@ -1,0 +1,148 @@
+[
+  {
+    "q": "\\( \\sin^2 x + \\cos^2 x = \\ ? \\)",
+    "a": "\\( \\sin^2 x + \\cos^2 x = 1 \\)"
+  },
+  {
+    "q": "\\( \\sec^2 x - \\tan^2 x = \\ ? \\)",
+    "a": "\\( \\sec^2 x - \\tan^2 x = 1 \\)"
+  },
+  {
+    "q": "\\( \\cosec^2 x - \\cot^2 x = \\ ? \\)",
+    "a": "\\( \\cosec^2 x - \\cot^2 x = 1 \\)"
+  },
+  {
+    "q": "\\( \\sin(A + B) = \\ ? \\)",
+    "a": "\\( \\sin(A + B) = \\sin A \\cos B + \\cos A \\sin B \\)"
+  },
+  {
+    "q": "\\( \\sin(A - B) = \\ ? \\)",
+    "a": "\\( \\sin(A - B) = \\sin A \\cos B - \\cos A \\sin B \\)"
+  },
+  {
+    "q": "\\( \\cos(A + B) = \\ ? \\)",
+    "a": "\\( \\cos(A + B) = \\cos A \\cos B - \\sin A \\sin B \\)"
+  },
+  {
+    "q": "\\( \\cos(A - B) = \\ ? \\)",
+    "a": "\\( \\cos(A - B) = \\cos A \\cos B + \\sin A \\sin B \\)"
+  },
+  {
+    "q": "\\( \\tan(A + B) = \\ ? \\)",
+    "a": "\\( \\tan(A + B) = \\frac{\\tan A + \\tan B}{1 - \\tan A \\tan B} \\)"
+  },
+  {
+    "q": "\\( \\tan(A - B) = \\ ? \\)",
+    "a": "\\( \\tan(A - B) = \\frac{\\tan A - \\tan B}{1 + \\tan A \\tan B} \\)"
+  },
+  {
+    "q": "\\( \\sin(2x) = \\ ? \\)",
+    "a": "\\( \\sin(2x) = 2\\sin x \\cos x \\)"
+  },
+  {
+    "q": "\\( \\cos(2x) = \\ ? \\)",
+    "a": "\\( \\cos(2x) = \\cos^2 x - \\sin^2 x \\)"
+  },
+  {
+    "q": "\\( \\cos(2x) = \\ ? \\) (in term of cos)",
+    "a": "\\( \\cos(2x) = 2\\cos^2 x - 1 \\)"
+  },
+  {
+    "q": "\\( \\cos(2x) = \\ ? \\) (in term of sin)",
+    "a": "\\( \\cos(2x) = 1 - 2\\sin^2 x \\)"
+  },
+  {
+    "q": "\\( \\tan(2x) = \\ ? \\)",
+    "a": "\\( \\tan(2x) = \\frac{2\\tan x}{1 - \\tan^2 x} \\)"
+  },
+  {
+    "q": "\\( \\sin(3x) = \\ ? \\)",
+    "a": "\\( \\sin(3x) = 3\\sin x - 4\\sin^3 x \\)"
+  },
+  {
+    "q": "\\( \\cos(3x) = \\ ? \\)",
+    "a": "\\( \\cos(3x) = 4\\cos^3 x - 3\\cos x \\)"
+  },
+  {
+    "q": "\\( \\tan(3x) = \\ ? \\)",
+    "a": "\\( \\tan(3x) = \\frac{3\\tan x - \\tan^3 x}{1 - 3\\tan^2 x} \\)"
+  },
+  {
+    "q": "\\( \\sin A \\sin B = \\ ? \\) (too much maybe?)",
+    "a": "\\( \\sin A \\sin B = \\frac{1}{2}[\\cos(A - B) - \\cos(A + B)] \\)"
+  },
+  {
+    "q": "\\( \\cos A \\cos B = \\ ? \\) (too much maybe?)",
+    "a": "\\( \\cos A \\cos B = \\frac{1}{2}[\\cos(A - B) + \\cos(A + B)] \\)"
+  },
+  {
+    "q": "\\( \\sin A \\cos B = \\ ? \\) (too much maybe?)",
+    "a": "\\( \\sin A \\cos B = \\frac{1}{2}[\\sin(A + B) + \\sin(A - B)] \\)"
+  },
+  {
+    "q": "\\( \\sin A + \\sin B = \\ ? \\)",
+    "a": "\\( \\sin A + \\sin B = 2\\sin\\frac{A + B}{2} \\cos\\frac{A - B}{2} \\)"
+  },
+  {
+    "q": "\\( \\sin A - \\sin B = \\ ? \\)",
+    "a": "\\( \\sin A - \\sin B = 2\\cos\\frac{A + B}{2} \\sin\\frac{A - B}{2} \\)"
+  },
+  {
+    "q": "\\( \\cos A + \\cos B = \\ ? \\)",
+    "a": "\\( \\cos A + \\cos B = 2\\cos\\frac{A + B}{2} \\cos\\frac{A - B}{2} \\)"
+  },
+  {
+    "q": "\\( \\cos A - \\cos B = \\ ? \\)",
+    "a": "\\( \\cos A - \\cos B = -2\\sin\\frac{A + B}{2} \\sin\\frac{A - B}{2} \\)"
+  },
+  {
+    "q": "\\( \\sin(x + \\pi) = \\ ? \\)",
+    "a": "\\( \\sin(x + \\pi) = -\\sin x \\)"
+  },
+  {
+    "q": "\\( \\cos(x + \\pi) = \\ ? \\)",
+    "a": "\\( \\cos(x + \\pi) = -\\cos x \\)"
+  },
+  {
+    "q": "\\( \\sin(-x) = \\ ? \\)",
+    "a": "\\( \\sin(-x) = -\\sin x \\)"
+  },
+  {
+    "q": "\\( \\cos(-x) = \\ ? \\)",
+    "a": "\\( \\cos(-x) = \\cos x \\)"
+  },
+  {
+    "q": "\\( \\tan(-x) = \\ ? \\)",
+    "a": "\\( \\tan(-x) = -\\tan x \\)"
+  },
+
+
+  {
+  "q": "General solution of \\( \\sin x = a \\) is?",
+  "a": "\\( x = (-1)^n \\sin^{-1}(a) + n\\pi,\\ n \\in \\mathbb{Z} \\)"
+},
+{
+  "q": "General solution of \\( \\sin x = 0 \\) is?",
+  "a": "\\( x = n\\pi,\\ n \\in \\mathbb{Z} \\)"
+},
+{
+  "q": "General solution of \\( \\cos x = a \\) is?",
+  "a": "\\( x = \\pm \\cos^{-1}(a) + 2n\\pi,\\ n \\in \\mathbb{Z} \\)"
+},
+{
+  "q": "General solution of \\( \\cos x = 0 \\) is?",
+  "a": "\\( x = (2n + 1)\\frac{\\pi}{2},\\ n \\in \\mathbb{Z} \\)"
+},
+{
+  "q": "General solution of \\( \\tan x = a \\) is?",
+  "a": "\\( x = \\tan^{-1}(a) + n\\pi,\\ n \\in \\mathbb{Z} \\)"
+},
+{
+  "q": "General solution of \\( \\tan x = 0 \\) is?",
+  "a": "\\( x = n\\pi,\\ n \\in \\mathbb{Z} \\)"
+},
+{
+  "q": "General solution of \\( \\sin^2 x = a \\), \\( \\cos^2 x = a \\), and \\( \\tan^2 x = a \\) is?",
+  "a": "For \\( \\sin^2 x = a \\): \\( x = \\pm \\sin^{-1}(\\sqrt{a}) + n\\pi \\)  \nFor \\( \\cos^2 x = a \\): \\( x = \\pm \\cos^{-1}(\\sqrt{a}) + 2n\\pi \\)  \nFor \\( \\tan^2 x = a \\): \\( x = \\pm \\tan^{-1}(\\sqrt{a}) + n\\pi \\), where \\( n \\in \\mathbb{Z} \\)"
+}
+]

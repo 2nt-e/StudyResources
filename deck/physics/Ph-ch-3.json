@@ -1,0 +1,110 @@
+[
+  {
+    "q": "What is electric current?",
+    "a": "Electric current is the rate of flow of electric charge through a conductor. \\[ I = \\frac{Q}{t} \\], where \\(I\\) is current, \\(Q\\) is charge, and \\(t\\) is time."
+  },
+  {
+    "q": "What is the SI unit of electric current?",
+    "a": "Ampere (A). \\(1\\,\\text{A} = 1\\,\\text{C/s}\\)"
+  },
+  {
+    "q": "Define 1 ampere.",
+    "a": "1 ampere is defined as the current when 1 coulomb of charge flows through a conductor in 1 second."
+  },
+  {
+    "q": "What is drift velocity?",
+    "a": "The average velocity with which free electrons get drifted towards the positive terminal under the influence of an electric field is called drift velocity. \\[ v_d = \\frac{I}{nAe} \\]"
+  },
+  {
+    "q": "Relation between current and drift velocity?",
+    "a": "\\[ I = n A v_d e \\], where \\(n\\) = number density of electrons, \\(A\\) = cross-sectional area, \\(v_d\\) = drift velocity, \\(e\\) = charge of electron."
+  },
+  {
+    "q": "What is mobility of charge carriers?",
+    "a": "Mobility \\(\\mu\\) is defined as the drift velocity per unit electric field: \\[ \\mu = \\frac{v_d}{E} \\]"
+  },
+  {
+    "q": "Define Ohm’s Law.",
+    "a": "At constant temperature, the current flowing through a conductor is directly proportional to the potential difference across it. \\[ V = IR \\]"
+  },
+  {
+    "q": "What is resistance?",
+    "a": "Resistance is the opposition offered by the conductor to the flow of current. \\[ R = \\frac{V}{I} \\]"
+  },
+  {
+    "q": "What is the SI unit of resistance?",
+    "a": "Ohm (\\(\\Omega\\)). \\(1 \\Omega = 1 \\text{V/A}\\)"
+  },
+  {
+    "q": "Factors affecting resistance of a conductor?",
+    "a": "Resistance depends on length \\(l\\), area of cross-section \\(A\\), and material of the conductor. \\[ R = \\rho \\frac{l}{A} \\]"
+  },
+  {
+    "q": "What is resistivity (specific resistance)?",
+    "a": "Resistivity is the resistance of a conductor of unit length and unit area. \\[ \\rho = \\frac{RA}{l} \\]"
+  },
+  {
+    "q": "What is the SI unit of resistivity?",
+    "a": "Ohm metre (\\(\\Omega\\cdot m\\))"
+  },
+  {
+    "q": "What is conductivity?",
+    "a": "Conductivity is the reciprocal of resistivity: \\[ \\sigma = \\frac{1}{\\rho} \\]"
+  },
+  {
+    "q": "State the relation between electric field and current density.",
+    "a": "\\[ \\vec{J} = \\sigma \\vec{E} \\] or \\[ \\vec{E} = \\rho \\vec{J} \\], where \\(\\vec{J}\\) is current density."
+  },
+  {
+    "q": "What is current density?",
+    "a": "Current density is the current per unit area of cross-section: \\[ J = \\frac{I}{A} \\]"
+  },
+  {
+    "q": "What is the internal resistance of a cell?",
+    "a": "It is the resistance offered by the electrolyte of the cell to the flow of current. Represented by \\(r\\)."
+  },
+  {
+    "q": "What is electromotive force (emf) of a cell?",
+    "a": "The potential difference between terminals of a cell when no current is drawn from it. Denoted by \\(\\mathcal{E}\\)."
+  },
+  {
+    "q": "What is terminal potential difference?",
+    "a": "Potential difference between terminals of a cell when current is flowing. \\[ V = \\mathcal{E} - Ir \\]"
+  },
+  {
+    "q": "What is the expression for current in a circuit with internal resistance?",
+    "a": "\\[ I = \\frac{\\mathcal{E}}{R + r} \\], where \\(R\\) = external resistance, \\(r\\) = internal resistance."
+  },
+  {
+    "q": "What is a resistor network?",
+    "a": "An electrical circuit composed of resistors in series and/or parallel combinations."
+  },
+  {
+    "q": "Formula for equivalent resistance in series?",
+    "a": "\\[ R_{eq} = R_1 + R_2 + R_3 + \\cdots \\]"
+  },
+  {
+    "q": "Formula for equivalent resistance in parallel?",
+    "a": "\\[ \\frac{1}{R_{eq}} = \\frac{1}{R_1} + \\frac{1}{R_2} + \\cdots \\]"
+  },
+  {
+    "q": "State Kirchhoff’s First Law (Junction Rule).",
+    "a": "At any junction, the sum of currents entering the junction is equal to the sum of currents leaving it. \\[ \\sum I = 0 \\]"
+  },
+  {
+    "q": "State Kirchhoff’s Second Law (Loop Rule).",
+    "a": "In any closed loop, the algebraic sum of the potential differences is zero. \\[ \\sum V = 0 \\]"
+  },
+  {
+    "q": "What is a Wheatstone Bridge?",
+    "a": "A circuit used to measure unknown resistance using the principle of null deflection in a balanced bridge. \\[ \\frac{P}{Q} = \\frac{R}{S} \\]"
+  },
+  {
+    "q": "What is a potentiometer?",
+    "a": "A device used to compare emf of two cells or to measure internal resistance of a cell. Works on the principle that potential drop is directly proportional to length: \\[ V \\propto l \\]"
+  },
+  {
+    "q": "Why is a potentiometer preferred over a voltmeter?",
+    "a": "Potentiometer does not draw any current from the circuit, hence gives accurate emf value unlike a voltmeter."
+  }
+]

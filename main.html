@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="icon.ico" type="image/x-icon">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Load Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        // Set up the 'Inter' font via Tailwind's config for aesthetic consistency
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                },
+            },
+        }
+    </script>
+    
+  <!-- MathJax for LaTeX rendering -->
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['\\(', '\\)'], ['$', '$']] },
+      svg: { fontCache: 'global' }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
+
+  <style>
+    body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #19142A; /* Deep Indigo Background */
+            color: #E0D9F7; /* Light Lavender Text */
+        }
+
+    .loaded{
+    /* Layout and Alignment */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem; /* Equivalent to py-3 px-6 */
+    width: 50%; /* Make it fill the responsive container width */
+
+    /* Appearance */
+    border: none;
+    border-radius: 0.5rem; /* Equivalent to rounded-xl or similar */
+    background-color: #4F46E5; /* A deep Indigo (Tailwind indigo-600) */
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600; /* Equivalent to font-semibold */
+    cursor: pointer;
+    
+    /* Shadow and Transition */
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3), 0 4px 6px -4px rgba(79, 70, 229, 0.3); /* Subtle indigo shadow */
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, transform 0.1s ease-out;
+}
+
+
+
+    select:hover, button:hover {
+    background-color: #6366F1; /* Lighter Indigo on hover (Tailwind indigo-500) */
+    box-shadow: 0 20px 25px -5px rgba(99, 102, 241, 0.4), 0 8px 10px -6px rgba(99, 102, 241, 0.4);
+    transform: translateY(-1px);
+    outline: none; /* Remove default focus outline */
+}
+    select:active, button:active, select:focus {
+    background-color: #3730A3; /* Darker Indigo when pressed (Tailwind indigo-700) */
+    transform: translateY(1px);
+    box-shadow: none;
+}
+
+
+    .card-container {
+      background: linear-gradient(135deg, #2e2e2e, #28223B);
+      width: 900px;
+      height: 460px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      border-radius: 12px;
+      margin: 2rem 0;
+      padding: 1rem;
+      position: relative;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+      transition: transform 0.6s ease, box-shadow 0.3s ease;
+      transform-style: preserve-3d;
+      perspective: 1200px;
+    }
+
+    .card-container:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+    }
+
+    .card-container .card-front,
+    .card-container .card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      padding: 1rem;
+      border-radius: 12px;
+    }
+
+    .card-container .card-front {
+      border: 5px solid #3730a3; /* green border */
+      box-sizing: border-box;    /* ensures border doesn't change size */
+      background-color: transparent;
+      color: var(--text);
+      z-index: 2;
+    }
+
+    .card-container .card-back {
+      border: 5px solid #3730a3; /* green border */
+      box-sizing: border-box;    /* ensures border doesn't change size */
+      background: linear-gradient(135deg, #2e2e2e, #2C4F4A);
+      transform: rotateY(180deg);
+      z-index: 1;
+    }
+
+    #card-img {
+      max-width: 90%;
+      max-height: 160px;
+      margin-top: 1rem;
+      display: none;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .card-container.flipped {
+      transform: rotateY(-180deg);
+    }
+
+    .controls {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+    }
+
+    .progress-container {
+      width: 900px; /* Match card width */
+      margin-bottom: 1rem; /* Space between progress and buttons */
+      text-align: center;
+      opacity: 0;
+      visibility: hidden;
+      transition: opacity 0.5s ease, visibility 0.5s ease;
+    }
+
+    .progress-container.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    #progress-text {
+      margin-bottom: 0.5rem;
+      font-size: 0.7rem;
+      color: #ffffff;
+    }
+
+    .progress-bar {
+      width: 100%;
+      background-color: transparent;
+      border-radius: 5px;
+      height: 10px;
+      overflow: hidden;
+      border: 3px solid var(--border);
+    }
+
+    #progress-bar-fill {
+      height: 100%;
+      width: 0%;
+      background: linear-gradient(90deg, #28223B, #2C4F4A);
+      border-radius: 5px;
+      transition: width 0.3s ease-in-out;
+    }
+
+    .slide-left-out { animation: slideLeftOut 0.3s forwards; }
+    .slide-left-in { animation: slideLeftIn 0.3s forwards; }
+    .slide-right-out { animation: slideRightOut 0.3s forwards; }
+    .slide-right-in { animation: slideRightIn 0.3s forwards; }
+
+    
+
+    @keyframes slideLeftOut {
+      0% { opacity: 1; transform: translateX(0); }
+      100% { opacity: 0; transform: translateX(-100px); }
+    }
+
+    @keyframes slideLeftIn {
+      0% { opacity: 0; transform: translateX(100px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+
+    @keyframes slideRightOut {
+      0% { opacity: 1; transform: translateX(0); }
+      100% { opacity: 0; transform: translateX(100px); }
+    }
+
+    @keyframes slideRightIn {
+      0% { opacity: 0; transform: translateX(-100px); }
+      100% { opacity: 1; transform: translateX(0); }
+    }
+
+    .header-link-button{
+    /* Layout and Alignment */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.75rem 1.5rem; /* Equivalent to py-3 px-6 */
+    width: 50%; /* Make it fill the responsive container width */
+
+    /* Appearance */
+    border: none;
+    border-radius: 0.5rem; /* Equivalent to rounded-xl or similar */
+    background-color: #4F46E5; /* A deep Indigo (Tailwind indigo-600) */
+    color: #FFFFFF; /* White text */
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600; /* Equivalent to font-semibold */
+    cursor: pointer;
+    
+    /* Shadow and Transition */
+    box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3), 0 4px 6px -4px rgba(79, 70, 229, 0.3); /* Subtle indigo shadow */
+    transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, transform 0.1s ease-out;
+}
+
+/* Hover and Focus States */
+.header-link-button:hover,
+.header-link-button:focus {
+    background-color: #6366F1; /* Lighter Indigo on hover (Tailwind indigo-500) */
+    box-shadow: 0 20px 25px -5px rgba(99, 102, 241, 0.4), 0 8px 10px -6px rgba(99, 102, 241, 0.4);
+    transform: translateY(-1px);
+    outline: none; /* Remove default focus outline */
+}
+
+/* Active/Clicked State */
+.header-link-button:active {
+    background-color: #3730A3; /* Darker Indigo when pressed (Tailwind indigo-700) */
+    transform: translateY(1px);
+    box-shadow: none;
+}
+  </style>
+</head>
+<body class="min-h-screen flex flex-col items-center p-4 md:p-12">
+ <header class="p-6 w-full max-w-7xl bg-indigo-900 rounded-xl mb-6 shadow-2xl" style="background-color: #4A3770;">
+  <h1 class="text-4xl font-extrabold text-white tracking-wider text-center whitespace-nowrap", style="color: lightpink;">
+            REVISION FLASHCARDS
+        </h1>
+  <div class="flex flex-col sm:flex-row justify-center items-center mt-4 pt-4 border-t border-indigo-700 space-y-4 sm:space-y-0 sm:space-x-4">
+    <select id="subject" class="loaded">
+      <option value="">Select Subject</option>
+      <option value="physics">Physics</option>
+      <option value="chemistry">Chemistry</option>
+      <option value="math">Math</option>
+      <option value="misc">Miscellaneous</option>
+    </select>
+
+    <select id="deck" class="loaded">
+      <option value="">Select Chapter</option>
+    </select>
+    <a href="http://localhost:1929/main_tracker.html" class="header-link-button">
+      <span class="mr-2">🚀</span> 
+      Click here for tracker
+    </a>
+  </div> </header> 
+
+  <div class="card-container" id="card" onclick="flipCard()">
+    <div class="card-front" id="question-wrapper">
+      <div id="question">Question appears here</div>
+      <img id="card-img" />
+    </div>
+    <div class="card-back" id="answer">Answer appears here</div>
+  </div>
+
+  <div class="progress-container">
+    <div id="progress-text"></div>
+    <div class="progress-bar">
+      <div id="progress-bar-fill"></div>
+    </div>
+  </div>
+
+  <div class="controls">
+    <button onclick="prevCard()", class="header-link-button">Previous</button>
+    <button onclick="nextCard()", class="header-link-button">Next</button>
+    <button onclick="shuffleToggle()", class="header-link-button">Shuffle: Off</button>
+  </div>
+
+  <script>
+    let cards = [], current = 0, isShuffled = false;
+    const subjectSelect = document.getElementById('subject');
+    const deckSelect = document.getElementById('deck');
+    const shuffleBtn = document.querySelector('button:last-of-type');
+    const cardEl = document.getElementById('card');
+    const progressContainer = document.querySelector('.progress-container');
+    const progressText = document.getElementById('progress-text');
+    const progressBarFill = document.getElementById('progress-bar-fill');
+
+    subjectSelect.addEventListener('change', () => {
+      const subj = subjectSelect.value;
+      deckSelect.innerHTML = '<option value="">Loading...</option>';
+
+      fetch(`deck/${subj}/decks.json?t=${Date.now()}`)
+        .then(res => res.json())
+        .then(data => {
+          deckSelect.innerHTML = '<option value="">Select Chapter</option>';
+          data.forEach(deck => {
+            const opt = document.createElement('option');
+            opt.value = deck.file;
+            opt.textContent = deck.name;
+            deckSelect.appendChild(opt);
+          });
+          setTimeout(() => deckSelect.classList.add('loaded'), 50);
+        })
+        .catch(err => {
+          console.error('Decks fetch error:', err);
+          deckSelect.innerHTML = '<option value="">Failed to load</option>';
+        });
+    });
+
+    deckSelect.addEventListener('change', () => {
+      const subj = subjectSelect.value;
+      const deck = deckSelect.value;
+      if (!deck) {
+        // Reset card if user selects the placeholder
+        document.getElementById('question').innerHTML = "Question appears here";
+        document.getElementById('answer').innerHTML = "Answer appears here";
+        document.getElementById('card-img').style.display = 'none';
+        cards = [];
+        updateProgress();
+        return;
+      }
+
+      fetch(`deck/${subj}/${deck}?t=${Date.now()}`)
+        .then(res => {
+          if (!res.ok) {
+            // This catches HTTP errors like 404 (Not Found)
+            throw new Error(`Deck not found (Status: ${res.status})`);
+          }
+          return res.json();
+        })
+        .then(data => {
+          cards = data;
+          if (!cards.length) {
+            displayErrorOnCard("This deck appears to be empty.");
+            return;
+          }
+          // Reset shuffle state for new deck
+          isShuffled = false;
+          shuffleBtn.textContent = 'Shuffle: Off';
+          current = 0;
+          renderCard();
+          updateProgress();
+        })
+        .catch(err => {
+          // This catches network errors and the error thrown above
+          console.error("Error loading deck:", err);
+          displayErrorOnCard("Failed to load the selected deck. It might be missing or corrupted.");
+        });
+    });
+
+    function updateCardContent() {
+      const card = cards[current];
+      const qEl = document.getElementById('question');
+      const aEl = document.getElementById('answer');
+      const imgEl = document.getElementById('card-img');
+
+      qEl.innerHTML = card.q || "No question";
+      aEl.innerHTML = card.a || "No answer";
+
+      if (card.img) {
+        imgEl.src = `deck/${subjectSelect.value}/images/${card.img}`;
+        imgEl.style.display = "block";
+      } else {
+        imgEl.style.display = "none";
+        imgEl.src = "";
+      }
+
+      if (window.MathJax) MathJax.typesetPromise();
+    }
+
+    function renderCard(direction = 'none') {
+      const outClass = direction === 'left' ? 'slide-right-out' :
+                       direction === 'right' ? 'slide-left-out' : null;
+      const inClass = direction === 'left' ? 'slide-right-in' :
+                      direction === 'right' ? 'slide-left-in' : null;
+
+      if (outClass && inClass) {
+        cardEl.classList.add(outClass);
+        setTimeout(() => {
+          cardEl.classList.remove(outClass);
+          cardEl.classList.add(inClass);
+          updateCardContent();
+        }, 300);
+        setTimeout(() => cardEl.classList.remove(inClass), 600);
+      } else {
+        updateCardContent();
+      }
+    }
+
+    function displayErrorOnCard(message) {
+      const qEl = document.getElementById('question');
+      const aEl = document.getElementById('answer');
+      const imgEl = document.getElementById('card-img');
+
+      qEl.innerHTML = `<strong>Oops!</strong><br>${message}`;
+      aEl.innerHTML = "Please select a different chapter or subject.";
+      imgEl.style.display = "none";
+      cards = []; // Ensure no card actions can be performed
+      updateProgress(); // Hide progress bar on error
+    }
+
+    function updateProgress() {
+      if (cards.length > 0) {
+        progressContainer.classList.add('visible');
+        const progressPercentage = ((current + 1) / cards.length) * 100;
+        progressText.textContent = `${current + 1} out of ${cards.length} flashcards viewed`;
+        progressBarFill.style.width = `${progressPercentage}%`;
+      } else {
+        progressContainer.classList.remove('visible');
+      }
+    }
+
+    function nextCard() {
+      if (cards.length === 0) return;
+      cardEl.classList.remove('flipped');
+      current = (current + 1) % cards.length;
+      renderCard('right');
+      updateProgress();
+    }
+
+    function prevCard() {
+      if (cards.length === 0) return;
+      cardEl.classList.remove('flipped');
+      current = (current - 1 + cards.length) % cards.length;
+      renderCard('left');
+      updateProgress();
+    }
+
+    function flipCard() {
+      cardEl.classList.toggle('flipped');
+    }
+
+    function shuffleToggle() {
+      if (cards.length < 2) return; // Not enough cards to shuffle
+
+      isShuffled = !isShuffled;
+      shuffleBtn.textContent = `Shuffle: ${isShuffled ? 'On' : 'Off'}`;
+
+      if (isShuffled) {
+        shuffleDeck();
+        current = 0;
+        cardEl.classList.remove('flipped');
+        renderCard();
+        updateProgress();
+      } else {
+        // To un-shuffle, we re-fetch the deck to restore the original order.
+        // This will reset the view to the first card.
+        deckSelect.dispatchEvent(new Event('change'));
+      }
+    }
+
+    function shuffleDeck() {
+      // Fisher-Yates shuffle algorithm (shuffles the array in-place)
+      for (let i = cards.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [cards[i], cards[j]] = [cards[j], cards[i]];
+      }
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'ArrowRight') nextCard();
+      if (e.key === 'ArrowLeft') prevCard();
+      if (e.key.toLowerCase() === '0') flipCard();
+    });
+  </script>
+</body>
+</html>

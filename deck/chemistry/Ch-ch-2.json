@@ -1,0 +1,74 @@
+[
+  {
+    "q": "What is electrochemistry?",
+    "a": "Electrochemistry is the study of the relationship between electrical energy and chemical reactions, particularly redox reactions involving transfer of electrons connected to electricity."
+  },
+  {
+    "q": "Define electrochemical cell. What are its types?",
+    "a": "An electrochemical cell converts chemical energy to electrical (or vice versa) via redox reactions.  \nTypes:  \n1. Galvanic (Voltaic) cell — spontaneous reaction generates electricity.  \n2. Electrolytic cell — non-spontaneous reaction driven by external current."
+  },
+  {
+    "q": "What is a galvanic cell? Give an example.",
+    "a": "A galvanic cell converts chemical to electrical energy using a spontaneous redox reaction.  \nExample: Daniell Cell:  \nZn (anode) → Zn²⁺ + 2e⁻ (oxidation)  \nCu²⁺ + 2e⁻ → Cu (cathode, reduction)  \nNet: \\( \\text{Zn(s)} + \\text{Cu}^{2+}(aq) \\rightarrow \\text{Zn}^{2+}(aq) + \\text{Cu(s)} \\)"
+  },
+  {
+    "q": "Explain the function of salt bridge in a galvanic cell.",
+    "a": "Salt bridge maintains electrical neutrality by allowing migration of ions (e.g., \\( \\text{KCl} \\)), prevents charge build-up, and sustains current flow."
+  },
+  {
+    "q": "What is electrode potential?",
+    "a": "Electrode potential is the tendency of an electrode to lose or gain electrons in contact with its ions. Standard electrode potential \\( E^\\circ \\) is measured under: 1 M, 1 atm, 25°C."
+  },
+  {
+    "q": "What is the standard hydrogen electrode (SHE)?",
+    "a": "Reference electrode with \\( E^\\circ = 0\\,\\text{V} \\). Hydrogen gas at 1 atm bubbled over Pt electrode dipped in 1 M \\( \\text{H}^+ \\) solution."
+  },
+  {
+    "q": "How is cell potential (EMF) of a galvanic cell calculated?",
+    "a": "\\( E_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} \\). It is the potential difference between the two electrodes."
+  },
+  {
+    "q": "State the Nernst Equation. What does it calculate?",
+    "a": "Nernst equation (non-standard EMF):  \n\\( E = E^\\circ - \\frac{0.0591}{n} \\log Q \\)  \nWhere \\( Q = \\frac{[\\text{products}]}{[\\text{reactants}]} \\), \\( n \\) = no. of electrons transferred"
+  },
+  {
+    "q": "What is electrochemical series?",
+    "a": "It ranks elements by \\( E^\\circ \\):  \nTop = strong reducing agents (more negative \\( E^\\circ \\)),  \nBottom = strong oxidizing agents (more positive \\( E^\\circ \\))"
+  },
+  {
+    "q": "Define Gibbs free energy and its relation to EMF.",
+    "a": "\\( \\Delta G = -nFE_{\\text{cell}} \\)  \n\\( \\Delta G < 0 \\): spontaneous, \\( \\Delta G > 0 \\): non-spontaneous  \nWhere \\( F = 96500\\,\\text{C/mol} \\)"
+  },
+  {
+    "q": "Differentiate between galvanic and electrolytic cells.",
+    "a": "**Galvanic:** spontaneous, \\( \\text{chemical} \\rightarrow \\text{electrical} \\), anode (−), cathode (+)  \n**Electrolytic:** non-spontaneous, \\( \\text{electrical} \\rightarrow \\text{chemical} \\), anode (+), cathode (−)"
+  },
+  {
+    "q": "What is conductivity (\\( \\kappa \\)) and molar conductivity (\\( \\Lambda_m \\))?",
+    "a": "Conductivity \\( \\kappa \\): conductance per unit length and area.  \nMolar conductivity: \\( \\Lambda_m = \\frac{\\kappa}{c} \\), increases with dilution."
+  },
+  {
+    "q": "State Kohlrausch’s Law and its applications.",
+    "a": "Kohlrausch’s Law: \\( \\Lambda_m^\\circ = \\lambda^\\circ_+ + \\lambda^\\circ_- \\)  \nApplications:  \n1. Calculate \\( \\Lambda_m^\\circ \\) of weak electrolytes  \n2. Degree of dissociation  \n3. Ionic product of water"
+  },
+  {
+    "q": "What is Faraday’s First Law of Electrolysis?",
+    "a": "Mass \\( m \\propto Q \\Rightarrow m = ZQ = \\frac{E \\cdot t \\cdot Z}{96500} \\)  \nWhere \\( Z \\) = electrochemical equivalent, \\( E \\) = current, \\( t \\) = time"
+  },
+  {
+    "q": "What is Faraday’s Second Law of Electrolysis?",
+    "a": "If same charge passes through different electrolytes:  \n\\( \\frac{m_1}{E_1} = \\frac{m_2}{E_2} \\)  \nWhere \\( m \\) = mass deposited, \\( E \\) = equivalent weight"
+  },
+  {
+    "q": "What is the difference between strong and weak electrolytes?",
+    "a": "**Strong**: fully dissociate (e.g., HCl, NaOH), high conductivity  \n**Weak**: partial dissociation (e.g., CH₃COOH), \\( \\Lambda_m \\) depends on concentration"
+  },
+  {
+    "q": "What is corrosion? How is it an electrochemical process?",
+    "a": "Corrosion is metal degradation via environmental reaction. Acts as an electrochemical cell:  \nFe (anode) oxidizes, O₂ (cathode) reduced → rust forms in presence of air + water."
+  },
+  {
+    "q": "List methods to prevent corrosion.",
+    "a": "1. Galvanization (Zn coating)  \n2. Alloying (e.g., stainless steel)  \n3. Painting/oiling  \n4. Inhibitors  \n5. Cathodic protection (sacrificial anode)"
+  }
+]

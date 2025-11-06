@@ -1,0 +1,178 @@
+[
+  {
+    "q": "What is the definition of integration?",
+    "a": "Integration is the process of finding the antiderivative or primitive of a function. If F'(x) = f(x), then \\( \\int f(x) dx = F(x) + C \\)."
+  },
+  {
+    "q": "What are indefinite and definite integrals?",
+    "a": "Indefinite integral: \\( \\int f(x) dx = F(x) + C \\) (family of functions).<br>Definite integral: \\( \\int_a^b f(x) dx = F(b) - F(a) \\), gives a number (area/accumulation)."
+  },
+  {
+    "q": "What does the constant of integration (C) represent?",
+    "a": "The arbitrary constant C represents the family of antiderivatives since differentiation of a constant is zero."
+  },
+  {
+    "q": "What is the geometrical meaning of a definite integral?",
+    "a": "\\( \\int_a^b f(x) dx \\) represents the net signed area between the curve \\( y=f(x) \\), x-axis, and the lines x=a, x=b."
+  },
+  {
+    "q": "What is the formula for \\( \\int x^m dx \\)?",
+    "a": "\\( \\int x^m dx = \\frac{x^{m+1}}{m+1} + C \\), for \\( m \\neq -1 \\)."
+  },
+  {
+    "q": "What is the formula for \\( \\int \\frac{1}{x} dx \\)?",
+    "a": "\\( \\int \\frac{1}{x} dx = \\ln|x| + C \\)."
+  },
+  {
+    "q": "What are the integrals of exponential functions?",
+    "a": "\\( \\int e^x dx = e^x + C \\)<br>\\( \\int a^x dx = \\frac{a^x}{\\ln a} + C \\), where \\( a>0, a \\neq 1 \\)."
+  },
+  {
+    "q": "What is the integral of log function?",
+    "a": "\\( \\int \\ln x dx = x \\ln x - x + C \\)."
+  },
+  {
+    "q": "What are the integrals of sin and cos?",
+    "a": "\\( \\int \\sin x dx = -\\cos x + C \\)<br>\\( \\int \\cos x dx = \\sin x + C \\)."
+  },
+  {
+    "q": "What are the integrals of \\( \\sec^2x \\) and \\( \\csc^2x \\)?",
+    "a": "\\( \\int \\sec^2x dx = \\tan x + C \\)<br>\\( \\int \\csc^2x dx = -\\cot x + C \\)."
+  },
+  {
+    "q": "What are the integrals of \\( \\sec x \\tan x \\) and \\( \\csc x \\cot x \\)?",
+    "a": "\\( \\int \\sec x \\tan x dx = \\sec x + C \\)<br>\\( \\int \\csc x \\cot x dx = -\\csc x + C \\)."
+  },
+  {
+    "q": "What are the standard integrals of \\( \\frac{1}{a^2+x^2} \\) and \\( \\frac{1}{\\sqrt{a^2-x^2}} \\)?",
+    "a": "\\( \\int \\frac{dx}{a^2 + x^2} = \\frac{1}{a} \\tan^{-1} \\frac{x}{a} + C \\)<br>\\( \\int \\frac{dx}{\\sqrt{a^2 - x^2}} = \\sin^{-1} \\frac{x}{a} + C \\)."
+  },
+  {
+    "q": "What is \\( \\int \\frac{dx}{\\sqrt{x^2+a^2}} \\)?",
+    "a": "\\( \\int \\frac{dx}{\\sqrt{x^2 + a^2}} = \\ln|x + \\sqrt{x^2 + a^2}| + C \\)."
+  },
+  {
+    "q": "What is \\( \\int \\sqrt{a^2 - x^2} dx \\)?",
+    "a": "\\( \\int \\sqrt{a^2 - x^2} dx = \\frac{x}{2} \\sqrt{a^2 - x^2} + \\frac{a^2}{2} \\sin^{-1} \\frac{x}{a} + C \\)."
+  },
+  {
+    "q": "What is \\( \\int \\sqrt{x^2 + a^2} dx \\)?",
+    "a": "\\( \\int \\sqrt{x^2 + a^2} dx = \\frac{x}{2} \\sqrt{x^2 + a^2} + \\frac{a^2}{2} \\ln|x + \\sqrt{x^2 + a^2}| + C \\)."
+  },
+  {
+    "q": "What is \\( \\int \\sin^{-1} x dx \\)?",
+    "a": "\\( \\int \\sin^{-1} x dx = x \\sin^{-1} x + \\sqrt{1-x^2} + C \\)."
+  },
+  {
+    "q": "What is \\( \\int \\cos^{-1} x dx \\)?",
+    "a": "\\( \\int \\cos^{-1} x dx = x \\cos^{-1} x - \\sqrt{1-x^2} + C \\)."
+  },
+  {
+    "q": "What is \\( \\int \\tan^{-1} x dx \\)?",
+    "a": "\\( \\int \\tan^{-1} x dx = x \\tan^{-1} x - \\frac{1}{2} \\ln(1 + x^2) + C \\)."
+  },
+  {
+    "q": "What is \\( \\int \\cot^{-1} x dx \\)?",
+    "a": "\\( \\int \\cot^{-1} x dx = x \\cot^{-1} x + \\frac{1}{2} \\ln(1 + x^2) + C \\)."
+  },
+  {
+    "q": "What is \\( \\int \\sec^{-1} x dx \\)?",
+    "a": "\\( \\int \\sec^{-1} x dx = x \\sec^{-1} x - \\ln|x + \\sqrt{x^2 - 1}| + C \\)."
+  },
+  {
+    "q": "What is \\( \\int \\csc^{-1} x dx \\)?",
+    "a": "\\( \\int \\csc^{-1} x dx = x \\csc^{-1} x + \\ln|x + \\sqrt{x^2 - 1}| + C \\)."
+  },
+  {
+    "q": "What is the method of substitution in integration?",
+    "a": "If x=g(t), then dx = g'(t) dt.<br>\\( \\int f(x) dx = \\int f(g(t)) g'(t) dt \\)."
+  },
+  {
+    "q": "What is the formula for integration by parts?",
+    "a": "\\( \\int u \\cdot v dx = u \\int v dx - \\int (u' \\cdot \\int v dx) dx \\)<br>(Choose u using LIATE: Logarithmic > Inverse > Algebraic > Trig > Exponential)."
+  },
+  {
+    "q": "What is the rule of partial fractions in integration?",
+    "a": "Rational functions P(x)/Q(x) can be decomposed into partial fractions if deg(P)<deg(Q). <br> Each part is then integrated separately."
+  },
+  {
+    "q": "What are reduction formulas? (for JEE)",
+    "a": "Reduction formulas relate an integral with higher powers to one with lower powers, e.g.<br>\\( \\int \\sin^m x dx = -\\frac{1}{m} \\sin^{m-1} x \\cos x + \\frac{m-1}{m} \\int \\sin^{m-2} x dx \\)<br>\\( \\int \\cos^m x dx = \\frac{1}{m} \\cos^{m-1} x \\sin x + \\frac{m-1}{m} \\int \\cos^{m-2} x dx \\)"
+  },
+  {
+    "q": "What is \\( \\int \\sin^2 x dx \\) and \\( \\int \\cos^2 x dx \\)?",
+    "a": "\\( \\int \\sin^2 x dx = \\frac{x}{2} - \\frac{\\sin 2x}{4} + C \\)<br>\\( \\int \\cos^2 x dx = \\frac{x}{2} + \\frac{\\sin 2x}{4} + C \\)"
+  },
+  {
+    "q": "What is \\( \\int \\tan^2 x dx \\)?",
+    "a": "\\( \\int \\tan^2 x dx = \\int (\\sec^2 x - 1) dx = \\tan x - x + C \\)"
+  },
+  {
+    "q": "What is \\( \\int \\sec x dx \\)?",
+    "a": "\\( \\int \\sec x dx = \\ln|\\sec x + \\tan x| + C \\)"
+  },
+  {
+    "q": "What is \\( \\int \\csc x dx \\)?",
+    "a": "\\( \\int \\csc x dx = \\ln|\\csc x - \\cot x| + C \\)"
+  },
+  {
+    "q": "What is the definition of a definite integral?",
+    "a": "\\( \\int_a^b f(x) dx = \\lim_{n\\to\\infty} \\sum f(x_i) \\Delta x \\), representing the limit of Riemann sums."
+  },
+  {
+    "q": "What is the First Fundamental Theorem of Calculus?",
+    "a": "If F(x) is an antiderivative of f(x), then \\( \\int_a^b f(x) dx = F(b) - F(a) \\)."
+  },
+  {
+    "q": "What is the property of \\( \\int_a^b f(x) dx \\) when limits are reversed?",
+    "a": "\\( \\int_a^b f(x) dx = -\\int_b^a f(x) dx \\)."
+  },
+  {
+    "q": "What is the property of \\( \\int_a^a f(x) dx \\)?",
+    "a": "\\( \\int_a^a f(x) dx = 0 \\)."
+  },
+  {
+    "q": "What is the additivity property of definite integrals?",
+    "a": "\\( \\int_a^c f(x) dx = \\int_a^b f(x) dx + \\int_b^c f(x) dx \\)."
+  },
+  {
+    "q": "What is the property of \\( \\int_{-a}^a f(x) dx \\) when f(x) is even?",
+    "a": "If f(x) is even, \\( \\int_{-a}^a f(x) dx = 2 \\int_0^a f(x) dx \\)."
+  },
+  {
+    "q": "What is the property of \\( \\int_{-a}^a f(x) dx \\) when f(x) is odd?",
+    "a": "If f(x) is odd, \\( \\int_{-a}^a f(x) dx = 0 \\)."
+  },
+  {
+    "q": "What is the property of \\( \\int_0^a f(x) dx \\) using f(a−x)?",
+    "a": "\\( \\int_0^a f(x) dx = \\int_0^a f(a-x) dx \\)."
+  },
+  {
+    "q": "How do you evaluate \\( \\int_0^{\\pi/2} f(\\sin x, \\cos x) dx \\)?",
+    "a": "Use the property: \\( \\int_0^{\\pi/2} f(\\sin x, \\cos x) dx = \\int_0^{\\pi/2} f(\\cos x, \\sin x) dx \\)."
+  },
+  {
+    "q": "What is the area under the curve y=f(x) above x-axis?",
+    "a": "Area = \\( \\int_a^b f(x) dx \\), where f(x) ≥ 0 in [a,b]."
+  },
+  {
+    "q": "What if f(x) takes negative values in the interval?",
+    "a": "Area = \\( \\int_a^b |f(x)| dx \\), splitting the interval where f(x)<0."
+  },
+  {
+    "q": "Golden tip: substitution in definite integrals",
+    "a": "Use x=g(t), then dx=g'(t) dt. Change limits accordingly."
+  },
+  {
+    "q": "Golden tip: integration by parts in definite integrals",
+    "a": "\\( \\int_a^b u dv = [uv]_a^b - \\int_a^b v du \\)"
+  },
+  {
+    "q": "Golden tip: properties for definite integrals",
+    "a": "Always check symmetry, f(a−x) property, even/odd function to simplify calculations."
+  },
+  {
+    "q": "What are applications of integration?",
+    "a": "1. Area under curves<br>2. Area between curves<br>3. Other CBSE applications include accumulation of quantities, physics problems, etc."
+  }
+]

@@ -1,0 +1,82 @@
+[
+  {
+    "q": "What is chemical kinetics?",
+    "a": "Chemical kinetics is the branch of chemistry that deals with the study of reaction rates and the factors affecting them."
+  },
+  {
+    "q": "Define rate of reaction.",
+    "a": "Rate of reaction is the change in concentration of a reactant or product per unit time. \n\\[ \\text{Rate} = -\\frac{d[R]}{dt} = \\frac{d[P]}{dt} \\]"
+  },
+  {
+    "q": "What is the unit of rate of reaction?",
+    "a": "The unit depends on the order of the reaction. For most reactions: mol·L⁻¹·s⁻¹"
+  },
+  {
+    "q": "What is the average rate of a reaction?",
+    "a": "It is the rate calculated over a finite time interval: \n\\[ \\text{Average Rate} = \\frac{\\Delta [R]}{\\Delta t} \\]"
+  },
+  {
+    "q": "What is instantaneous rate?",
+    "a": "It is the rate at a particular moment of time: \n\\[ \\text{Instantaneous Rate} = \\left| \\frac{d[R]}{dt} \\right| \\text{ at a specific time} \\]"
+  },
+  {
+    "q": "Define rate law.",
+    "a": "Rate law is an expression that relates the rate of a reaction to the concentration of reactants: \n\\[ \\text{Rate} = k[A]^m[B]^n \\]"
+  },
+  {
+    "q": "What is the order of a reaction?",
+    "a": "The sum of the powers of the concentration terms in the rate law expression: \n\\[ \\text{Order} = m + n \\]"
+  },
+  {
+    "q": "What is molecularity of a reaction?",
+    "a": "The number of molecules taking part in an elementary reaction. It is always a whole number and defined only for elementary reactions."
+  },
+  {
+    "q": "What is the difference between order and molecularity?",
+    "a": "Order is experimentally determined and may be fractional, while molecularity is theoretical and always a whole number."
+  },
+  {
+    "q": "Write the integrated rate law for a zero order reaction.",
+    "a": "\\[ [R] = [R]_0 - kt \\] \nHalf-life: \\[ t_{1/2} = \\frac{[R]_0}{2k} \\]"
+  },
+  {
+    "q": "Write the integrated rate law for a first order reaction.",
+    "a": "\\[ [R] = [R]_0 e^{-kt} \\] \nOr \\[ \\ln[R] = \\ln[R]_0 - kt \\] \nHalf-life: \\[ t_{1/2} = \\frac{0.693}{k} \\]"
+  },
+  {
+    "q": "What is the unit of rate constant for first order reaction?",
+    "a": "s⁻¹ (inverse seconds)"
+  },
+  {
+    "q": "What is the unit of rate constant for zero order reaction?",
+    "a": "mol·L⁻¹·s⁻¹"
+  },
+  {
+    "q": "State Arrhenius equation.",
+    "a": "\\[ k = A e^{-\\frac{E_a}{RT}} \\], where A = frequency factor, \\( E_a \\) = activation energy, R = gas constant, T = temperature in Kelvin."
+  },
+  {
+    "q": "How can activation energy be calculated from two temperatures?",
+    "a": "\\[ \\ln\\left(\\frac{k_2}{k_1}\\right) = \\frac{E_a}{R} \\left(\\frac{T_2 - T_1}{T_1 T_2}\\right) \\]"
+  },
+  {
+    "q": "What factors affect rate of reaction?",
+    "a": "1. Concentration of reactants  \n2. Temperature  \n3. Catalyst  \n4. Nature of reactants  \n5. Surface area (for solids)"
+  },
+  {
+    "q": "How does temperature affect reaction rate?",
+    "a": "Rate increases with temperature due to increased kinetic energy and more effective collisions. Approximately, rate doubles for every 10°C rise."
+  },
+  {
+    "q": "What is the role of a catalyst?",
+    "a": "Catalyst increases the rate of reaction by providing an alternative path with lower activation energy, without being consumed."
+  },
+  {
+    "q": "What is half-life of a reaction?",
+    "a": "It is the time required for the concentration of a reactant to decrease to half its initial value."
+  },
+  {
+    "q": "What is pseudo first order reaction?",
+    "a": "A reaction that is actually higher order but appears first order because one reactant is present in large excess. Example: Hydrolysis of ester in presence of water."
+  }
+]

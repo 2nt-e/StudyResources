@@ -1,0 +1,12 @@
+[
+  { "file": "Ch-ch-1.json", "name": "Chapter 1: Solutions" },
+  { "file": "Ch-ch-2.json", "name": "Chapter 2: Electrochemistry" },
+  { "file": "Ch-ch-3.json", "name": "Chapter 3: Chemical Kinetics" },
+  { "file": "Ch-ch-4.json", "name": "Chapter 4: The d- and f-Block Elements" },
+  { "file": "Ch-ch-5.json", "name": "Chapter 5: Coordination Compounds" },
+  { "file": "Ch-ch-6.json", "name": "Chapter 6: Haloalkanes and Haloarenes" },
+  { "file": "Ch-ch-7.json", "name": "Chapter 7: Alcohols, Phenols and Ethers" },
+  { "file": "Ch-ch-8.json", "name": "Chapter 8: Aldehydes, Ketones and Carboxylic Acids" },
+  { "file": "Ch-ch-9.json", "name": "Chapter 9: Amines" },
+  { "file": "Ch-ch-10.json", "name": "Chapter 10: Biomolecules" }
+]
