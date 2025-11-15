@@ -1,114 +1,106 @@
 [
   {
-    "q": "What are the main applications of derivatives in Class 12 CBSE?",
-    "a": "1. Rate of change of quantities  \n2. Increasing and decreasing functions  \n3. Tangents and normals  \n4. Approximations  \n5. Maxima and minima"
+    "q": "What are the main <b>applications of derivatives</b> in Class 12 Maths?",
+    "a": "1. <b>Rate of change</b> of quantities<br>2. <b>Increasing and decreasing functions</b> (Monotonicity)<br>3. <b>Tangents and Normals</b><br>4. <b>Approximations</b> (using differentials)<br>5. <b>Maxima and Minima</b> (Optimization)"
   },
   {
-    "q": "What is the derivative as a rate of change?",
-    "a": "If \\( y = f(x) \\), then the rate of change of \\( y \\) w.r.t \\( x \\) is \\( \\frac{dy}{dx} \\) or \\( f'(x) \\)."
+    "q": "What is the <b>derivative as a rate of change</b>?",
+    "a": "If $y = f(x)$, then the rate of change of $y$ with respect to $x$ is given by the derivative:<br>$$ \\frac{dy}{dx} \\quad \\text{or} \\quad f'(x) $$"
   },
   {
-    "q": "Define increasing function using derivative.",
-    "a": "A function \\( f(x) \\) is increasing in interval \\( I \\) if \\( f'(x) > 0 \\) for all \\( x \\in I \\)."
+    "q": "Define <b>strictly increasing function</b> using the derivative.",
+    "a": "A function $f(x)$ is <b>strictly increasing</b> in an interval $I$ if its derivative is strictly positive for all $x \\in I$:<br>$$ f'(x) > 0 \\quad \\text{for all } x \\in I $$"
   },
   {
-    "q": "Define decreasing function using derivative.",
-    "a": "A function \\( f(x) \\) is decreasing in interval \\( I \\) if \\( f'(x) < 0 \\) for all \\( x \\in I \\)."
+    "q": "Define <b>increasing function</b> (non-strictly) using the derivative.",
+    "a": "A function $f(x)$ is <b>increasing</b> in an interval $I$ if its derivative is greater than or equal to zero for all $x \\in I$:<br>$$ f'(x) \\ge 0 \\quad \\text{for all } x \\in I $$"
   },
   {
-    "q": "When is a function constant using derivative?",
-    "a": "If \\( f'(x) = 0 \\) in an interval \\( I \\), then \\( f(x) \\) is constant in that interval."
+    "q": "Define <b>strictly decreasing function</b> using the derivative.",
+    "a": "A function $f(x)$ is <b>strictly decreasing</b> in an interval $I$ if its derivative is strictly negative for all $x \\in I$:<br>$$ f'(x) < 0 \\quad \\text{for all } x \\in I $$"
   },
   {
-    "q": "What is a stationary point?",
-    "a": "A point \\( x = a \\) is a stationary point if \\( f'(a) = 0 \\)."
+    "q": "Define <b>decreasing function</b> (non-strictly) using the derivative.",
+    "a": "A function $f(x)$ is <b>decreasing</b> in an interval $I$ if its derivative is less than or equal to zero for all $x \\in I$:<br>$$ f'(x) \\le 0 \\quad \\text{for all } x \\in I $$"
   },
   {
-    "q": "How do you find local maxima and minima using the first derivative test?",
-    "a": "If \\( f'(x) \\) changes sign from + to − at \\( x = a \\), \\( f(a) \\) is local max.  \nIf it changes from − to +, \\( f(a) \\) is local min."
+    "q": "When is a function <b>constant</b> using the derivative?",
+    "a": "If $f'(x) = 0$ in an interval $I$, then $f(x)$ is <b>constant</b> in that interval."
   },
   {
-    "q": "What is the condition for maxima using second derivative?",
-    "a": "If \\( f'(a) = 0 \\) and \\( f''(a) < 0 \\), then \\( f(a) \\) is a point of local maximum."
+    "q": "What is a <b>stationary point</b>?",
+    "a": "A point $x = a$ is a <b>stationary point</b> if the derivative is zero at that point:<br>$$ f'(a) = 0 $$"
   },
   {
-    "q": "What is the condition for minima using second derivative?",
-    "a": "If \\( f'(a) = 0 \\) and \\( f''(a) > 0 \\), then \\( f(a) \\) is a point of local minimum."
+    "q": "What is a <b>critical point</b>?",
+    "a": "Any point $x=a$ in the domain where either the derivative is zero ($f'(a) = 0$) or the derivative <b>does not exist</b> ($f'(a)$ is undefined)."
   },
   {
-    "q": "What if \\( f'(a) = 0 \\) and \\( f''(a) = 0 \\)?",
-    "a": "The second derivative test fails. Use the first derivative test or analyze further."
+    "q": "How do you find <b>local maxima and minima</b> using the <b>First Derivative Test</b>?",
+    "a": "1. If $f'(x)$ changes sign from <b>positive (+) to negative (–)</b> at $x = a$, then $f(a)$ is a <b>local maximum</b>.<br>2. If $f'(x)$ changes sign from <b>negative (–) to positive (+)</b> at $x = a$, then $f(a)$ is a <b>local minimum</b>."
   },
   {
-    "q": "What is a point of inflection?",
-    "a": "It is a point where the curve changes concavity. At \\( x = a \\), \\( f''(a) = 0 \\) and sign of \\( f''(x) \\) changes around \\( a \\)."
+    "q": "What is the condition for <b>local maxima</b> using the <b>Second Derivative Test</b>?",
+    "a": "If $f'(a) = 0$ and the second derivative is negative, then $f(a)$ is a point of <b>local maximum</b>:<br>$$ f''(a) < 0 $$"
   },
   {
-    "q": "Formula for slope of a tangent at a point \\( x = a \\)?",
-    "a": "Slope of tangent = \\( f'(a) \\)"
+    "q": "What is the condition for <b>local minima</b> using the <b>Second Derivative Test</b>?",
+    "a": "If $f'(a) = 0$ and the second derivative is positive, then $f(a)$ is a point of <b>local minimum</b>:<br>$$ f''(a) > 0 $$"
   },
   {
-    "q": "Equation of tangent to curve \\( y = f(x) \\) at \\( x = a \\)?",
-    "a": "\\( y - f(a) = f'(a)(x - a) \\)"
+    "q": "What if $f'(a) = 0$ and $f''(a) = 0$?",
+    "a": "The <b>Second Derivative Test fails</b>. You must revert to using the <b>First Derivative Test</b> to determine the nature of the critical point (max, min, or neither)."
   },
   {
-    "q": "Formula for slope of normal to curve at \\( x = a \\)? (too much?)",
-    "a": "Slope of normal = \\( -\\frac{1}{f'(a)} \\), if \\( f'(a) \\ne 0 \\)"
+    "q": "What is a <b>point of inflection</b>?",
+    "a": "It is a point where the curve changes <b>concavity</b> (from concave up to concave down, or vice versa). At $x = a$, $f''(a) = 0$ and the sign of $f''(x)$ <b>changes</b> around $a$."
   },
   {
-    "q": "Equation of normal to \\( y = f(x) \\) at \\( x = a \\)? (too much?))",
-    "a": "\\( y - f(a) = -\\frac{1}{f'(a)}(x - a) \\)"
+    "q": "Formula for <b>slope of a tangent</b> at a point $(x_0, y_0)$?",
+    "a": "The slope of the tangent at $x = x_0$ is the value of the first derivative:<br>$$ m_{\\text{tangent}} = f'(x_0) $$"
   },
   {
-    "q": "What is the approximation formula using derivative?",
-    "a": "If \\( f(x) \\) is differentiable, then:  \n\\( f(x + \\Delta x) \\approx f(x) + f'(x)\\Delta x \\)"
+    "q": "Equation of <b>tangent</b> to curve $y = f(x)$ at $(x_0, f(x_0))$?",
+    "a": "Using the point-slope form with $m = f'(x_0)$:<br>$$ y - f(x_0) = f'(x_0)(x - x_0) $$"
   },
   {
-    "q": "How is derivative used in approximating square roots?",
-    "a": "Use \\( f(x + h) \\approx f(x) + f'(x)h \\) with \\( f(x) = \\sqrt{x} \\)"
+    "q": "Formula for <b>slope of normal</b> to curve at $x = x_0$?",
+    "a": "The normal is perpendicular to the tangent, so its slope is the negative reciprocal:<br>$$ m_{\\text{normal}} = -\\frac{1}{f'(x_0)} \\quad \\text{if } f'(x_0) \\ne 0 $$"
   },
   {
-    "q": "How to find absolute maxima or minima in a closed interval?",
-    "a": "1. Find critical points where \\( f'(x) = 0 \\)  \n2. Evaluate \\( f(x) \\) at endpoints and critical points  \n3. Greatest = max, least = min"
+    "q": "Equation of <b>normal</b> to $y = f(x)$ at $(x_0, f(x_0))$?",
+    "a": "Using the point-slope form with $m = -\\frac{1}{f'(x_0)}$:<br>$$ y - f(x_0) = -\\frac{1}{f'(x_0)}(x - x_0) $$"
   },
   {
-    "q": "What is a critical point?",
-    "a": "Any point in the domain where \\( f'(x) = 0 \\) or \\( f'(x) \\) does not exist."
+    "q": "What is the <b>approximation formula</b> using the derivative (differentials)?",
+    "a": "If $f(x)$ is differentiable, the approximate value of $f(x + \\Delta x)$ is:<br>$$ f(x + \\Delta x) \\approx f(x) + f'(x)\\Delta x $$"
   },
   {
-    "q": "What is the geometric interpretation of increasing function?",
-    "a": "The tangent line has positive slope \\( \\Rightarrow f'(x) > 0 \\)"
+    "q": "How to find <b>absolute maxima or minima</b> in a <b>closed interval</b> $[a, b]$?",
+    "a": "1. Find all <b>critical points</b> $c$ where $f'(c) = 0$ in $(a, b)$.<br>2. Evaluate $f(x)$ at all critical points and at the <b>endpoints</b> $a$ and $b$.<br>3. The <b>greatest</b> value is the Absolute Maximum; the <b>least</b> value is the Absolute Minimum."
   },
   {
-    "q": "What is the geometric meaning of decreasing function?",
-    "a": "The tangent line has negative slope \\( \\Rightarrow f'(x) < 0 \\)"
+    "q": "What is the <b>geometric interpretation of an increasing function</b>?",
+    "a": "The tangent line to the curve at any point has a <b>positive slope</b>, meaning the curve is rising from left to right: $f'(x) > 0$."
   },
   {
-    "q": "Give an example of rate of change in Physics.",
-    "a": "Velocity is rate of change of position: \\( v = \\frac{ds}{dt} \\)"
+    "q": "What is the <b>geometric meaning of a decreasing function</b>?",
+    "a": "The tangent line to the curve at any point has a <b>negative slope</b>, meaning the curve is falling from left to right: $f'(x) < 0$."
   },
   {
-    "q": "How to check monotonicity in an interval?",
-    "a": "Check sign of \\( f'(x) \\) in the interval.  \nIf \\( f'(x) > 0 \\): increasing; if \\( f'(x) < 0 \\): decreasing."
+    "q": "What is the condition for a <b>horizontal tangent</b>?",
+    "a": "A tangent is <b>horizontal</b> when its slope is zero, which means the derivative is zero:<br>$$ f'(x) = 0 $$"
   },
   {
-    "q": "What is the condition for horizontal tangent?",
-    "a": "When \\( f'(x) = 0 \\), tangent is horizontal."
+    "q": "What is the slope of a <b>vertical tangent</b>?",
+    "a": "The slope of a vertical tangent is <b>undefined</b>. This happens when the derivative tends to $\\infty$ or $-\\infty$ (i.e., when $f'(x)$ is undefined)."
   },
   {
-    "q": "What is the slope of a vertical tangent?",
-    "a": "Undefined. Happens when derivative tends to \\( \\infty \\) or \\( -\\infty \\)."
+    "q": "Explain the derivative-based test to find <b>intervals of increase or decrease</b>.",
+    "a": "1. Find $f'(x)$ and determine its <b>critical points</b> (where $f'(x) = 0$ or is undefined).<br>2. Use these points to divide the domain into intervals.<br>3. <b>Analyze the sign</b> of $f'(x)$ in each interval: $f'(x) > 0$ means increasing; $f'(x) < 0$ means decreasing."
   },
   {
-    "q": "Explain the derivative-based test to find intervals of increase or decrease.",
-    "a": "1. Find \\( f'(x) \\)  \n2. Find where \\( f'(x) = 0 \\) or undefined  \n3. Analyze sign of \\( f'(x) \\) in intervals between these points."
-  },
-  {
-    "q": "What is the use of approximation in real life?",
-    "a": "Used to estimate small changes in values like square roots, cube roots, and trigonometric values near known points."
-  },
-  {
-    "q": "How to find turning points of a function?",
-    "a": "Solve \\( f'(x) = 0 \\). Verify nature using \\( f''(x) \\) or first derivative test."
+    "q": "How to find <b>turning points</b> of a function?",
+    "a": "Solve $f'(x) = 0$. These points are the potential locations of local maxima or minima (turning points). The nature must be verified using $f''(x)$ or the first derivative test."
   }
 ]

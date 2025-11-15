@@ -1,0 +1,50 @@
+[
+  {
+    "q": "What are the <b>Direction Cosines (d.c.'s)</b> of a line?",
+    "a": "The direction cosines are the cosines of the angles $(\\alpha, \\beta, \\gamma)$ made by the line with the positive directions of the $x, y,$ and $z$ axes, respectively. They are denoted by $l, m, n$. They satisfy the relation: $ l^2 + m^2 + n^2 = 1 $."
+  },
+  {
+    "q": "What are the <b>Direction Ratios (d.r.'s)</b> of a line?",
+    "a": "Any three numbers ($a, b, c$) proportional to the direction cosines ($l, m, n$) are called direction ratios. <br>To find d.c.'s from d.r.'s: $ l = \\frac{a}{\\sqrt{a^2+b^2+c^2}}$, etc."
+  },
+  {
+    "q": "How to find <b>d.r.'s of a line segment $\\vec{AB}$</b> given $ A(x_1, y_1, z_1) $ and $ B(x_2, y_2, z_2) $?",
+    "a": "The direction ratios are simply the differences in coordinates:<br>$$ a = x_2 - x_1, \\quad b = y_2 - y_1, \\quad c = z_2 - z_1 $$"
+  },
+  {
+    "q": "What is the <b>Vector Equation of a Line</b> passing through a point $ \\vec{a} $ and parallel to vector $ \\vec{b} $?",
+    "a": "The equation of the line is:<br>$$ \\vec{r} = \\vec{a} + \\lambda \\vec{b} $$where $\\vec{r}$ is the position vector of any point on the line and $\\lambda$ is a scalar."
+  },
+  {
+    "q": "What is the <b>Cartesian Equation of a Line</b> passing through $ (x_1, y_1, z_1) $ with d.r.'s $ a, b, c $?",
+    "a": "The symmetric form is:<br>$$ \\frac{x - x_1}{a} = \\frac{y - y_1}{b} = \\frac{z - z_1}{c} $$"
+  },
+  {
+    "q": "What is the <b>Vector Equation of a Line</b> passing through two points $ \\vec{a} $ and $ \\vec{b} $?",
+    "a": "The equation is:<br>$$ \\vec{r} = \\vec{a} + \\lambda (\\vec{b} - \\vec{a}) $$where $(\\vec{b} - \\vec{a})$ acts as the direction vector of the line."
+  },
+  {
+    "q": "What is the <b>Cartesian Equation of a Line</b> passing through two points $ (x_1, y_1, z_1) $ and $ (x_2, y_2, z_2) $?",
+    "a": "The symmetric form is:<br>$$ \\frac{x - x_1}{x_2 - x_1} = \\frac{y - y_1}{y_2 - y_1} = \\frac{z - z_1}{z_2 - z_1} $$"
+  },
+  {
+    "q": "Formula for the <b>Angle $ \\theta $ between two lines</b> with d.r.'s $(a_1, b_1, c_1)$ and $(a_2, b_2, c_2)$?",
+    "a": "The angle $\\theta$ is given by:<br>$$ \\cos\\theta = \\left| \\frac{a_1a_2 + b_1b_2 + c_1c_2}{\\sqrt{a_1^2+b_1^2+c_1^2} \\sqrt{a_2^2+b_2^2+c_2^2}} \\right| $$"
+  },
+  {
+    "q": "Condition for two lines to be <b>Perpendicular</b> (using d.r.'s)?",
+    "a": "The lines are perpendicular if the sum of the products of their d.r.'s is zero:<br>$$ a_1a_2 + b_1b_2 + c_1c_2 = 0 $$"
+  },
+  {
+    "q": "Condition for two lines to be <b>Parallel</b> (using d.r.'s)?",
+    "a": "The lines are parallel if their direction ratios are proportional:<br>$$ \\frac{a_1}{a_2} = \\frac{b_1}{b_2} = \\frac{c_1}{c_2} $$"
+  },
+  {
+    "q": "What is the <b>Shortest Distance (SD)</b> between two <b>Skew Lines</b> $\\vec{r} = \\vec{a}_1 + \\lambda \\vec{b}_1$ and $\\vec{r} = \\vec{a}_2 + \\mu \\vec{b}_2$?",
+    "a": "The shortest distance $d$ is:<br>$$ d = \\left| \\frac{(\\vec{b}_1 \\times \\vec{b}_2) \\cdot (\\vec{a}_2 - \\vec{a}_1)}{|\\vec{b}_1 \\times \\vec{b}_2|} \\right| $$"
+  },
+  {
+    "q": "What is the <b>Shortest Distance (SD)</b> between two <b>Parallel Lines</b> $\\vec{r} = \\vec{a}_1 + \\lambda \\vec{b}$ and $\\vec{r} = \\vec{a}_2 + \\mu \\vec{b}$?",
+    "a": "The shortest distance $d$ is:<br>$$ d = \\left| \\frac{\\vec{b} \\times (\\vec{a}_2 - \\vec{a}_1)}{|\\vec{b}|} \\right| $$"
+  }
+]

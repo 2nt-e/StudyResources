@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What is a <b>Differential Equation (D.E.)</b>?",
+    "a": "An equation involving an **independent variable** ($x$ or $t$), a **dependent variable** ($y$), and the **derivatives** of the dependent variable with respect to the independent variable (e.g., $\\frac{dy}{dx}, \\frac{d^2y}{dx^2}$).<br>Example: $ \\frac{dy}{dx} = \\cos x $."
+  },
+  {
+    "q": "Define the <b>Order</b> of a Differential Equation.",
+    "a": "The **order** of a D.E. is the order of the **highest order derivative** present in the equation.<br>Example: $\\frac{d^3y}{dx^3} + y\\frac{dy}{dx} = x$ has an order of <b>3</b>."
+  },
+  {
+    "q": "Define the <b>Degree</b> of a Differential Equation.",
+    "a": "The **degree** of a D.E. is the **highest power** (exponent) of the **highest order derivative**, provided the equation is a **polynomial in all its derivatives**.<br>Example: $(\\frac{d^2y}{dx^2})^3 + 2\\frac{dy}{dx} = 0$ has a degree of <b>3</b>."
+  },
+  {
+    "q": "When is the <b>Degree of a D.E. Undefined</b>?",
+    "a": "The degree is <b>undefined</b> if the D.E. cannot be expressed as a polynomial in its derivatives. This happens if the derivative terms are inside transcendental functions (e.g., $\\sin(\\frac{dy}{dx})$, $e^{\\frac{d^2y}{dx^2}}$, $\\log(\\frac{dy}{dx})$)."
+  },
+  {
+    "q": "What is the <b>General Solution</b> of a D.E.?",
+    "a": "The solution that contains a number of **arbitrary constants** equal to the **order** of the D.E. It represents a **family of curves**."
+  },
+  {
+    "q": "What is the <b>Particular Solution</b> of a D.E.?",
+    "a": "The solution obtained from the general solution by giving **particular values** to the arbitrary constants. This is done using a **given condition** (initial condition) and represents a **specific curve**."
+  },
+  {
+    "q": "What is the method of <b>Separation of Variables</b>?",
+    "a": "A method to solve first-order, first-degree D.E.s where the equation can be written as $ f(y) dy = g(x) dx $. The solution is found by integrating both sides:<br>$$ \\int f(y) dy = \\int g(x) dx + C $$"
+  },
+  {
+    "q": "Define a <b>Homogeneous Differential Equation</b>.",
+    "a": "A first-order, first-degree D.E. of the form $ \\frac{dy}{dx} = f(x, y) $ is homogeneous if $ f(x, y) $ is a **homogeneous function of degree zero** in $x$ and $y$. (i.e., $ f(\\lambda x, \\lambda y) = f(x, y) $)."
+  },
+  {
+    "q": "What substitution is used to solve a <b>Homogeneous D.E.</b>?",
+    "a": "Use the substitution $ y = vx $. Differentiating gives $ \\frac{dy}{dx} = v + x\\frac{dv}{dx} $. This transforms the equation into one that is solvable by **separation of variables** in terms of $v$ and $x$."
+  },
+  {
+    "q": "Define a <b>First Order Linear D.E.</b>.",
+    "a": "An equation that can be expressed in the form:<br>$$ \\frac{dy}{dx} + P(x)y = Q(x) $$where $P(x)$ and $Q(x)$ are functions of $x$ (or constants)."
+  },
+  {
+    "q": "What is the <b>Integrating Factor (I.F.)</b> for a Linear D.E.?",
+    "a": "For the form $ \\frac{dy}{dx} + P(x)y = Q(x) $, the Integrating Factor is:<br>$$ I.F. = e^{\\int P(x) dx} $$"
+  },
+  {
+    "q": "What is the <b>General Solution</b> for a Linear D.E.?",
+    "a": "Once the I.F. is found, the general solution is:<br>$$ y \\cdot (I.F.) = \\int Q(x) \\cdot (I.F.) dx + C $$"
+  },
+  {
+    "q": "What is the other form of a <b>First Order Linear D.E.</b>?",
+    "a": "An equation of the form where $P(y)$ and $Q(y)$ are functions of $y$ (or constants):<br>$$ \\frac{dx}{dy} + P(y)x = Q(y) $$"
+  },
+  {
+    "q": "What is the <b>Integrating Factor (I.F.)</b> for the form $ \\frac{dx}{dy} + P(y)x = Q(y) $?",
+    "a": "The Integrating Factor is now a function of $y$:<br>$$ I.F. = e^{\\int P(y) dy} $$"
+  },
+  {
+    "q": "What is the <b>General Solution</b> for the form $ \\frac{dx}{dy} + P(y)x = Q(y) $?",
+    "a": "The general solution is:<br>$$ x \\cdot (I.F.) = \\int Q(y) \\cdot (I.F.) dy + C $$"
+  }
+]

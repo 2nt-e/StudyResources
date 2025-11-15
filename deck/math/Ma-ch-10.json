@@ -1,0 +1,94 @@
+[
+  {
+    "q": "Define a <b>Vector</b> and a <b>Scalar</b> quantity.",
+    "a": "1. <b>Scalar</b>: A quantity having only <b>magnitude</b> (e.g., mass, time, distance).<br>2. <b>Vector</b>: A quantity having both <b>magnitude and direction</b> (e.g., velocity, force, displacement)."
+  },
+  {
+    "q": "What is the <b>magnitude of a vector</b> $ \\vec{a} = x\\hat{i} + y\\hat{j} + z\\hat{k} $?",
+    "a": "The magnitude (or length) is denoted by $|\\vec{a}|$ and calculated as:<br>$$ |\\vec{a}| = \\sqrt{x^2 + y^2 + z^2} $$"
+  },
+  {
+    "q": "What are the <b>Direction Ratios (d.r.'s)</b> and <b>Direction Cosines (d.c.'s)</b> of $ \\vec{a} = x\\hat{i} + y\\hat{j} + z\\hat{k} $?",
+    "a": "1. <b>Direction Ratios</b>: The components of the vector: $x, y, z$.<br>2. <b>Direction Cosines</b> ($l, m, n$): $ l = \\frac{x}{|\\vec{a}|}, \\quad m = \\frac{y}{|\\vec{a}|}, \\quad n = \\frac{z}{|\\vec{a}|} $.<br>They satisfy the relation: $ l^2 + m^2 + n^2 = 1 $."
+  },
+  {
+    "q": "Define a <b>Unit Vector</b>.",
+    "a": "A vector whose <b>magnitude is 1</b>. The unit vector in the direction of $ \\vec{a} $ is denoted by $ \\hat{a} $ and is given by:<br>$$ \\hat{a} = \\frac{\\vec{a}}{|\\vec{a}|} $$"
+  },
+  {
+    "q": "Define the <b>Negative of a Vector</b>.",
+    "a": "The negative of a vector $ \\vec{a} $ is the vector $ -\\vec{a} $. It has the <b>same magnitude</b> as $ \\vec{a} $ but its <b>direction is opposite</b>."
+  },
+  {
+    "q": "What is the <b>Position Vector</b> of a point $ P(x, y, z) $?",
+    "a": "It is the vector $ \\vec{OP} $ originating from the origin $ O(0, 0, 0) $ to the point $ P(x, y, z) $:<br>$$ \\vec{OP} = x\\hat{i} + y\\hat{j} + z\\hat{k} $$"
+  },
+  {
+    "q": "How do you find the vector <b>$ \\vec{AB} $</b> given $ A(x_1, y_1, z_1) $ and $ B(x_2, y_2, z_2) $?",
+    "a": "$$ \\vec{AB} = \\vec{OB} - \\vec{OA} = (x_2 - x_1)\\hat{i} + (y_2 - y_1)\\hat{j} + (z_2 - z_1)\\hat{k} $$"
+  },
+  {
+    "q": "State the <b>Triangle Law of Vector Addition</b>.",
+    "a": "If two vectors $ \\vec{a} $ and $ \\vec{b} $ are represented by the two sides of a triangle taken in the same order, the closing side taken in the opposite order represents their sum (resultant) $ \\vec{c} $:<br>$$ \\vec{a} + \\vec{b} = \\vec{c} $$"
+  },
+  {
+    "q": "How does <b>Scalar Multiplication</b> affect a vector $ \\vec{a} $?",
+    "a": "Multiplying a vector $ \\vec{a} $ by a scalar $\\lambda$ results in a vector $ \\lambda \\vec{a} $ that is **parallel** to $ \\vec{a} $.<br>1. If $\\lambda > 0$, the direction is the same.<br>2. If $\\lambda < 0$, the direction is opposite.<br>The magnitude changes to $ |\\lambda \\vec{a}| = |\\lambda| |\\vec{a}| $."
+  },
+  {
+    "q": "Define <b>Collinear Vectors</b> (Parallel Vectors).",
+    "a": "Two non-zero vectors $ \\vec{a} $ and $ \\vec{b} $ are **collinear** (or parallel) if and only if one is a scalar multiple of the other:<br>$$ \\vec{b} = \\lambda \\vec{a} $$"
+  },
+  {
+    "q": "What is the <b>Section Formula (Internal Division)</b> for position vectors?",
+    "a": "If point $ R $ divides the line segment $ PQ $ internally in the ratio $ m : n $, its position vector $ \\vec{r} $ is:<br>$$ \\vec{r} = \\frac{m\\vec{q} + n\\vec{p}}{m + n} $$"
+  },
+  {
+    "q": "What is the <b>Section Formula (Midpoint)</b>?",
+    "a": "If $ R $ is the midpoint of $ PQ $, its position vector $ \\vec{r} $ is:<br>$$ \\vec{r} = \\frac{\\vec{p} + \\vec{q}}{2} $$"
+  },
+  {
+    "q": "Define the <b>Dot Product (Scalar Product)</b> of vectors $ \\vec{a} $ and $ \\vec{b} $.",
+    "a": "The dot product is defined as:<br>$$ \\vec{a} \\cdot \\vec{b} = |\\vec{a}| |\\vec{b}| \\cos\\theta $$where $\\theta$ is the angle between the vectors ($ 0 \\le \\theta \\le \\pi $)."
+  },
+  {
+    "q": "What is the <b>Dot Product in Component Form</b>?",
+    "a": "If $ \\vec{a} = x_1\\hat{i} + y_1\\hat{j} + z_1\\hat{k} $ and $ \\vec{b} = x_2\\hat{i} + y_2\\hat{j} + z_2\\hat{k} $:<br>$$ \\vec{a} \\cdot \\vec{b} = x_1x_2 + y_1y_2 + z_1z_2 $$"
+  },
+  {
+    "q": "How to find the <b>Angle $ \\theta $ between two vectors</b> using the dot product?",
+    "a": "Using the definition $ \\vec{a} \\cdot \\vec{b} = |\\vec{a}| |\\vec{b}| \\cos\\theta $:<br>$$ \\cos\\theta = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{a}| |\\vec{b}|} $$"
+  },
+  {
+    "q": "What is the condition for <b>Perpendicularity</b> (Orthogonality) of $ \\vec{a} $ and $ \\vec{b} $?",
+    "a": "Two non-zero vectors $ \\vec{a} $ and $ \\vec{b} $ are perpendicular if their dot product is zero:<br>$$ \\vec{a} \\cdot \\vec{b} = 0 \\quad (\\text{since } \\cos 90^{\\circ} = 0) $$"
+  },
+  {
+    "q": "Define the <b>Projection of $ \\vec{a} $ onto $ \\vec{b} $</b> (Application).",
+    "a": "The projection (component) of $ \\vec{a} $ along $ \\vec{b} $ is a scalar given by:<br>$$ \\text{Proj}_{\\vec{b}} \\vec{a} = \\frac{\\vec{a} \\cdot \\vec{b}}{|\\vec{b}|} $$"
+  },
+  {
+    "q": "Define the <b>Cross Product (Vector Product)</b> of vectors $ \\vec{a} $ and $ \\vec{b} $.",
+    "a": "The cross product is a vector perpendicular to both $ \\vec{a} $ and $ \\vec{b} $ with magnitude:<br>$$ |\\vec{a} \\times \\vec{b}| = |\\vec{a}| |\\vec{b}| \\sin\\theta $$The direction is given by the <b>Right-Hand Rule</b>."
+  },
+  {
+    "q": "What is the <b>Cross Product in Component Form</b>?",
+    "a": "If $ \\vec{a} = x_1\\hat{i} + y_1\\hat{j} + z_1\\hat{k} $ and $ \\vec{b} = x_2\\hat{i} + y_2\\hat{j} + z_2\\hat{k} $:<br>$$ \\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\hat{i} & \\hat{j} & \\hat{k} \\\\ x_1 & y_1 & z_1 \\\\ x_2 & y_2 & z_2 \\end{vmatrix} $$"
+  },
+  {
+    "q": "What is the condition for <b>Parallelism</b> of $ \\vec{a} $ and $ \\vec{b} $ using the cross product?",
+    "a": "Two non-zero vectors $ \\vec{a} $ and $ \\vec{b} $ are parallel (or collinear) if their cross product is the zero vector:<br>$$ \\vec{a} \\times \\vec{b} = \\vec{0} \\quad (\\text{since } \\sin 0^{\\circ} = 0) $$"
+  },
+  {
+    "q": "Formula for the <b>Area of a Parallelogram</b> with adjacent sides $ \\vec{a} $ and $ \\vec{b} $ (Application).",
+    "a": "The area is the magnitude of the cross product:<br>$$ \\text{Area} = |\\vec{a} \\times \\vec{b}| $$"
+  },
+  {
+    "q": "Formula for the <b>Area of a Triangle</b> with adjacent sides $ \\vec{a} $ and $ \\vec{b} $ (Application).",
+    "a": "The area is half the magnitude of the cross product:<br>$$ \\text{Area} = \\frac{1}{2} |\\vec{a} \\times \\vec{b}| $$"
+  },
+  {
+    "q": "Formula for the <b>Area of a Triangle</b> with vertices $ A, B, C $.",
+    "a": "The area is half the magnitude of the cross product of any two side vectors originating from a common vertex (e.g., $ \\vec{AB} $ and $ \\vec{AC} $):<br>$$ \\text{Area} = \\frac{1}{2} |\\vec{AB} \\times \\vec{AC}| $$"
+  }
+]

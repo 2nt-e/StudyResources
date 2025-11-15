@@ -1,0 +1,98 @@
+[
+  {
+    "q": "What are <b>alternating current (AC)</b> and <b>instantaneous voltage</b>?",
+    "a": "<b>Alternating Current (AC)</b> is a current that periodically reverses its direction.<br><b>Instantaneous Voltage</b> is given by: $V = V_m \\sin(\\omega t)$<br><b>Instantaneous Current</b> is given by: $I = I_m \\sin(\\omega t + \\phi)$"
+  },
+  {
+    "q": "Define <b>Peak Value ($V_m$)</b> and <b>RMS (effective) Value ($V_{rms}$)</b> of AC voltage.",
+    "a": "<b>Peak Value ($V_m$)</b>: The maximum amplitude of the AC voltage.<br><b>RMS Value ($V_{rms}$)</b>: The 'effective' value of AC; the equivalent DC voltage that would produce the same heating effect. \\[ V_{rms} = \\frac{V_m}{\\sqrt{2}} \\approx 0.707 V_m \\]"
+  },
+  {
+    "q": "What is the relationship between <b>Peak Current ($I_m$)</b> and <b>RMS Current ($I_{rms}$)</b>?",
+    "a": "The RMS (effective) current is the peak current divided by $\\sqrt{2}$.<br>\\[ I_{rms} = \\frac{I_m}{\\sqrt{2}} \\approx 0.707 I_m \\]"
+  },
+  {
+    "q": "What is a <b>Phasor</b>?",
+    "a": "A <b>Phasor</b> is a <b>rotating vector</b> used to represent a sinusoidal quantity (like AC voltage or current).<br>Its <b>length</b> represents the peak value (amplitude).<br>Its <b>angular speed</b> ($\\omega$) represents the AC frequency.<br>Its <b>vertical projection</b> represents the instantaneous value."
+  },
+  {
+    "q": "Describe a purely <b>Resistive Circuit</b> (AC with Resistor only).",
+    "a": "In a purely resistive circuit (<b>R-only</b>):<br>1. Voltage and Current are <b>in phase</b>.<br>2. Phase difference $\\phi = 0$.<br>3. Opposition is Resistance ($R$)."
+  },
+  {
+    "q": "What is <b>Inductive Reactance ($X_L$)</b>?",
+    "a": "<b>Inductive Reactance ($X_L$)</b> is the opposition offered by an inductor to the flow of AC.<br><b>Formula</b>: $X_L = \\omega L = 2\\pi f L$<br>$X_L$ is <b>directly proportional</b> to frequency ($f$)."
+  },
+  {
+    "q": "Describe a purely <b>Inductive Circuit</b> (AC with Inductor only).",
+    "a": "In a purely inductive circuit (<b>L-only</b>):<br>1. <b>Voltage leads Current</b> by $\\pi/2$ (or $90^\\circ$).<br>2. Phase difference $\\phi = +\\pi/2$.<br>3. (Mnemonic: <b>ELI</b> - $E$ leads $I$ in an $L$ circuit)."
+  },
+  {
+    "q": "What is <b>Capacitive Reactance ($X_C$)</b>?",
+    "a": "<b>Capacitive Reactance ($X_C$)</b> is the opposition offered by a capacitor to the flow of AC.<br><b>Formula</b>: $X_C = \\frac{1}{\\omega C} = \\frac{1}{2\\pi f C}$<br>$X_C$ is <b>inversely proportional</b> to frequency ($f$)."
+  },
+  {
+    "q": "Describe a purely <b>Capacitive Circuit</b> (AC with Capacitor only).",
+    "a": "In a purely capacitive circuit (<b>C-only</b>):<br>1. <b>Current leads Voltage</b> by $\\pi/2$ (or $90^\\circ$).<br>2. Phase difference $\\phi = -\\pi/2$.<br>3. (Mnemonic: <b>ICE</b> - $I$ leads $E$ in a $C$ circuit)."
+  },
+  {
+    "q": "What is <b>Impedance ($Z$)</b> in a Series LCR Circuit?",
+    "a": "<b>Impedance ($Z$)</b> is the <b>total effective opposition</b> of a series LCR circuit to the flow of AC. It combines resistance ($R$) and total reactance ($X_L - X_C$).<br><b>SI Unit</b>: Ohm ($\\Omega$)."
+  },
+  {
+    "q": "What is the formula for <b>Impedance ($Z$)</b> in a Series LCR Circuit?",
+    "a": "Impedance $Z$ is the vector sum of resistance and net reactance:<br>\\[ Z = \\sqrt{R^2 + (X_L - X_C)^2} \\]<br>Current is: $I = V / Z$"
+  },
+  {
+    "q": "What is the formula for the <b>Phase Angle ($\\phi$)</b> in a Series LCR Circuit?",
+    "a": "The phase angle $\\phi$ (between $V$ and $I$) is given by:<br>\\[ \\tan \\phi = \\frac{X_L - X_C}{R} \\]<br>If $X_L > X_C$, the circuit is inductive (V leads I).<br>If $X_C > X_L$, the circuit is capacitive (I leads V)."
+  },
+  {
+    "q": "What is <b>Series Resonance</b> in an LCR circuit?",
+    "a": "<b>Series Resonance</b> is the condition where the <b>Inductive Reactance ($X_L$) equals the Capacitive Reactance ($X_C$)</b>.<br>$$ X_L = X_C $$"
+  },
+  {
+    "q": "What is the <b>Resonant Frequency ($\\omega_r$)</b> and what happens to impedance at resonance?",
+    "a": "At resonance ($X_L = X_C$):<br>1. <b>Impedance ($Z$) is minimum</b> ($Z = R$).<br>2. <b>Current ($I$) is maximum</b>.<br><b>Resonant Angular Frequency</b>: \\[ \\omega_r = \\frac{1}{\\sqrt{LC}} \\]"
+  },
+  {
+    "q": "What is the formula for <b>Average Power ($P_{avg}$)</b> dissipated in an AC circuit?",
+    "a": "The average power dissipated depends on the phase angle $\\phi$:<br>\\[ P_{avg} = V_{rms} I_{rms} \\cos \\phi \\]<br>This is also known as the <b>True Power</b>."
+  },
+  {
+    "q": "What is the <b>Power Factor ($\\cos \\phi$)</b>?",
+    "a": "The <b>Power Factor</b> ($\\cos \\phi$) is the ratio of the <b>True Power ($P_{avg}$)</b> to the <b>Apparent Power ($V_{rms} I_{rms}$)</b>.<br>In an LCR circuit: \\[ \\cos \\phi = \\frac{R}{Z} \\]<br>It ranges from 0 to 1."
+  },
+  {
+    "q": "What is <b>Wattless Current</b>?",
+    "a": "<b>Wattless Current</b> is the component of AC current that consumes <b>no average power</b>.<br>This occurs in purely inductive or purely capacitive circuits where the phase angle $\\phi = 90^\\circ$, making the power factor $\\cos(90^\\circ) = 0$."
+  },
+  {
+    "q": "What are <b>LC Oscillations</b> (Qualitative)?",
+    "a": "<b>LC Oscillations</b> are oscillations of charge (and energy) between a capacitor and an inductor.<br>Energy oscillates between the <b>electric field</b> (in the capacitor) and the <b>magnetic field</b> (in the inductor).<br><b>Frequency</b>: $f_r = \\frac{1}{2\\pi \\sqrt{LC}}$"
+  },
+  {
+    "q": "What is the working principle of an <b>AC Generator</b>?",
+    "a": "An <b>AC Generator</b> works on the principle of <b>Electromagnetic Induction (EMI)</b>.<br>It converts mechanical energy into electrical energy by rotating a coil (armature) in a uniform magnetic field, which changes the magnetic flux ($B A \\cos\\theta$) and induces an EMF."
+  },
+  {
+    "q": "What is the formula for the <b>induced EMF ($\\mathcal{E}$)</b> in an AC Generator?",
+    "a": "The instantaneous induced EMF in a coil with $N$ turns, area $A$, in field $B$, rotating at angular speed $\\omega$ is:<br>\\[ \\mathcal{E} = NBA\\omega \\sin(\\omega t) \\]<br>The peak voltage is $V_m = NBA\\omega$."
+  },
+  {
+    "q": "What is the working principle of a <b>Transformer</b>?",
+    "a": "A <b>Transformer</b> works on the principle of <b>Mutual Induction</b>.<br>An alternating current in the primary coil creates a changing magnetic flux, which is linked to the secondary coil and induces an AC voltage across it."
+  },
+  {
+    "q": "What is the <b>Transformer Equation</b> (Turns Ratio)?",
+    "a": "For an ideal transformer (no energy loss):<br><b>Voltage/Turns Ratio</b>: $\\frac{V_s}{V_p} = \\frac{N_s}{N_p} = k$ (Turns Ratio)<br><b>Current Relation</b>: $\\frac{I_s}{I_p} = \\frac{N_p}{N_s} = \\frac{1}{k}$"
+  },
+  {
+    "q": "What is the difference between a <b>Step-Up</b> and a <b>Step-Down</b> Transformer?",
+    "a": "<b>Step-Up Transformer</b>: $N_s > N_p$. It <b>increases voltage</b> ($V_s > V_p$) and <b>decreases current</b> ($I_s < I_p$).<br><b>Step-Down Transformer</b>: $N_s < N_p$. It <b>decreases voltage</b> ($V_s < V_p$) and <b>increases current</b> ($I_s > I_p$)."
+  },
+  {
+    "q": "Name the four main <b>energy losses</b> in a real transformer.",
+    "a": "1. <b>Flux Leakage</b> (Flux from primary doesn't link to secondary).<br>2. <b>Hysteresis Loss</b> (Energy lost magnetizing/demagnetizing the core).<br>3. <b>Eddy Current Loss</b> (Currents induced in the soft iron core).<br>4. <b>Copper Loss</b> (Joule heating, $I^2R$, in the windings)."
+  }
+]

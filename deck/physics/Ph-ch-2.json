@@ -1,106 +1,98 @@
 [
   {
-    "q": "What is electrostatic potential?",
-    "a": "Electrostatic potential at a point is the amount of work done in bringing a unit positive test charge from infinity to that point without acceleration."
+    "q": "What is <b>electrostatic potential</b>?",
+    "a": "<b>Electrostatic potential ($V$)</b> at a point is the amount of <b>work done</b> in bringing a <b>unit positive test charge</b> from infinity to that point <b>without acceleration</b>. \\[ V = \\frac{W}{q_0} \\]"
   },
   {
-    "q": "What is the SI unit of electrostatic potential?",
-    "a": "Volt (V). \\(1 \\text{ Volt} = \\frac{1 \\text{ Joule}}{\\text{Coulomb}}\\)"
+    "q": "What is the <b>SI unit of electrostatic potential</b>?",
+    "a": "<b>Volt (V)</b>. \\[ 1 \\text{ Volt} = 1 \\frac{\\text{Joule}}{\\text{Coulomb}} \\]"
   },
   {
-    "q": "Define 1 volt.",
-    "a": "1 volt is the potential at a point if 1 joule of work is done in bringing 1 coulomb of charge from infinity to that point."
+    "q": "Define <b>1 volt</b>.",
+    "a": "<b>1 volt</b> is the potential at a point if **1 Joule** of work is done in bringing **1 Coulomb** of charge from infinity to that point."
   },
   {
-    "q": "What is the expression for electrostatic potential due to a point charge?",
-    "a": "\\[ V = \\frac{kQ}{r} \\], where \\(V\\) is potential, \\(Q\\) is charge, \\(r\\) is distance from charge, and \\(k = \\frac{1}{4\\pi\\varepsilon_0} \\)"
+    "q": "What is the expression for <b>electrostatic potential due to a point charge</b>?",
+    "a": "\\[ V = \\frac{kQ}{r} \\], where $V$ is potential, $Q$ is charge, $r$ is distance from charge, and $k = \\frac{1}{4\\pi\\varepsilon_0}$ (Coulomb's constant)."
   },
   {
-    "q": "What is the electrostatic potential due to a system of point charges?",
-    "a": "\\[ V = k \\sum \\frac{q_i}{r_i} \\], where \\(q_i\\) are point charges and \\(r_i\\) their distances from the point of observation."
+    "q": "What is the <b>electrostatic potential due to a system of point charges</b> (Superposition)?",
+    "a": "The total potential is the <b>algebraic sum</b> of potentials due to individual charges: \\[ V = k \\sum \\frac{q_i}{r_i} \\], where $q_i$ are point charges and $r_i$ their distances from the point of observation."
   },
   {
-    "q": "State the principle of superposition for electrostatic potential.",
-    "a": "The total potential at a point due to a system of charges is the algebraic sum of the potentials due to individual charges."
+    "q": "What is an <b>equipotential surface</b>?",
+    "a": "A surface on which the <b>electrostatic potential is the same at all points</b> is called an equipotential surface."
   },
   {
-    "q": "What is an equipotential surface?",
-    "a": "A surface on which the electrostatic potential is the same at all points is called an equipotential surface."
+    "q": "What is the <b>work done</b> in moving a charge along an <b>equipotential surface</b>?",
+    "a": "<b>Zero</b>. Since $W = q\\Delta V$ and $\\Delta V = 0$ between any two points on the surface, no work is done."
   },
   {
-    "q": "What is the work done in moving a charge along an equipotential surface?",
-    "a": "Zero. No work is done in moving a charge along an equipotential surface."
+    "q": "What is the direction of <b>electric field</b> with respect to <b>equipotential surfaces</b>?",
+    "a": "The electric field $\\vec{E}$ is <b>always perpendicular</b> (normal) to an equipotential surface."
   },
   {
-    "q": "What is the direction of electric field with respect to equipotential surfaces?",
-    "a": "The electric field is always perpendicular to an equipotential surface."
+    "q": "Relation between <b>electric field and potential</b> (Potential Gradient)?",
+    "a": "Electric field $E$ is the **negative gradient** of potential: \\[ E = - \\frac{dV}{dx} \\]. The negative sign shows $\\vec{E}$ points in the direction of <b>decreasing potential</b>."
   },
   {
-    "q": "Relation between electric field and potential?",
-    "a": "Electric field \\(E\\) is the negative gradient of potential: \\[ E = - \\frac{dV}{dx} \\]"
+    "q": "Define <b>electric potential energy</b>.",
+    "a": "<b>Electric potential energy ($U$)</b> is the work done in <b>assembling a system of charges</b> or bringing a charge into an electric field from infinity. It is stored in the electric field."
   },
   {
-    "q": "Define electric potential energy.",
-    "a": "Electric potential energy is the work done in assembling a system of charges or bringing a charge in an electric field."
+    "q": "Potential energy of <b>two point charges</b>?",
+    "a": "\\[ U = \\frac{k q_1 q_2}{r} \\], where $q_1$ and $q_2$ are the charges and $r$ is the separation between them. ($U$ is positive if signs are the same, negative if different)."
   },
   {
-    "q": "Potential energy of two point charges?",
-    "a": "\\[ U = \\frac{k q_1 q_2}{r} \\], where \\(q_1\\) and \\(q_2\\) are the charges and \\(r\\) is the separation between them."
+    "q": "What is a <b>capacitor</b>?",
+    "a": "A <b>capacitor</b> is a device used to <b>store electric charge and energy</b> in the electric field between a pair of conductors (plates)."
   },
   {
-    "q": "What is a capacitor?",
-    "a": "A device used to store electric charge and energy in the electric field between a pair of conductors."
+    "q": "Define <b>capacitance</b> of a conductor.",
+    "a": "<b>Capacitance ($C$)</b> is the ratio of charge stored to the potential difference ($V$) developed: \\[ C = \\frac{Q}{V} \\]. It measures the ability of a body to hold charge."
   },
   {
-    "q": "Define capacitance of a conductor.",
-    "a": "\\[ C = \\frac{Q}{V} \\], where \\(Q\\) is charge stored and \\(V\\) is potential. It represents the ability of a body to hold charge."
+    "q": "What is the <b>SI unit of capacitance</b>?",
+    "a": "<b>Farad (F)</b>. \\[ 1 \\text{ Farad} = 1 \\frac{\\text{Coulomb}}{\\text{Volt}} \\]"
   },
   {
-    "q": "What is the SI unit of capacitance?",
-    "a": "Farad (F). \\(1 \\text{ Farad} = \\frac{1 \\text{ Coulomb}}{\\text{Volt}}\\)"
+    "q": "Capacitance of a <b>parallel plate capacitor</b> (without dielectric)?",
+    "a": "\\[ C_0 = \\frac{\\varepsilon_0 A}{d} \\], where $A$ is plate area, $d$ is separation, and $\\varepsilon_0$ is permittivity of free space."
   },
   {
-    "q": "Capacitance of an isolated spherical conductor?",
-    "a": "\\[ C = 4 \\pi \\varepsilon_0 R \\], where \\(R\\) is the radius of the conductor."
+    "q": "How does a <b>dielectric</b> affect the capacitance?",
+    "a": "A dielectric increases capacitance by a factor equal to its **dielectric constant ($K$)**: \\[ C = K C_0 = K \\frac{\\varepsilon_0 A}{d} \\]"
   },
   {
-    "q": "Capacitance of a parallel plate capacitor (without dielectric)?",
-    "a": "\\[ C = \\frac{\\varepsilon_0 A}{d} \\], where \\(A\\) is plate area and \\(d\\) is separation."
+    "q": "<b>Energy stored in a capacitor</b>?",
+    "a": "Energy $U$ stored in a capacitor is: \\[ U = \\frac{1}{2} C V^2 = \\frac{Q^2}{2C} = \\frac{1}{2} Q V \\]"
   },
   {
-    "q": "How does a dielectric affect the capacitance?",
-    "a": "It increases capacitance by a factor of the dielectric constant \\(K\\): \\[ C = K \\frac{\\varepsilon_0 A}{d} \\]"
+    "q": "What is the effect of <b>dielectric</b> on the <b>electric field</b>?",
+    "a": "The electric field $\\vec{E}$ reduces inside a dielectric: \\[ E = \\frac{E_0}{K} \\] where $E_0$ is the electric field without the dielectric and $K$ is the dielectric constant."
   },
   {
-    "q": "Energy stored in a capacitor?",
-    "a": "\\[ U = \\frac{1}{2} C V^2 = \\frac{Q^2}{2C} = \\frac{1}{2} Q V \\]"
+    "q": "Equivalent capacitance in <b>series combination</b>?",
+    "a": "The reciprocal of the equivalent capacitance is the sum of the reciprocals: \\[ \\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\frac{1}{C_3} + \\cdots \\]"
   },
   {
-    "q": "What is the effect of dielectric on electric field?",
-    "a": "Electric field reduces inside a dielectric. \\[ E = \\frac{E_0}{K} \\] where \\(K\\) is dielectric constant."
+    "q": "Equivalent capacitance in <b>parallel combination</b>?",
+    "a": "The equivalent capacitance is the direct sum of individual capacitances: \\[ C_{eq} = C_1 + C_2 + C_3 + \\cdots \\]"
   },
   {
-    "q": "Equivalent capacitance in series combination?",
-    "a": "\\[ \\frac{1}{C_{eq}} = \\frac{1}{C_1} + \\frac{1}{C_2} + \\frac{1}{C_3} + \\cdots \\]"
+    "q": "What happens to <b>charge and potential</b> in capacitors in <b>series</b>?",
+    "a": "The **Charge ($Q$) is the same** on all capacitors; the **Potential ($V$) divides**: \\[ V = V_1 + V_2 + V_3 + \\cdots \\]"
   },
   {
-    "q": "Equivalent capacitance in parallel combination?",
-    "a": "\\[ C_{eq} = C_1 + C_2 + C_3 + \\cdots \\]"
+    "q": "What happens to <b>charge and potential</b> in capacitors in <b>parallel</b>?",
+    "a": "The **Potential ($V$) is the same** across all capacitors; the **Charge ($Q$) divides**: \\[ Q = Q_1 + Q_2 + Q_3 + \\cdots \\]"
   },
   {
-    "q": "What happens to charge and potential in capacitors in series?",
-    "a": "Same charge on all; potential divides: \\[ V = V_1 + V_2 + V_3 + \\cdots \\]"
+    "q": "Define <b>dielectric constant</b>.",
+    "a": "<b>Dielectric constant ($K$)</b> is the ratio of the capacitance with the dielectric ($C$) to the capacitance without it ($C_0$): \\[ K = \\frac{C}{C_0} = \\frac{\\varepsilon}{\\varepsilon_0} \\]"
   },
   {
-    "q": "What happens to charge and potential in capacitors in parallel?",
-    "a": "Same potential across all; total charge: \\[ Q = Q_1 + Q_2 + Q_3 + \\cdots \\]"
-  },
-  {
-    "q": "What is dielectric constant?",
-    "a": "Dielectric constant \\(K = \\frac{C}{C_0} = \\frac{\\varepsilon}{\\varepsilon_0} \\), ratio of capacitance with dielectric to without dielectric."
-  },
-  {
-    "q": "A dielectric slab of thickness t, is introduced between the plates of parallel plate capacitor of area A and separation d (where t is less then d). <br>Find an expression for the capacitance with the dielectric slab.", 
-    "a": "Methord: The capacitor effectively becomes two capacitors in series along the field direction. <br><br> \\( \\frac{1}{C} = \\frac{t}{\\varepsilon_0 \\varepsilon_r A} + \\frac{d-t}{\\varepsilon_0 A} = \\frac{(d-t)+\\frac{t}{\\varepsilon_r}}{\\varepsilon_0 A} \\)"
+    "q": "Derivation: Find the expression for the capacitance of a <b>parallel plate capacitor with a dielectric slab</b> (thickness $t < d$).",
+    "a": "Method: The capacitor is equivalent to two air gaps and one dielectric-filled section in series.<br><br>The final capacitance $C$ is: \\[ C = \\frac{\\varepsilon_0 A}{ (d-t)+\\frac{t}{K} } \\]"
   }
 ]

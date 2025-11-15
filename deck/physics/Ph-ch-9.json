@@ -1,0 +1,58 @@
+[
+  {
+    "q": "State the <b>Mirror Formula</b> and the <b>Magnification</b> formula for spherical mirrors (Reflection).",
+    "a": "<b>Mirror Formula</b> (Relates image distance $v$, object distance $u$, and focal length $f$):<br>$$ \\frac{1}{f} = \\frac{1}{v} + \\frac{1}{u} $$<b>Magnification</b> ($m$):<br>$$ m = \\frac{h'}{h} = -\\frac{v}{u} $$"
+  },
+  {
+    "q": "Define <b>Refraction of Light</b> and state <b>Snell's Law</b>.",
+    "a": "<b>Refraction</b> is the change in the path of light as it passes from one transparent medium to another.<br><b>Snell's Law</b>: Relates the angle of incidence ($i$) and angle of refraction ($r$) to the refractive indices ($n_1, n_2$):<br>$$ n_1 \\sin i = n_2 \\sin r $$"
+  },
+  {
+    "q": "Define <b>Total Internal Reflection (TIR)</b> and the two conditions necessary for it to occur.",
+    "a": "<b>TIR</b>: The phenomenon where light traveling from a <b>denser medium to a rarer medium</b> is reflected back into the denser medium.<br><b>Conditions</b>:<br>1. Light must travel from <b>denser to rarer medium</b>.<br>2. The angle of incidence ($i$) must be <b>greater than the Critical Angle</b> ($i_c$). (i > $i_c$)"
+  },
+  {
+    "q": "What is the relation between <b>Critical Angle</b> ($i_c$) and the <b>Refractive Index</b> ($n$) of a medium?",
+    "a": "The refractive index $n$ of the denser medium with respect to the rarer medium is:<br>$$ n = \\frac{1}{\\sin i_c} $$"
+  },
+  {
+    "q": "What is the principle behind <b>Optical Fibres</b>?",
+    "a": "Optical fibres transmit light signals over long distances with negligible loss based on the principle of **Total Internal Reflection (TIR)**."
+  },
+  {
+    "q": "State the formula for <b>Refraction at a Single Spherical Surface</b>.",
+    "a": "Relates object distance $u$, image distance $v$, radii of curvature $R$, and refractive indices ($n_1, n_2$):<br>$$ \\frac{n_2}{v} - \\frac{n_1}{u} = \\frac{n_2 - n_1}{R} $$"
+  },
+  {
+    "q": "State the <b>Lens Maker's Formula</b> for thin lenses.",
+    "a": "Relates focal length $f$ to refractive index $n$ and radii of curvature ($R_1, R_2$):<br>$$ \\frac{1}{f} = (n - 1) \\left( \\frac{1}{R_1} - \\frac{1}{R_2} \\right) $$"
+  },
+  {
+    "q": "State the <b>Thin Lens Formula</b> and the <b>Magnification</b> formula for lenses.",
+    "a": "<b>Thin Lens Formula</b>:<br>$$ \\frac{1}{f} = \\frac{1}{v} - \\frac{1}{u} $$<b>Magnification</b> ($m$):<br>$$ m = \\frac{h'}{h} = \\frac{v}{u} $$"
+  },
+  {
+    "q": "What is the formula for the <b>Power of a Lens</b> ($P$) and its unit?",
+    "a": "Power is the reciprocal of the focal length $f$ (in meters). The unit is **Dioptres** ($D$).<br>$$ P = \\frac{1}{f} $$"
+  },
+  {
+    "q": "What is the formula for the <b>combination of thin lenses</b> in contact?",
+    "a": "The equivalent power ($P$) and focal length ($F$) of a system of lenses in contact are additive:<br>$$ P = P_1 + P_2 + \\dots \\quad \\text{and} \\quad \\frac{1}{F} = \\frac{1}{f_1} + \\frac{1}{f_2} + \\dots $$"
+  },
+  {
+    "q": "State the formula for <b>Refraction through a Prism</b> (Refractive Index $n$).",
+    "a": "Relates the angle of the prism ($A$), angle of minimum deviation ($\\delta_m$), and refractive index ($n$):<br>$$ n = \\frac{\\sin \\left( \\frac{A + \\delta_m}{2} \\right)}{\\sin \\left( \\frac{A}{2} \\right)} $$"
+  },
+  {
+    "q": "State the <b>Magnifying Power</b> formulas for a <b>Compound Microscope</b>.",
+    "a": "Magnification $M = M_o \\cdot M_e$ (Objective $\\times$ Eyepiece).<br>1. Final image at <b>Near Point (D)</b>: $$ M = \\frac{v_0}{u_0} \\left( 1 + \\frac{D}{f_e} \\right) $$2. Final image at <b>Infinity</b> (Normal adjustment): $$ M = \\frac{v_0}{u_0} \\left( \\frac{D}{f_e} \\right) $$"
+  },
+  {
+    "q": "State the <b>Magnifying Power</b> formulas for an <b>Astronomical Telescope</b>.",
+    "a": "Magnification $M = -\\frac{f_0}{f_e}$ (ratio of focal lengths).<br>1. Final image at <b>Infinity</b> (Normal adjustment): $$ M = -\\frac{f_0}{f_e} $$2. Final image at <b>Near Point (D)</b>: $$ M = -\\frac{f_0}{f_e} \\left( 1 + \\frac{f_e}{D} \\right) $$"
+  },
+  {
+    "q": "What is the primary difference between a <b>Refracting Telescope</b> and a <b>Reflecting Telescope</b>?",
+    "a": "<b>Refracting Telescope</b> uses a **lens** (objective) to form the image.<br><b>Reflecting Telescope</b> (e.g., Cassegrain) uses a **parabolic mirror** (objective) to form the image. Reflectors avoid chromatic and spherical aberration better than refractors."
+  }
+]

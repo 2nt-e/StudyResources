@@ -1,78 +1,78 @@
 [
   {
-    "q": "What is a moving charge?",
-    "a": "A moving charge is any electric charge that is in motion. The motion of charge creates a magnetic field around it."
+    "q": "What is a <b>moving charge</b>?",
+    "a": "A <b>moving charge</b> is any electric charge that is in motion. The motion of charge creates a <b>magnetic field</b> around it."
   },
   {
-    "q": "State Biot–Savart Law.",
-    "a": "The magnetic field \\(d\\vec{B}\\) at a point due to a small element \\(d\\vec{l}\\) carrying current \\(I\\) is given by: \\[ d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I\\,d\\vec{l} \\times \\hat{r}}{r^2} \\], where \\(r\\) is the distance from element to point, \\(\\hat{r}\\) is unit vector, and \\(\\mu_0\\) is the permeability of free space."
+    "q": "State <b>Biot–Savart Law</b>.",
+    "a": "The magnetic field $d\\vec{B}$ at a point due to a small element $d\\vec{l}$ carrying current $I$ is given by: \\[ d\\vec{B} = \\frac{\\mu_0}{4\\pi} \\frac{I\\,d\\vec{l} \\times \\hat{r}}{r^2} \\], where $r$ is the distance from element to point, $\\hat{r}$ is unit vector, and $\\mu_0$ is the <b>permeability of free space</b>."
   },
   {
-    "q": "Formula for magnetic field due to a long straight current-carrying wire.",
-    "a": "Magnetic field at distance \\(r\\) from a long straight wire carrying current \\(I\\) is: \\[ B = \\frac{\\mu_0 I}{2\\pi r} \\]"
+    "q": "Formula for magnetic field due to a <b>long straight current-carrying wire</b>.",
+    "a": "Magnetic field at distance $r$ from a long straight wire carrying current $I$ is: \\[ B = \\frac{\\mu_0 I}{2\\pi r} \\]"
   },
   {
-    "q": "Magnetic field at the center of a circular current loop.",
-    "a": "For a circular loop of radius \\(R\\) carrying current \\(I\\): \\[ B = \\frac{\\mu_0 I}{2R} \\]"
+    "q": "Magnetic field at the <b>center of a circular current loop</b>.",
+    "a": "For a circular loop of radius $R$ carrying current $I$: \\[ B = \\frac{\\mu_0 I}{2R} \\]"
   },
   {
-    "q": "Force on a moving charge in a magnetic field (Lorentz Force).",
-    "a": "A charge \\(q\\) moving with velocity \\(\\vec{v}\\) in a magnetic field \\(\\vec{B}\\) experiences a force: \\[ \\vec{F} = q\\,\\vec{v} \\times \\vec{B} \\] which is perpendicular to both \\(\\vec{v}\\) and \\(\\vec{B}\\)."
+    "q": "<b>Lorentz Force</b>: Force on a moving charge in a magnetic field.",
+    "a": "A charge $q$ moving with velocity $\\vec{v}$ in a magnetic field $\\vec{B}$ experiences a force: \\[ \\vec{F} = q\\,\\vec{v} \\times \\vec{B} \\] which is <b>perpendicular</b> to both $\\vec{v}$ and $\\vec{B}$."
   },
   {
-    "q": "Force on a current-carrying conductor in a magnetic field.",
-    "a": "A conductor of length \\(L\\) carrying current \\(I\\) in a magnetic field \\(\\vec{B}\\) experiences force: \\[ \\vec{F} = I\\,\\vec{L} \\times \\vec{B} \\]"
+    "q": "Force on a <b>current-carrying conductor</b> in a magnetic field.",
+    "a": "A conductor of length $L$ carrying current $I$ in a magnetic field $\\vec{B}$ experiences force: \\[ \\vec{F} = I\\,\\vec{L} \\times \\vec{B} \\]"
   },
   {
-    "q": "Motion of a charged particle in a uniform magnetic field.",
-    "a": "If a charged particle moves perpendicular to a uniform magnetic field, it executes uniform circular motion with radius: \\[ r = \\frac{mv}{qB} \\] and period: \\[ T = \\frac{2\\pi m}{qB} \\], where \\(m\\) = mass, \\(v\\) = speed, \\(q\\) = charge."
+    "q": "Motion of a <b>charged particle in a uniform magnetic field</b>.",
+    "a": "If a charged particle moves perpendicular to a uniform magnetic field, it executes <b>uniform circular motion</b> with radius: \\[ r = \\frac{mv}{qB} \\] and period: \\[ T = \\frac{2\\pi m}{qB} \\], where $m$ = mass, $v$ = speed, $q$ = charge."
   },
   {
-    "q": "Cyclotron frequency / angular frequency of charged particle. (not in cbse, read-only)",
+    "q": "<b>Cyclotron frequency / angular frequency</b> of charged particle (not for CBSE).",
     "a": "Angular frequency of circular motion in magnetic field: \\[ \\omega = \\frac{qB}{m} \\], frequency: \\[ f = \\frac{qB}{2\\pi m} \\]"
   },
   {
-    "q": "Define magnetic dipole moment.",
-    "a": "Magnetic dipole moment \\(\\vec{m}\\) of a current loop is: \\[ \\vec{m} = I \\vec{A} \\], where \\(I\\) = current and \\(\\vec{A}\\) = area vector perpendicular to the plane of loop."
+    "q": "Define <b>magnetic dipole moment</b>.",
+    "a": "Magnetic dipole moment $\\vec{m}$ of a current loop is: \\[ \\vec{m} = I \\vec{A} \\], where $I$ = current and $\\vec{A}$ = <b>area vector</b> perpendicular to the plane of loop."
   },
   {
-    "q": "Torque on a current loop in a magnetic field.",
-    "a": "Torque \\(\\vec{\\tau}\\) on a loop of magnetic moment \\(\\vec{m}\\) in a magnetic field \\(\\vec{B}\\) is: \\[ \\vec{\\tau} = \\vec{m} \\times \\vec{B} \\]"
+    "q": "<b>Torque</b> on a current loop in a magnetic field.",
+    "a": "Torque $\\vec{\\tau}$ on a loop of magnetic moment $\\vec{m}$ in a magnetic field $\\vec{B}$ is: \\[ \\vec{\\tau} = \\vec{m} \\times \\vec{B} \\]"
   },
   {
-    "q": "Energy of a magnetic dipole in a magnetic field.",
-    "a": "Potential energy \\(U\\) of a magnetic dipole in magnetic field \\(\\vec{B}\\): \\[ U = - \\vec{m} \\cdot \\vec{B} \\]"
+    "q": "<b>Energy</b> of a magnetic dipole in a magnetic field.",
+    "a": "Potential energy $U$ of a magnetic dipole in magnetic field $\\vec{B}$: \\[ U = - \\vec{m} \\cdot \\vec{B} \\]"
   },
   {
-    "q": "Magnetic field inside a solenoid.",
-    "a": "For a solenoid of \\(n\\) turns per unit length carrying current \\(I\\): \\[ B = \\mu_0 n I \\], direction along the axis of the solenoid."
+    "q": "Magnetic field <b>inside a solenoid</b>.",
+    "a": "For a solenoid of $n$ turns per unit length carrying current $I$: \\[ B = \\mu_0 n I \\], direction along the axis of the solenoid."
   },
   {
-    "q": "Magnetic field inside a toroid. (not in this chapter, read-only)",
-    "a": "For a toroid of mean radius \\(r\\) and \\(N\\) turns carrying current \\(I\\): \\[ B = \\frac{\\mu_0 N I}{2\\pi r} \\]"
+    "q": "Magnetic field <b>inside a toroid</b> (not for CBSE).",
+    "a": "For a toroid of mean radius $r$ and $N$ turns carrying current $I$: \\[ B = \\frac{\\mu_0 N I}{2\\pi r} \\]"
   },
   {
-    "q": "Ampere's Circuital Law.",
-    "a": "The line integral of magnetic field around a closed loop is equal to \\(\\mu_0\\) times the current enclosed: \\[ \\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{\\text{enclosed}} \\]"
+    "q": "State <b>Ampere's Circuital Law</b>.",
+    "a": "The line integral of magnetic field around a closed loop is equal to $\\mu_0$ times the current enclosed: \\[ \\oint \\vec{B} \\cdot d\\vec{l} = \\mu_0 I_{\\text{enclosed}} \\]"
   },
   {
-    "q": "Force between two parallel current-carrying conductors.",
-    "a": "Two parallel conductors separated by distance \\(r\\), carrying currents \\(I_1\\) and \\(I_2\\) experience force per unit length: \\[ F/L = \\frac{\\mu_0 I_1 I_2}{2\\pi r} \\]"
+    "q": "Force between <b>two parallel current-carrying conductors</b>.",
+    "a": "Two parallel conductors separated by distance $r$, carrying currents $I_1$ and $I_2$ experience force per unit length: \\[ F/L = \\frac{\\mu_0 I_1 I_2}{2\\pi r} \\]"
   },
   {
-    "q": "Define Hall Effect. (not in cbse, read-only.)",
-    "a": "When a current-carrying conductor or semiconductor is placed in a perpendicular magnetic field, a transverse voltage develops across it. This voltage is called Hall voltage."
+    "q": "Define <b>Hall Effect</b> (not for CBSE).",
+    "a": "When a current-carrying conductor or semiconductor is placed in a perpendicular magnetic field, a <b>transverse voltage</b> develops across it. This voltage is called Hall voltage."
   },
   {
-    "q": "Lorentz force law in vector form.",
+    "q": "<b>Total Lorentz force law</b> in vector form.",
     "a": "\\[ \\vec{F} = q(\\vec{E} + \\vec{v} \\times \\vec{B}) \\]"
   },
   {
-    "q": "Right-hand rule for magnetic force.",
-    "a": "Thumb points in direction of velocity \\(\\vec{v}\\) of positive charge, fingers in direction of \\(\\vec{B}\\), palm gives direction of force \\(\\vec{F}\\)."
+    "q": "<b>Right-hand rule for magnetic force</b>.",
+    "a": "<b>Thumb</b> points in direction of velocity $\\vec{v}$ of positive charge, <b>fingers</b> in direction of $\\vec{B}$, <b>palm</b> gives direction of force $\\vec{F}$."
   },
   {
-    "q": "Define magnetism.",
-    "a": "Magnetism is the phenomenon by which materials produce a magnetic field due to moving charges or intrinsic magnetic moments of particles."
+    "q": "Define <b>magnetism</b>.",
+    "a": "<b>Magnetism</b> is the phenomenon by which materials produce a magnetic field due to <b>moving charges</b> or intrinsic magnetic moments of particles."
   }
 ]

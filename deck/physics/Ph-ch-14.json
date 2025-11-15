@@ -1,0 +1,74 @@
+[
+  {
+    "q": "Explain the difference between <b>Conductors, Insulators, and Semiconductors</b> based on <b>Band Theory</b>.",
+    "a": "1. <b>Conductor</b>: Valence Band (VB) and Conduction Band (CB) <b>overlap</b>. Electrons move easily.<br>2. <b>Insulator</b>: Large <b>Energy Gap ($E_g$)</b> ($\\approx 6\\text{ eV}$). Electrons cannot jump to CB.<br>3. <b>Semiconductor</b>: Small <b>Energy Gap ($E_g$)</b> ($\\approx 1\\text{ eV}$). Electrons can jump to CB at room temperature."
+  },
+  {
+    "q": "What is the primary difference between <b>Intrinsic</b> and <b>Extrinsic</b> Semiconductors?",
+    "a": "<b>Intrinsic</b>: Pure form (e.g., Si or Ge). Number of electrons in CB equals number of holes in VB ($n_e = n_h$).<br><b>Extrinsic</b>: Doped with impurities to intentionally increase conductivity ($n_e \\neq n_h$)."
+  },
+  {
+    "q": "What type of impurity is added to create an <b>n-type semiconductor</b>? Give an example.",
+    "a": "<b>Donor Impurities</b> (Pentavalent, Group 15). They have 5 valence electrons. 4 bond with Si/Ge, and the 5th is donated to the CB.<br><b>Example</b>: Phosphorus (P), Arsenic (As).<br><b>Result</b>: $n_e >> n_h$ ($n_e$ are majority carriers)."
+  },
+  {
+    "q": "What type of impurity is added to create a <b>p-type semiconductor</b>? Give an example.",
+    "a": "<b>Acceptor Impurities</b> (Trivalent, Group 13). They have 3 valence electrons. They create a 'hole' to accept an electron.<br><b>Example</b>: Boron (B), Aluminium (Al).<br><b>Result</b>: $n_h >> n_e$ ($n_h$ are majority carriers)."
+  },
+  {
+    "q": "State the <b>Mass Action Law</b> for Semiconductors.",
+    "a": "The product of the electron concentration ($n_e$) and the hole concentration ($n_h$) is constant for a given temperature, and equal to the square of the intrinsic carrier concentration ($n_i$).<br><br><b>Formula</b>: $$ n_e n_h = n_i^2 $$"
+  },
+  {
+    "q": "What is a <b>p-n junction</b> and how does the <b>depletion region</b> form?",
+    "a": "A <b>p-n junction</b> is formed when p-type and n-type semiconductors are brought into atomic contact.<br>The <b>depletion region</b> forms immediately: electrons from the n-side diffuse to the p-side, and holes from the p-side diffuse to the n-side. This leaves behind <b>immobile ions</b> (positive on n-side, negative on p-side) that create a potential barrier."
+  },
+  {
+    "q": "What is the effect of <b>Forward Biasing</b> on a p-n junction diode?",
+    "a": "The external voltage ($V$) is applied such that the <b>p-side is connected to the positive terminal</b> and the n-side to the negative.<br><b>Effect</b>: The applied voltage opposes the potential barrier, <b>reduces the depletion region width</b>, and allows a large current to flow."
+  },
+  {
+    "q": "What is the effect of <b>Reverse Biasing</b> on a p-n junction diode?",
+    "a": "The external voltage ($V$) is applied such that the <b>p-side is connected to the negative terminal</b> and the n-side to the positive.<br><b>Effect</b>: The applied voltage reinforces the potential barrier, <b>increases the depletion region width</b>, and only a negligible leakage current flows."
+  },
+  {
+    "q": "What is a <b>Rectifier</b>? Differentiate between <b>Half-wave</b> and <b>Full-wave</b> rectification.",
+    "a": "A <b>Rectifier</b> is a circuit that converts alternating current (AC) into pulsating direct current (DC) using a p-n junction diode.<br><b>Half-wave</b>: Converts only <b>half</b> of the AC cycle to DC. <b>Efficiency is low</b> ($\\approx 40.6\\%$).<br><b>Full-wave</b>: Converts <b>both halves</b> of the AC cycle to DC. <b>Efficiency is high</b> ($\\approx 81.2\\%$)."
+  },
+  {
+    "q": "What is the <b>peak inverse voltage (PIV)</b> for a <b>Half-wave</b> rectifier and a <b>Full-wave (center-tap)</b> rectifier?",
+    "a": "<b>Half-wave</b>: $\\text{PIV} = V_{m}$ (where $V_m$ is the maximum secondary voltage).<br><b>Full-wave (center-tap)</b>: $\\text{PIV} = 2V_{m}$."
+  },
+  {
+    "q": "Explain the role of a <b>Zener Diode</b> and its function in a circuit (not for CBSE).",
+    "a": "A <b>Zener Diode</b> is a highly-doped p-n junction designed to operate reliably in the <b>reverse breakdown</b> region (Zener region).<br><b>Function</b>: It is primarily used as a <b>Voltage Regulator</b> because it maintains a nearly constant voltage ($V_Z$) across its terminals despite changes in input voltage or load current."
+  },
+  {
+    "q": "Explain the working principle of a <b>Photodiode</b> (not for CBSE).",
+    "a": "A <b>Photodiode</b> is a special p-n junction operated in <b>reverse bias</b>. When light (photons) of appropriate energy ($h\\nu > E_g$) strikes the junction, it generates electron-hole pairs, increasing the reverse current.<br><b>Function</b>: Used to detect optical signals or measure light intensity."
+  },
+  {
+    "q": "Explain the working principle of a <b>Light Emitting Diode (LED)</b> (not for CBSE).",
+    "a": "An <b>LED</b> is a special p-n junction operated in <b>forward bias</b>. When electrons and holes recombine near the junction, the energy released is emitted as light (photons) rather than heat.<br><b>Condition</b>: The energy gap ($E_g$) of the semiconductor material must correspond to the energy of visible light."
+  },
+  {
+    "q": "What is the symbol for a <b>Logic Gate</b> and what are the three basic logic gates (not for CBSE)?",
+    "a": "A <b>Logic Gate</b> is a digital circuit that follows certain logical relationships between input and output voltages (0 or 1).<br><b>Three Basic Gates</b>: <b>OR</b>, <b>AND</b>, and <b>NOT</b>."
+  },
+  {
+    "q": "Define the <b>Boolean Expression</b> and <b>Truth Table</b> for the <b>AND Gate</b> (not for CBSE).",
+    "a": "The output is <b>1</b> only if <b>both inputs are 1</b>.<br><b>Boolean</b>: $ Y = A \\cdot B $ (or $ Y = AB $)<br><b>Truth Table (Inputs A, B; Output Y)</b>:<br>0, 0 $\\to$ 0<br>0, 1 $\\to$ 0<br>1, 0 $\\to$ 0<br>1, 1 $\\to$ 1"
+  },
+  {
+    "q": "Define the <b>Boolean Expression</b> and <b>Truth Table</b> for the <b>OR Gate</b> (not for CBSE).",
+    "a": "The output is <b>1</b> if <b>at least one input is 1</b>.<br><b>Boolean</b>: $ Y = A + B $<br><b>Truth Table (Inputs A, B; Output Y)</b>:<br>0, 0 $\\to$ 0<br>0, 1 $\\to$ 1<br>1, 0 $\\to$ 1<br>1, 1 $\\to$ 1"
+  },
+  {
+    "q": "Define the <b>Boolean Expression</b> and <b>Truth Table</b> for the <b>NOT Gate</b> (not for CBSE).",
+    "a": "The output is the <b>inverse</b> of the input.<br><b>Boolean</b>: $ Y = \\bar{A} $ (Y equals A-bar)<br><b>Truth Table (Input A; Output Y)</b>:<br>0 $\\to$ 1<br>1 $\\to$ 0"
+  },
+  {
+    "q": "What are the two <b>Universal Logic Gates</b> and why are they called 'universal' (not for CBSE)?",
+    "a": "The two universal gates are <b>NAND</b> and <b>NOR</b>.<br>They are called 'universal' because any of the basic gates (<b>AND, OR, NOT</b>) can be constructed by using only repeated combinations of either the NAND gate or the NOR gate."
+  }
+]

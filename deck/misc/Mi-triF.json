@@ -115,34 +115,32 @@
     "q": "\\( \\tan(-x) = \\ ? \\)",
     "a": "\\( \\tan(-x) = -\\tan x \\)"
   },
-
-
   {
-  "q": "General solution of \\( \\sin x = a \\) is?",
-  "a": "\\( x = (-1)^n \\sin^{-1}(a) + n\\pi,\\ n \\in \\mathbb{Z} \\)"
-},
-{
-  "q": "General solution of \\( \\sin x = 0 \\) is?",
-  "a": "\\( x = n\\pi,\\ n \\in \\mathbb{Z} \\)"
-},
-{
-  "q": "General solution of \\( \\cos x = a \\) is?",
-  "a": "\\( x = \\pm \\cos^{-1}(a) + 2n\\pi,\\ n \\in \\mathbb{Z} \\)"
-},
-{
-  "q": "General solution of \\( \\cos x = 0 \\) is?",
-  "a": "\\( x = (2n + 1)\\frac{\\pi}{2},\\ n \\in \\mathbb{Z} \\)"
-},
-{
-  "q": "General solution of \\( \\tan x = a \\) is?",
-  "a": "\\( x = \\tan^{-1}(a) + n\\pi,\\ n \\in \\mathbb{Z} \\)"
-},
-{
-  "q": "General solution of \\( \\tan x = 0 \\) is?",
-  "a": "\\( x = n\\pi,\\ n \\in \\mathbb{Z} \\)"
-},
-{
-  "q": "General solution of \\( \\sin^2 x = a \\), \\( \\cos^2 x = a \\), and \\( \\tan^2 x = a \\) is?",
-  "a": "For \\( \\sin^2 x = a \\): \\( x = \\pm \\sin^{-1}(\\sqrt{a}) + n\\pi \\)  \nFor \\( \\cos^2 x = a \\): \\( x = \\pm \\cos^{-1}(\\sqrt{a}) + 2n\\pi \\)  \nFor \\( \\tan^2 x = a \\): \\( x = \\pm \\tan^{-1}(\\sqrt{a}) + n\\pi \\), where \\( n \\in \\mathbb{Z} \\)"
-}
+    "q": "General solution of \\( \\sin x = a \\) is?",
+    "a": "\\( x = (-1)^n \\sin^{-1}(a) + n\\pi,\\ n \\in \\mathbb{Z} \\)"
+  },
+  {
+    "q": "General solution of \\( \\sin x = 0 \\) is?",
+    "a": "\\( x = n\\pi,\\ n \\in \\mathbb{Z} \\)"
+  },
+  {
+    "q": "General solution of \\( \\cos x = a \\) is?",
+    "a": "\\( x = \\pm \\cos^{-1}(a) + 2n\\pi,\\ n \\in \\mathbb{Z} \\)"
+  },
+  {
+    "q": "General solution of \\( \\cos x = 0 \\) is?",
+    "a": "\\( x = (2n + 1)\\frac{\\pi}{2},\\ n \\in \\mathbb{Z} \\)"
+  },
+  {
+    "q": "General solution of \\( \\tan x = a \\) is?",
+    "a": "\\( x = \\tan^{-1}(a) + n\\pi,\\ n \\in \\mathbb{Z} \\)"
+  },
+  {
+    "q": "General solution of \\( \\tan x = 0 \\) is?",
+    "a": "\\( x = n\\pi,\\ n \\in \\mathbb{Z} \\)"
+  },
+  {
+    "q": "<b>General solution of squared functions</b> is?",
+    "a": "For \\( \\sin^2 x = a \\): \\( x = \\pm \\sin^{-1}(\\sqrt{a}) + n\\pi \\) <br> For \\( \\cos^2 x = a \\): \\( x = \\pm \\cos^{-1}(\\sqrt{a}) + n\\pi \\) <br> For \\( \\tan^2 x = a \\): \\( x = \\pm \\tan^{-1}(\\sqrt{a}) + n\\pi \\), where \\( n \\in \\mathbb{Z} \\)"
+  }
 ]

@@ -1,0 +1,62 @@
+[
+  {
+    "q": "What is <b>Electron Emission</b> and the term <b>Work Function</b> ($\\phi_0$)?",
+    "a": "<b>Electron Emission</b>: The phenomenon of electrons escaping from a metal surface.<br><b>Work Function</b> ($\\phi_0$): The <b>minimum energy</b> required by an electron to escape from the metal surface. It's measured in electron volt (eV)."
+  },
+  {
+    "q": "What are the four main types of <b>Electron Emission</b>?",
+    "a": "1. <b>Thermionic Emission</b>: Due to heating the metal.<br>2. <b>Field Emission</b>: Due to applying a strong electric field.<br>3. <b>Photoelectric Emission</b>: Due to illumination by light of a suitable frequency.<br>4. <b>Secondary Emission</b>: Due to bombardment by fast-moving electrons."
+  },
+  {
+    "q": "What is the <b>Photon Picture of Light</b>?",
+    "a": "Light energy is transmitted in discrete units (quanta) called <b>photons</b>. Photons are characterized by:<br>1. Energy $E = h\\nu = hc/\\lambda$.<br>2. Momentum $p = E/c = h/\\lambda$."
+  },
+  {
+    "q": "What are the key characteristics of a <b>Photon</b>?",
+    "a": "1. It travels at the speed of light, $c$.<br>2. It has zero <b>rest mass</b>.<br>3. It is <b>electrically neutral</b> (not deflected by E or B fields).<br>4. Energy and momentum are conserved in photon-matter collisions."
+  },
+  {
+    "q": "State the phenomenon of the <b>Photoelectric Effect</b>.",
+    "a": "The emission of <b>electrons</b> (photoelectrons) from a metal surface when <b>light</b> of a sufficiently high frequency (low wavelength) falls upon it."
+  },
+  {
+    "q": "Define <b>Threshold Frequency</b> ($\\nu_0$) and <b>Stopping Potential</b> ($V_0$).",
+    "a": "<b>Threshold Frequency</b> ($\\nu_0$): The <b>minimum frequency</b> of incident light below which photoelectric emission <b>will not occur</b>, regardless of the intensity.<br><b>Stopping Potential</b> ($V_0$): The minimum <b>negative</b> potential applied to the collector plate that just stops the photoelectric current."
+  },
+  {
+    "q": "What is the relation between <b>Stopping Potential</b> ($V_0$) and <b>Maximum Kinetic Energy</b> ($K_{max}$)?",
+    "a": "The maximum kinetic energy of the emitted photoelectrons is directly related to the stopping potential:<br>$$ K_{max} = \\frac{1}{2} m v_{max}^2 = e V_0 $$"
+  },
+  {
+    "q": "State <b>Einstein's Photoelectric Equation</b>.",
+    "a": "The incident photon energy ($h\\nu$) is used up in two parts: the work function ($\\phi_0$) and the maximum kinetic energy ($K_{max}$) of the photoelectron:<br>$$ h\\nu = \\phi_0 + K_{max} \\quad \\text{or} \\quad h\\nu = \\phi_0 + e V_0 $$"
+  },
+  {
+    "q": "What is the expression for <b>Maximum Kinetic Energy</b> using the threshold frequency ($\\nu_0$)?",
+    "a": "Since $\\phi_0 = h\\nu_0$, the equation becomes:<br>$$ K_{max} = h\\nu - h\\nu_0 = h(\\nu - \\nu_0) $$"
+  },
+  {
+    "q": "Explain the role of <b>Intensity</b> in the Photoelectric Effect.",
+    "a": "The photoelectric current is <b>directly proportional to the intensity</b> of the incident radiation, provided the frequency is greater than $\\nu_0$. (Higher intensity means more photons, thus more electrons emitted)."
+  },
+  {
+    "q": "Explain the role of <b>Frequency</b> in the Photoelectric Effect.",
+    "a": "The <b>maximum kinetic energy ($K_{max}$) of the photoelectrons is directly proportional to the frequency</b> of the incident radiation and is independent of intensity."
+  },
+  {
+    "q": "What is the <b>Dual Nature of Matter</b>?",
+    "a": "Matter (like electrons, protons, atoms) exhibits both <b>particle nature</b> (mass, momentum) and <b>wave nature</b> (diffraction, interference) under different circumstances."
+  },
+  {
+    "q": "State the <b>de Broglie Hypothesis</b> and the formula for <b>de Broglie Wavelength</b> ($\\lambda$).",
+    "a": "All moving material particles, like radiation, have an associated wave. The wavelength ($\\lambda$) is inversely proportional to the momentum ($p$):<br>$$ \\lambda = \\frac{h}{p} = \\frac{h}{mv} $$where $h$ is Planck's constant."
+  },
+  {
+    "q": "What is the <b>de Broglie Wavelength</b> of an electron accelerated through a potential difference $V$?",
+    "a": "When an electron is accelerated through $V$, its kinetic energy is $K = eV$. Using $p = \\sqrt{2mK}$ and plugging in constants, the wavelength is:<br>$$ \\lambda = \\frac{h}{\\sqrt{2meV}} \\approx \\frac{1.227}{\\sqrt{V}} \\text{ nm} $$"
+  },
+  {
+    "q": "What is the experimental evidence for the <b>Wave Nature of the Electron</b>?",
+    "a": "The <b>Davisson and Germer Experiment</b> (1927) provided the first direct experimental evidence by showing that an electron beam undergoes <b>diffraction</b> from a nickel crystal, which is a characteristic of waves."
+  }
+]

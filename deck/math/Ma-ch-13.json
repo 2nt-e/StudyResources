@@ -1,0 +1,70 @@
+[
+  {
+    "q": "Define <b>Conditional Probability</b> and state its formula.",
+    "a": "The probability of event $E$ occurring, given that event $F$ has already occurred. Denoted by $P(E|F)$:<br>$$ P(E|F) = \\frac{P(E \\cap F)}{P(F)}, \\quad \\text{where } P(F) \\ne 0 $$"
+  },
+  {
+    "q": "Define <b>Independent Events</b>.",
+    "a": "Two events $E$ and $F$ are <b>independent</b> if the occurrence of one does <b>not affect</b> the probability of the occurrence of the other. The condition is:<br>$$ P(E \\cap F) = P(E) \\cdot P(F) $$"
+  },
+  {
+    "q": "If $E$ and $F$ are <b>Independent Events</b>, what is the formula for $P(E|F)$?",
+    "a": "If $E$ and $F$ are independent, the fact that $F$ has occurred does not change the probability of $E$. Therefore:<br>$$ P(E|F) = P(E) $$"
+  },
+  {
+    "q": "State the <b>Multiplication Theorem on Probability</b> (General Case).",
+    "a": "The probability of the simultaneous occurrence of two events $E$ and $F$ is:<br>$$ P(E \\cap F) = P(E) P(F|E) = P(F) P(E|F) $$"
+  },
+  {
+    "q": "Define a <b>Partition of a Sample Space</b>.",
+    "a": "A set of events $E_1, E_2, \\dots, E_n$ forms a partition of the sample space $S$ if:<br>1. They are <b>mutually exclusive</b> ($E_i \\cap E_j = \\phi$ for $i \\ne j$).<br>2. They are <b>exhaustive</b> ($E_1 \\cup E_2 \\cup \\dots \\cup E_n = S$).<br>3. $P(E_i) > 0$ for all $i = 1, 2, \\dots, n$."
+  },
+  {
+    "q": "State the <b>Theorem of Total Probability</b>.",
+    "a": "If $E_1, E_2, \\dots, E_n$ form a partition of the sample space $S$, and $A$ is any event, then $P(A)$ is given by:<br>$$ P(A) = \\sum_{i=1}^{n} P(E_i) P(A|E_i) $$"
+  },
+  {
+    "q": "State <b>Bayes' Theorem</b> (Prior and Posterior Probability).",
+    "a": "If $E_1, E_2, \\dots, E_n$ form a partition of the sample space $S$, the <b>posterior probability</b> of event $E_i$ given event $A$ is:<br>$$ P(E_i|A) = \\frac{P(E_i) P(A|E_i)}{\\sum_{k=1}^{n} P(E_k) P(A|E_k)} $$"
+  },
+  {
+    "q": "What is a <b>Random Variable</b>?",
+    "a": "A real-valued function $X$ whose domain is the <b>sample space</b> $S$ of a random experiment. It assigns a real number to every outcome of the experiment."
+  },
+  {
+    "q": "Define a <b>Probability Distribution</b> of a Random Variable $X$.",
+    "a": "A table or function that gives the <b>values</b> $x_i$ of the random variable $X$ and their corresponding <b>probabilities</b> $P(X=x_i)$. The sum of all probabilities must equal 1: $ \\sum P(X=x_i) = 1 $."
+  },
+  {
+    "q": "Formula for the <b>Mean (Expectation)</b> of a Random Variable $X$.",
+    "a": "The mean (or expected value) $E(X)$ is given by:<br>$$ E(X) = \\mu = \\sum_{i=1}^{n} x_i P(X=x_i) $$"
+  },
+  {
+    "q": "Formula for the <b>Variance</b> of a Random Variable $X$.",
+    "a": "The variance, denoted by $\\text{Var}(X)$ or $\\sigma^2$, measures the spread of the distribution:<br>$$ \\text{Var}(X) = \\sum_{i=1}^{n} x_i^2 P(X=x_i) - [E(X)]^2 $$"
+  },
+  {
+    "q": "Formula for the <b>Standard Deviation</b> of a Random Variable $X$.",
+    "a": "The standard deviation $\\sigma$ is the square root of the variance:<br>$$ \\sigma = \\sqrt{\\text{Var}(X)} $$"
+  },
+  {
+    "q": "Define a <b>Bernoulli Trial</b>.",
+    "a": "A trial of a random experiment that has only <b>two possible outcomes</b>: <b>Success</b> ($p$) or <b>Failure</b> ($q$). The probability of success remains constant in every trial ($p+q=1$)."
+  },
+  {
+    "q": "Define a <b>Binomial Distribution</b>.",
+    "a": "The probability distribution of the number of successes in a fixed number ($n$) of <b>independent Bernoulli trials</b>."
+  },
+  {
+    "q": "State the <b>Probability Mass Function (P.M.F.)</b> for a Binomial Distribution.",
+    "a": "The probability of getting exactly $x$ successes in $n$ trials is:<br>$$ P(X=x) = \\binom{n}{x} p^x q^{n-x} \\quad \\text{for } x = 0, 1, 2, \\dots, n $$"
+  },
+  {
+    "q": "Formula for the <b>Mean</b> of a Binomial Distribution $B(n, p)$.",
+    "a": "The mean is simply the number of trials multiplied by the probability of success:<br>$$ \\text{Mean} (\\mu) = np $$"
+  },
+  {
+    "q": "Formula for the <b>Variance</b> of a Binomial Distribution $B(n, p)$.",
+    "a": "The variance is the product of the number of trials, probability of success, and probability of failure ($q = 1-p$):<br>$$ \\text{Var}(X) = npq $$"
+  }
+]

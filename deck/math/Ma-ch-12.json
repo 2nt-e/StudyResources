@@ -1,0 +1,50 @@
+[
+  {
+    "q": "What is the <b>Objective Function</b> in LPP?",
+    "a": "A linear function, $Z = ax + by$, whose value is to be <b>maximized or minimized</b>. This function represents the goal of the problem (e.g., maximizing profit, minimizing cost)."
+  },
+  {
+    "q": "What are <b>Constraints</b> in LPP?",
+    "a": "The system of <b>linear inequalities or equations</b> that are imposed on the variables of the problem. They define the limits or restrictions within which the problem must be solved (e.g., limited resources, production capacity)."
+  },
+  {
+    "q": "What are <b>Non-Negative Restrictions</b>?",
+    "a": "The constraints that the variables must be greater than or equal to zero: $ x \\ge 0, y \\ge 0 $. They ensure that the solution exists in the <b>first quadrant</b> of the graph, as physical quantities (like products) cannot be negative."
+  },
+  {
+    "q": "What is the <b>Feasible Region</b>?",
+    "a": "The <b>common region</b> determined by all the constraints, including the non-negative restrictions. It consists of all the points $(x, y)$ that satisfy all the constraints. The optimal solution must lie within this region."
+  },
+  {
+    "q": "What is an <b>Infeasible Region</b>?",
+    "a": "The region outside the feasible region. Any point in this region <b>violates at least one</b> of the constraints."
+  },
+  {
+    "q": "What is the <b>Optimal Solution (Feasible Solution)</b>?",
+    "a": "Any point in the feasible region that gives the <b>maximum or minimum value</b> of the objective function ($Z$)."
+  },
+  {
+    "q": "What is the <b>Fundamental Theorem of LPP</b> (Corner Point Method)?",
+    "a": "The optimal solution (maximum or minimum value) of a linear programming problem, if it exists, always occurs at one of the <b>corner points (vertices)</b> of the feasible region."
+  },
+  {
+    "q": "What are the steps of the <b>Corner Point Method</b>?",
+    "a": "1. <b>Graph</b> the constraints to find the <b>feasible region</b>.<br>2. Determine the <b>coordinates</b> of all the <b>corner points</b>.<br>3. <b>Evaluate</b> the objective function ($Z$) at each corner point.<br>4. Select the point that yields the <b>maximum or minimum</b> value of $Z$."
+  },
+  {
+    "q": "What is a <b>Bounded Feasible Region</b>?",
+    "a": "A region that can be <b>enclosed within a circle</b>. In this case, both the maximum and minimum values of the objective function <b>always exist</b>."
+  },
+  {
+    "q": "What is an <b>Unbounded Feasible Region</b>?",
+    "a": "A region that <b>cannot be enclosed within a circle</b> (it extends infinitely in one or more directions).<br>1. The optimal solution (Max/Min) <b>may or may not exist</b>.<br>2. You must check if the value of $Z$ at the corner point is truly the optimum by graphing the inequality $ax + by > Z_{max}$ or $ax + by < Z_{min}$."
+  },
+  {
+    "q": "When does a LPP have <b>Multiple Optimal Solutions</b>?",
+    "a": "If the maximum or minimum value of the objective function ($Z$) is attained at <b>two adjacent corner points</b>, then it is also attained at <b>every point</b> on the line segment joining these two points."
+  },
+  {
+    "q": "What is the <b>role of the non-negative restrictions ($x\\ge 0, y\\ge 0$)</b> in graphing?",
+    "a": "They ensure the feasible region is confined to the <b>first quadrant</b> of the Cartesian plane, simplifying the search for the optimal solution."
+  }
+]

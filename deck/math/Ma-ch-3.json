@@ -1,126 +1,126 @@
 [
   {
-    "q": "What is a matrix?",
-    "a": "A matrix is a rectangular array of numbers or functions arranged in rows and columns. It is usually denoted by capital letters like \\(A, B, C\\) etc. Example: \\(A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}\\)"
+    "q": "What is a <b>matrix</b>?",
+    "a": "A <b>matrix</b> is a rectangular array of numbers or functions arranged in <b>rows</b> and <b>columns</b>. It is usually denoted by capital letters (e.g., $A, B, C$).<br><b>Example</b>: $A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$"
   },
   {
-    "q": "What is the order of a matrix?",
-    "a": "The order of a matrix is defined by the number of rows(m) and columns(n). If a matrix has m-rows and n-columns, it is of order \\(m \\times n\\)"
-  },
-   {
-    "q": "What is a Row Matrix?",
-    "a": "A matrix with only one row is called a Row Matrix.\\ Example: \\( A = \\begin{bmatrix} 1 & 2 & 3 \\end{bmatrix} \\)"
+    "q": "What is the <b>order of a matrix</b>?",
+    "a": "The <b>order</b> of a matrix is defined by the number of rows ($m$) and columns ($n$). <br>If a matrix has $m$ rows and $n$ columns, its order is denoted as $m \\times n$."
   },
   {
-    "q": "What is a Column Matrix?",
-    "a": "A matrix with only one column is called a Column Matrix.\\ Example: \\( A = \\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix} \\)"
+    "q": "What is a <b>Row Matrix</b>?",
+    "a": "A <b>Row Matrix</b> is a matrix with <b>only one row</b>. <br><b>Example</b>: $A = \\begin{bmatrix} 1 & 2 & 3 \\end{bmatrix}$ (order $1 \\times 3$)"
   },
   {
-    "q": "What is a Zero Matrix?",
-    "a": "A matrix in which all elements are zero is called a Zero Matrix.\\ Example: \\( O = \\begin{bmatrix} 0 & 0 \\\\ 0 & 0 \\end{bmatrix} \\)"
+    "q": "What is a <b>Column Matrix</b>?",
+    "a": "A <b>Column Matrix</b> is a matrix with <b>only one column</b>. <br><b>Example</b>: $A = \\begin{bmatrix} 1 \\\\ 2 \\\\ 3 \\end{bmatrix}$ (order $3 \\times 1$)"
   },
   {
-    "q": "What is a Square Matrix?",
-    "a": "A matrix with equal number of rows and columns is called a Square Matrix.\\ Example: \\( A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix} \\), order = \\(2 \\times 2\\)"
+    "q": "What is a <b>Zero Matrix</b>?",
+    "a": "A <b>Zero Matrix</b> ($O$) is a matrix in which <b>all elements are zero</b>.<br><b>Example</b>: $O = \\begin{bmatrix} 0 & 0 \\\\ 0 & 0 \\end{bmatrix}$"
   },
   {
-    "q": "What is a Diagonal Matrix?",
-    "a": "A square matrix in which all non-diagonal elements are zero is called a Diagonal Matrix.\\ Example: \\( A = \\begin{bmatrix} 5 & 0 \\\\ 0 & 3 \\end{bmatrix} \\)"
+    "q": "What is a <b>Square Matrix</b>?",
+    "a": "A <b>Square Matrix</b> is a matrix with an <b>equal number of rows and columns</b> ($m = n$).<br><b>Example</b>: $A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$, order is $2 \\times 2$."
   },
   {
-    "q": "What is a Scalar Matrix?",
-    "a": "A diagonal matrix where all diagonal elements are equal is called a Scalar Matrix.\\ Example: \\( A = \\begin{bmatrix} 2 & 0 \\\\ 0 & 2 \\end{bmatrix} \\)"
+    "q": "What is a <b>Diagonal Matrix</b>?",
+    "a": "A <b>Diagonal Matrix</b> is a square matrix in which <b>all non-diagonal elements are zero</b> ($a_{ij} = 0$ for $i \\neq j$).<br><b>Example</b>: $A = \\begin{bmatrix} 5 & 0 \\\\ 0 & 3 \\end{bmatrix}$"
   },
   {
-    "q": "What is an Identity Matrix?",
-    "a": "A square matrix with all diagonal elements as 1 and all other elements as 0 is called the Identity Matrix.\\ Example: \\( I = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix} \\)"
+    "q": "What is a <b>Scalar Matrix</b>?",
+    "a": "A <b>Scalar Matrix</b> is a diagonal matrix where <b>all diagonal elements are equal</b> ($a_{ii} = k$).<br><b>Example</b>: $A = \\begin{bmatrix} 2 & 0 \\\\ 0 & 2 \\end{bmatrix}$"
   },
   {
-    "q": "What is the transpose of a matrix?",
-    "a": "The transpose of a matrix \\(A\\), denoted by \\(A^T\\), is formed by interchanging its rows and columns.  \nExample: If \\(A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}\\), then \\(A^T = \\begin{bmatrix} 1 & 3 \\\\ 2 & 4 \\end{bmatrix}\\)"
+    "q": "What is an <b>Identity Matrix</b>?",
+    "a": "An <b>Identity Matrix</b> ($I$) is a square matrix with all diagonal elements as <b>1</b> and all other elements as <b>0</b> ($a_{ii}=1$, $a_{ij}=0$ for $i \\neq j$).<br><b>Example</b>: $I = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}$"
   },
   {
-    "q": "What is a symmetric matrix?",
-    "a": "A matrix \\(A\\) is symmetric if \\(A = A^T\\). It must be a square matrix.  \nExample: \\(\\begin{bmatrix} 1 & 2 \\\\ 2 & 3 \\end{bmatrix}\\)"
+    "q": "What is the <b>transpose of a matrix</b>?",
+    "a": "The <b>transpose</b> of a matrix $A$, denoted by $A^T$ or $A'$, is formed by <b>interchanging its rows and columns</b>.<br><b>Example</b>: If $A = \\begin{bmatrix} 1 & 2 \\\\ 3 & 4 \\end{bmatrix}$, then $A^T = \\begin{bmatrix} 1 & 3 \\\\ 2 & 4 \\end{bmatrix}$"
   },
   {
-    "q": "What is a skew-symmetric matrix?",
-    "a": "A matrix \\(A\\) is skew-symmetric if \\(A^T = -A\\). Also, all diagonal elements must be zero.  \nExample: \\(\\begin{bmatrix} 0 & 2 \\\\ -2 & 0 \\end{bmatrix}\\)"
+    "q": "What is a <b>symmetric matrix</b>?",
+    "a": "A square matrix $A$ is <b>symmetric</b> if its transpose is equal to the matrix itself: $A = A^T$.<br><b>Example</b>: $\\begin{bmatrix} 1 & 2 \\\\ 2 & 3 \\end{bmatrix}$"
   },
   {
-    "q": "What is matrix addition and subtraction?",
-    "a": "Two matrices can be added or subtracted only if they have the same order.  \nFor matrices \\(A = [a_{ij}]\\) and \\(B = [b_{ij}]\\),  \n\\(A \\pm B = [a_{ij} \\pm b_{ij}]\\)"
+    "q": "What is a <b>skew-symmetric matrix</b>?",
+    "a": "A square matrix $A$ is <b>skew-symmetric</b> if its transpose is equal to the negative of the matrix: $A^T = -A$.<br>Note: All diagonal elements must be zero ($a_{ii} = 0$).<br><b>Example</b>: $\\begin{bmatrix} 0 & 2 \\\\ -2 & 0 \\end{bmatrix}$"
   },
   {
-    "q": "State properties of matrix addition.",
-    "a": "**1. Commutative**: \\(A + B = B + A\\)  \n**2. Associative**: \\((A + B) + C = A + (B + C)\\)  \n**3. Additive identity**: \\(A + O = A\\), where \\(O\\) is the zero matrix  \n**4. Additive inverse**: \\(A + (-A) = O\\)"
+    "q": "What is <b>matrix addition and subtraction</b>?",
+    "a": "Two matrices can be added or subtracted **only if they have the same order**.<br>For $A = [a_{ij}]$ and $B = [b_{ij}]$, the resulting matrix is found by adding/subtracting corresponding elements:<br>$A \\pm B = [a_{ij} \\pm b_{ij}]$"
   },
   {
-    "q": "What is scalar multiplication of a matrix?",
-    "a": "If \\(k\\) is a scalar and \\(A = [a_{ij}]\\), then \\(kA = [ka_{ij}]\\). Each element of \\(A\\) is multiplied by \\(k\\)."
+    "q": "State <b>properties of matrix addition</b>.",
+    "a": "1. <b>Commutative</b>: $A + B = B + A$<br>2. <b>Associative</b>: $(A + B) + C = A + (B + C)$<br>3. <b>Additive Identity</b>: $A + O = A$ ($O$ is the zero matrix)<br>4. <b>Additive Inverse</b>: $A + (-A) = O$"
   },
   {
-    "q": "What is matrix multiplication?",
-    "a": "If \\(A\\) is of order \\(m \\times n\\) and \\(B\\) is of order \\(n \\times p\\), then \\(AB\\) is defined and has order \\(m \\times p\\).  \n\\((AB)_{ij} = \\sum_{k=1}^{n} a_{ik} b_{kj}\\)"
+    "q": "What is <b>scalar multiplication of a matrix</b>?",
+    "a": "If $k$ is a scalar and $A = [a_{ij}]$, then $kA = [ka_{ij}]$. This means **each element of $A$ is multiplied by $k$**."
   },
   {
-    "q": "Is matrix multiplication commutative?",
-    "a": "No, in general, \\(AB \\neq BA\\). Matrix multiplication is not commutative."
+    "q": "What is <b>matrix multiplication</b>?",
+    "a": "Multiplication $AB$ is defined only if the number of **columns in $A$** equals the number of **rows in $B$**.<br>If $A$ is $m \\times n$ and $B$ is $n \\times p$, then $AB$ is $m \\times p$.<br>Formula for the $(i,j)^{th}$ element: $(AB)_{ij} = \\sum_{k=1}^{n} a_{ik} b_{kj}$"
   },
   {
-    "q": "State the properties of matrix multiplication.",
-    "a": "**1. Associative**: \\((AB)C = A(BC)\\)  \n**2. Distributive**: \\(A(B + C) = AB + AC\\)  \n**3. Multiplicative identity**: \\(AI = IA = A\\), where \\(I\\) is the identity matrix  \n**4. Not commutative**: \\(AB \\neq BA\\) generally"
+    "q": "Is <b>matrix multiplication commutative</b>?",
+    "a": "<b>No</b>. In general, $AB \\neq BA$. Even if both products are defined, they may not be equal."
   },
   {
-    "q": "What is the identity matrix?",
-    "a": "A square matrix with 1s on the diagonal and 0s elsewhere is called the identity matrix.  \n\\(I = \\begin{bmatrix} 1 & 0 \\\\ 0 & 1 \\end{bmatrix}\\), etc."
+    "q": "State the <b>properties of matrix multiplication</b>.",
+    "a": "1. <b>Associative</b>: $(AB)C = A(BC)$<br>2. <b>Distributive</b>: $A(B + C) = AB + AC$<br>3. <b>Multiplicative Identity</b>: $AI = IA = A$ ($I$ is the identity matrix)<br>4. <b>Non-commutative</b>: $AB \\neq BA$ (generally)"
   },
   {
-    "q": "Define the zero matrix.",
-    "a": "A matrix where all elements are zero.  \n\\(O = \\begin{bmatrix} 0 & 0 \\\\ 0 & 0 \\end{bmatrix}\\)"
+    "q": "What is the <b>identity matrix</b>?",
+    "a": "The <b>identity matrix</b> ($I$) is a square matrix that acts as the multiplicative identity: $AI = IA = A$. It has 1s on the diagonal and 0s elsewhere."
   },
   {
-    "q": "What is the condition for multiplication of two matrices?",
-    "a": "If \\(A\\) is of order \\(m \\times n\\) and \\(B\\) is of order \\(n \\times p\\), then \\(AB\\) is defined."
+    "q": "Define the <b>zero matrix</b>.",
+    "a": "The <b>zero matrix</b> ($O$) is a matrix where <b>all elements are zero</b>. It acts as the additive identity: $A + O = A$."
   },
   {
-    "q": "What is the transpose of a product of two matrices?",
-    "a": "\\((AB)^T = B^T A^T\\)"
+    "q": "What is the <b>condition for multiplication</b> of two matrices?",
+    "a": "The number of **columns of the first matrix** ($A$) must equal the number of **rows of the second matrix** ($B$).<br>If $A$ is $m \\times n$ and $B$ is $p \\times q$, multiplication $AB$ is defined only if $n = p$."
   },
   {
-    "q": "Is \\((A^T)^T = A\\)?",
-    "a": "Yes. The transpose of the transpose of a matrix is the original matrix:  \n\\((A^T)^T = A\\)"
+    "q": "What is the <b>transpose of a product</b> of two matrices?",
+    "a": "The transpose of a product is the product of the transposes in <b>reverse order</b>: $$(AB)^T = B^T A^T$$"
   },
   {
-    "q": "Can a square matrix be both symmetric and skew-symmetric?",
-    "a": "Yes, but only if all elements are zero. That is, only the zero matrix satisfies both \\(A = A^T\\) and \\(A = -A^T\\)."
+    "q": "Is $(A^T)^T = A$?",
+    "a": "<b>Yes</b>. The transpose of the transpose of a matrix is the original matrix: $$(A^T)^T = A$$"
   },
   {
-    "q": "If \\(A\\) is skew-symmetric, what is the value of \\(a_{ii}\\)?",
-    "a": "In a skew-symmetric matrix, diagonal elements must be zero: \\(a_{ii} = 0\\)"
+    "q": "Can a square matrix be both <b>symmetric and skew-symmetric</b>?",
+    "a": "<b>Yes</b>, but only if the matrix is the **Zero Matrix** ($O$).<br>The zero matrix is the only matrix that satisfies both $A = A^T$ and $A = -A^T$."
   },
   {
-    "q": "Find \\(A + A^T\\) if \\(A\\) is skew-symmetric.",
-    "a": "If \\(A = -A^T\\), then \\(A + A^T = 0\\)"
+    "q": "If $A$ is skew-symmetric, what is the value of the diagonal elements ($a_{ii}$)?",
+    "a": "In a <b>skew-symmetric matrix</b>, the diagonal elements must always be zero: $a_{ii} = 0$."
   },
   {
-    "q": "Can matrix multiplication be defined if \\(A\\) is \\(2 \\times 3\\) and \\(B\\) is \\(3 \\times 2\\)?",
-    "a": "Yes. The inner dimensions match (3), so \\(AB\\) is defined and will be of order \\(2 \\times 2\\)."
+    "q": "Find $A + A^T$ if $A$ is skew-symmetric.",
+    "a": "If $A$ is skew-symmetric, then $A^T = -A$. <br>Therefore, $A + A^T = A + (-A) = O$ (the **zero matrix**)."
   },
   {
-    "q": "Can matrix multiplication be defined if \\(A\\) is \\(2 \\times 3\\) and \\(B\\) is \\(2 \\times 3\\)?",
-    "a": "No. Matrix multiplication requires the number of columns of the first matrix to equal the number of rows of the second."
+    "q": "Can matrix multiplication be defined if $A$ is $2 \\times 3$ and $B$ is $3 \\times 2$?",
+    "a": "<b>Yes</b>. The inner dimensions match (3). The resulting product $AB$ will be of order $2 \\times 2$."
   },
   {
-    "q": "What is the product of a matrix and the zero matrix?",
-    "a": "Any matrix multiplied by a zero matrix (when defined) results in a zero matrix."
+    "q": "Can matrix multiplication be defined if $A$ is $2 \\times 3$ and $B$ is $2 \\times 3$?",
+    "a": "<b>No</b>. The inner dimensions (3 and 2) do not match. Matrix multiplication is not defined in this case."
   },
   {
-    "q": "If \\(A\\) is a square matrix and \\(A^2 = I\\), what is \\(A^{-1}\\)?",
-    "a": "If \\(A^2 = I\\), then \\(A^{-1} = A\\), since \\(AA = I\\)"
+    "q": "What is the <b>product of a matrix and the zero matrix</b>?",
+    "a": "Any matrix multiplied by a zero matrix (when the multiplication is defined) results in a **Zero Matrix** ($O$).<br> $A O = O$ and $O A = O$."
   },
   {
-    "q": "Is \\(A(A^{-1}) = I\\)?",
-    "a": "Yes. By definition of inverse, \\(A A^{-1} = A^{-1} A = I\\)"
+    "q": "If $A$ is a square matrix and $A^2 = I$, what is $A^{-1}$?",
+    "a": "If $A^2 = I$, we can write $A A = I$. By the definition of the inverse, $A$ must be its own inverse. <br>Therefore, $A^{-1} = A$."
+  },
+  {
+    "q": "Is $A(A^{-1}) = I$?",
+    "a": "<b>Yes</b>. By the definition of an inverse matrix, the product of a matrix and its inverse is the Identity Matrix ($I$): $A A^{-1} = A^{-1} A = I$."
   }
 ]

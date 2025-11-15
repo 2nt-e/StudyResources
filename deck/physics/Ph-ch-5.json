@@ -1,0 +1,90 @@
+[
+  {
+    "q": "What is the <b>direction</b> of a bar magnet's <b>magnetic dipole moment ($\\mathbf{m}$)</b>?",
+    "a": "The direction of the magnetic dipole moment is always from the <b>South pole</b> to the <b>North pole</b>."
+  },
+  {
+    "q": "State two key <b>properties of magnetic field lines</b>.",
+    "a": "1. They form <b>closed loops</b> (from N to S outside, S to N inside the magnet).<br>2. They <b>never intersect</b>."
+  },
+  {
+    "q": "What is the <b>SI unit</b> of <b>Magnetic Dipole Moment ($\\mathbf{m}$)</b>?",
+    "a": "The SI unit is <b>Ampere-meter squared ($\text{A}\\cdot\\text{m}^2$)</b> or <b>Joule per Tesla ($\text{J/T}$)</b>."
+  },
+  {
+    "q": "What is the formula for <b>Torque ($\\boldsymbol{\\tau}$)</b> on a magnetic dipole in a uniform magnetic field ($\\mathbf{B}$)?",
+    "a": "The torque is given by the cross product: \\[ \\boldsymbol{\\tau} = \\mathbf{m} \\times \\mathbf{B} \\quad \\text{or} \\quad \\tau = mB \\sin\\theta \\]"
+  },
+  {
+    "q": "What is the formula for the <b>Potential Energy ($U$)</b> of a magnetic dipole in a uniform magnetic field ($\\mathbf{B}$)?",
+    "a": "The potential energy is given by the dot product: \\[ U = -\\mathbf{m} \\cdot \\mathbf{B} \\quad \\text{or} \\quad U = -mB \\cos\\theta \\]"
+  },
+  {
+    "q": "What is the <b>stable equilibrium</b> angle ($\\theta$) for a magnetic dipole in a uniform field?",
+    "a": "The stable equilibrium occurs when the potential energy is minimum, which is at <b>$\\theta = 0^\\circ$</b> ($\\mathbf{m}$ is parallel to $\\mathbf{B}$)."
+  },
+  {
+    "q": "Name the three <b>Magnetic Elements of Earth</b>.",
+    "a": "1. <b>Magnetic Declination</b> ($\\theta$)<br>2. <b>Magnetic Dip or Inclination</b> ($\\delta$)<br>3. <b>Horizontal Component</b> of Earth's field ($\\mathbf{B}_H$)"
+  },
+  {
+    "q": "Define <b>Magnetic Declination ($\\theta$)</b>.",
+    "a": "It is the angle between the <b>Geographic Meridian</b> (true North) and the <b>Magnetic Meridian</b> (magnetic North)."
+  },
+  {
+    "q": "What is <b>Magnetic Dip or Inclination ($\\delta$)</b> at the <b>magnetic equator</b> and the <b>magnetic poles</b>?",
+    "a": "<b>Equator:</b> $\\delta = 0^\\circ$.<br><b>Poles:</b> $\\delta = 90^\\circ$."
+  },
+  {
+    "q": "Write the relation between the <b>Horizontal ($B_H$)</b> and <b>Vertical ($B_V$)</b> components of Earth's magnetic field ($B_E$).",
+    "a": "The relation is: \\[ \\tan\\delta = \\frac{B_V}{B_H} \\quad \\text{and} \\quad B_E = \\sqrt{B_H^2 + B_V^2} \\]"
+  },
+  {
+    "q": "Define <b>Magnetization ($\\mathbf{M}$)</b> and state its SI unit.",
+    "a": "Magnetization is the <b>net magnetic dipole moment per unit volume</b> of a material. <br><b>SI Unit</b>: <b>Ampere per meter (\\text{A/m})</b>."
+  },
+  {
+    "q": "Define <b>Magnetic Intensity ($\\mathbf{H}$)</b> and state its SI unit.",
+    "a": "Magnetic Intensity is the measure of the <b>external magnetic field's ability</b> to magnetize a material. <br><b>SI Unit</b>: <b>Ampere per meter (\\text{A/m})</b>."
+  },
+  {
+    "q": "Write the fundamental relation between <b>Total Magnetic Field ($\\mathbf{B}$)</b>, <b>Magnetic Intensity ($\\mathbf{H}$)</b>, and <b>Magnetization ($\\mathbf{M}$)</b>.",
+    "a": "The total magnetic field inside a material is: \\[ \\mathbf{B} = \\mu_0 (\\mathbf{H} + \\mathbf{M}) \\]"
+  },
+  {
+    "q": "Define <b>Magnetic Susceptibility ($\\chi$)</b> and its relation to $\\mathbf{M}$ and $\\mathbf{H}$.",
+    "a": "Susceptibility ($\\chi$) measures how easily a material can be magnetized. <br><b>Definition</b>: \\[ \\chi = \\frac{M}{H} \\]. It is <b>unitless</b> and <b>dimensionless</b>."
+  },
+  {
+    "q": "Define <b>Relative Permeability ($\\mu_r$)</b> and its relation to Susceptibility ($\\chi$).",
+    "a": "Relative Permeability ($\\mu_r$) is the ratio of a material's permeability ($\\mu$) to free space permeability ($\\mu_0$). <br><b>Relation</b>: $\\mu_r = 1 + \\chi$"
+  },
+  {
+    "q": "State the key characteristics (Sign of $\\chi$ and $\\mu_r$ value) of a <b>Diamagnetic</b> material.",
+    "a": "1. <b>Susceptibility ($\\chi$):</b> Small and <b>negative</b>.<br>2. <b>Relative Permeability ($\\mu_r$):</b> $\\mu_r < 1$."
+  },
+  {
+    "q": "State the key characteristics (Sign of $\\chi$ and $\\mu_r$ value) of a <b>Paramagnetic</b> material.",
+    "a": "1. <b>Susceptibility ($\\chi$):</b> Small and <b>positive</b>.<br>2. <b>Relative Permeability ($\\mu_r$):</b> $\\mu_r > 1$."
+  },
+  {
+    "q": "State the key characteristics (Sign of $\\chi$ and $\\mu_r$ value) of a <b>Ferromagnetic</b> material.",
+    "a": "1. <b>Susceptibility ($\\chi$):</b> Very large and <b>positive</b>.<br>2. <b>Relative Permeability ($\\mu_r$):</b> $\\mu_r \\gg 1$ (much greater than 1)."
+  },
+  {
+    "q": "How does the magnetic susceptibility ($\\chi$) of <b>Paramagnetic</b> materials depend on temperature?",
+    "a": "It follows <b>Curie's Law</b>: Susceptibility is <b>inversely proportional</b> to the absolute temperature ($T$): \\[ \\chi = \\frac{C}{T} \\]"
+  },
+  {
+    "q": "Define <b>Curie Temperature ($T_c$)</b>.",
+    "a": "It is the specific temperature above which a <b>ferromagnetic</b> material loses its strong ferromagnetic properties and becomes <b>paramagnetic</b>."
+  },
+  {
+    "q": "Why are <b>Soft Ferromagnetic</b> materials (like soft iron) preferred for <b>Electromagnets</b>?",
+    "a": "Soft materials have <b>low retentivity</b> and <b>low coercivity</b>, meaning they can be easily magnetized and demagnetized by switching the current on and off."
+  },
+  {
+    "q": "Why are <b>Hard Ferromagnetic</b> materials (like steel, Alnico) preferred for <b>Permanent Magnets</b>?",
+    "a": "Hard materials have <b>high retentivity</b> and <b>high coercivity</b>, meaning they retain their magnetism strongly even after the external field is removed."
+  }
+]

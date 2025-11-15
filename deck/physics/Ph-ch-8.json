@@ -1,0 +1,78 @@
+[
+  {
+    "q": "What is <b>Displacement Current ($I_d$)</b>?",
+    "a": "<b>Displacement Current</b> is the current produced due to a <b>changing electric field</b> or <b>electric flux</b> ($\\Phi_E$).<br>It is the term Maxwell added to Ampère's circuital law.<br><b>Formula</b>: $I_d = \\epsilon_0 \\frac{d\\Phi_E}{dt}$"
+  },
+  {
+    "q": "State the <b>Ampère-Maxwell Law</b>.",
+    "a": "The line integral of the magnetic field ($\\mathbf{B}$) around any closed loop is proportional to the sum of the <b>conduction current ($I_c$)</b> and the <b>displacement current ($I_d$)</b>.<br>\\[ \\oint \\mathbf{B} \\cdot d\\mathbf{l} = \\mu_0 I_c + \\mu_0 \\epsilon_0 \\frac{d\\Phi_E}{dt} \\]"
+  },
+  {
+    "q": "What are <b>Electromagnetic Waves (EM Waves)</b>?",
+    "a": "<b>EM Waves</b> are waves that propagate due to mutually perpendicular, time-varying <b>electric fields ($\\mathbf{E}$)</b> and <b>magnetic fields ($\\mathbf{B}$)</b>.<br>They are <b>transverse</b> in nature and do not require a material medium to travel."
+  },
+  {
+    "q": "What is the <b>source</b> of Electromagnetic Waves?",
+    "a": "EM waves are produced by <b>accelerated charges</b> (charges undergoing non-zero acceleration) or <b>oscillating charges</b>."
+  },
+  {
+    "q": "What is the <b>speed of EM waves</b> in a vacuum?",
+    "a": "The speed of EM waves in a vacuum is the <b>speed of light ($c$)</b>.<br><b>Formula</b>: \\[ c = \\frac{1}{\\sqrt{\\mu_0 \\epsilon_0}} \\approx 3 \\times 10^8 \\text{ m/s} \\]"
+  },
+  {
+    "q": "What is the relation between the peak values of the <b>Electric Field ($E_0$)</b> and <b>Magnetic Field ($B_0$)</b> in an EM wave?",
+    "a": "The ratio of the peak electric field to the peak magnetic field equals the speed of light in a vacuum.<br>\\[ c = \\frac{E_0}{B_0} \\]"
+  },
+  {
+    "q": "In which direction does the <b>EM Wave propagate</b>?",
+    "a": "The EM wave propagates in the direction of the vector cross product of the electric and magnetic fields.<br>Propagation direction is parallel to $\\mathbf{E} \\times \\mathbf{B}$."
+  },
+  {
+    "q": "What is the formula for the <b>Energy Density ($u$)</b> of an EM wave?",
+    "a": "The energy density is equally shared between the electric and magnetic fields:<br><b>Total Energy Density</b>: $u = u_E + u_B$<br>$$ u_E = \\frac{1}{2} \\epsilon_0 E^2 \\quad \\text{and} \\quad u_B = \\frac{1}{2\\mu_0} B^2 $$"
+  },
+  {
+    "q": "How do <b>EM Waves transport energy and momentum</b>?",
+    "a": "EM Waves transport <b>energy</b> (as both electric and magnetic energy densities) and <b>momentum</b> ($p$).<br>If the total energy transmitted is $U$, the momentum transferred is $p = U/c$."
+  },
+  {
+    "q": "What is <b>Radiation Pressure</b>?",
+    "a": "When an EM wave falls on a surface, it exerts a force due to the momentum transfer. The force per unit area is called <b>Radiation Pressure</b>."
+  },
+  {
+    "q": "List the seven regions of the <b>Electromagnetic Spectrum</b> in increasing order of <b>frequency</b>.",
+    "a": "1. <b>Radio waves</b><br>2. <b>Microwaves</b><br>3. <b>Infrared (IR)</b><br>4. <b>Visible light</b><br>5. <b>Ultraviolet (UV)</b><br>6. <b>X-rays</b><br>7. <b>Gamma rays</b>"
+  },
+  {
+    "q": "Which part of the spectrum has the <b>highest energy</b> and the <b>shortest wavelength</b>?",
+    "a": "<b>Gamma rays ($\\gamma$-rays)</b>.<br>Energy ($E$) is directly proportional to frequency ($f$): $E = hf$.<br>Wavelength ($\\lambda$) is inversely proportional to frequency: $f = c/\\lambda$."
+  },
+  {
+    "q": "Give the <b>approximate frequency range</b> and two <b>uses</b> for <b>Radio Waves</b>.",
+    "a": "<b>Range</b>: $500 \\text{ kHz}$ to $1000 \\text{ MHz}$ (approx.)<br><b>Uses</b>: <b>Radio</b> and <b>Television</b> communication (AM/FM, UHF/VHF bands)."
+  },
+  {
+    "q": "Give the <b>approximate frequency range</b> and two <b>uses</b> for <b>Microwaves</b>.",
+    "a": "<b>Range</b>: $1 \\text{ GHz}$ to $300 \\text{ GHz}$ (approx.)<br><b>Uses</b>: <b>Microwave Ovens</b> (cooking) and <b>Radar</b> systems."
+  },
+  {
+    "q": "Give the <b>approximate frequency range</b> and two <b>uses</b> for <b>Infrared (IR) Waves</b>.",
+    "a": "<b>Range</b>: $3 \\times 10^{11} \\text{ Hz}$ to $4 \\times 10^{14} \\text{ Hz}$ (approx.)<br><b>Uses</b>: <b>Thermal imaging</b> (night vision) and <b>Remote controls</b>."
+  },
+  {
+    "q": "Give the <b>approximate wavelength range</b> and two <b>uses</b> for <b>Visible Light</b>.",
+    "a": "<b>Range</b>: $400 \\text{ nm}$ to $700 \\text{ nm}$ (approx.)<br><b>Uses</b>: <b>Human vision</b> and <b>Optical fibers</b> (communication)."
+  },
+  {
+    "q": "Give the <b>approximate frequency range</b> and two <b>uses</b> for <b>Ultraviolet (UV) Waves</b>.",
+    "a": "<b>Range</b>: $8 \\times 10^{14} \\text{ Hz}$ to $3 \\times 10^{16} \\text{ Hz}$ (approx.)<br><b>Uses</b>: <b>Sterilization</b> (killing germs) and <b>LASIK</b> eye surgery."
+  },
+  {
+    "q": "Give the <b>approximate frequency range</b> and two <b>uses</b> for <b>X-rays</b>.",
+    "a": "<b>Range</b>: $3 \\times 10^{16} \\text{ Hz}$ to $3 \\times 10^{19} \\text{ Hz}$ (approx.)<br><b>Uses</b>: <b>Medical imaging</b> (broken bones) and <b>Crystallography</b> (structure analysis)."
+  },
+  {
+    "q": "Give the <b>approximate frequency range</b> and two <b>uses</b> for <b>Gamma Rays ($\\gamma$-rays)</b>.",
+    "a": "<b>Range</b>: $> 3 \\times 10^{19} \\text{ Hz}$ (approx.)<br><b>Uses</b>: <b>Cancer treatment</b> (radiotherapy) and <b>Sterilization</b> of medical equipment."
+  }
+]

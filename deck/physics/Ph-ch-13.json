@@ -1,0 +1,102 @@
+[
+  {
+    "q": "What are <b>Isotopes</b>, <b>Isobars</b>, and <b>Isotones</b>?",
+    "a": "<b>Isotopes</b>: Same $Z$ (protons), different $A$ (mass no.). Ex: ${}^{12}\\text{C}, {}^{14}\\text{C}$<br><b>Isobars</b>: Same $A$, different $Z$. Ex: ${}^{40}\\text{Ar}, {}^{40}\\text{Ca}$<br><b>Isotones</b>: Same $N$ (neutrons), different $Z$. Ex: ${}^{39}\\text{K}, {}^{40}\\text{Ca}$"
+  },
+  {
+    "q": "What is the formula for the <b>Nuclear Radius ($R$)</b> and its relation to Mass Number ($A$)?",
+    "a": "The nuclear radius $R$ is proportional to the cube root of the mass number $A$.<br><br><b>Formula</b>: $R = R_0 A^{1/3}$<br>where $R_0 \\approx 1.2 \\times 10^{-15} \\text{ m}$ (1.2 femtometres)."
+  },
+  {
+    "q": "Ideal Que: Show that <b>Nuclear Density ($\\rho$)</b> is constant and independent of $A$.",
+    "a": "<b>Method</b>: $\\rho = \\frac{\\text{Mass}}{\\text{Volume}} = \\frac{A \\cdot m_{\\text{nucleon}}}{\\frac{4}{3} \\pi R^3}$<br>Substitute $R = R_0 A^{1/3}$:<br>$$\\rho = \\frac{A \\cdot m}{\\frac{4}{3} \\pi (R_0 A^{1/3})^3} = \\frac{A \\cdot m}{\\frac{4}{3} \\pi R_0^3 A}$$<br>The $A$ terms cancel, proving $\\rho$ is constant ($\\approx 2.3 \\times 10^{17} \\text{ kg/m}^3$)."
+  },
+  {
+    "q": "Ideal Que: Nuclei $X$ and $Y$ have mass numbers 27 and 64. What is the ratio of their <b>nuclear radii</b>?",
+    "a": "We know $R \\propto A^{1/3}$.<br>$$\\frac{R_X}{R_Y} = \\left(\\frac{A_X}{A_Y}\\right)^{1/3} = \\left(\\frac{27}{64}\\right)^{1/3} = \\frac{3}{4}$$<br>Ratio is <b>3:4</b>."
+  },
+  {
+    "q": "State <b>three key properties</b> of the <b>Strong Nuclear Force</b>.",
+    "a": "1. <b>Strongest Force</b>: It is the strongest of the four fundamental forces.<br>2. <b>Short-Range</b>: It is only effective over very short distances ($\\approx 1-2 \\text{ fm}$).<br>3. <b>Charge-Independent</b>: It acts equally between proton-proton, neutron-neutron, and proton-neutron."
+  },
+  {
+    "q": "Draw and explain the <b>Potential Energy (PE) curve</b> for a pair of nucleons vs. their separation ($r$).",
+    "a": "<br>The curve shows PE is:<br>1. <b>Strongly Repulsive</b> for $r < 0.8 \\text{ fm}$.<br>2. <b>Most Attractive</b> (minimum PE) at $r \\approx 0.8 \\text{ fm}$.<br>3. <b>Weakly Attractive</b> for $r > 0.8 \\text{ fm}$, dropping to zero quickly."
+  },
+  {
+    "q": "State Einstein's <b>Mass-Energy Equivalence</b> relation.",
+    "a": "Mass and energy are interconvertible, related by the equation:<br><br><b>Formula</b>: $E = m c^2$<br>where $c$ is the speed of light."
+  },
+  {
+    "q": "What is <b>Mass Defect ($\\Delta m$)</b>? (Using $M_{\\text{nucleus}}$)",
+    "a": "The difference between the total mass of a nucleus's constituent nucleons (when separate) and the actual, smaller mass of the nucleus itself.<br><br><b>Formula</b>: $$\\Delta m = [Z m_p + (A - Z) m_n] - M_{\\text{nucleus}}$$<br>(where $m_p$ and $m_n$ are masses of a free proton and neutron)."
+  },
+  {
+    "q": "What is the <b>Mass Defect ($\\Delta m$)</b> formula to use when given <b>Atomic Mass ($M_{\\text{atom}}$)</b>?",
+    "a": "To implicitly cancel the mass of the $Z$ electrons, use the mass of the Hydrogen atom ($M_H$) instead of a bare proton ($m_p$).<br><br><b>Formula</b>: $$\\Delta m = [Z M_H + (A - Z) m_n] - M_{\\text{atom}}$$<br>(This is the safest formula for most numerical problems)."
+  },
+  {
+    "q": "Define <b>Binding Energy ($E_b$)</b> and its relation to mass defect.",
+    "a": "The <b>Binding Energy</b> ($E_b$) is the energy equivalent of the mass defect. It is the minimum energy required to separate a nucleus into its constituent nucleons.<br><br><b>Formula</b>: $E_b = \\Delta m \\cdot c^2$"
+  },
+  {
+    "q": "What is the key <b>conversion factor</b> for calculating $E_b$ in <b>MeV</b> from <b>atomic mass units (u)</b>?",
+    "a": "$$1 \\text{ u} \\cdot c^2 = 931.5 \\text{ MeV}$$<br>This allows you to convert the mass defect (in u) directly to binding energy (in MeV).<br><br><b>$E_b \\text{ (in MeV)} = \\Delta m \\text{ (in u)} \\times 931.5$</b>"
+  },
+  {
+    "q": "What is <b>Binding Energy per Nucleon ($E_{bn}$)</b> and what does it indicate?",
+    "a": "It is the total binding energy of a nucleus divided by its total number of nucleons (mass number, $A$).<br><br><b>Formula</b>: $E_{bn} = \\frac{E_b}{A}$<br><br>It is the primary indicator of <b>nuclear stability</b>. A higher $E_{bn}$ means a more stable nucleus."
+  },
+  {
+    "q": "Ideal Que: Nucleus $X$ has $E_b = 100 \\text{ MeV}$ and $A=10$. Nucleus $Y$ has $E_b = 160 \\text{ MeV}$ and $A=20$. Which is more stable?",
+    "a": "Calculate $E_{bn}$ for each:<br>$E_{bn}(X) = \\frac{100 \\text{ MeV}}{10} = 10 \\text{ MeV/nucleon}$<br>$E_{bn}(Y) = \\frac{160 \\text{ MeV}}{20} = 8 \\text{ MeV/nucleon}$<br><br><b>Nucleus $X$ is more stable</b> because its $E_{bn}$ is higher."
+  },
+  {
+    "q": "Describe the <b>$E_{bn}$ vs. $A$ curve</b> and identify the most stable region.",
+    "a": "<br>The curve shows:<br>1. $E_{bn}$ is low for light nuclei ($A < 30$).<br>2. It rises sharply and peaks at $A \\approx 56$ (Iron), which is the most stable region.<br>3. It slowly decreases for heavy nuclei ($A > 170$)."
+  },
+  {
+    "q": "Using the $E_{bn}$ curve, explain <b>Nuclear Fusion</b>.",
+    "a": "Two or more <b>light nuclei</b> (with low $E_{bn}$) fuse to form a heavier nucleus (with higher $E_{bn}$). The resulting nucleus is more stable, and the difference in total binding energy is released as energy ($Q$-value)."
+  },
+  {
+    "q": "Using the $E_{bn}$ curve, explain <b>Nuclear Fission</b>.",
+    "a": "A <b>heavy nucleus</b> (with low $E_{bn}$) splits into two or more lighter nuclei (which have higher $E_{bn}$). The product nuclei are more stable, and the difference in total binding energy is released as energy ($Q$-value)."
+  },
+  {
+    "q": "HOTS: Why does the $E_{bn}$ curve *drop* for heavy nuclei ($A > 60$)?",
+    "a": "The <b>Strong Nuclear Force</b> is <b>short-range</b>. In large nuclei, the long-range <b>Electrostatic Repulsion</b> between all the protons begins to dominate over the short-range attraction, making the nucleus less stable and decreasing the average $E_{bn}$."
+  },
+  {
+    "q": "What is <b>Nuclear Fission</b>? Give a typical reaction.",
+    "a": "The process in which a heavy nucleus (like ${}^{235}\\text{U}$) splits into two or more lighter nuclei and releases energy, usually after absorbing a neutron.<br><br><b>Reaction</b>: $${}_0^1\\text{n} + {}_{92}^{235}\\text{U} \\longrightarrow {}_{92}^{236}\\text{U}^* \\longrightarrow {}_{56}^{144}\\text{Ba} + {}_{36}^{89}\\text{Kr} + 3({}_0^1\\text{n}) + Q$$"
+  },
+  {
+    "q": "What is <b>Nuclear Fusion</b>? Give the primary reaction in the Sun.",
+    "a": "The process in which two or more light nuclei combine to form a single, heavier nucleus, releasing energy.<br><br><b>Reaction (Proton-Proton Cycle)</b>:<br>$${}_1^1\\text{H} + {}_1^1\\text{H} \\longrightarrow {}_1^2\\text{H} + e^+ + \\nu + Q$$"
+  },
+  {
+    "q": "HOTS: Why does <b>Nuclear Fusion</b> require extremely high temperatures ($\\approx 10^7 \\text{ K}$)?",
+    "a": "The light nuclei (e.g., protons) are both <b>positively charged</b>. They need extremely high kinetic energy (from high temperatures) to overcome the strong <b>Electrostatic (Coulomb) Repulsion</b> and get close enough ($\\approx 1 \\text{ fm}$) for the attractive <b>Strong Nuclear Force</b> to take over."
+  },
+  {
+    "q": "HOTS: What is the fundamental difference in the <b>origin</b> of $\\beta$-decay and $\\gamma$-decay?",
+    "a": "$\\beta$-decay originates from the nucleus due to the <b>Weak Nuclear Force</b>, typically converting a neutron to a proton ($n \\to p + e^- + \\bar{\\nu}$).<br>$\\gamma$-decay originates from a change in the <b>energy state</b> of the nucleus, when an excited nucleus drops to a lower energy level by emitting a high-energy photon ($\\gamma$-ray)."
+  },
+  {
+    "q": "Ideal Que: Calculate the energy released ($Q$-value) in the reaction ${}_1^2\\text{H} + {}_1^2\\text{H} \\to {}_2^3\\text{He} + {}_0^1\\text{n}$",
+    "a": "1. Find mass of reactants: $M_{react} = 2 \\times M({}_1^2\\text{H})$<br>2. Find mass of products: $M_{prod} = M({}_2^3\\text{He}) + M({}_0^1\\text{n})$<br>3. Find mass defect: $\\Delta m = M_{react} - M_{prod}$<br>4. Calculate energy: $Q \\text{ (in MeV)} = \\Delta m \\text{ (in u)} \\times 931.5$"
+  },
+  {
+    "q": "Ideal Que: Calculate the <b>Binding Energy per Nucleon</b> for ${}_3^7\\text{Li}$.<br>(Given: $M({}_3^7\\text{Li}) = 7.01600 \\text{ u}$, $M_H = 1.00783 \\text{ u}$, $m_n = 1.00867 \\text{ u}$)",
+    "a": "1. <b>Constituents</b>: $Z=3$ (protons), $N=4$ (neutrons).<br>2. <b>Mass of Const</b>: $(3 \\times 1.00783) + (4 \\times 1.00867) = 3.02349 + 4.03468 = 7.05817 \\text{ u}$<br>3. <b>Mass Defect $\\Delta m$</b>: $7.05817 - 7.01600 = 0.04217 \\text{ u}$<br>4. <b>Total $E_b$</b>: $0.04217 \\times 931.5 = 39.27 \\text{ MeV}$<br>5. <b>$E_{bn}$</b>: $\\frac{39.27 \\text{ MeV}}{7 \\text{ nucleons}} = 5.61 \\text{ MeV/nucleon}$"
+  },
+  {
+    "q": "Ideal Que: The energy released in a fission reaction is 200 MeV. How much energy is released in <b>Joules (J)</b>?",
+    "a": "Use the conversion factor: $1 \\text{ MeV} = 1.6 \\times 10^{-13} \\text{ J}$<br><br>$E(J) = 200 \\text{ MeV} \\times (1.6 \\times 10^{-13} \\text{ J/MeV})$<br>$E(J) = 320 \\times 10^{-13} \\text{ J} = 3.2 \\times 10^{-11} \\text{ J}$."
+  },
+  {
+    "q": "What two quantities are <b>conserved</b> in all nuclear reactions?",
+    "a": "1. <b>Total Charge (Atomic Number, $Z$)</b>: The sum of $Z$ for the reactants must equal the sum of $Z$ for the products.<br>2. <b>Total Nucleons (Mass Number, $A$)</b>: The sum of $A$ for the reactants must equal the sum of $A$ for the products."
+  }
+]

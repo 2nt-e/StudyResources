@@ -1,70 +1,34 @@
 [
   {
-    "q": "What is the main idea of Application of Integrals?",
-    "a": "Application of integrals involves using definite integrals to calculate quantities like area under curves, area between curves, and other physical quantities."
+    "q": "What is the <b>main idea of Application of Integrals</b>?",
+    "a": "Application of integrals involves using <b>definite integrals</b> to calculate the **area** of regions bounded by curves, lines, and the coordinate axes."
   },
   {
-    "q": "Formula for area under a curve y=f(x) from x=a to x=b?",
-    "a": "Area = \\( \\int_a^b f(x) dx \\), where f(x) ≥ 0 in [a,b]."
+    "q": "Formula for <b>area under a curve $y=f(x)$</b> from $x=a$ to $x=b$?",
+    "a": "If $f(x) \\ge 0$ in $[a,b]$ (above the x-axis):<br>$$ \\text{Area} = \\int_a^b f(x) dx $$"
   },
   {
-    "q": "What if f(x) takes negative values in [a,b]?",
-    "a": "Area = \\( \\int_a^b |f(x)| dx \\). Split the interval where f(x) changes sign."
+    "q": "What if $f(x)$ takes <b>negative values</b> in $[a,b]$ (below the x-axis)?",
+    "a": "To find the total area, you must integrate the **absolute value** of the function:<br>$$ \\text{Area} = \\int_a^b |f(x)| dx $$This requires splitting the integral at the zeros of $f(x)$ within the interval."
   },
   {
-    "q": "Area between two curves y=f(x) and y=g(x) from x=a to x=b?",
-    "a": "Area = \\( \\int_a^b [f(x) - g(x)] dx \\), where f(x) ≥ g(x) in [a,b]."
+    "q": "Formula for <b>area between two curves $y=f(x)$ and $y=g(x)$</b> from $x=a$ to $x=b$?",
+    "a": "If $f(x) \\ge g(x)$ in $[a,b]$ (where $f(x)$ is the top curve):<br>$$ \\text{Area} = \\int_a^b [f(x) - g(x)] dx $$"
   },
   {
-    "q": "How to find area when curves intersect?",
-    "a": "1. Find intersection points x=a and x=b.<br>2. Split integral if necessary where top and bottom curves change.<br>3. Use \\( \\int [top-bottom] dx \\) for each interval."
+    "q": "How to find area when <b>curves intersect</b> within the limits?",
+    "a": "1. Find the <b>intersection points</b>.<br>2. **Split the integral** at the intersection points where the 'top' and 'bottom' curves change roles.<br>3. Sum the absolute value of the integrals for each interval."
   },
   {
-    "q": "Area between curves x=f(y) and x=g(y) from y=c to y=d?",
-    "a": "Area = \\( \\int_c^d [f(y) - g(y)] dy \\), where f(y) ≥ g(y) in [c,d]."
+    "q": "Formula for <b>Area between curves $x=f(y)$ and $x=g(y)$</b> from $y=c$ to $y=d$?",
+    "a": "If $f(y) \\ge g(y)$ in $[c,d]$ (where $f(y)$ is the right curve):<br>$$ \\text{Area} = \\int_c^d [f(y) - g(y)] dy $$"
   },
   {
-    "q": "Tip: changing order of integration for horizontal slices",
-    "a": "Sometimes it's easier to integrate w.r.t y (horizontal slices) instead of x (vertical slices). Use x=f(y) formulas."
+    "q": "When is it easier to use <b>horizontal slices</b> (integration w.r.t. $y$)?",
+    "a": "Integration with respect to $y$ (using $x=f(y)$ formulas) is preferred when the **right and left boundary curves are consistent** across the region, or when the region is bounded by a curve and the $y$-axis."
   },
   {
-    "q": "Area enclosed by curves y=f(x), y=g(x), x=a, x=b",
-    "a": "Use \\( \\int_a^b [f(x) - g(x)] dx \\). Make sure to check which curve is on top in each interval."
-  },
-  {
-    "q": "Area bounded by curve and x-axis (general tip)",
-    "a": "If curve crosses x-axis, split at zeros of f(x) and take absolute value of each part: \\( \\int |f(x)| dx \\)."
-  },
-  {
-    "q": "Geometrical symmetry property",
-    "a": "1. If f(x) is even: \\( \\int_{-a}^a f(x) dx = 2 \\int_0^a f(x) dx \\)<br>2. If f(x) is odd: \\( \\int_{-a}^a f(x) dx = 0 \\)."
-  },
-  {
-    "q": "Area using f(a-x) property",
-    "a": "\\( \\int_0^a f(x) dx = \\int_0^a f(a-x) dx \\). Useful for simplifying integrals."
-  },
-  {
-    "q": "Area between two curves example tip",
-    "a": "Check if curves intersect within limits. If yes, split integral at intersection points to find accurate area."
-  },
-  {
-    "q": "Special case: region enclosed by y=f(x) and x-axis only",
-    "a": "Area = \\( \\int_{x_1}^{x_2} |f(x)| dx \\), where x_1 and x_2 are zeros of f(x)."
-  },
-  {
-    "q": "Special case: region enclosed by x=f(y) and y-axis only",
-    "a": "Area = \\( \\int_{y_1}^{y_2} |f(y)| dy \\), where y_1 and y_2 are zeros of f(y)."
-  },
-  {
-    "q": "Example tip: sketching helps",
-    "a": "Always sketch the curves first to identify top/bottom or right/left functions before integrating."
-  },
-  {
-    "q": "Key reminder",
-    "a": "Check signs of functions in intervals, split if necessary, and always take absolute values where required to get actual area."
-  },
-  {
-    "q": "CBSE exam shortcut tip",
-    "a": "For simple curves and standard functions, formulas for definite integrals of polynomials, trigonometric and exponential functions can be directly used."
+    "q": "Key reminder for all area problems: <b>sketching helps</b>.",
+    "a": "Always **sketch the region** first. This is crucial for: <br>1. Identifying the correct limits of integration ($a, b, c, d$).<br>2. Determining which function is the **Top/Right** and which is the **Bottom/Left** in each interval."
   }
 ]

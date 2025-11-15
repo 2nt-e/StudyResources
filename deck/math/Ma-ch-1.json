@@ -1,74 +1,74 @@
 [
   {
-    "q": "What is a relation between two sets?",
-    "a": "A relation \\(R\\) from set \\(A\\) to set \\(B\\) is a subset of their Cartesian product: \\(R \\subseteq A \\times B\\). If \\((a,b) \\in R\\), we write \\(aRb\\)."
+    "q": "What is a <b>relation</b> between two sets?",
+    "a": "A <b>relation ($R$)</b> from set $A$ to set $B$ is a subset of their Cartesian product. <br><b>Formula</b>: $R \\subseteq A \\times B$. <br>If $(a,b) \\in R$, we write $aRb$."
   },
   {
-    "q": "What is a relation on a set?",
-    "a": "A relation on a set \\(A\\) is any subset of \\(A \\times A\\). Thus, both elements of each ordered pair belong to the same set \\(A\\)."
+    "q": "What is a <b>relation on a set</b>?",
+    "a": "A relation on a set $A$ is any subset of $A \\times A$. Thus, both elements of each ordered pair belong to the same set $A$."
   },
   {
-    "q": "Define a reflexive relation.",
-    "a": "A relation \\(R\\) on set \\(A\\) is **reflexive** if \\((a,a) \\in R\\) for all \\(a \\in A\\)."
+    "q": "Define a <b>reflexive relation</b>.",
+    "a": "A relation $R$ on set $A$ is <b>reflexive</b> if $(a,a) \\in R$ for all $a \\in A$."
   },
   {
-    "q": "Define a symmetric relation.",
-    "a": "A relation \\(R\\) on set \\(A\\) is **symmetric** if \\((a,b) \\in R\\) implies \\((b,a) \\in R\\), for all \\(a,b \\in A\\)."
+    "q": "Define a <b>symmetric relation</b>.",
+    "a": "A relation $R$ on set $A$ is <b>symmetric</b> if $(a,b) \\in R$ implies $(b,a) \\in R$, for all $a,b \\in A$."
   },
   {
-    "q": "Define a transitive relation.",
-    "a": "A relation \\(R\\) on set \\(A\\) is **transitive** if \\((a,b) \\in R\\) and \\((b,c) \\in R\\) together imply \\((a,c) \\in R\\), for all \\(a,b,c \\in A\\)."
+    "q": "Define a <b>transitive relation</b>.",
+    "a": "A relation $R$ on set $A$ is <b>transitive</b> if $(a,b) \\in R$ and $(b,c) \\in R$ together imply $(a,c) \\in R$, for all $a,b,c \\in A$."
   },
   {
-    "q": "When is a relation called an equivalence relation?",
-    "a": "A relation is an **equivalence relation** if it is reflexive, symmetric, and transitive."
+    "q": "When is a relation called an <b>equivalence relation</b>?",
+    "a": "A relation $R$ is an <b>equivalence relation</b> if it is: <br>1. <b>Reflexive</b><br>2. <b>Symmetric</b><br>3. <b>Transitive</b>"
   },
   {
-    "q": "What is the set of all equivalence classes of an equivalence relation?",
-    "a": "It forms a **partition** of the set \\(A\\). Each element belongs to exactly one equivalence class."
+    "q": "What is the set of all <b>equivalence classes</b> of an equivalence relation?",
+    "a": "The set of all equivalence classes forms a <b>partition</b> of the set $A$. <br>This means every element of $A$ belongs to exactly one equivalence class."
   },
   {
-    "q": "Define a function.",
-    "a": "A **function** \\(f\\) from set \\(A\\) to set \\(B\\) is a special relation where every element of \\(A\\) has **exactly one** image in \\(B\\). Denoted \\(f: A \\to B\\)."
+    "q": "Define a <b>function</b>.",
+    "a": "A <b>function ($f$)</b> from set $A$ to set $B$ is a special relation where every element of $A$ has <b>exactly one</b> image in $B$. <br><b>Notation</b>: $f: A \\to B$."
   },
   {
-    "q": "What is the domain, co-domain, and range of a function?",
-    "a": "For \\(f: A \\to B\\):  \n• **Domain** = set \\(A\\).  \n• **Co-domain** = set \\(B\\).  \n• **Range** = \\(\\{ f(x) : x \\in A \\} \\subseteq B\\)."
+    "q": "What is the <b>domain, co-domain, and range</b> of a function?",
+    "a": "For $f: A \\to B$: <br>• <b>Domain</b>: Set $A$. <br>• <b>Co-domain</b>: Set $B$. <br>• <b>Range</b>: The set of all images, $\\{ f(x) : x \\in A \\} \\subseteq B$."
   },
   {
-    "q": "Define an injective (one-one) function.",
-    "a": "A function \\(f: A \\to B\\) is **one-one** if \\(f(x_1) = f(x_2) \\Rightarrow x_1 = x_2\\). Each element of \\(B\\) has at most one pre-image."
+    "q": "Define an <b>injective (one-one) function</b>.",
+    "a": "A function $f: A \\to B$ is <b>one-one (Injective)</b> if: <br>1. $f(x_1) = f(x_2) \\Rightarrow x_1 = x_2$. <br>2. Each element of $B$ has at most one pre-image."
   },
   {
-    "q": "Define a surjective (onto) function.",
-    "a": "A function \\(f: A \\to B\\) is **onto** if for every \\(b \\in B\\), there exists at least one \\(a \\in A\\) such that \\(f(a) = b\\). Thus, Range(f) = Co-domain."
+    "q": "Define a <b>surjective (onto) function</b>.",
+    "a": "A function $f: A \\to B$ is <b>onto (Surjective)</b> if for every $b \\in B$, there exists at least one $a \\in A$ such that $f(a) = b$. <br>This means <b>Range($f$) = Co-domain</b>."
   },
   {
-    "q": "Define a bijective function.",
-    "a": "A function is **bijective** if it is both one-one and onto. A bijective function establishes a one-to-one correspondence between elements of \\(A\\) and \\(B\\)."
+    "q": "Define a <b>bijective function</b>.",
+    "a": "A function is <b>bijective</b> if it is <b>both one-one and onto</b>. <br>A bijective function establishes a one-to-one correspondence between elements of $A$ and $B$."
   },
   {
-    "q": "What is the composition of functions?",
-    "a": "If \\(f: A \\to B\\) and \\(g: B \\to C\\), the **composition** of \\(f\\) and \\(g\\) is \\(g \\circ f: A \\to C\\) defined by  \n\\[(g \\circ f)(x) = g(f(x))\\]  \nfor all \\(x \\in A\\), provided Range(f) ⊆ Domain(g)."
+    "q": "What is the <b>composition of functions</b>?",
+    "a": "If $f: A \\to B$ and $g: B \\to C$, the <b>composition</b> of $f$ and $g$ is $g \\circ f: A \\to C$. <br><b>Definition</b>: \\[(g \\circ f)(x) = g(f(x))\\] for all $x \\in A$, provided Range($f$) $\\subseteq$ Domain($g$)."
   },
   {
-    "q": "Example of function composition.",
-    "a": "Let \\(f(x) = 2x + 1\\) and \\(g(x) = x^2\\). Then  \n\\[(g \\circ f)(x) = g(f(x)) = (2x + 1)^2 = 4x^2 + 4x + 1.\\]"
+    "q": "Example of <b>function composition</b>.",
+    "a": "Let $f(x) = 2x + 1$ and $g(x) = x^2$. <br>Then: \\[(g \\circ f)(x) = g(f(x)) = (2x + 1)^2 = 4x^2 + 4x + 1.\\]"
   },
   {
-    "q": "Define an invertible function.",
-    "a": "A function \\(f: A \\to B\\) is **invertible** if there exists a function \\(g: B \\to A\\) such that  \n\\[g(f(x)) = x, \\; \\forall x \\in A\\]  and  \n\\[f(g(y)) = y, \\; \\forall y \\in B.\\]  \nThen \\(g\\) is called the **inverse function** of \\(f\\), denoted by \\(f^{-1}\\)."
+    "q": "Define an <b>invertible function</b>.",
+    "a": "A function $f: A \\to B$ is <b>invertible</b> if there exists a function $g: B \\to A$ (the inverse, $f^{-1}$) such that: <br>1. \\(g(f(x)) = x, \\; \\forall x \\in A\\) (or $g \\circ f = I_A$) <br>2. \\(f(g(y)) = y, \\; \\forall y \\in B\\) (or $f \\circ g = I_B$)"
   },
   {
-    "q": "When does a function have an inverse?",
-    "a": "A function has an inverse **if and only if** it is bijective (one-one and onto)."
+    "q": "When does a function have an <b>inverse</b>?",
+    "a": "A function $f: A \\to B$ has an inverse <b>if and only if</b> it is <b>bijective</b> (one-one and onto)."
   },
   {
-    "q": "State the property of inverse function composition.",
-    "a": "If \\(f\\) is invertible, then  \n\\[f^{-1} \\circ f = I_A \\quad \\text{and} \\quad f \\circ f^{-1} = I_B\\]  \nwhere \\(I_A\\) and \\(I_B\\) are identity functions on sets \\(A\\) and \\(B\\)."
+    "q": "State the property of <b>inverse function composition</b>.",
+    "a": "If $f$ is invertible, then: <br>\\[f^{-1} \\circ f = I_A \\quad \\text{and} \\quad f \\circ f^{-1} = I_B\\] where $I_A$ and $I_B$ are identity functions on sets $A$ and $B$, respectively."
   },
   {
-    "q": "Example of inverse function.",
-    "a": "Let \\(f(x) = 3x + 2\\). Then, to find \\(f^{-1}\\):  \n\\(y = 3x + 2 \\Rightarrow x = \\frac{y - 2}{3}\\).  \nHence \\(f^{-1}(y) = \\frac{y - 2}{3}\\)."
+    "q": "Example of <b>inverse function</b>.",
+    "a": "Let $f(x) = 3x + 2$. <br>To find $f^{-1}$, set $y = f(x)$ and solve for $x$: <br>\\[y = 3x + 2 \\Rightarrow x = \\frac{y - 2}{3}\\]Hence $f^{-1}(y) = \\frac{y - 2}{3}$."
   }
 ]

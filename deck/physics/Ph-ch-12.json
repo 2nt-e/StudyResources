@@ -1,0 +1,78 @@
+[
+  {
+    "q": "What were the key results of <b>Rutherford's $\\alpha$-particle scattering experiment</b>?",
+    "a": "1. Most $\\alpha$-particles passed straight through $\\implies$ Most of the atom is <b>empty space</b>.<br>2. A few $\\alpha$-particles deflected at large angles $\\implies$ The positive charge is concentrated in a tiny, dense core called the <b>nucleus</b>.<br>3. Volume of the nucleus is $\\approx 10^{-15}$ times the volume of the atom."
+  },
+  {
+    "q": "State the two major <b>drawbacks of Rutherford's Model</b>.",
+    "a": "1. <b>Stability of the Atom</b> (Classical Theory): Accelerating electrons should continuously radiate energy and spiral into the nucleus, making the atom unstable.<br>2. <b>Atomic Spectrum</b>: It predicted a continuous emission spectrum, but atoms actually produce sharp <b>line spectra</b>."
+  },
+  {
+    "q": "State <b>Bohr's First Postulate</b> (The Stationary Orbits).",
+    "a": "An electron in an atom can revolve in certain non-radiating, stable, circular orbits, called <b>stationary orbits</b>. While in these orbits, the electron does not emit energy."
+  },
+  {
+    "q": "State <b>Bohr's Second Postulate</b> (The Quantization Condition).",
+    "a": "The electron can revolve only in those orbits for which the <b>angular momentum ($L$)</b> is an integral multiple of $\\frac{h}{2\\pi}$.<br><br><b>Formula</b>: $$L = mvr = n \\frac{h}{2\\pi}$$ where $n = 1, 2, 3, ...$ (principal quantum number) and $h$ is Planck's constant."
+  },
+  {
+    "q": "State <b>Bohr's Third Postulate</b> (The Frequency Condition).",
+    "a": "An electron emits or absorbs energy only when it makes a transition from one stationary orbit ($E_i$) to another ($E_f$). The frequency of the emitted/absorbed radiation is:<br><br><b>Formula</b>: $$ \\nu = \\frac{E_f - E_i}{h} $$"
+  },
+  {
+    "q": "Give the formula for the <b>Radius ($r_n$) of the $n$-th Bohr orbit</b> for a Hydrogen atom.",
+    "a": "<b>Formula</b>: $$ r_n = \\frac{\\epsilon_0 n^2 h^2}{\\pi m e^2} $$<br>The radius of the $n$-th orbit is proportional to $n^2$: $r_n \\propto n^2$.<br><br>The radius of the first Bohr orbit ($n=1$) is called the <b>Bohr radius</b> ($a_0$): $a_0 = 0.53 \\text{ Å}$."
+  },
+  {
+    "q": "Give the formula for the <b>Velocity ($v_n$) of the electron</b> in the $n$-th Bohr orbit.",
+    "a": "<b>Formula</b>: $$ v_n = \\frac{e^2}{2 \\epsilon_0 n h} $$<br>The velocity of the electron is inversely proportional to $n$: $v_n \\propto \\frac{1}{n}$."
+  },
+  {
+    "q": "Give the formula for the <b>Total Energy ($E_n$) of the electron</b> in the $n$-th Bohr orbit.",
+    "a": "<b>Formula</b>: $$ E_n = - \\frac{m e^4}{8 \\epsilon_0^2 h^2 n^2} $$<br>This simplifies to: $$ E_n = - \\frac{13.6}{n^2} \\text{ eV} $$<br>Note: The energy is <b>negative</b>, indicating the electron is bound to the nucleus."
+  },
+  {
+    "q": "HOTS: What is the relationship between the <b>Kinetic Energy (KE)</b> and <b>Total Energy ($E$)</b> of the electron in a Bohr orbit?",
+    "a": "The magnitude of the Kinetic Energy is equal to the magnitude of the Total Energy, but $E$ is negative.<br><br>$$ \\text{KE} = -E $$"
+  },
+  {
+    "q": "HOTS: What is the relationship between the <b>Potential Energy (PE)</b> and <b>Total Energy ($E$)</b> of the electron in a Bohr orbit?",
+    "a": "The Potential Energy is twice the Total Energy.<br><br>$$ \\text{PE} = 2E $$"
+  },
+  {
+    "q": "What is the <b>Ionisation Energy</b> of the Hydrogen atom?",
+    "a": "It is the minimum energy required to remove an electron from its ground state ($n=1$) to the free state ($n=\\infty$).<br><br>$$ E_{\\text{ionisation}} = E_{\\infty} - E_1 = 0 - (-13.6 \\text{ eV}) = <b>+13.6 \\text{ eV}</b> $$"
+  },
+  {
+    "q": "Define <b>Atomic Spectra</b> and <b>Line Spectra</b>.",
+    "a": "<b>Atomic Spectra</b>: The pattern of electromagnetic radiation emitted or absorbed by an atom when its electrons undergo transitions between energy levels.<br><b>Line Spectra</b>: The spectrum consists of sharp, discrete lines, confirming that atoms only exist in specific, quantized energy states."
+  },
+  {
+    "q": "What is the <b>Rydberg Formula</b> for the wave number ($\\bar{\\nu}$) of spectral lines?",
+    "a": "<b>Formula</b>: $$ \\bar{\\nu} = \\frac{1}{\\lambda} = R \\left( \\frac{1}{n_f^2} - \\frac{1}{n_i^2} \\right) $$<br>where $R$ is the Rydberg constant ($1.097 \\times 10^7 \\text{ m}^{-1}$), $n_f$ is the final energy level, and $n_i$ is the initial energy level ($n_i > n_f$)."
+  },
+  {
+    "q": "Identify the <b>Spectral Series</b> associated with the transition to the final state $\\mathbf{n_f = 1}$.",
+    "a": "The <b>Lyman Series</b> ($n_f=1$). These transitions result in radiation in the <b>Ultraviolet (UV)</b> region."
+  },
+  {
+    "q": "Identify the <b>Spectral Series</b> associated with the transition to the final state $\\mathbf{n_f = 2}$.",
+    "a": "The <b>Balmer Series</b> ($n_f=2$). These transitions result in radiation in the <b>Visible</b> region."
+  },
+  {
+    "q": "Identify the <b>Spectral Series</b> associated with the transition to the final state $\\mathbf{n_f = 3}$.",
+    "a": "The <b>Paschen Series</b> ($n_f=3$). These transitions result in radiation in the <b>Infrared (IR)</b> region."
+  },
+  {
+    "q": "Ideal Que: What is the <b>shortest wavelength</b> in the Balmer series?",
+    "a": "The shortest wavelength (highest energy) corresponds to the maximum transition: $n_i = \\infty$ to $n_f = 2$.<br>$$ \\frac{1}{\\lambda_{\\min}} = R \\left( \\frac{1}{2^2} - \\frac{1}{\\infty^2} \\right) = \\frac{R}{4} $$<br>$$\\lambda_{\\min} = \\frac{4}{R} \\approx 364.5 \\text{ nm}$$"
+  },
+  {
+    "q": "HOTS: Why did <b>Bohr's Model</b> only successfully explain the spectrum of Hydrogen and Hydrogen-like atoms?",
+    "a": "Bohr's model only considers the electrostatic attraction between a single electron and a nucleus. It fails for multi-electron atoms (like Helium or Lithium) because it does not account for the <b>electrostatic repulsion</b> between the multiple electrons."
+  },
+  {
+    "q": "What does the <b>De Broglie Hypothesis</b> have to say about Bohr's second postulate?",
+    "a": "The <b>De Broglie hypothesis</b> provides the <b>theoretical justification</b> for Bohr's second postulate. It states that only those orbits are stable where the electron's circumference is an <b>integral multiple of its De Broglie wavelength</b> ($\\lambda$).<br><br>$$ 2\\pi r = n\\lambda $$<br>Since $\\lambda = \\frac{h}{mv}$, this leads directly to the quantization condition: $mvr = n \\frac{h}{2\\pi}$."
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "q": "State <b>Huygens' Principle</b> (Huygens' construction).",
+    "a": "1. Every point on a <b>primary wavefront</b> acts as a source of <b>secondary wavelets</b> which spread out in all directions at the speed of light.<br>2. The <b>new wavefront</b> (secondary wavefront) at any instant is the <b>forward envelope</b> (tangential surface) of these secondary wavelets."
+  },
+  {
+    "q": "What is the phenomenon of <b>Interference of Light</b>?",
+    "a": "The modification in the <b>distribution of light intensity</b> resulting from the <b>superposition</b> of two or more light waves. This produces alternating bright and dark fringes."
+  },
+  {
+    "q": "What are the two necessary conditions for <b>Sustained Interference</b> (Coherent Sources)?",
+    "a": "1. The two sources must be <b>Coherent</b> (constant phase difference).<br>2. The waves must have nearly equal <b>amplitudes</b>."
+  },
+  {
+    "q": "State the condition for <b>Constructive Interference</b> (Bright Fringes) in terms of <b>Path Difference</b> ($\\Delta x$).",
+    "a": "The path difference must be an <b>integral multiple of the wavelength</b> ($\\lambda$):<br>$$ \\Delta x = n\\lambda \\quad \\text{where } n = 0, 1, 2, \\dots $$"
+  },
+  {
+    "q": "State the condition for <b>Destructive Interference</b> (Dark Fringes) in terms of <b>Path Difference</b> ($\\Delta x$).",
+    "a": "The path difference must be an <b>odd multiple of half the wavelength</b> ($\\lambda$):<br>$$ \\Delta x = (2n - 1)\\frac{\\lambda}{2} \\quad \\text{where } n = 1, 2, 3, \\dots $$"
+  },
+  {
+    "q": "State the formula for <b>Fringe Width</b> ($\\beta$) in Young's Double Slit Experiment (YDSE).",
+    "a": "Fringe width is the distance between two consecutive bright or dark fringes. $D$ is slit-screen distance, $d$ is slit separation:<br>$$ \\beta = \\frac{\\lambda D}{d} $$"
+  },
+  {
+    "q": "What is the formula for <b>Intensity</b> ($I$) resulting from the superposition of two waves with amplitudes $a_1$ and $a_2$ and phase difference $\\phi$?",
+    "a": "Intensity $I$ is proportional to the square of the resultant amplitude ($A^2$):<br>$$ I = I_1 + I_2 + 2\\sqrt{I_1 I_2} \\cos\\phi $$"
+  },
+  {
+    "q": "Define the phenomenon of <b>Diffraction of Light</b>.",
+    "a": "The <b>bending of light</b> around the corners of an obstacle or an aperture. This leads to the encroachment of light into the region of the geometrical shadow."
+  },
+  {
+    "q": "What determines the <b>width of the Central Maximum</b> in a Single Slit Diffraction experiment (Qualitative)?",
+    "a": "The angular width is inversely proportional to the slit width ($a$) and directly proportional to the wavelength ($\\lambda$):<br>$$ \\text{Width} \\propto \\frac{\\lambda}{a} $$ (Narrower slit or longer wavelength increases the width of the central maximum)."
+  },
+  {
+    "q": "State the condition for the <b>minima</b> (dark fringes) in Single Slit Diffraction.",
+    "a": "The path difference must satisfy:<br>$$ a \\sin\\theta = n\\lambda \\quad \\text{where } n = 1, 2, 3, \\dots $$"
+  }
+]

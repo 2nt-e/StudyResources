@@ -1,86 +1,86 @@
 [
   {
-    "q": "State Faraday's Law of Electromagnetic Induction.",
-    "a": "The induced EMF \\(\\mathcal{E}\\) in a closed circuit is equal to the **negative rate of change of magnetic flux** through the circuit: \\[ \\mathcal{E} = - \\frac{d\\Phi_B}{dt} \\], where \\(\\Phi_B = \\int \\vec{B} \\cdot d\\vec{A}\\)."
+    "q": "State <b>Faraday's Law of Electromagnetic Induction</b>.",
+    "a": "The induced EMF $\\mathcal{E}$ in a closed circuit is equal to the <b>negative rate of change of magnetic flux</b> through the circuit: \\[ \\mathcal{E} = - \\frac{d\\Phi_B}{dt} \\], where $\\Phi_B = \\int \\vec{B} \\cdot d\\vec{A}$."
   },
   {
-    "q": "State Lenz's Law.",
-    "a": "The direction of induced EMF (or induced current) **always opposes the change in magnetic flux** that produced it: \\[ \\mathcal{E}_{ind} = - \\frac{d\\Phi_B}{dt} \\].  \n💡 Trick: 'Oppose the change' → think of magnetic field like a stubborn friend resisting change."
+    "q": "State <b>Lenz's Law</b>.",
+    "a": "The direction of induced EMF (or induced current) <b>always opposes the change in magnetic flux</b> that produced it: \\[ \\mathcal{E}_{ind} = - \\frac{d\\Phi_B}{dt} \\]. \n💡 Trick: 'Oppose the change' → think of magnetic field like a stubborn friend resisting change."
   },
   {
-    "q": "Define magnetic flux.",
-    "a": "Magnetic flux \\(\\Phi_B\\) through a surface of area \\(A\\) in a magnetic field \\(\\vec{B}\\) is: \\[ \\Phi_B = \\int \\vec{B} \\cdot d\\vec{A} = B A \\cos\\theta \\], where \\(\\theta\\) is angle between \\(\\vec{B}\\) and normal to surface."
+    "q": "Define <b>magnetic flux</b>.",
+    "a": "Magnetic flux $\\Phi_B$ through a surface of area $A$ in a magnetic field $\\vec{B}$ is: \\[ \\Phi_B = \\int \\vec{B} \\cdot d\\vec{A} = B A \\cos\\theta \\], where $\\theta$ is angle between $\\vec{B}$ and normal to surface."
   },
   {
-    "q": "Motional EMF formula for a moving conductor.",
-    "a": "A conductor of length \\(l\\) moving with velocity \\(\\vec{v}\\) perpendicular to \\(\\vec{B}\\) induces EMF: \\[ \\mathcal{E} = B l v \\].  \nDirection → Fleming's Right-Hand Rule."
+    "q": "<b>Motional EMF</b> formula for a moving conductor.",
+    "a": "A conductor of length $l$ moving with velocity $\\vec{v}$ perpendicular to $\\vec{B}$ induces EMF: \\[ \\mathcal{E} = B l v \\]. \nDirection → <b>Fleming's Right-Hand Rule</b>."
   },
   {
-    "q": "Induced current in a moving conductor.",
-    "a": "If conductor resistance is \\(R\\): \\[ I = \\frac{\\mathcal{E}}{R} = \\frac{B l v}{R} \\].  \n💡 Trick: Higher speed or longer length → bigger current!"
+    "q": "<b>Induced current</b> in a moving conductor.",
+    "a": "If conductor resistance is $R$: \\[ I = \\frac{\\mathcal{E}}{R} = \\frac{B l v}{R} \\]. \n💡 Trick: Higher speed or longer length → bigger current!"
   },
   {
-    "q": "Fleming's Right-Hand Rule for induced current.",
-    "a": "Thumb → motion of conductor, Fingers → magnetic field, Palm → direction of conventional induced current (positive → negative)."
+    "q": "<b>Fleming's Right-Hand Rule</b> for induced current.",
+    "a": "<b>Thumb</b> → motion of conductor, <b>Fingers</b> → magnetic field, <b>Palm</b> → direction of conventional induced current (positive $\\to$ negative)."
   },
   {
-    "q": "Explain self-induction.",
-    "a": "When **changing current in a coil induces EMF in itself**, it's called self-induction: \\[ \\mathcal{E}_L = - L \\frac{dI}{dt} \\].  \n💡 Trick: Self-resistance to change."
+    "q": "Explain <b>self-induction</b>.",
+    "a": "When <b>changing current in a coil induces EMF in itself</b>, it's called self-induction: \\[ \\mathcal{E}_L = - L \\frac{dI}{dt} \\]. \n💡 Trick: Self-resistance to change."
   },
   {
-    "q": "Formula for self-inductance of solenoid.",
-    "a": "Solenoid of \\(N\\) turns, length \\(l\\), cross-section \\(A\\): \\[ L = \\mu_0 \\frac{N^2 A}{l} \\].  \nMore turns or bigger area → higher self-inductance."
+    "q": "Formula for <b>self-inductance of a solenoid</b>.",
+    "a": "Solenoid of $N$ turns, length $l$, cross-section $A$: \\[ L = \\mu_0 \\frac{N^2 A}{l} \\]. \n<b>More turns or bigger area</b> $\\to$ higher self-inductance."
   },
   {
-    "q": "Energy stored in inductor.",
-    "a": "Energy in magnetic field of inductor: \\[ U = \\frac{1}{2} L I^2 \\].  \n💡 Trick: Like a 'spring for current' storing energy."
+    "q": "<b>Energy stored in an inductor</b>.",
+    "a": "Energy in magnetic field of inductor: \\[ U = \\frac{1}{2} L I^2 \\]. \n💡 Trick: Like a 'spring for current' storing energy."
   },
   {
-    "q": "Mutual induction.",
-    "a": "Changing current in one coil induces EMF in a nearby coil: \\[ \\mathcal{E}_2 = - M \\frac{dI_1}{dt} \\], where \\(M\\) = mutual inductance.  \nUsed in **transformers, wireless charging**."
+    "q": "<b>Mutual induction</b>.",
+    "a": "Changing current in one coil induces EMF in a nearby coil: \\[ \\mathcal{E}_2 = - M \\frac{dI_1}{dt} \\], where $M$ = mutual inductance. \nUsed in <b>transformers, wireless charging</b>."
   },
   {
-    "q": "RL series circuit current growth (switch ON). (not in CBSE)",
-    "a": "Series RL with DC source \\(\\mathcal{E}\\), resistor \\(R\\), inductor \\(L\\): \\[ I(t) = \\frac{\\mathcal{E}}{R} \\left( 1 - e^{-Rt/L} \\right) \\], time constant \\(\\tau = L/R\\)."
+    "q": "<b>RL series circuit current growth</b> (switch ON) (not for CBSE).",
+    "a": "Series RL with DC source $\\mathcal{E}$, resistor $R$, inductor $L$: \\[ I(t) = \\frac{\\mathcal{E}}{R} \\left( 1 - e^{-Rt/L} \\right) \\], time constant $\\tau = L/R$."
   },
   {
-    "q": "RL circuit current decay (switch OFF). (not in CBSE)",
-    "a": "Current decays: \\[ I(t) = I_0 e^{-Rt/L} \\], \\(I_0\\) = current at opening.  \n💡 Tip: Exponential decay → 63% drop in 1 time constant."
+    "q": "<b>RL circuit current decay</b> (switch OFF) (not for CBSE).",
+    "a": "Current decays: \\[ I(t) = I_0 e^{-Rt/L} \\], $I_0$ = current at opening. \n💡 Tip: Exponential decay $\\to$ 63% drop in 1 time constant."
   },
   {
-    "q": "Eddy currents definition. (not in CBSE)",
-    "a": "Circulating currents in bulk conductors due to **changing flux**. They form loops **inside the conductor plane** and oppose flux change (Lenz's Law)."
+    "q": "<b>Eddy currents definition</b> (not for CBSE).",
+    "a": "Circulating currents in bulk conductors due to <b>changing flux</b>. They form loops <b>inside the conductor plane</b> and oppose flux change (Lenz's Law)."
   },
   {
-    "q": "Applications of eddy currents. (not in CBSE)",
-    "a": "1. Induction heating  \n2. Eddy current brakes  \n3. Metal detectors  \n4. Magnetic damping in galvanometers"
+    "q": "<b>Applications of eddy currents</b> (not for CBSE).",
+    "a": "1. Induction heating <br>2. Eddy current brakes <br>3. Metal detectors <br>4. Magnetic damping in galvanometers"
   },
   {
-    "q": "Induction heating principle. (not in CBSE)",
-    "a": "Changing B-field induces eddy currents → resistive heating: \\( P = I^2 R \\). Used in **cookers, melting metals**."
+    "q": "<b>Induction heating principle</b> (not for CBSE).",
+    "a": "Changing B-field induces eddy currents $\\to$ resistive heating: $ P = I^2 R $. Used in <b>cookers, melting metals</b>."
   },
   {
-    "q": "Self-eddy current heating. (not in CBSE)",
-    "a": "AC in a coil induces **currents within its own material**, producing heat internally."
+    "q": "<b>Self-eddy current heating</b> (not for CBSE).",
+    "a": "AC in a coil induces <b>currents within its own material</b>, producing heat internally."
   },
   {
-    "q": "Motional EMF in rod on rails.",
-    "a": "Rod of length \\(l\\) moving with velocity \\(v\\) in perpendicular B-field: \\[ \\mathcal{E} = B l v \\], induced current: \\( I = \\mathcal{E}/R \\)."
+    "q": "<b>Motional EMF in rod on rails</b>.",
+    "a": "Rod of length $l$ moving with velocity $v$ in perpendicular B-field: \\[ \\mathcal{E} = B l v \\], induced current: $ I = \\mathcal{E}/R $."
   },
   {
     "q": "Direction of flux and area vector.",
-    "a": "Flux: \\( \\Phi_B = B A \\cos\\theta \\).  Normal to surface defines direction.  Choose consistent normal to calculate EMF."
+    "a": "Flux: $ \\Phi_B = B A \\cos\\theta $. Normal to surface defines direction. Choose consistent normal to calculate EMF."
   },
   {
-    "q": "Right-hand rule for current in B-field.",
-    "a": "Fingers along current, sweep toward B → thumb gives Lorentz force. Tangential → slows disc, radial → cancel."
+    "q": "Right-hand rule for current in B-field. (Irrelevant for EMI, removed)",
+    "a": ""
   },
   {
-    "q": "Magnetic flux change by area or angle.",
-    "a": "Flux can change by: 1. Changing B  2. Changing A  3. Changing angle \\(\\theta\\).  \n💡 Remember: All affect \\( B A \\cos\\theta \\)."
+    "q": "<b>Magnetic flux change by area or angle</b>.",
+    "a": "Flux can change by: 1. Changing B 2. Changing A 3. Changing angle $\\theta$. \n💡 Remember: All affect $ B A \\cos\\theta $."
   },
   {
-    "q": "Energy stored in mutual induction (not in CBSE).",
-    "a": "For two coupled coils: \\( U = \\frac{1}{2} L_1 I_1^2 + \\frac{1}{2} L_2 I_2^2 + M I_1 I_2 \\)."
+    "q": "Energy stored in mutual induction (not for CBSE).",
+    "a": "For two coupled coils: $ U = \\frac{1}{2} L_1 I_1^2 + \\frac{1}{2} L_2 I_2^2 + M I_1 I_2 $."
   }
 ]

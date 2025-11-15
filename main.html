@@ -29,6 +29,19 @@
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js" async></script>
 
   <style>
+    .MathJax{
+      /* Prevents the container from taking up a full line and forces it to flow like text */
+    display: inline-block;
+    
+    /* Prevents the browser from breaking the line inside the math, which stops
+       the double-backslash (\\) from causing a visible newline. */
+    white-space: nowrap;
+    width: fit-content !important; 
+
+    /* 2. Center the block by distributing left/right margin equally */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    }
     body { 
             font-family: 'Inter', sans-serif; 
             background-color: #19142A; /* Deep Indigo Background */
@@ -278,7 +291,9 @@
       <div id="question">Question appears here</div>
       <img id="card-img" />
     </div>
-    <div class="card-back" id="answer">Answer appears here</div>
+    <div class="card-back">
+      <div id="answer">Answer appears here</div>
+    </div>
   </div>
 
   <div class="progress-container">

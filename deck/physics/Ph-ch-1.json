@@ -1,127 +1,126 @@
 [
   {
-    "q": "What is an electric charge?",
-    "a": "Electric charge is a physical property of matter that causes it to experience a force when placed in an electric and magnetic field.",
-    "imgBack": "test.jpg"
+    "q": "What is an <b>electric charge</b>?",
+    "a": "<b>Electric charge</b> is a <b>physical property of matter</b> that causes it to experience a force when placed in an electric and magnetic field."
   },
   {
-    "q": "What is the SI unit of electric charge?",
-    "a": "Coulomb (C)"
+    "q": "What is the <b>SI unit of electric charge</b>?",
+    "a": "<b>Coulomb (C)</b>."
   },
   {
-    "q": "State the quantization of charge.",
-    "a": "Charge exists in discrete packets. Any charge \\( q = \\pm n e \\), where \\( n \\) is an integer and \\( e \\) is the elementary charge \\( (1.6 \\times 10^{-19} \\text{ C}) \\)."
+    "q": "State the <b>quantization of charge</b>.",
+    "a": "Charge exists in <b>discrete packets</b>.<br>Any charge $q$ is an integral multiple of the elementary charge ($e$): \\[ q = \\pm n e \\], where $n$ is an integer and $e = 1.6 \\times 10^{-19} \\text{ C} \\text{ (elementary charge)}.$"
   },
   {
-    "q": "What are the types of charges?",
-    "a": "Two types: Positive and Negative. Like charges repel, unlike charges attract."
+    "q": "What are the <b>types of charges</b>?",
+    "a": "Two types: <b>Positive</b> and <b>Negative</b>. <br>Rule: <b>Like charges repel, unlike charges attract</b>."
   },
   {
-    "q": "What is the principle of charge conservation?",
-    "a": "Total charge of an isolated system remains constant. Charge can neither be created nor destroyed."
+    "q": "What is the principle of <b>charge conservation</b>?",
+    "a": "The <b>total electric charge</b> of an <b>isolated system</b> remains constant. <br>Charge can neither be created nor destroyed; it can only be transferred."
   },
   {
-    "q": "State Coulomb’s Law.",
-    "a": " \\[ F = k \\times \\frac{|q_1 q_2|}{r^2}, \\quad \\text{where } k = \\frac{1}{4 \\pi \\epsilon_0}, \\text{ and } r \\text{ is the distance between charges} \\]"
+    "q": "State <b>Coulomb’s Law</b>.",
+    "a": "The force ($F$) between two stationary point charges is directly proportional to the product of charges and inversely proportional to the square of the distance ($r$): \\[ F = k \\times \\frac{|q_1 q_2|}{r^2} \\], where $k = \\frac{1}{4 \\pi \\epsilon_0}$ is the Coulomb constant."
   },
   {
-    "q": "What is the value of \\( \\epsilon_0 \\)?",
-    "a": " \\[ \\epsilon_0 = 8.854 \\times 10^{-12} \\ \\mathrm{C}^2 \\mathrm{N}^{-1} \\mathrm{m}^{-2} \\quad \\text{(permittivity of free space)} \\]"
+    "q": "What is the value of <b>permittivity of free space ($\\epsilon_0$)</b>?",
+    "a": "\\[ \\epsilon_0 = 8.854 \\times 10^{-12} \\ \\mathrm{C}^2 \\mathrm{N}^{-1} \\mathrm{m}^{-2} \\quad \\text{(permittivity of free space)} \\]"
   },
   {
-    "q": "Define the principle of superposition of electric forces.",
-    "a": "The net force on a charge is the vector sum of individual forces exerted by all other charges."
+    "q": "Define the <b>principle of superposition of electric forces</b>.",
+    "a": "The <b>net electric force</b> on a given charge is the <b>vector sum</b> of the individual forces exerted by all other charges in the system."
   },
   {
-    "q": "What is an electric field?",
-    "a": "Electric field at a point is the force experienced by a unit positive test charge placed at that point."
+    "q": "What is an <b>electric field</b>?",
+    "a": "<b>Electric field ($\\mathbf{E}$)</b> at a point is the <b>force experienced</b> by a <b>unit positive test charge ($q_0$)</b> placed at that point. \\[ \\mathbf{E} = \\frac{\\mathbf{F}}{q_0} \\]"
   },
   {
-    "q": "What is the formula for electric field due to a point charge?",
-    "a": " \\[ E = \\frac{1}{4 \\pi \\epsilon_0} \\times \\frac{q}{r^2} \\quad \\text{(radially outward for positive charge, inward for negative)} \\]"
+    "q": "What is the formula for electric field due to a <b>point charge</b>?",
+    "a": "\\[ E = \\frac{1}{4 \\pi \\epsilon_0} \\times \\frac{q}{r^2} \\quad \\text{(radially outward for positive charge, inward for negative)} \\]"
   },
   {
-    "q": "State the superposition principle for electric fields.",
-    "a": "Net electric field is the vector sum of electric fields due to individual charges: \\( \\mathbf{E} = \\mathbf{E}_1 + \\mathbf{E}_2 + \\dots + \\mathbf{E}_n \\)."
+    "q": "State the <b>superposition principle for electric fields</b>.",
+    "a": "The <b>net electric field</b> is the <b>vector sum</b> of electric fields due to individual charges: \\[ \\mathbf{E} = \\mathbf{E}_1 + \\mathbf{E}_2 + \\dots + \\mathbf{E}_n \\]"
   },
   {
-    "q": "What are electric field lines?",
-    "a": "Imaginary lines showing direction of electric field. They start from positive charges and end at negative charges. The tangent to the line gives the direction of \\( \\mathbf{E} \\)."
+    "q": "What are <b>electric field lines</b>?",
+    "a": "<b>Electric field lines</b> are <b>imaginary lines or curves</b> such that the tangent at any point gives the <b>direction of the electric field ($\\mathbf{E}$)</b> at that point."
   },
   {
-    "q": "State the properties of electric field lines.",
-    "a": "Field lines do not intersect, denser lines mean stronger field, start from +ve and end on -ve charges."
+    "q": "State the <b>properties of electric field lines</b>.",
+    "a": "1. They start from <b>positive</b> charges and end at <b>negative</b> charges.<br>2. They <b>do not intersect</b>.<br>3. <b>Denser lines</b> mean a <b>stronger field</b>."
   },
   {
-    "q": "What is an electric dipole?",
-    "a": "A pair of equal and opposite charges separated by a small distance \\( 2a \\)."
+    "q": "What is an <b>electric dipole</b>?",
+    "a": "An <b>electric dipole</b> is a pair of <b>equal and opposite charges</b> ($+q$ and $-q$) separated by a small distance ($2a$)."
   },
   {
-    "q": "Define electric dipole moment.",
-    "a": "It is a vector quantity given by \\( \\mathbf{p} = q \\times 2a \\). SI unit: Coulomb-meter (C·m). Direction is from negative to positive charge."
+    "q": "Define <b>electric dipole moment</b>.",
+    "a": "It is a <b>vector quantity</b> given by $\\mathbf{p} = q \\times 2\\mathbf{a}$.<br><b>SI unit</b>: <b>Coulomb-meter ($\\mathrm{C}\\cdot\\mathrm{m}$)</b>.<br>Direction is from negative charge to positive charge."
   },
   {
-    "q": "What is the electric field on the axial line of a dipole?",
-    "a": " \\[ E = \\frac{1}{4 \\pi \\epsilon_0} \\times \\frac{2p}{r^3} \\]"
+    "q": "What is the electric field on the <b>axial line of a dipole</b> (for large distances)?",
+    "a": "\\[ E_{\\text{axial}} \\approx \\frac{1}{4 \\pi \\epsilon_0} \\times \\frac{2p}{r^3} \\]"
   },
   {
-    "q": "What is the electric field on the equatorial line of a dipole?",
-    "a": " \\[ E = \\frac{1}{4 \\pi \\epsilon_0} \\times \\frac{p}{r^3} \\]"
+    "q": "What is the electric field on the <b>equatorial line of a dipole</b> (for large distances)?",
+    "a": "\\[ E_{\\text{equatorial}} \\approx \\frac{1}{4 \\pi \\epsilon_0} \\times \\frac{p}{r^3} \\]"
   },
   {
-    "q": "What is the torque on a dipole in a uniform electric field?",
-    "a": " \\[ \\tau = \\mathbf{p} \\times \\mathbf{E} = p E \\sin \\theta \\]"
+    "q": "What is the <b>torque on a dipole</b> in a <b>uniform electric field</b>?",
+    "a": "The torque is given by: \\[ \\boldsymbol{\\tau} = \\mathbf{p} \\times \\mathbf{E} = p E \\sin \\theta \\]"
   },
   {
-    "q": "What is electric flux?",
-    "a": "It is the measure of electric field lines passing through a surface. \\[ \\Phi = \\mathbf{E} \\cdot \\mathbf{A} = EA \\cos \\theta \\]"
+    "q": "What is <b>electric flux</b>?",
+    "a": "<b>Electric flux ($\\Phi$)</b> is the measure of the <b>total number of electric field lines</b> passing normally through a surface. \\[ \\Phi = \\oint \\mathbf{E} \\cdot d\\mathbf{A} = EA \\cos \\theta \\]"
   },
   {
-    "q": "State Gauss’s Law.",
-    "a": "The total electric flux through any closed surface is equal to \\( \\frac{1}{\\epsilon_0} \\) times the net charge enclosed by the surface."
+    "q": "State <b>Gauss’s Law</b>.",
+    "a": "The <b>total electric flux</b> through any closed surface (Gaussian surface) is equal to $\\frac{1}{\\epsilon_0}$ times the <b>net charge enclosed</b> by the surface."
   },
   {
-    "q": "Write the mathematical form of Gauss’s Law.",
-    "a": " \\[ \\oint \\mathbf{E} \\cdot d\\mathbf{A} = \\frac{q_{\\text{enclosed}}}{\\epsilon_0} \\]"
+    "q": "Write the <b>mathematical form of Gauss’s Law</b>.",
+    "a": "\\[ \\oint \\mathbf{E} \\cdot d\\mathbf{A} = \\frac{q_{\\text{enclosed}}}{\\epsilon_0} \\]"
   },
   {
-    "q": "What is the electric field due to an infinite line of charge?",
-    "a": " \\[ E = \\frac{\\lambda}{2 \\pi \\epsilon_0 r} \\], where \\( \\lambda \\) is linear charge density."
+    "q": "What is the electric field due to an <b>infinite line of charge</b>?",
+    "a": "\\[ E = \\frac{\\lambda}{2 \\pi \\epsilon_0 r} \\], where $\\lambda$ is <b>linear charge density</b>."
   },
   {
-    "q": "What is the electric field due to an infinite plane sheet of charge?",
-    "a": " \\[ E = \\frac{\\sigma}{2 \\epsilon_0} \\], where \\( \\sigma \\) is surface charge density."
+    "q": "What is the electric field due to an <b>infinite plane sheet of charge</b>?",
+    "a": "\\[ E = \\frac{\\sigma}{2 \\epsilon_0} \\], where $\\sigma$ is <b>surface charge density</b>."
   },
   {
-    "q": "What is the electric field inside a uniformly charged spherical shell?",
-    "a": "Zero. Inside the shell, net charge enclosed is zero (by Gauss’s Law)."
+    "q": "What is the electric field **inside** a <b>uniformly charged spherical shell</b>?",
+    "a": "<b>Zero</b>.<br>Inside the shell, the net charge enclosed ($q_{\\text{enclosed}}$) is zero, according to <b>Gauss’s Law</b>."
   },
   {
-    "q": "What is the electric field outside a spherical shell of charge?",
-    "a": " \\[ E = \\frac{1}{4 \\pi \\epsilon_0} \\times \\frac{q}{r^2} \\], as if all charge is concentrated at the center."
+    "q": "What is the electric field **outside** a <b>spherical shell of charge</b>?",
+    "a": "\\[ E = \\frac{1}{4 \\pi \\epsilon_0} \\times \\frac{q}{r^2} \\], behaving as if all the charge ($q$) is concentrated at the center."
   },
   {
-    "q": "What is the electric field inside a conductor in electrostatic equilibrium?",
-    "a": "Zero. Charges reside only on the surface."
+    "q": "What is the electric field **inside a conductor** in <b>electrostatic equilibrium</b>?",
+    "a": "<b>Zero</b> ($\\mathbf{E}=0$).<br>Charges reside only on the <b>outer surface</b> of the conductor."
   },
   {
-    "q": "Define linear, surface, and volume charge densities.",
-    "a": "Linear: \\( \\lambda = \\frac{q}{L} \\), Surface: \\( \\sigma = \\frac{q}{A} \\), Volume: \\( \\rho = \\frac{q}{V} \\)."
+    "q": "Define <b>linear, surface, and volume charge densities</b>.",
+    "a": "1. <b>Linear ($\\lambda$)</b>: Charge per unit length ($q/L$).<br>2. <b>Surface ($\\sigma$)</b>: Charge per unit area ($q/A$).<br>3. <b>Volume ($\rho$)</b>: Charge per unit volume ($q/V$)."
   },
   {
-    "q": "What are conductors and insulators?",
-    "a": "Conductors allow charge flow (e.g., metals), insulators do not (e.g., rubber)."
+    "q": "What are <b>conductors and insulators</b>?",
+    "a": "<b>Conductors</b> allow electric charge to flow freely (e.g., metals).<br><b>Insulators</b> do not allow charge flow (e.g., rubber, glass)."
   },
   {
-    "q": "What is polarization of a dielectric?",
-    "a": "Alignment of bound charges in a dielectric in the presence of an electric field."
+    "q": "What is <b>polarization of a dielectric</b>?",
+    "a": "It is the process of <b>alignment of molecular dipole moments</b> (bound charges) in a dielectric material when subjected to an external electric field."
   },
   {
-    "q": "What is the value of 1 Coulomb in terms of electrons?",
-    "a": " \\[ 1 \\text{ C} = 6.25 \\times 10^{18} \\text{ electrons (approx.)} \\]"
+    "q": "What is the value of <b>1 Coulomb in terms of electrons</b>?",
+    "a": "\\[ 1 \\text{ C} \\approx 6.25 \\times 10^{18} \\text{ electrons} \\]"
   },
   {
-    "q": "Define the direction of electric field lines for a positive and a negative point charge.",
-    "a": "From positive charge: radially outward; from negative charge: radially inward."
+    "q": "Define the direction of <b>electric field lines</b> for a positive and a negative point charge.",
+    "a": "For a <b>positive charge</b>: <b>radially outward</b>;<br>For a <b>negative charge</b>: <b>radially inward</b>."
   }
 ]

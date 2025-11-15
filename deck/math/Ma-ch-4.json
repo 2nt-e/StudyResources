@@ -1,118 +1,118 @@
 [
   {
-    "q": "What is a determinant?",
-    "a": "A determinant is a scalar value calculated from a square matrix. It represents the volume scaling factor of the linear transformation described by the matrix and helps in solving systems of equations."
+    "q": "What is a <b>determinant</b>?",
+    "a": "A <b>determinant</b> is a <b>scalar value</b> calculated only from a <b>square matrix</b>. <br>It represents the <b>volume scaling factor</b> of the linear transformation described by the matrix and helps in solving systems of linear equations."
   },
   {
-    "q": "How is the determinant of a 2x2 matrix calculated?",
-    "a": "For \\( A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix} \\), the determinant is given by: \\( |A| = ad - bc \\)"
+    "q": "How is the <b>determinant of a $2\\times2$ matrix</b> calculated?",
+    "a": "For $A = \\begin{bmatrix} a & b \\\\ c & d \\end{bmatrix}$, the determinant is the difference of the products of the diagonals: <br>$$ |A| = ad - bc $$"
   },
   {
-    "q": "How is the determinant of a 3x3 matrix calculated?",
-    "a": "If \\( A = \\begin{bmatrix} a_1 & b_1 & c_1 \\\\ a_2 & b_2 & c_2 \\\\ a_3 & b_3 & c_3 \\end{bmatrix} \\), then:  \n\\[ |A| = a_1(b_2c_3 - b_3c_2) - b_1(a_2c_3 - a_3c_2) + c_1(a_2b_3 - a_3b_2) \\]"
+    "q": "How is the <b>determinant of a $3\\times3$ matrix</b> calculated?",
+    "a": "If $A = \\begin{bmatrix} a_1 & b_1 & c_1 \\\\ a_2 & b_2 & c_2 \\\\ a_3 & b_3 & c_3 \\end{bmatrix}$, then expansion along the first row is: <br>\\[ |A| = a_1(b_2c_3 - b_3c_2) - b_1(a_2c_3 - a_3c_2) + c_1(a_2b_3 - a_3b_2) \\]"
   },
   {
-    "q": "What is the geometric interpretation of a determinant?",
-    "a": "The absolute value of the determinant of a matrix represents the area (2D) or volume (3D) of the figure formed by the column vectors of the matrix."
+    "q": "What is the <b>geometric interpretation</b> of a determinant?",
+    "a": "The absolute value of the determinant represents the <b>area</b> (for $2\\times2$ matrices) or <b>volume</b> (for $3\\times3$ matrices) of the figure formed by the column vectors of the matrix."
   },
   {
-    "q": "What is the effect on determinant when two rows (or columns) are interchanged?",
-    "a": "Interchanging two rows or columns of a determinant changes its sign. That is, \\( |A'| = -|A| \\)."
+    "q": "What is the effect on determinant when <b>two rows (or columns) are interchanged</b>?",
+    "a": "Interchanging two rows ($R_i \\leftrightarrow R_j$) or columns ($C_i \\leftrightarrow C_j$) <b>changes its sign</b>. <br>That is, $|A'| = -|A|$."
   },
   {
-    "q": "What happens to the determinant if two rows (or columns) are identical?",
-    "a": "If any two rows or columns are identical, then the determinant is zero."
+    "q": "What happens to the determinant if <b>two rows (or columns) are identical</b>?",
+    "a": "If any two rows or columns of a matrix are identical, then the <b>determinant is zero</b>."
   },
   {
-    "q": "What is the effect on the determinant when a row (or column) is multiplied by a scalar \\(k\\)?",
-    "a": "The determinant gets multiplied by \\(k\\). That is, \\( |A'| = k|A| \\)"
+    "q": "What is the effect on the determinant when a row (or column) is <b>multiplied by a scalar $k$</b>?",
+    "a": "The determinant gets <b>multiplied by $k$</b>. <br>That is, $|A'| = k|A|$. (Note: $\\text{det}(kA) = k^n|A|$)."
   },
   {
-    "q": "What is the value of determinant if the matrix has a row or column of zeros?",
-    "a": "If any row or column of a matrix is entirely zero, the determinant is zero."
+    "q": "What is the value of the determinant if the matrix has a <b>row or column of zeros</b>?",
+    "a": "If any row or column of a matrix is entirely zero, the <b>determinant is zero</b>."
   },
   {
-    "q": "What is the determinant of an identity matrix?",
-    "a": "The determinant of an identity matrix is always 1, i.e., \\( |I_n| = 1 \\)."
+    "q": "What is the <b>determinant of an identity matrix</b>?",
+    "a": "The determinant of an <b>identity matrix</b> ($I_n$) is always <b>1</b>: $|I_n| = 1$."
   },
   {
-    "q": "State the property: \\( |A^T| = ? \\)",
-    "a": "\\( |A^T| = |A| \\). That is, the determinant of the transpose of a matrix is equal to the determinant of the matrix itself."
+    "q": "State the property: $|A^T| = ?$",
+    "a": "$$ |A^T| = |A| $$The determinant of the transpose of a matrix is equal to the determinant of the matrix itself."
   },
   {
-    "q": "If \\( |A| \\neq 0 \\), what can be said about the matrix \\(A\\)?",
-    "a": "If \\( |A| \\neq 0 \\), then the matrix \\(A\\) is invertible (non-singular)."
+    "q": "If $|A| \\neq 0$, what can be said about the matrix $A$?",
+    "a": "If $|A| \\neq 0$, then the matrix $A$ is <b>non-singular</b> and <b>invertible</b> ($A^{-1}$ exists)."
   },
   {
-    "q": "If \\( |A| = 0 \\), what can be said about the matrix \\(A\\)?",
-    "a": "If \\( |A| = 0 \\), then the matrix \\(A\\) is singular and not invertible."
+    "q": "If $|A| = 0$, what can be said about the matrix $A$?",
+    "a": "If $|A| = 0$, then the matrix $A$ is <b>singular</b> and <b>not invertible</b> ($A^{-1}$ does not exist)."
   },
   {
-    "q": "What is the adjoint of a matrix?",
-    "a": "The adjoint (or adjugate) of a square matrix is the transpose of the cofactor matrix.\\ For \\(A\\), \\( \\text{adj}(A) = (\\text{cof}(A))^T \\)"
+    "q": "What is the <b>adjoint of a matrix</b>?",
+    "a": "The <b>adjoint</b> (or adjugate) of a square matrix $A$ is the <b>transpose of its cofactor matrix</b> ($\text{cof}(A)$). <br><b>Formula</b>: $\\text{adj}(A) = (\\text{cof}(A))^T$"
   },
   {
-    "q": "What is the inverse of a matrix using adjoint?",
-    "a": "If \\(A\\) is a non-singular matrix, then:\\ \\[ A^{-1} = \\frac{\\text{adj}(A)}{|A|} \\]"
+    "q": "What is the <b>inverse of a matrix using the adjoint</b>?",
+    "a": "If $A$ is a non-singular matrix, its inverse is defined as the adjoint divided by the determinant: <br>\\[ A^{-1} = \\frac{\\text{adj}(A)}{|A|} \\]"
   },
   {
-    "q": "How do you solve a system of equations using Cramer's Rule?",
-    "a": "For a system \\( AX = B \\), if \\( |A| \\neq 0 \\):\\ \n\\[ x = \\frac{|A_1|}{|A|}, \\quad y = \\frac{|A_2|}{|A|}, \\quad z = \\frac{|A_3|}{|A|} \\]\\ where \\(A_i\\) is the matrix obtained by replacing the \\(i^{th}\\) column of \\(A\\) by the column matrix \\(B\\)."
+    "q": "How do you solve a system of equations using <b>Cramer's Rule</b>?",
+    "a": "For a system $AX = B$, if $|A| \\neq 0$, the unique solution is: <br>\\[ x = \\frac{|A_1|}{|A|}, \\quad y = \\frac{|A_2|}{|A|}, \\quad z = \\frac{|A_3|}{|A|} \\]<br>where $A_i$ is $A$ with the $i^{th}$ column replaced by the column matrix $B$."
   },
   {
-    "q": "What is a cofactor?",
-    "a": "The cofactor of an element \\(a_{ij}\\) is \\(C_{ij} = (-1)^{i+j}M_{ij}\\), where \\(M_{ij}\\) is the minor of \\(a_{ij}\\)."
+    "q": "What is a <b>cofactor</b>?",
+    "a": "The <b>cofactor</b> of an element $a_{ij}$ is given by: <br>$C_{ij} = (-1)^{i+j}M_{ij}$ <br>where $M_{ij}$ is the minor of $a_{ij}$."
   },
   {
-    "q": "What is a minor?",
-    "a": "The minor of an element \\(a_{ij}\\) is the determinant of the submatrix formed by deleting the \\(i^{th}\\) row and \\(j^{th}\\) column."
+    "q": "What is a <b>minor</b>?",
+    "a": "The <b>minor</b> of an element $a_{ij}$ is the <b>determinant</b> of the submatrix formed by deleting the $i^{th}$ row and $j^{th}$ column."
   },
   {
-    "q": "What is the expansion of a determinant along a row?",
-    "a": "To expand along the \\(i^{th}\\) row:\\ \n\\[ |A| = a_{i1}C_{i1} + a_{i2}C_{i2} + \\dots + a_{in}C_{in} \\]"
+    "q": "What is the <b>expansion of a determinant along a row</b>?",
+    "a": "The determinant $|A|$ is the sum of the products of elements of any row with their corresponding cofactors. <br>Expansion along the $i^{th}$ row: <br>\\[ |A| = a_{i1}C_{i1} + a_{i2}C_{i2} + \\dots + a_{in}C_{in} \\]"
   },
   {
-    "q": "What is the expansion of a determinant along a column?",
-    "a": "To expand along the \\(j^{th}\\) column:\\ \n\\[ |A| = a_{1j}C_{1j} + a_{2j}C_{2j} + \\dots + a_{nj}C_{nj} \\]"
+    "q": "What is the <b>expansion of a determinant along a column</b>?",
+    "a": "The determinant $|A|$ is the sum of the products of elements of any column with their corresponding cofactors. <br>Expansion along the $j^{th}$ column: <br>\\[ |A| = a_{1j}C_{1j} + a_{2j}C_{2j} + \\dots + a_{nj}C_{nj} \\]"
   },
   {
-    "q": "What is the value of \\( |kA| \\), where \\(k\\) is a scalar and \\(A\\) is an \\(n \\times n\\) matrix?",
-    "a": "\\( |kA| = k^n |A| \\)"
+    "q": "What is the value of <b>$|kA|$</b>, where $k$ is a scalar and $A$ is an $n \\times n$ matrix?",
+    "a": "$$ |kA| = k^n |A| $$"
   },
   {
-    "q": "What is the determinant of a product of two matrices?",
-    "a": "\\( |AB| = |A| \\cdot |B| \\)"
+    "q": "What is the <b>determinant of a product of two matrices</b>?",
+    "a": "The determinant of the product is the product of the individual determinants: $$ |AB| = |A| \\cdot |B| $$"
   },
   {
-    "q": "If \\( |A| = 5 \\), what is \\( |3A| \\) for a 3×3 matrix?",
-    "a": "\\( |3A| = 3^3 \\cdot |A| = 27 \\cdot 5 = 135 \\)"
+    "q": "If $|A| = 5$, what is $|3A|$ for a $3\\times3$ matrix?",
+    "a": "Using the property $|kA| = k^n |A|$ with $n=3$ and $k=3$: <br>$ |3A| = 3^3 \\cdot |A| = 27 \\cdot 5 = 135 $"
   },
   {
-    "q": "If \\( |A| = 7 \\) and \\( |B| = 2 \\), what is \\( |AB| \\)?",
-    "a": "\\( |AB| = |A| \\cdot |B| = 7 \\times 2 = 14 \\)"
+    "q": "If $|A| = 7$ and $|B| = 2$, what is $|AB|$?",
+    "a": "Using the property $|AB| = |A| \\cdot |B|$: <br>$ |AB| = 7 \\times 2 = 14 $"
   },
   {
-    "q": "State the identity: \\( \\text{adj}(A) \\cdot A = ? \\)",
-    "a": "\\( \\text{adj}(A) \\cdot A = |A| \\cdot I \\), where \\(A\\) is a square matrix."
+    "q": "State the identity: $\\text{adj}(A) \\cdot A = ?$",
+    "a": "The product of the adjoint and the matrix equals the determinant times the identity matrix: <br>$$ \\text{adj}(A) \\cdot A = |A| \\cdot I $$"
   },
   {
-    "q": "What is \\( A \\cdot \\text{adj}(A) \\)?",
-    "a": "Same as \\( \\text{adj}(A) \\cdot A = |A| \\cdot I \\). Matrix multiplication with adjoint works both sides."
+    "q": "What is $A \\cdot \\text{adj}(A)$?",
+    "a": "The matrix commutes with its adjoint, so: <br>$$ A \\cdot \\text{adj}(A) = |A| \\cdot I $$"
   },
   {
-    "q": "What is \\( \\text{adj}(A^T) \\)?",
-    "a": "\\( \\text{adj}(A^T) = (\\text{adj}(A))^T \\)"
+    "q": "What is $\\text{adj}(A^T)$?",
+    "a": "The adjoint of the transpose is the transpose of the adjoint: <br>$$ \\text{adj}(A^T) = (\\text{adj}(A))^T $$"
   },
   {
-    "q": "What is \\( \\text{adj}(kA) \\)?",
-    "a": "If \\(A\\) is an \\(n \\times n\\) matrix and \\(k\\) is a scalar, then:\\ \\( \\text{adj}(kA) = k^{n-1} \\cdot \\text{adj}(A) \\)"
+    "q": "What is $\\text{adj}(kA)$?",
+    "a": "If $A$ is an $n \\times n$ matrix and $k$ is a scalar, then: <br>$$ \\text{adj}(kA) = k^{n-1} \\cdot \\text{adj}(A) $$"
   },
   {
-    "q": "What is \\( |\\text{adj}(A)| \\) for an \\(n \\times n\\) matrix?",
-    "a": "\\( |\\text{adj}(A)| = |A|^{n-1} \\)"
+    "q": "What is $|\\text{adj}(A)|$ for an $n \\times n$ matrix?",
+    "a": "The determinant of the adjoint is the determinant of the matrix raised to the power of $(n-1)$: <br>$$ |\\text{adj}(A)| = |A|^{n-1} $$"
   },
   {
-    "q": "If \\( |A| = 0 \\), what is \\( \\text{adj}(A) \\)?",
-    "a": "If \\( |A| = 0 \\), then \\( \\text{adj}(A) \\cdot A = 0 \\Rightarrow \\text{adj}(A) \\) is **not necessarily zero**, but \\( A^{-1} \\) does not exist."
+    "q": "If $|A| = 0$, what is the result of the product $\\text{adj}(A) \\cdot A$?",
+    "a": "If $|A| = 0$, then $\\text{adj}(A) \\cdot A = |A| \\cdot I = 0 \\cdot I = <b>O</b>$ (the <b>Zero Matrix</b>)."
   }
 ]
