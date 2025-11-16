@@ -1,102 +1,118 @@
 [
   {
-    "q": "What is the hybridisation state of the carbon atom bonded to the halogen in an alkyl halide and a vinyl halide?",
-    "a": "Alkyl Halide ($\text{R}-\text{X}$): $\\mathbf{sp}^3$ hybridisation. \\( \\text{Vinyl Halide (}\\text{CH}_2=\\text{CH-X}): \\mathbf{sp}^2 \\text{ hybridisation.} \\)"
+    "q": "What is the hybridisation state of the carbon atom bonded to the halogen in an <b>alkyl halide</b> and a <b>vinyl halide</b>?",
+    "a": "<b>Alkyl Halide</b> ($\\text{R}-\\text{X}$): $\\mathbf{sp}^3$ hybridisation. <br><b>Vinyl Halide</b> ($\\text{CH}_2=\\text{CH-X}$): $\\mathbf{sp}^2$ hybridisation."
   },
   {
     "q": "Order the reactivity of the following carbon-halogen bonds in a nucleophilic substitution reaction: $\\text{C}-\\text{F}$, $\\text{C}-\\text{Cl}$, $\\text{C}-\\text{Br}$, $\\text{C}-\\text{I}$",
-    "a": "Reactivity increases with bond length and decreases with bond energy: \\( \\mathbf{\\text{C}-\\text{I} > \\text{C}-\\text{Br} > \\text{C}-\\text{Cl} > \\text{C}-\\text{F}} \\) ($\\text{I}^{-}$ is the best leaving group)."
+    "a": "Reactivity increases with bond length and decreases with bond energy ($\\text{I}^{-}$ is the best leaving group): <br>$$ \\mathbf{\\text{C}-\\text{I} > \\text{C}-\\text{Br} > \\text{C}-\\text{Cl} > \\text{C}-\\text{F}} $$"
   },
   {
     "q": "Arrange the following in increasing order of boiling points: Bromoethane, Bromoform, Chloromethane, Dibromomethane.",
-    "a": "Boiling points increase with molecular mass and number of halogens: \\( \\mathbf{\\text{Chloromethane} < \\text{Bromoethane} < \\text{Dibromomethane} < \\text{Bromoform}} \\) ($\\text{CH}_3\\text{Cl} < \\text{CH}_3\\text{CH}_2\\text{Br} < \\text{CH}_2\\text{Br}_2 < \\text{CHBr}_3$)"
+    "a": "Boiling points increase with molecular mass and number of halogens: <br>$$ \\mathbf{\\text{Chloromethane} < \\text{Bromoethane} < \\text{Dibromomethane} < \\text{Bromoform}} \\quad (\\text{CH}_3\\text{Cl} < \\text{CH}_3\\text{CH}_2\\text{Br} < \\text{CH}_2\\text{Br}_2 < \\text{CHBr}_3) $$"
   },
   {
-    "q": "Define $\\text{S}_{\\text{N}}2$ reaction and state its rate determining step and stereochemical outcome.",
-    "a": "It is a **bimolecular** Nucleophilic Substitution. It is a **single-step (concerted)** reaction. **Rate:** depends on both [Substrate] and [Nucleophile]. **Stereochemistry:** $\\mathbf{100\\%}$ **inversion of configuration** (Walden Inversion)."
+    "q": "Define <b>$\\text{S}_{\\text{N}}2$ reaction</b> and state its rate determining step and stereochemical outcome.",
+    "a": "It is a <b>bimolecular</b> Nucleophilic Substitution. It is a <b>single-step (concerted)</b> reaction. <b>Rate:</b> depends on both [Substrate] and [Nucleophile]. <b>Stereochemistry:</b> $\\mathbf{100\\%}$ <b>inversion of configuration</b> (Walden Inversion)."
   },
   {
-    "q": "Define $\\text{S}_{\\text{N}}1$ reaction and state its rate determining step and stereochemical outcome.",
-    "a": "It is a **unimolecular** Nucleophilic Substitution. **Rate Determining Step:** The slow ionisation to form the $\\mathbf{carbocation}$ intermediate. **Stereochemistry:** Results in a $\\mathbf{racemic}$ mixture (partial or complete) due to the planar carbocation intermediate."
+    "q": "Define <b>$\\text{S}_{\\text{N}}1$ reaction</b> and state its rate determining step and stereochemical outcome.",
+    "a": "It is a <b>unimolecular</b> Nucleophilic Substitution. <b>Rate Determining Step:</b> The slow ionisation to form the $\\mathbf{carbocation}$ intermediate. <b>Stereochemistry:</b> Results in a $\\mathbf{racemic}$ mixture (partial or complete) due to the planar carbocation intermediate."
   },
   {
     "q": "Order the relative reactivity of alkyl halides ($\\text{1}^{\\circ}, \\text{2}^{\\circ}, \\text{3}^{\\circ}$) towards $\\text{S}_{\\text{N}}1$ and $\\text{S}_{\\text{N}}2$ mechanisms.",
-    "a": "$\\mathbf{\\text{S}_{\\text{N}}1} \\text{ Reactivity (based on carbocation stability): } \\mathbf{3^{\\circ} > 2^{\\circ} > 1^{\\circ} > \\text{methyl}}$. \\( \\mathbf{\\text{S}_{\\text{N}}2} \\text{ Reactivity (based on steric hindrance): } \\mathbf{\\text{methyl} > 1^{\\circ} > 2^{\\circ} > 3^{\\circ}} \\)"
+    "a": "<b>$\\mathbf{\\text{S}_{\\text{N}}1}$ Reactivity (based on carbocation stability):</b> <br>$$ \\mathbf{3^{\\circ} > 2^{\\circ} > 1^{\\circ} > \\text{methyl}} $$<br><b>$\\mathbf{\\text{S}_{\\text{N}}2}$ Reactivity (based on steric hindrance):</b> <br>$$ \\mathbf{\\text{methyl} > 1^{\\circ} > 2^{\\circ} > 3^{\\circ}} $$"
   },
   {
     "q": "What is the preferred solvent type for $\\text{S}_{\\text{N}}1$ and $\\text{S}_{\\text{N}}2$ reactions?",
-    "a": "$\\mathbf{\\text{S}_{\\text{N}}1}$: Polar **Protic** solvents (e.g., $\\text{H}_2\\text{O}, \\text{EtOH}, \\text{AcOH}$) to stabilise the carbocation. \\( \\mathbf{\\text{S}_{\\text{N}}2}: \\text{Polar } \\mathbf{Aprotic} \\text{ solvents (e.g., } \\text{DMF}, \\text{DMSO}, \\text{Acetone}) \\text{ to keep the nucleophile naked and reactive.} \\)"
+    "a": "<b>$\\mathbf{\\text{S}_{\\text{N}}1}$</b>: Polar <b>Protic</b> solvents (e.g., $\\text{H}_2\\text{O}, \\text{EtOH}, \\text{AcOH}$) to stabilise the carbocation.<br><b>$\\mathbf{\\text{S}_{\\text{N}}2}$</b>: Polar <b>Aprotic</b> solvents (e.g., $\\text{DMF}, \\text{DMSO}, \\text{Acetone}$) to keep the nucleophile naked and reactive."
   },
   {
-    "q": "Why are vinyl and aryl halides unreactive towards nucleophilic substitution under normal conditions? (Give 2 reasons)",
-    "a": "1. **Partial Double Bond Character**: Resonance stabilises the $\\text{C-X}$ bond, making it stronger. 2. **Hybridisation**: The $\\text{sp}^2$ C-atom is more electronegative, resulting in a shorter, stronger bond."
+    "q": "Why are <b>vinyl and aryl halides unreactive</b> towards nucleophilic substitution under normal conditions? (Give 2 reasons)",
+    "a": "1. <b>Partial Double Bond Character</b>: Resonance stabilises the $\\text{C-X}$ bond, making it stronger.<br>2. <b>Hybridisation</b>: The $\\text{sp}^2$ C-atom is more electronegative, resulting in a shorter, stronger bond."
   },
   {
-    "q": "What is the product and name of the reaction when an alkyl halide reacts with $\\text{KCN}$ versus $\\text{AgCN}$?",
-    "a": "$\\mathbf{\\text{KCN}}$ (ionic): Forms $\\text{R-CN}$ (Alkyl **Cyanide**) - Major product, because $\\text{C}$ is a better nucleophilic attacking site. \\( \\mathbf{\\text{AgCN}} \\text{ (covalent): Forms } \\mathbf{\\text{R-NC}} \\text{ (Alkyl } \\mathbf{Isocyanide}) \\text{ - Major product, because } \\text{Ag}-\\text{CN} \\text{ bond is broken and attack is through the N-atom.} \\)"
+    "q": "What is the product and name of the reaction when an alkyl halide reacts with $\\mathbf{\\text{KCN}}$ versus $\\mathbf{\\text{AgCN}}$?",
+    "a": "<b>$\\mathbf{\\text{KCN}}$ (ionic):</b> Forms $\\text{R-CN}$ (Alkyl <b>Cyanide</b>) - Attack via the $\\text{C}$ atom (better nucleophilic attacking site).<br><b>$\\mathbf{\\text{AgCN}}$ (covalent):</b> Forms $\\text{R-NC}$ (Alkyl <b>Isocyanide</b>) - Attack via the $\\text{N}$ atom (better leaving group/attack through $\\text{N}$)."
   },
   {
-    "q": "What is $\\mathbf{Wurtz}$ Reaction? Write the general equation.",
-    "a": "Used to prepare higher $\\mathbf{alkanes}$ from alkyl halides. Two molecules of an alkyl halide react with sodium in dry ether. \\( \\mathbf{2\\text{R}-\\text{X} + 2\\text{Na} \\xrightarrow{\\text{Dry Ether}} \\text{R}-\\text{R} + 2\\text{NaX}} \\)"
+    "q": "What is <b>$\\mathbf{Wurtz}$ Reaction</b>? Write the general equation.",
+    "a": "Used to prepare <b>higher $\\mathbf{alkanes}$</b> from alkyl halides. Two molecules of an alkyl halide react with sodium in dry ether. <br>$$ \\mathbf{2\\text{R}-\\text{X} + 2\\text{Na} \\xrightarrow{\\text{Dry Ether}} \\text{R}-\\text{R} + 2\\text{NaX}} $$"
   },
   {
-    "q": "What is $\\mathbf{Fittig}$ Reaction? Write the general equation.",
-    "a": "Used to prepare $\\mathbf{diaryl}$ compounds. Two molecules of an aryl halide react with sodium in dry ether. \\( \\mathbf{2\\text{Ar}-\\text{X} + 2\\text{Na} \\xrightarrow{\\text{Dry Ether}} \\text{Ar}-\\text{Ar} + 2\\text{NaX}} \\)"
+    "q": "What is <b>$\\mathbf{Fittig}$ Reaction</b>? Write the general equation.",
+    "a": "Used to prepare <b>$\\mathbf{diaryl}$</b> compounds. Two molecules of an aryl halide react with sodium in dry ether. <br>$$ \\mathbf{2\\text{Ar}-\\text{X} + 2\\text{Na} \\xrightarrow{\\text{Dry Ether}} \\text{Ar}-\\text{Ar} + 2\\text{NaX}} $$"
   },
   {
-    "q": "What is $\\mathbf{Wurtz-Fittig}$ Reaction? Write the general equation.",
-    "a": "Used to prepare $\\mathbf{alkylarenes}$ (e.g., Toluene). A mixture of an alkyl halide and an aryl halide reacts with sodium in dry ether. \\( \\mathbf{\\text{R}-\\text{X} + \\text{Ar}-\\text{X} + 2\\text{Na} \\xrightarrow{\\text{Dry Ether}} \\text{R}-\\text{Ar} + 2\\text{NaX}} \\)"
+    "q": "What is <b>$\\mathbf{Wurtz-Fittig}$ Reaction</b>? Write the general equation.",
+    "a": "Used to prepare <b>$\\mathbf{alkylarenes}$</b> (e.g., Toluene). A mixture of an alkyl halide and an aryl halide reacts with sodium in dry ether. <br>$$ \\mathbf{\\text{R}-\\text{X} + \\text{Ar}-\\text{X} + 2\\text{Na} \\xrightarrow{\\text{Dry Ether}} \\text{R}-\\text{Ar} + 2\\text{NaX}} $$"
   },
   {
-    "q": "What is $\\mathbf{Finkelstein}$ Reaction? Write its use and conditions.",
-    "a": "It is a **halogen exchange** reaction used to prepare **Alkyl Iodides** ($\text{R}-\\text{I}$). \\( \\mathbf{\\text{R}-\\text{X} + \\text{NaI} \\xrightarrow{\\text{Acetone (dry)}} \\text{R}-\\text{I} + \\text{NaX}} \\) (The $\\text{NaX}$ precipitate in acetone drives the reaction forward.)"
+    "q": "What is <b>$\\mathbf{Finkelstein}$ Reaction</b>? Write its use and conditions.",
+    "a": "It is a <b>halogen exchange</b> reaction used to prepare <b>Alkyl Iodides</b> ($\\text{R}-\\text{I}$). <br>$$ \\mathbf{\\text{R}-\\text{X} + \\text{NaI} \\xrightarrow{\\text{Acetone (dry)}} \\text{R}-\\text{I} + \\text{NaX}} $$ (The $\\text{NaX}$ precipitate in acetone drives the reaction forward.)"
   },
   {
-    "q": "What is $\\mathbf{Swarts}$ Reaction? Write its use and reagent.",
-    "a": "It is a **halogen exchange** reaction used to prepare **Alkyl Fluorides** ($\text{R}-\\text{F}$). \\( \\mathbf{\\text{R}-\\text{X} + \\text{Metallic Fluorides (e.g., } \\text{AgF}, \\text{Hg}_2\\text{F}_2, \\text{CoF}_2, \\text{SbF}_3) \\to \\text{R}-\\text{F}} \\)"
+    "q": "What is <b>$\\mathbf{Swarts}$ Reaction</b>? Write its use and reagent.",
+    "a": "It is a <b>halogen exchange</b> reaction used to prepare <b>Alkyl Fluorides</b> ($\\text{R}-\\text{F}$). <br>$$ \\mathbf{\\text{R}-\\text{X} + \\text{Metallic Fluorides (e.g., } \\text{AgF}, \\text{Hg}_2\\text{F}_2, \\text{CoF}_2, \\text{SbF}_3) \\to \\text{R}-\\text{F}} $$"
   },
   {
-    "q": "What is $\\mathbf{Sandmeyer}$ Reaction? Write the general transformation.",
-    "a": "Used to replace the diazonium group ($\\text{N}_2^+$) with $\\text{Cl}$, $\\text{Br}$, or $\\text{CN}$ in an aryl ring. \\( \\mathbf{\\text{Ar}-\\text{N}_2^+ \\text{Cl}^- \\xrightarrow{\\text{Cu}_2\\text{X}_2 \\text{ or } \\text{CuX} \\text{ (and } \\text{HX)}} \\text{Ar}-\\text{X}} \\text{ (where } \\text{X} = \\text{Cl}, \\text{Br}, \\text{CN})} \\)"
+    "q": "What is <b>$\\mathbf{Sandmeyer}$ Reaction</b>? Write the general transformation.",
+    "a": "Used to replace the diazonium group ($\\text{N}_2^+$) with $\\text{Cl}$, $\\text{Br}$, or $\\text{CN}$ in an aryl ring. <br>$$ \\mathbf{\\text{Ar}-\\text{N}_2^+ \\text{Cl}^- \\xrightarrow{\\text{Cu}_2\\text{X}_2 \\text{ or } \\text{CuX} \\text{ (and } \\text{HX)}} \\text{Ar}-\\text{X}} \\quad (\\text{where } \\text{X} = \\text{Cl}, \\text{Br}, \\text{CN}) $$"
   },
   {
-    "q": "How does the $\\mathbf{Gatterman}$ Reaction differ from the $\\mathbf{Sandmeyer}$ Reaction for preparing aryl halides?",
-    "a": "Both reactions are used to convert the diazonium salt to an aryl halide. $\\mathbf{\\text{Gatterman}}$ uses **Copper powder** (e.g., $\\text{Cu}/\\text{HCl}$) instead of $\\text{Cu}(\\text{I})$ salts (e.g., $\\text{Cu}_2\\text{Cl}_2$) used in $\\mathbf{\\text{Sandmeyer}}$. Sandmeyer usually gives better yields."
+    "q": "How does the <b>$\\mathbf{Gatterman}$ Reaction</b> differ from the <b>$\\mathbf{Sandmeyer}$ Reaction</b> for preparing aryl halides?",
+    "a": "Both reactions convert the diazonium salt to an aryl halide. <b>$\\mathbf{\\text{Gatterman}}$</b> uses **Copper powder** (e.g., $\\text{Cu}/\\text{HCl}$) instead of $\\text{Cu}(\\text{I})$ salts (e.g., $\\text{Cu}_2\\text{Cl}_2$) used in <b>$\\mathbf{\\text{Sandmeyer}}$</b>. Sandmeyer usually gives better yields."
   },
   {
-    "q": "State $\\mathbf{Saytzeff's}$ Rule for elimination reactions ($\text{E}1/\text{E}2$).",
-    "a": "In a dehydrohalogenation reaction, the preferred product is the $\\mathbf{most}$ **highly substituted alkene** (i.e., the alkene that has the greater number of alkyl groups attached to the double-bonded carbon atoms)."
+    "q": "State <b>$\\mathbf{Saytzeff's}$ Rule</b> for elimination reactions ($\\text{E}1/\\text{E}2$).",
+    "a": "In a dehydrohalogenation reaction, the preferred product is the <b>most highly substituted alkene</b> (i.e., the alkene that has the greater number of alkyl groups attached to the double-bonded carbon atoms)."
   },
   {
-    "q": "Why is the $\\text{C-X}$ bond in haloarenes shorter and stronger than in haloalkanes?",
-    "a": "In haloarenes, the carbon atom is $\\mathbf{sp}^2$ hybridised. $\\text{An } \\text{sp}^2 \\text{ carbon is more electronegative than an } \\mathbf{sp}^3 \\text{ carbon (as in haloalkanes)}$, resulting in a shorter and stronger $\\text{C}-\\text{X}$ bond due to better orbital overlap."
+    "q": "Why is the $\\text{C-X}$ bond in <b>haloarenes shorter and stronger</b> than in haloalkanes?",
+    "a": "1. <b>Resonance:</b> Creates a partial double bond character in $\\text{C-X}$ bond.<br>2. <b>Hybridisation:</b> The carbon is $\\mathbf{sp}^2$ hybridised, which is more electronegative than the $\\mathbf{sp}^3$ carbon in haloalkanes, resulting in a shorter and stronger bond due to better orbital overlap."
   },
   {
     "q": "Explain the directing effect of the halogen group in electrophilic substitution reactions on haloarenes.",
-    "a": "Halogens are $\\mathbf{Ortho/Para-directing}$ (due to resonance, which increases electron density at $o-$ and $p-$ positions) but $\\mathbf{Deactivating}$ (due to the strong electron-withdrawing inductive effect, which reduces overall electron density in the ring)."
+    "a": "Halogens are <b>Ortho/Para-directing</b> (due to resonance, which increases electron density at $o-$ and $p-$ positions) but <b>Deactivating</b> (due to the strong electron-withdrawing inductive effect, which reduces overall electron density in the ring)."
   },
   {
-    "q": "Preparation Method: Conversion of Alcohol to Alkyl Halide (Darzen's Method)",
-    "a": "The best method for preparing $\\text{R}-\\text{Cl}$ is by reacting the alcohol with $\\mathbf{\\text{Thionyl Chloride } (\\text{SOCl}_2)}$ in the presence of pyridine. \\( \\mathbf{\\text{R}-\\text{OH} + \\text{SOCl}_2 \\xrightarrow{\\text{Pyridine}} \\text{R}-\\text{Cl} + \\text{SO}_2\\text{(g)} + \\text{HCl(g)}} \\) The gaseous by-products make purification easy."
+    "q": "Preparation Method: Conversion of Alcohol to Alkyl Halide (<b>Darzen's Method</b>)",
+    "a": "The best method for preparing $\\text{R}-\\text{Cl}$ is by reacting the alcohol with <b>$\\mathbf{\\text{Thionyl Chloride } (\\text{SOCl}_2)}$</b> in the presence of pyridine. <br>$$ \\mathbf{\\text{R}-\\text{OH} + \\text{SOCl}_2 \\xrightarrow{\\text{Pyridine}} \\text{R}-\\text{Cl} + \\text{SO}_2\\text{(g)} + \\text{HCl(g)}} $$ The gaseous by-products make purification easy."
   },
   {
-    "q": "Preparation Method: Addition of Hydrogen Halides to Alkenes (Markovnikov's Rule)",
-    "a": "The negative part of the unsymmetrical reagent ($\\text{H}-\\text{X}$) adds to the carbon atom of the double bond that has the **least number of hydrogen atoms** (forms the more stable carbocation intermediate). Peroxide effect is the exception for $\\text{HBr}$."
+    "q": "Preparation Method: Addition of Hydrogen Halides to Alkenes (<b>Markovnikov's Rule</b>)",
+    "a": "The negative part of the unsymmetrical reagent ($\\text{H}-\text{X}$) adds to the carbon atom of the double bond that has the <b>least number of hydrogen atoms</b> (forms the more stable carbocation intermediate). <b>Anti-Markovnikov's Rule</b> is the exception for $\\text{HBr}$ in the presence of peroxide."
   },
   {
-    "q": "Ambident Nucleophile: Products from $\\text{KNO}_2$ vs $\\text{AgNO}_2$",
-    "a": "$\\mathbf{\\text{KNO}_2}$ (ionic): Forms $\\text{R}-\\text{O}-\\text{N}=\\text{O}$ (Alkyl **Nitrite**) - attack is via the O-atom. \\( \\mathbf{\\text{AgNO}_2} \\text{ (covalent): Forms } \\mathbf{\\text{R}-\\text{NO}_2} \\text{ (Nitroalkane)} \\text{ - attack is via the N-atom.} \\)"
+    "q": "Ambident Nucleophile: Products from <b>$\\mathbf{\\text{KNO}_2}$ vs $\\mathbf{\\text{AgNO}_2}$</b>",
+    "a": "<b>$\\mathbf{\\text{KNO}_2}$ (ionic):</b> Forms $\\text{R}-\\text{O}-\\text{N}=\\text{O}$ (Alkyl <b>Nitrite</b>) - Attack is via the O-atom.<br><b>$\\mathbf{\\text{AgNO}_2}$ (covalent):</b> Forms $\\text{R}-\\text{NO}_2$ (<b>Nitroalkane</b>) - Attack is via the N-atom."
   },
   {
-    "q": "What is a 'Racemic Mixture' and what causes its formation in $\\text{S}_{\\text{N}}1$ reactions?",
-    "a": "A Racemic Mixture contains **equal amounts** of the two enantiomers ($\\text{D}$ and $\\text{L}$ forms). It is **optically inactive** (rotation is cancelled out). It forms because the planar carbocation intermediate in $\\text{S}_{\\text{N}}1$ can be attacked from **either side** with equal probability."
+    "q": "What is a <b>'Racemic Mixture'</b> and what causes its formation in $\\text{S}_{\\text{N}}1$ reactions?",
+    "a": "A Racemic Mixture contains <b>equal amounts</b> of the two enantiomers ($\\text{D}$ and $\\text{L}$ forms). It is <b>optically inactive</b> (rotation is cancelled out). It forms because the <b>planar carbocation intermediate</b> in $\\text{S}_{\\text{N}}1$ can be attacked from <b>either side</b> with equal probability."
   },
   {
-    "q": "Definition: Enantiomers and Chiral Carbon",
-    "a": "**Enantiomers** are non-superimposable mirror images of each other. A **Chiral Carbon** is a carbon atom bonded to $\\mathbf{four}$ **different groups**."
+    "q": "Definition: <b>Enantiomers</b> and <b>Chiral Carbon</b>",
+    "a": "<b>Enantiomers</b> are non-superimposable mirror images of each other. A <b>Chiral Carbon</b> is a carbon atom bonded to $\\mathbf{four}$ <b>different groups</b>."
   },
   {
-    "q": "Environmental Impact: What is $\\text{DDT}$ and what is its major problem?",
-    "a": "$\\mathbf{\\text{DDT}}$ (Dichloro-diphenyl-trichloroethane) is a powerful, cheap insecticide. Its major problem is that it is **non-biodegradable** and accumulates in the food chain (bio-magnification), causing toxicity, especially in fish and birds."
+    "q": "Environmental Impact: What is <b>$\\mathbf{DDT}$</b> and what is its major problem?",
+    "a": "<b>$\\mathbf{\\text{DDT}}$</b> (Dichloro-diphenyl-trichloroethane) is a powerful, cheap insecticide. Its major problem is that it is <b>non-biodegradable</b> and <b>accumulates in the food chain (bio-magnification)</b>, causing toxicity, especially in fish and birds."
+  },
+  {
+    "q": "Define <b>Elimination Reaction ($\\text{E}1, \\text{E}2$)</b> and state the necessary condition.",
+    "a": "A reaction where a small molecule (e.g., $\\text{H}-\\text{X}$) is eliminated to form an unsaturated compound (alkene). <b>Necessary Condition:</b> Reaction must be carried out using $\\mathbf{alcoholic}$ or $\\mathbf{ethanolic}$ $\\mathbf{KOH}$ or $\\mathbf{NaOH}$ (or other strong base)."
+  },
+  {
+    "q": "Compare the <b>conditions and kinetics</b> of $\\text{E}2$ vs $\\text{S}_{\\text{N}}2$ reactions.",
+    "a": "Both are bimolecular ($\\text{Rate} = k[R-X][Base/Nu]$) and single-step.<br>$\\mathbf{\\text{E}2}$: Favored by <b>Strong, Bulky Bases</b> and <b>High Temperature</b>.<br>$\\mathbf{\\text{S}_{\\text{N}}2}$: Favored by <b>Strong, Small Nucleophiles</b> and <b>Low Temperature</b> (to suppress elimination)."
+  },
+  {
+    "q": "What is <b>Dehydrohalogenation</b>?",
+    "a": "It is the process of removing one molecule of a hydrogen halide ($\\text{HX}$) from an alkyl halide. This is the common name for the $\\text{E}1$ and $\\text{E}2$ elimination reactions when carried out with an alcoholic base."
+  },
+  {
+    "q": "What is <b>Freons</b> and what is their major environmental problem?",
+    "a": "<b>Freons</b> (Chlorofluorocarbons, $\\text{CFCs}$) are extremely stable, non-toxic organic molecules used as refrigerants and propellants. <b>Problem:</b> They escape into the stratosphere where they are broken down by UV radiation, releasing chlorine radicals that cause <b>catalytic depletion of the Ozone layer</b>."
   }
 ]

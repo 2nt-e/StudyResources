@@ -1,0 +1,70 @@
+[
+  {
+    "q": "What is the <b>Structure and Hybridization of Amines</b>?",
+    "a": "Amines have a pyramidal shape with nitrogen atom having a lone pair of electrons. The nitrogen atom is $\\mathbf{\\text{sp}^3}$ hybridized. Due to the lone pair, $1^{\\circ}$ and $2^{\\circ}$ amines are chiral (but invert rapidly)."
+  },
+  {
+    "q": "Compare the <b>Basicity of Aliphatic Amines, Ammonia, and Aromatic Amines</b>.",
+    "a": "<b>Aliphatic Amines > Ammonia > Aromatic Amines</b>.<br>Aliphatic amines (e.g., $\\text{R-NH}_2$) are stronger bases than $\\text{NH}_3$ due to the <b>electron-donating inductive effect</b> (+I effect) of the alkyl group, which increases the electron density on the N atom. Aromatic amines (Aniline) are weaker because the lone pair on N is <b>delocalized</b> into the benzene ring, making it less available for protonation."
+  },
+  {
+    "q": "Compare the <b>Basicity of $1^{\\circ}, 2^{\\circ}, 3^{\\circ}$ Amines in Aqueous Solution</b>.",
+    "a": "The order is generally: <b>$\\mathbf{2^{\\circ} > 1^{\\circ} > 3^{\\circ}}$</b> (for $\\text{CH}_3$ groups) or <b>$\\mathbf{2^{\\circ} > 3^{\\circ} > 1^{\\circ}}$</b> (for $\\text{C}_2\\text{H}_5$ groups). This is a complex result of the balance between <b>inductive effect</b>, <b>solvation effect</b> (hydrogen bonding with water), and <b>steric hindrance</b>."
+  },
+  {
+    "q": "What is the key method for preparing Amines using the <b>Gabriel Phthalimide Synthesis</b>?",
+    "a": "Used exclusively for the preparation of <b>pure $1^{\\circ}$ aliphatic amines</b>. It involves three steps:<br> 1. Reaction of phthalimide with ethanolic $\\text{KOH}$.<br> 2. $\\text{S}_{\\text{N}}2$ reaction with alkyl halide.<br> 3. Hydrolysis/Hydrazinolysis. <b>Cannot be used for $2^{\\circ}$ or $3^{\\circ}$ amines or Aniline</b>."
+  },
+  {
+    "q": "Write the reaction for <b>Hoffmann Bromamide Degradation</b>.",
+    "a": "Used to prepare a $1^{\\circ}$ amine that contains <b>one carbon atom less</b> than the starting amide. The reaction uses a primary amide ($\\mathbf{\\text{RCONH}_2}$), $\\text{Br}_2$, and a strong base ($\\text{NaOH}$ or $\\text{KOH}$)."
+  },
+  {
+    "q": "How can <b>Primary Amines be distinguished</b> from $2^{\\circ}$ and $3^{\\circ}$ Amines using the <b>Carbylamine Test</b>?",
+    "a": "Only <b>$1^{\\circ}$ amines (both aliphatic and aromatic)</b> give this test. The amine is heated with <b>Chloroform ($\\mathbf{\\text{CHCl}_3}$) and alcoholic $\\text{KOH}$</b>. A positive result is the formation of an offensive-smelling <b>Isocyanide or Carbylamine</b> ($\\mathbf{\\text{RNC}}$)."
+  },
+  {
+    "q": "How are $1^{\\circ}, 2^{\\circ}, 3^{\\circ}$ amines distinguished using the <b>Hinsberg Test</b>?",
+    "a": "The reagent is <b>Benzene Sulfonyl Chloride</b> (Hinsberg's Reagent).<br>1. <b>$1^{\\circ}$ Amine:</b> Forms a precipitate which is <b>soluble</b> in $\\text{KOH}$ (due to acidic $\\text{H}$ on N).<br>2. <b>$2^{\\circ}$ Amine:</b> Forms a precipitate which is <b>insoluble</b> in $\\text{KOH}$ (no acidic $\\text{H}$ on N).<br>3. <b>$3^{\\circ}$ Amine:</b> Does <b>not react</b> with the reagent."
+  },
+  {
+    "q": "What is the product when an <b>Aliphatic $1^{\\circ}$ Amine reacts with Nitrous Acid ($\\mathbf{\\text{HNO}_2}$)?</b>",
+    "a": "The amine undergoes <b>diazotisation</b> to form an unstable <b>Alkyldiazonium salt</b>, which immediately decomposes at room temperature to form an <b>Alcohol</b> ($\\mathbf{\\text{R-OH}}$), $\\text{N}_2$ gas, and $\\text{HCl}$."
+  },
+  {
+    "q": "Why is <b>Aniline a weaker base than Cyclohexylamine</b>?",
+    "a": "In Aniline, the lone pair on the nitrogen atom is delocalized due to <b>resonance</b> with the benzene ring. This makes the lone pair less available for protonation, reducing the basicity significantly compared to Cyclohexylamine, where the lone pair is localized."
+  },
+  {
+    "q": "What is the main challenge in the <b>Electrophilic Substitution (Bromination, Nitration) of Aniline</b>?",
+    "a": "Aniline is <b>highly activating</b> because the $-\\text{NH}_2$ group is a strong electron-donating group. In acidic media (used for nitration/sulfonation), it gets protonated to form the anilinium ion ($\\mathbf{-\\text{NH}_3^+}$), which is <b>meta-directing</b> and deactivating. <b>Protection</b> of the $-\\text{NH}_2$ group (by acetylation) is necessary for controlled substitution."
+  },
+  {
+    "q": "How is <b>Benzene Diazonium Chloride prepared</b> (Diazotisation)?",
+    "a": "Primary aromatic amines (like Aniline) react with <b>Nitrous Acid ($\\mathbf{\\text{HNO}_2}$)</b>, which is generated *in situ* from <b>Sodium Nitrite ($\\mathbf{\\text{NaNO}_2}$) and cold $\\mathbf{\\text{HCl}}$</b> at a temperature of <b>0-5 $\\mathbf{^{\\circ}\\text{C}}$</b>.<br>$$ \\mathbf{\\text{C}_6\\text{H}_5\\text{NH}_2 \\xrightarrow{\\text{NaNO}_2 + \\text{HCl}, 0-5^{\\circ}\\text{C}} \\text{C}_6\\text{H}_5\\text{N}_2^+\\text{Cl}^- } $$"
+  },
+  {
+    "q": "What are the products of the <b>Sandmeyer Reaction</b>?",
+    "a": "The Diazonium ion reacts with a cuprous halide ($\\mathbf{\\text{Cu}_2\\text{Cl}_2}$ or $\\mathbf{\\text{Cu}_2\\text{Br}_2}$) or $\\mathbf{\\text{CuCN}}$ to substitute the $\\text{N}_2^+$ group with $\\text{Cl}$, $\\text{Br}$, or $\\text{CN}$ respectively."
+  },
+  {
+    "q": "What is the <b>Coupling Reaction</b> of Diazonium salts?",
+    "a": "The Diazonium salt acts as an electrophile and reacts with electron-rich aromatic compounds like <b>Phenol</b> or <b>Aniline</b> to form stable, highly colored <b>Azo dyes</b> ($\\mathbf{\\text{R}-\\text{N}=\\text{N}-\\text{R}'}$)."
+  },
+  {
+    "q": "Explain the <b>Solubility trend</b> of Amines.",
+    "a": "Lower molecular weight amines are <b>soluble in water</b> because they can form <b>hydrogen bonds</b> with water molecules. Solubility decreases rapidly as the alkyl chain length increases because the non-polar hydrophobic portion dominates."
+  },
+  {
+    "q": "Explain the <b>Boiling Point trend</b> of Amines.",
+    "a": "Amines have higher boiling points than non-polar hydrocarbons but lower than alcohols of comparable mass. This is because $1^{\\circ}$ and $2^{\\circ}$ amines can form <b>intermolecular hydrogen bonds</b>, but these bonds are weaker than those in alcohols (due to N being less electronegative than O). $3^{\\circ}$ amines cannot form hydrogen bonds and have the <b>lowest boiling points</b>."
+  },
+  {
+    "q": "How are <b>Amines prepared by the Reduction of Nitro compounds</b>?",
+    "a": "Nitro compounds are reduced by using <b>$\\mathbf{\\text{Sn}}$ and concentrated $\\mathbf{\\text{HCl}}$</b> or $\\mathbf{\\text{Fe}}$ and $\\text{HCl}$ (preferred due to cheapness and self-generation of $\\text{HCl}$), followed by treatment with $\\text{NaOH}$."
+  },
+  {
+    "q": "How are <b>Amines prepared by the Reduction of Nitriles</b>?",
+    "a": "Nitriles are reduced to <b>$1^{\\circ}$ amines</b> using <b>$\\mathbf{\\text{LiAlH}_4}$</b> (Lithium Aluminum Hydride) or catalytic hydrogenation ($\\text{H}_2$/Nickel)."
+  }
+]

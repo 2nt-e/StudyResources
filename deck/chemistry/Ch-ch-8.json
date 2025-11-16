@@ -1,0 +1,106 @@
+[
+  {
+    "q": "What is the <b>Nature of the Carbonyl Group</b>?",
+    "a": "The $\\text{C}=\\text{O}$ bond is <b>polar</b> due to oxygen's higher electronegativity. The carbon atom is $\\mathbf{\\text{sp}^2}$ hybridized, making the carbonyl carbon an <b>electrophilic centre</b> (has a partial positive charge)."
+  },
+  {
+    "q": "Compare the <b>Reactivity of Aldehydes vs. Ketones</b> towards Nucleophilic Addition.",
+    "a": "<b>Aldehydes are more reactive</b> than Ketones because:<br> 1. <b>Steric Hindrance:</b> Aldehydes have only one large alkyl group, while ketones have two.<br> 2. <b>Electronic Effect:</b> Ketones have two electron-releasing alkyl groups, reducing the partial positive charge on the carbonyl carbon more effectively than in aldehydes."
+  },
+  {
+    "q": "What is the <b>Mechanism of Nucleophilic Addition</b> to a Carbonyl Group?",
+    "a": "It involves two steps:<br> 1. <b>Nucleophilic attack</b> on the electrophilic carbonyl carbon, converting the planar $\\mathbf{\\text{sp}^2}$ carbon to a tetrahedral $\\mathbf{\\text{sp}^3}$ intermediate.<br> 2. <b>Protonation</b> of the alkoxide intermediate to form the final product (e.g., an alcohol or hemiacetal)."
+  },
+  {
+    "q": "Explain why <b>alpha hydrogen ($\\mathbf{\\alpha\\text{-H}}$) in aldehydes/ketones is acidic</b>.",
+    "a": "The $\\alpha\\text{-H}$ is acidic because when it is removed by a base, the resulting intermediate, the <b>enolate ion ($\\mathbf{\\text{R}-\\text{C}=\\text{CH}_2-\\text{O}^-}$), is stabilized by resonance</b> (delocalization of the negative charge onto the highly electronegative oxygen atom)."
+  },
+  {
+    "q": "Write the general reaction for <b>Clemmensen Reduction</b>.",
+    "a": "Used to reduce the carbonyl group of aldehydes and ketones to a methylene group ($\\mathbf{-\\text{CH}_2-}$) using <b>Zinc Amalgam and concentrated $\\mathbf{\\text{HCl}}$</b>.<br>$$ \\mathbf{\\text{R}-\\text{CO}-\\text{R}' \\xrightarrow{\\text{Zn-Hg/Conc. HCl}} \\text{R}-\\text{CH}_2-\\text{R}'} $$"
+  },
+  {
+    "q": "Write the general reaction for <b>Wolff-Kishner Reduction</b>.",
+    "a": "Used to reduce the carbonyl group to a methylene group using <b>Hydrazine ($\\mathbf{\\text{NH}_2\\text{NH}_2}$) and a strong base</b> ($\\text{KOH}$ or $\\text{t-BuOK}$) in a high-boiling solvent (ethylene glycol).<br>$$ \\mathbf{\\text{R}-\\text{CO}-\\text{R}' \\xrightarrow{\\text{1. } \\text{NH}_2\\text{NH}_2, \\text{ 2. KOH/Glycol, Heat}} \\text{R}-\\text{CH}_2-\\text{R}'} $$"
+  },
+  {
+    "q": "What are the key conditions and products of the <b>Aldol Condensation</b>?",
+    "a": "Requires compounds having <b>alpha hydrogen ($\\mathbf{\\alpha\\text{-H}}$)</b>. Reactants are treated with <b>dilute base</b> (like $\\text{NaOH}$). The initial product is a <b>$\\beta$-hydroxy aldehyde/ketone</b> (Aldol), which easily dehydrates on heating to an <b>$\\mathbf{\\alpha,\\beta}$-unsaturated carbonyl compound</b>."
+  },
+  {
+    "q": "What is <b>Cannizzaro Reaction</b>? Write the overall transformation.",
+    "a": "Undergone by aldehydes that <b>DO NOT have an alpha hydrogen</b>. Reactants are heated with a <b>concentrated base</b> ($\\text{NaOH}$ or $\\text{KOH}$). It is a disproportionation reaction, yielding one molecule of <b>alcohol</b> and one molecule of <b>carboxylic acid salt</b>."
+  },
+  {
+    "q": "What is the required reactant and product of the <b>Iodoform Test</b>?",
+    "a": "Used to identify compounds containing the <b>$\\mathbf{\\text{CH}_3\\text{CO-}}$ group</b> (methyl ketones) or compounds that oxidize to it. The reaction produces a <b>yellow precipitate of $\\mathbf{\\text{CHI}_3}$ (Iodoform)</b>."
+  },
+  {
+    "q": "How can <b>Aldehydes be distinguished from Ketones</b> using Tollen's Reagent?",
+    "a": "The <b>Tollen's Test</b> uses ammoniacal silver nitrate ($\\mathbf{\\text{Ag}(\\text{NH}_3)_2^+}$). <b>Aldehydes</b> reduce $\\text{Ag}^+$ to metallic silver, forming a characteristic <b>bright silver mirror</b>. <b>Ketones</b> do not react."
+  },
+  {
+    "q": "How can <b>Aldehydes be distinguished from Ketones</b> using Fehling's Solution?",
+    "a": "The <b>Fehling's Test</b> uses an alkaline solution of $\\text{Cu}^{2+}$. <b>Aliphatic Aldehydes</b> reduce $\\text{Cu}^{2+}$ to $\\text{Cu}_2\\text{O}$, forming a <b>reddish-brown precipitate</b>. <b>Ketones</b> do not react."
+  },
+  {
+    "q": "What is the key difference in the reduction products of $\\mathbf{\\text{LiAlH}_4}$ vs. <b>Clemmensen/Wolff-Kishner</b>?",
+    "a": "$\\text{LiAlH}_4$ reduces the $\\text{C}=\\text{O}$ bond to an $\\text{OH}$ group, forming an <b>alcohol</b>. Clemmensen and Wolff-Kishner reductions reduce the $\\text{C}=\\text{O}$ bond completely to a $\\text{CH}_2$ group, forming an <b>alkane</b>."
+  },
+  {
+    "q": "Compare the <b>Acidity of Carboxylic Acids, Phenols, and Alcohols</b>.",
+    "a": "<b>Carboxylic Acids are the strongest</b> because their conjugate base, the <b>Carboxylate Ion</b> ($\\mathbf{\\text{RCOO}^-}$), is stabilized by <b>two equivalent resonance structures</b> (symmetrical charge dispersal).<br>$$ \\mathbf{\\text{Carboxylic Acid} > \\text{Phenol} > \\text{Alcohol}} $$"
+  },
+  {
+    "q": "What is the effect of <b>Electron-Withdrawing Groups (EWGs) on Carboxylic Acid acidity</b>?",
+    "a": "EWGs (e.g., $\\text{NO}_2, \\text{Cl}$) <b>increase the acidity</b> of carboxylic acids by stabilizing the carboxylate ion ($\\\\text{RCOO}^-$) through the <b>inductive effect</b>. The closer the EWG, the stronger the effect."
+  },
+  {
+    "q": "What is the <b>Hell-Volhard-Zelinsky (HVZ) Reaction</b>?",
+    "a": "Carboxylic acids having an <b>alpha hydrogen</b> are reacted with $\\mathbf{\\text{Cl}_2}$ or $\\mathbf{\\text{Br}_2}$ in the presence of <b>Red Phosphorus</b> to yield <b>$\\mathbf{\\alpha}$-halocarboxylic acids</b>."
+  },
+  {
+    "q": "How are <b>Aldehydes and Ketones prepared from Alcohols</b>?",
+    "a": "By <b>Oxidation</b> using reagents like $\\text{CrO}_3$ or $\\text{PCC}$ (Pyridinium Chlorochromate). <b>Primary alcohols</b> yield aldehydes, and <b>secondary alcohols</b> yield ketones."
+  },
+  {
+    "q": "Write the reaction for the preparation of Aldehydes using <b>Rosenmund Reduction</b>.",
+    "a": "Acid chlorides are reduced to aldehydes using <b>Hydrogen gas</b> over a <b>Palladium catalyst</b> poisoned by $\\mathbf{\\text{BaSO}_4}$ (Barium Sulfate) and sulfur/quinoline. <br>$$ \\mathbf{\\text{RCOCl} + \\text{H}_2 \\xrightarrow{\\text{Pd-BaSO}_4} \\text{RCHO} + \\text{HCl}} $$"
+  },
+  {
+    "q": "Write the reaction for the preparation of Ketones using <b>Nitriles</b>.",
+    "a": "Nitriles are reacted with a <b>Grignard reagent ($\\mathbf{\\text{R}'\\text{MgX}}$)</b>, followed by hydrolysis, to form a ketone. <br>$$ \\mathbf{\\text{RCN} + \\text{R}'\\text{MgX} \\xrightarrow{\\text{Ether}} \\text{Intermediate} \\xrightarrow{\\text{H}_3\\text{O}^+} \\text{RCOR}'} $$"
+  },
+  {
+    "q": "How are <b>Aromatic Aldehydes (Benzaldehydes) prepared</b>?",
+    "a": "By <b>Oxidation of Toluene</b> using chromyl chloride ($\\mathbf{\\text{CrO}_2\\text{Cl}_2}$) in the <b>Etard reaction</b>, or by reaction of benzene with $\\text{CO}$ and $\\text{HCl}$ in the <b>Gattermann-Koch reaction</b>."
+  },
+  {
+    "q": "What is the IUPAC naming rule for <b>Aldehydes and Ketones</b>?",
+    "a": "Aldehydes: Replace the terminal '-e' of the alkane name with '-al' (e.g., Ethanal). Ketones: Replace the terminal '-e' with '-one' and use a number to indicate the position of the carbonyl group (e.g., Pentan-2-one)."
+  },
+  {
+    "q": "How do <b>Boiling Points</b> of Aldehydes/Ketones compare to Alkanes and Alcohols of comparable mass?",
+    "a": "Aldehydes/Ketones have <b>higher boiling points than non-polar Alkanes</b> due to dipole-dipole interactions. They have <b>lower boiling points than Alcohols</b> because they cannot form intermolecular hydrogen bonds."
+  },
+  {
+    "q": "How is <b>Carboxylic Acid prepared from Alkenylbenzenes/Alkylbenzenes</b>?",
+    "a": "By strong oxidation of the alkyl side chain (even $1^{\\circ}$ or $2^{\\circ}$ alkyl groups) using <b>acidified $\\mathbf{\\text{KMnO}_4}$ or Chromic Acid ($\\mathbf{\\text{CrO}_3}$)</b>. The entire side chain is oxidized to a <b>Carboxyl group</b> ($\\text{COOH}$)."
+  },
+  {
+    "q": "Write the reaction for the preparation of carboxylic acids using a <b>Grignard Reagent</b>.",
+    "a": "The Grignard Reagent ($\\text{RMgX}$) reacts with <b>Solid Carbon Dioxide ($\\mathbf{\\text{CO}_2}$ or Dry Ice)</b>, followed by hydrolysis ($\\text{H}_3\\text{O}^+$), to yield a carboxylic acid with <b>one more carbon atom</b>.<br>$$ \\mathbf{\\text{RMgX} + \\text{CO}_2 \\xrightarrow{\\text{1. Ether}} \\text{RCOO MgX} \\xrightarrow{\\text{2. H}_3\\text{O}^+} \\text{RCOOH}} $$"
+  },
+  {
+    "q": "What is the key chemical reaction to form <b>Carboxylic Acid derivatives</b> (e.g., esters)?",
+    "a": "The reaction of a carboxylic acid with an alcohol or phenol in the presence of a strong acid catalyst (like conc. $\\text{H}_2\\text{SO}_4$) is called <b>Esterification</b>. It is a <b>reversible</b> reaction."
+  },
+  {
+    "q": "Explain the <b>high boiling point</b> of Carboxylic Acids.",
+    "a": "Carboxylic acids have the highest boiling points among similar mass organic compounds because they form stable <b>Hydrogen-bonded Dimers</b> in liquid and vapor phases, effectively doubling their molecular weight."
+  },
+  {
+    "q": "What are the primary <b>Uses of Methanal (Formaldehyde)</b> and **Ethanal (Acetaldehyde)**?",
+    "a": "<b>Methanal:</b> Used to prepare Formalin (a disinfectant and preservative) and Bakelite (a plastic). <b>Ethanal:</b> Used as a solvent and to prepare acetic acid."
+  }
+]

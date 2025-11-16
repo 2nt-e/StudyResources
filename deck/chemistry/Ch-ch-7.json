@@ -1,0 +1,122 @@
+[
+  {
+    "q": "Order the <b>Acidity of Alcohols, Phenols, and Water</b>.",
+    "a": "Phenols are significantly more acidic than alcohols due to resonance stabilization of the phenoxide ion: <br>$$ \\mathbf{\\text{Phenols} > \\text{Water} > \\text{Alcohols}} $$"
+  },
+  {
+    "q": "Explain why <b>Phenols are Acidic</b>, but <b>Alcohols are Neutral</b>.",
+    "a": "Phenols form the $\\mathbf{Phenoxide}$ ion upon losing $\\text{H}^+$, which is <b>stabilized by resonance</b> (delocalization of charge into the aromatic ring). Alkoxide ions formed by alcohols lack this stabilization."
+  },
+  {
+    "q": "What is the effect of <b>Electron-Withdrawing Groups (EWGs)</b> on Phenol acidity?",
+    "a": "EWGs (e.g., $\\text{NO}_2, \\text{Cl}$) <b>increase the acidity</b> of phenol, especially when present at <b>ortho and para</b> positions, by stabilizing the phenoxide ion through dispersal of the negative charge."
+  },
+  {
+    "q": "What is the effect of <b>Electron-Releasing Groups (ERGs)</b> on Phenol acidity?",
+    "a": "ERGs (e.g., $\\text{CH}_3, \\text{OCH}_3$) <b>decrease the acidity</b> of phenol by destabilizing the phenoxide ion (increasing the charge density)."
+  },
+  {
+    "q": "Compare the reactivity of $1^{\\circ}, 2^{\\circ}, 3^{\\circ}$ alcohols towards <b>acid-catalyzed dehydration</b>.",
+    "a": "Dehydration proceeds via a carbocation intermediate ($\\text{E}1$ mechanism). Reactivity is based on carbocation stability: <br>$$ \\mathbf{3^{\\circ} > 2^{\\circ} > 1^{\\circ}} $$"
+  },
+  {
+    "q": "What is the purpose and general reaction for the <b>Lucas Test</b>?",
+    "a": "Used to distinguish between $1^{\\circ}, 2^{\\circ}, 3^{\\circ}$ alcohols. The reagent is <b>Anhydrous $\\mathbf{\\text{ZnCl}_2} + \\mathbf{\\text{Conc. HCl}}$</b> (Lucas Reagent). It forms an oily alkyl chloride ($\\text{R-Cl}$).<br><b>$3^{\\circ}$</b>: Reacts <b>immediately</b> (turbidity). <b>$2^{\\circ}$</b>: Reacts in <b>5-10 minutes</b>. <b>$1^{\\circ}$</b>: Reacts <b>only on heating</b>."
+  },
+  {
+    "q": "What is the product when an alcohol is oxidized by <b>$\\mathbf{\\text{PCC}}$</b> (Pyridinium Chlorochromate)?",
+    "a": "PCC is a mild oxidizing agent. <br>$$ \\mathbf{1^{\\circ} \\text{ Alcohol} \\xrightarrow{\\text{PCC}} \\text{Aldehyde}} $$ (It prevents further oxidation to the carboxylic acid.)"
+  },
+  {
+    "q": "What is the product when an alcohol is oxidized by <b>$\\mathbf{\\text{Acidified } \\text{KMnO}_4}$</b>?",
+    "a": "Acidified $\\text{KMnO}_4$ is a strong oxidizing agent. <br>$$ \\mathbf{1^{\\circ} \\text{ Alcohol} \\xrightarrow{\\text{Strong Oxidizer}} \\text{Carboxylic Acid}} $$ <br>$$ \\mathbf{2^{\\circ} \\text{ Alcohol} \\xrightarrow{\\text{Strong Oxidizer}} \\text{Ketone}} $$"
+  },
+  {
+    "q": "What is <b>Kolbe's Reaction</b>? Write the overall transformation.",
+    "a": "Used to prepare <b>Salicylic Acid</b> (2-Hydroxybenzoic acid) from phenol. <br>$$ \\mathbf{\\text{Phenoxide ion} + \\text{CO}_2 \\xrightarrow[400\\text{K}, 4-7 \\text{atm}]{} \\text{Salicylate} \\xrightarrow{\\text{H}^+} \\text{Salicylic Acid}} $$"
+  },
+  {
+    "q": "What is <b>Reimer-Tiemann Reaction</b>? Write the overall transformation.",
+    "a": "Used to prepare <b>Salicylaldehyde</b> (2-Hydroxybenzaldehyde) from phenol. <br>$$ \\mathbf{\\text{Phenol} \\xrightarrow{\\text{CHCl}_3, \\text{aq. NaOH}} \\text{Intermediate} \\xrightarrow{\\text{H}^+} \\text{Salicylaldehyde}} $$"
+  },
+  {
+    "q": "What happens when <b>Phenol reacts with Bromine water ($\\mathbf{\\text{Br}_2/\text{H}_2\text{O}}$)</b>?",
+    "a": "Phenol is highly activated. It undergoes rapid poly-substitution to give a white precipitate of <b>2,4,6-Tribromophenol</b>."
+  },
+  {
+    "q": "What happens when <b>Phenol reacts with Bromine in a low-polarity solvent</b> (e.g., $\\mathbf{\\text{CS}_2}$ or $\\mathbf{\\text{CCl}_4}$)?",
+    "a": "In a low-polarity solvent at low temperature, the ionization of phenol is suppressed, leading to controlled substitution primarily at the <b>para-position</b>, yielding <b>$p$-Bromophenol</b> as the major product."
+  },
+  {
+    "q": "What happens when <b>Phenol reacts with dilute $\\mathbf{\\text{HNO}_3}$</b>?",
+    "a": "Nitration occurs primarily at the <b>ortho</b> and <b>para</b> positions, yielding a mixture of <b>$o$-Nitrophenol and $p$-Nitrophenol</b>. The two isomers can be separated by <b>steam distillation</b>."
+  },
+  {
+    "q": "What happens when <b>Phenol reacts with concentrated $\\mathbf{\\text{HNO}_3}$</b>?",
+    "a": "It yields the highly acidic, bright yellow compound <b>2,4,6-Trinitrophenol</b> (commonly known as <b>Picric Acid</b>)."
+  },
+  {
+    "q": "Explain why <b>$o$-Nitrophenol is steam volatile</b> but $p$-Nitrophenol is not.",
+    "a": "$o$-Nitrophenol exhibits <b>intramolecular</b> hydrogen bonding, which lowers its boiling point and makes it steam volatile. $p$-Nitrophenol exhibits <b>intermolecular</b> hydrogen bonding, leading to association and a higher boiling point."
+  },
+  {
+    "q": "What is the commercial preparation of Phenol from <b>$\\mathbf{Cumene}$</b>?",
+    "a": "Cumene (Isopropylbenzene) is oxidized in air to $\\mathbf{Cumene \\ Hydroperoxide}$, which is then treated with dilute acid to yield <b>Phenol and Acetone</b> ($\\text{CH}_3\\text{COCH}_3$). Acetone is a valuable by-product."
+  },
+  {
+    "q": "What is the IUPAC name for <b>Glycerol</b> and <b>Ethylene Glycol</b>?",
+    "a": "<b>Glycerol</b>: Propane-1,2,3-triol. <b>Ethylene Glycol</b>: Ethane-1,2-diol."
+  },
+  {
+    "q": "What is <b>Williamson's Ether Synthesis</b>? Write the general equation.",
+    "a": "Used to prepare <b>symmetrical and unsymmetrical ethers</b>. An alkyl halide reacts with a sodium alkoxide or phenoxide ($\\text{S}_{\\text{N}}2$ mechanism). <br>$$ \\mathbf{\\text{R}-\\text{X} + \\text{R}'\\text{ONa} \\to \\text{R}-\\text{O}-\\text{R}' + \\text{NaX}} $$"
+  },
+  {
+    "q": "What is the limitation of <b>Williamson's Ether Synthesis</b>?",
+    "a": "For successful synthesis, the <b>alkyl halide ($\\mathbf{\\text{R}-\\text{X}}$) must be primary ($1^{\\circ}$)</b>. If a secondary or tertiary alkyl halide is used, the strong base ($\\text{R}'\text{O}^-$) causes an <b>elimination ($\\mathbf{\\text{E}2}$) reaction</b> instead of substitution, forming an alkene."
+  },
+  {
+    "q": "What happens when <b>Alcohols are dehydrated at $\\mathbf{413\\text{K} (140^{\\circ}\\text{C})}$</b>?",
+    "a": "At lower temperatures ($\\mathbf{413\\text{K}}$) and with excess alcohol, the reaction involves two molecules of alcohol and forms an <b>Ether</b> (Intermolecular dehydration). <br>$$ \\mathbf{2\\text{R}-\\text{OH} \\xrightarrow{\\text{H}^+, 413\\text{K}} \\text{R}-\\text{O}-\\text{R} + \\text{H}_2\\text{O}} $$"
+  },
+  {
+    "q": "What happens when <b>Alcohols are dehydrated at $\\mathbf{443\\text{K} (170^{\\circ}\\text{C})}$</b>?",
+    "a": "At higher temperatures ($\\mathbf{443\\text{K}}$) and with excess acid, the reaction follows $\\mathbf{E}1$ and forms an <b>Alkene</b> (Intramolecular dehydration)."
+  },
+  {
+    "q": "Why are <b>Ethers relatively unreactive</b> under neutral conditions?",
+    "a": "The cleavage of the $\\text{C}-\\text{O}$ bond in ethers requires high temperatures and a strong acid/nucleophile (like $\\text{HI}$ or $\\text{HBr}$) because they are <b>chemically stable</b> due to the non-polar nature of the $\\text{C}-\\text{O}$ bond and lack of reactive $\\text{H}$ atoms."
+  },
+  {
+    "q": "What is the product when a <b>symmetrical ether reacts with cold $\\mathbf{\\text{HI}}$</b>?",
+    "a": "The ether is protonated, then undergoes nucleophilic attack ($\\text{S}_{\\text{N}}2$) by $\\text{I}^-$ to form <b>two molecules of Alkyl Iodide</b> ($\\text{R}-\\text{I}$). <br>$$ \\mathbf{\\text{R}-\\text{O}-\\text{R} + 2\\text{HI} \\xrightarrow{\\text{Heat}} 2\\text{R}-\\text{I} + \\text{H}_2\\text{O}} $$"
+  },
+  {
+    "q": "Cleavage of <b>Alkyl Aryl Ethers</b> ($\\text{Ar-O-R}$) with $\\mathbf{\\text{HI}}$?",
+    "a": "The cleavage occurs at the <b>alkyl-oxygen bond ($\\mathbf{\\text{R}-\\text{O}}$)</b> due to the partial double bond character of the aryl-oxygen bond ($\\text{Ar-O}$) from resonance. The products are <b>Phenol ($\\mathbf{\\text{Ar}-\\text{OH}}$) and Alkyl Iodide ($\\mathbf{\\text{R}-\\text{I}}$)</b>."
+  },
+  {
+    "q": "Explain the <b>directing effect of the $\\mathbf{\\text{-OR}}$ group</b> in electrophilic substitution on aryl ethers.",
+    "a": "The $\\text{-OR}$ group is a <b>strong activating</b> group and <b>Ortho/Para-directing</b> because the lone pair on the oxygen atom stabilizes the intermediate carbocation through resonance."
+  },
+  {
+    "q": "What is <b>Dehydrogenation</b> of alcohols?",
+    "a": "When $1^{\\circ}$ or $2^{\\circ}$ alcohols are passed over <b>hot copper ($\\mathbf{573\\text{K}}$)</b>, they lose $\\text{H}_2$. $1^{\\circ}$ alcohols form <b>Aldehydes</b>, and $2^{\\circ}$ alcohols form <b>Ketones</b>. $3^{\\circ}$ alcohols undergo dehydration to form an alkene."
+  },
+  {
+    "q": "What is the product when an <b>Alkene reacts with water in the presence of an acid</b>?",
+    "a": "The alkene undergoes **acid-catalyzed hydration** to form an <b>Alcohol</b>. The reaction follows **Markovnikov's rule** where the $-\\text{OH}$ group attaches to the more substituted carbon. <br>$$ \\mathbf{\\text{Alkene} + \\text{H}_2\\text{O} \\xrightarrow{\\text{H}^+} \\text{Alcohol}} $$"
+  },
+  {
+    "q": "What is the product when <b>Aldehydes or Ketones are reduced</b>?",
+    "a": "Aldehydes and ketones are reduced by reagents like **$\\mathbf{\\text{LiAlH}_4}$** (Lithium aluminum hydride) or **$\\mathbf{\\text{NaBH}_4}$** (Sodium borohydride) to form alcohols.<br>$$ \\mathbf{\\text{Aldehyde} \\xrightarrow{\\text{Reduction}} 1^{\\circ} \\text{ Alcohol}} $$<br>$$ \\mathbf{\\text{Ketone} \\xrightarrow{\\text{Reduction}} 2^{\\circ} \\text{ Alcohol}} $$"
+  },
+  {
+    "q": "What is the product when <b>Carboxylic Acids are reduced</b>?",
+    "a": "Carboxylic acids are reduced using the strong reducing agent **$\\mathbf{\\text{LiAlH}_4}$** to yield **Primary $\\mathbf{(1^{\\circ})}$ Alcohols**.<br>$$ \\mathbf{\\text{Carboxylic Acid} \\xrightarrow{\\text{1. LiAlH}_4\\text{/Ether}, 2. \\text{H}_2\\text{O}} 1^{\\circ} \\text{ Alcohol}} $$"
+  },
+  {
+    "q": "How are <b>Alcohols prepared using Grignard Reagents</b> (RMgX)?",
+    "a": "Grignard reagents react with carbonyl compounds, followed by hydrolysis, to form alcohols:<br><b>Formaldehyde ($\\\\text{HCHO}$)</b> $\\to$ **$1^{\\circ}$ Alcohol**<br><b>Other Aldehydes</b> $\\to$ **$2^{\\circ}$ Alcohol**<br><b>Ketones</b> $\\to$ **$3^{\\circ}$ Alcohol**"
+  }
+]

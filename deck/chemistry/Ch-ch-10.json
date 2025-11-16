@@ -1,0 +1,66 @@
+[
+  {
+    "q": "How are <b>Carbohydrates Classified</b> based on hydrolysis?",
+    "a": "1. <b>Monosaccharides:</b> Cannot be hydrolysed further (e.g., Glucose, Fructose). 2. <b>Oligosaccharides:</b> Yield 2 to 10 monosaccharide units upon hydrolysis (e.g., Sucrose, Maltose). 3. <b>Polysaccharides:</b> Yield a large number of monosaccharide units upon hydrolysis (e.g., Starch, Cellulose, Glycogen)."
+  },
+  {
+    "q": "What is the difference between an <b>Aldose and a Ketose</b>?",
+    "a": "An <b>Aldose</b> is a monosaccharide containing an <b>aldehyde functional group</b> ($-\\text{CHO}$), such as Glucose. A <b>Ketose</b> is a monosaccharide containing a <b>ketone functional group</b> ($=\\text{CO}$), such as Fructose."
+  },
+  {
+    "q": "Explain the <b>D-L Configuration</b> in carbohydrates.",
+    "a": "It refers to the configuration of the <b>lowest asymmetric carbon atom</b> (the one farthest from the functional group). If the $-\\text{OH}$ group on this carbon is on the <b>right</b>, it is <b>D-configuration</b>. If it is on the <b>left</b>, it is <b>L-configuration</b>."
+  },
+  {
+    "q": "What is a <b>Glycosidic Linkage</b>?",
+    "a": "The <b>oxide linkage</b> formed between the two monosaccharide units through the loss of a water molecule is called a <b>glycosidic linkage</b>. This linkage connects units in oligosaccharides and polysaccharides."
+  },
+  {
+    "q": "What are the components of the disaccharides <b>Sucrose, Lactose, and Maltose</b>?",
+    "a": "1. <b>Sucrose:</b> $\\mathbf{\\alpha\\text{-D-Glucose} + \\beta\\text{-D-Fructose}}$ (Non-reducing sugar). 2. <b>Lactose:</b> $\\mathbf{\\beta\\text{-D-Galactose} + \\beta\\text{-D-Glucose}}$ (Reducing sugar). 3. <b>Maltose:</b> $\\mathbf{\\alpha\\text{-D-Glucose} + \\alpha\\text{-D-Glucose}}$ (Reducing sugar)."
+  },
+  {
+    "q": "What is the primary <b>Importance of Carbohydrates</b>?",
+    "a": "They are the primary source of <b>energy</b> for animals and humans (Glucose, Glycogen), serve as <b>structural materials</b> for plants (Cellulose), and act as <b>reserves</b> (Starch, Glycogen)."
+  },
+  {
+    "q": "Define <b>Amino Acid</b> and <b>Peptide Bond</b>.",
+    "a": "<b>Amino Acid:</b> A compound containing both an <b>amino group ($\\mathbf{-\\text{NH}_2}$)</b> and a <b>carboxylic acid group ($\\mathbf{-\\text{COOH}}$)</b>. They are the building blocks of proteins. <b>Peptide Bond:</b> The amide linkage ($\\mathbf{-\\text{CONH}-}$) formed by the reaction between the carboxyl group of one amino acid and the amino group of another."
+  },
+  {
+    "q": "What are the four levels of <b>Protein Structure (Qualitative Idea)</b>?",
+    "a": "1. <b>Primary:</b> The sequence of amino acids (linear arrangement). 2. <b>Secondary:</b> The shape in which the long polypeptide chain folds (e.g., <b>$\\mathbf{\\alpha}$-helix</b> and <b>$\\mathbf{\\beta}$-pleated sheet</b>). 3. <b>Tertiary:</b> The overall three-dimensional folding of the polypeptide chain (e.g., fibrous or globular shape). 4. <b>Quaternary:</b> The arrangement of multiple polypeptide subunits."
+  },
+  {
+    "q": "What is <b>Denaturation of Proteins</b>?",
+    "a": "The process that involves the <b>destruction of the secondary, tertiary, and quaternary structures</b> (due to changes in temperature, $\\text{pH}$, etc.) without affecting the primary structure. This results in the <b>loss of biological activity</b> (e.g., coagulation of egg white)."
+  },
+  {
+    "q": "What is the role of <b>Enzymes</b>?",
+    "a": "Enzymes are <b>biological catalysts</b> (mostly globular proteins) that <b>accelerate biochemical reactions</b> in living organisms without undergoing any change themselves."
+  },
+  {
+    "q": "What is the role of <b>Hormones</b> (Elementary Idea excluding structure)?",
+    "a": "Hormones are <b>chemical messengers</b> produced by endocrine glands that are secreted directly into the bloodstream to target specific tissues and regulate various physiological processes."
+  },
+  {
+    "q": "How are <b>Vitamins Classified</b>?",
+    "a": "1. <b>Fat-Soluble Vitamins:</b> Stored in the liver and adipose tissue (Vitamins <b>A, D, E, K</b>). 2. <b>Water-Soluble Vitamins:</b> Cannot be stored in the body and must be supplied regularly in the diet (Vitamins <b>B-complex and C</b>)."
+  },
+  {
+    "q": "What is the main <b>Function of Vitamin $\\mathbf{D}$</b> and the disease caused by its deficiency?",
+    "a": "<b>Function:</b> Regulates calcium and phosphorus metabolism. <b>Deficiency Disease:</b> <b>Rickets</b> (in children) and <b>Osteomalacia</b> (in adults)."
+  },
+  {
+    "q": "What are the components and structure of <b>Nucleic Acids</b>?",
+    "a": "Nucleic acids (DNA and RNA) are long-chain polymers of <b>Nucleotides</b>. Each nucleotide contains three parts: 1. A <b>Pentose Sugar</b> (Deoxyribose in DNA, Ribose in RNA). 2. A <b>Phosphate Group</b>. 3. A <b>Nitrogenous Base</b> (A, G, C, T/U)."
+  },
+  {
+    "q": "Compare the <b>Sugars and Bases</b> present in <b>DNA</b> and <b>RNA</b>.",
+    "a": "<b>DNA:</b> Contains $\\mathbf{\\text{2-Deoxyribose}}$ sugar. Bases are <b>Adenine (A), Guanine (G), Cytosine (C), and Thymine (T)</b>.<br><b>RNA:</b> Contains $\\mathbf{\\text{Ribose}}$ sugar. Bases are <b>Adenine (A), Guanine (G), Cytosine (C), and Uracil (U)</b>."
+  },
+  {
+    "q": "What is the <b>Biological Function of DNA</b>?",
+    "a": "DNA is the <b>chemical basis of heredity</b>. It is the reservoir of <b>genetic information</b> and is responsible for passing hereditary characteristics from one generation to the next."
+  }
+]

@@ -1,74 +1,90 @@
 [
   {
-    "q": "What is electrochemistry?",
-    "a": "Electrochemistry is the study of the relationship between electrical energy and chemical reactions, particularly redox reactions involving transfer of electrons connected to electricity."
+    "q": "What is <b>Electrochemistry</b>?",
+    "a": "Electrochemistry is the study of the relationship between <b>electrical energy and chemical energy</b>, particularly through <b>redox reactions</b> involving the transfer of electrons connected to electricity."
   },
   {
-    "q": "Define electrochemical cell. What are its types?",
-    "a": "An electrochemical cell converts chemical energy to electrical (or vice versa) via redox reactions.  \nTypes:  \n1. Galvanic (Voltaic) cell — spontaneous reaction generates electricity.  \n2. Electrolytic cell — non-spontaneous reaction driven by external current."
+    "q": "Define an <b>Electrochemical Cell</b>. What are its two main types?",
+    "a": "An electrochemical cell converts chemical energy to electrical energy (or vice versa) via redox reactions.<br>Types:<br>1. <b>Galvanic (Voltaic) Cell</b>: Spontaneous reaction ($\\Delta G < 0$) generates electrical energy.<br>2. <b>Electrolytic Cell</b>: Non-spontaneous reaction ($\\Delta G > 0$) is driven by external electrical current."
   },
   {
-    "q": "What is a galvanic cell? Give an example.",
-    "a": "A galvanic cell converts chemical to electrical energy using a spontaneous redox reaction.  \nExample: Daniell Cell:  \nZn (anode) → Zn²⁺ + 2e⁻ (oxidation)  \nCu²⁺ + 2e⁻ → Cu (cathode, reduction)  \nNet: \\( \\text{Zn(s)} + \\text{Cu}^{2+}(aq) \\rightarrow \\text{Zn}^{2+}(aq) + \\text{Cu(s)} \\)"
+    "q": "What is a <b>Galvanic Cell</b>? Give the net reaction for the Daniell Cell.",
+    "a": "A galvanic cell converts chemical energy to electrical energy using a spontaneous redox reaction.<br>In the <b>Daniell Cell</b>:<br>Anode (Oxidation): $\\text{Zn(s)} \\rightarrow \\text{Zn}^{2+}(\\text{aq}) + 2e^{-}$<br>Cathode (Reduction): $\\text{Cu}^{2+}(\\text{aq}) + 2e^{-} \\rightarrow \\text{Cu(s)}$<br>Net Reaction: $$ \\text{Zn(s)} + \\text{Cu}^{2+}(\\text{aq}) \\rightarrow \\text{Zn}^{2+}(\\text{aq}) + \\text{Cu(s)} $$"
   },
   {
-    "q": "Explain the function of salt bridge in a galvanic cell.",
-    "a": "Salt bridge maintains electrical neutrality by allowing migration of ions (e.g., \\( \\text{KCl} \\)), prevents charge build-up, and sustains current flow."
+    "q": "Explain the function of a <b>Salt Bridge</b> in a galvanic cell.",
+    "a": "The salt bridge is an inverted U-tube containing an inert electrolyte (e.g., $\\text{KCl}$). Its functions are:<br>1. To maintain <b>electrical neutrality</b> in the half-cells by allowing ion migration.<br>2. To <b>complete the circuit</b> and sustain current flow.<br>3. To prevent the mixing of solutions."
   },
   {
-    "q": "What is electrode potential?",
-    "a": "Electrode potential is the tendency of an electrode to lose or gain electrons in contact with its ions. Standard electrode potential \\( E^\\circ \\) is measured under: 1 M, 1 atm, 25°C."
+    "q": "Define <b>Electrode Potential</b> and <b>Standard Electrode Potential</b> ($\\mathbf{E^{\\circ}}$).",
+    "a": "<b>Electrode Potential</b> is the tendency of an electrode to lose or gain electrons when it is in contact with its own ions.<br><b>Standard Electrode Potential ($E^{\\circ}$)</b> is this potential measured under standard conditions: $1 \\text{ M}$ concentration, $1 \\text{ atm}$ pressure, and $298 \\text{ K}$ ($25^{\\circ}\\text{C}$)."
   },
   {
-    "q": "What is the standard hydrogen electrode (SHE)?",
-    "a": "Reference electrode with \\( E^\\circ = 0\\,\\text{V} \\). Hydrogen gas at 1 atm bubbled over Pt electrode dipped in 1 M \\( \\text{H}^+ \\) solution."
+    "q": "What is the <b>Standard Hydrogen Electrode (SHE)</b>?",
+    "a": "The SHE is a <b>reference electrode</b> to measure the $E^{\\circ}$ of other electrodes. It is assigned a potential of $\\mathbf{E^{\\circ} = 0\\,\\text{V}}$. It consists of $\\text{H}_2$ gas at $1 \\text{ atm}$ bubbling over a $\\text{Pt}$ electrode dipped in a $1 \\text{ M } \\text{H}^{+}$ solution."
   },
   {
-    "q": "How is cell potential (EMF) of a galvanic cell calculated?",
-    "a": "\\( E_{\\text{cell}} = E^\\circ_{\\text{cathode}} - E^\\circ_{\\text{anode}} \\). It is the potential difference between the two electrodes."
+    "q": "How is the <b>Cell Potential (EMF)</b> of a galvanic cell calculated?",
+    "a": "The Cell Potential ($E_{\\text{cell}}$) is the potential difference between the two half-cells (electrodes).<br>$$ E_{\\text{cell}} = E_{\\text{cathode}} - E_{\\text{anode}} $$<br>For standard conditions, the formula is: $E^{\\circ}_{\\text{cell}} = E^{\\circ}_{\\text{cathode}} - E^{\\circ}_{\\text{anode}}$ (where both are reduction potentials)."
   },
   {
-    "q": "State the Nernst Equation. What does it calculate?",
-    "a": "Nernst equation (non-standard EMF):  \n\\( E = E^\\circ - \\frac{0.0591}{n} \\log Q \\)  \nWhere \\( Q = \\frac{[\\text{products}]}{[\\text{reactants}]} \\), \\( n \\) = no. of electrons transferred"
+    "q": "State the <b>Nernst Equation</b> and explain what it calculates.",
+    "a": "The Nernst equation calculates the cell potential ($E_{\\text{cell}}$) under <b>non-standard conditions</b>:<br>$$ E_{\\text{cell}} = E^{\\circ}_{\\text{cell}} - \\frac{0.0591}{n} \\log Q $$<br>Where $n$ is the number of electrons transferred, and $Q$ is the reaction quotient ($Q = \\frac{[\\text{products}]}{[\\text{reactants}]}$).<br>(The formula is usually given at $298 \\text{ K}$)."
   },
   {
-    "q": "What is electrochemical series?",
-    "a": "It ranks elements by \\( E^\\circ \\):  \nTop = strong reducing agents (more negative \\( E^\\circ \\)),  \nBottom = strong oxidizing agents (more positive \\( E^\\circ \\))"
+    "q": "State the relation between <b>Standard Cell Potential ($E^{\\circ}_{\\text{cell}}$)</b> and the <b>Equilibrium Constant ($K_c$)</b>.",
+    "a": "At equilibrium, $E_{\\text{cell}} = 0$ and $Q = K_c$. Substituting into the Nernst equation gives:<br>$$ E^{\\circ}_{\\text{cell}} = \\frac{0.0591}{n} \\log K_c $$"
   },
   {
-    "q": "Define Gibbs free energy and its relation to EMF.",
-    "a": "\\( \\Delta G = -nFE_{\\text{cell}} \\)  \n\\( \\Delta G < 0 \\): spontaneous, \\( \\Delta G > 0 \\): non-spontaneous  \nWhere \\( F = 96500\\,\\text{C/mol} \\)"
+    "q": "What is the <b>Electrochemical Series</b>?",
+    "a": "It is a list of elements ranked according to their <b>standard reduction potentials ($E^{\\circ}$)</b>.<br>1. Elements at the <b>Top</b> (more negative $E^{\\circ}$) are strong <b>reducing agents</b>.<br>2. Elements at the <b>Bottom</b> (more positive $E^{\\circ}$) are strong <b>oxidizing agents</b>."
   },
   {
-    "q": "Differentiate between galvanic and electrolytic cells.",
-    "a": "**Galvanic:** spontaneous, \\( \\text{chemical} \\rightarrow \\text{electrical} \\), anode (−), cathode (+)  \n**Electrolytic:** non-spontaneous, \\( \\text{electrical} \\rightarrow \\text{chemical} \\), anode (+), cathode (−)"
+    "q": "Define <b>Gibbs Free Energy</b> ($\\mathbf{\\Delta G}$) and its relation to EMF.",
+    "a": "Gibbs free energy is the energy available to do useful work. Its relation to cell EMF is:<br>$$ \\Delta G = -nFE_{\\text{cell}} $$<br>Where $F$ (Faraday constant) $\\approx 96500\\,\\text{C/mol}$ and $n$ is the number of electrons.<br>If $\\mathbf{\\Delta G < 0}$, the reaction is <b>spontaneous</b>."
   },
   {
-    "q": "What is conductivity (\\( \\kappa \\)) and molar conductivity (\\( \\Lambda_m \\))?",
-    "a": "Conductivity \\( \\kappa \\): conductance per unit length and area.  \nMolar conductivity: \\( \\Lambda_m = \\frac{\\kappa}{c} \\), increases with dilution."
+    "q": "Differentiate between <b>Galvanic</b> and <b>Electrolytic</b> cells.",
+    "a": "<table><thead><tr><th><b>Feature</b></th><th><b>Galvanic Cell</b></th><th><b>Electrolytic Cell</b></th></tr></thead><tbody><tr><td>Spontaneity</td><td>Spontaneous ($\\Delta G < 0$)</td><td>Non-spontaneous ($\\Delta G > 0$)</td></tr><tr><td>Energy Conversion</td><td>Chemical $\\rightarrow$ Electrical</td><td>Electrical $\\rightarrow$ Chemical</td></tr><tr><td>Anode Sign</td><td>Negative (−)</td><td>Positive (+)</td></tr><tr><td>Cathode Sign</td><td>Positive (+)</td><td>Negative (−)</td></tr></tbody></table>"
   },
   {
-    "q": "State Kohlrausch’s Law and its applications.",
-    "a": "Kohlrausch’s Law: \\( \\Lambda_m^\\circ = \\lambda^\\circ_+ + \\lambda^\\circ_- \\)  \nApplications:  \n1. Calculate \\( \\Lambda_m^\\circ \\) of weak electrolytes  \n2. Degree of dissociation  \n3. Ionic product of water"
+    "q": "Define <b>Conductivity</b> ($\\mathbf{\\kappa}$) and <b>Molar Conductivity</b> ($\\mathbf{\\Lambda_m}$), and their formula.",
+    "a": "1. <b>Conductivity ($\\kappa$)</b>: The conductance of a solution of $1 \\text{ cm}$ length and $1 \\text{ cm}^2$ area.<br>2. <b>Molar Conductivity ($\\Lambda_m$)</b>: Conductivity divided by concentration ($c$):<br>$$ \\Lambda_m = \\frac{\\kappa}{c} $$<br><b>Note</b>: $\\Lambda_m$ increases with dilution."
   },
   {
-    "q": "What is Faraday’s First Law of Electrolysis?",
-    "a": "Mass \\( m \\propto Q \\Rightarrow m = ZQ = \\frac{E \\cdot t \\cdot Z}{96500} \\)  \nWhere \\( Z \\) = electrochemical equivalent, \\( E \\) = current, \\( t \\) = time"
+    "q": "State <b>Kohlrausch’s Law of Independent Migration of Ions</b> and its applications.",
+    "a": "Kohlrausch’s Law: Limiting molar conductivity ($\\Lambda^{\\circ}_m$) of an electrolyte is the sum of the limiting ionic conductivities of the cation and anion:<br>$$ \\Lambda^{\\circ}_m = \\lambda^{\\circ}_{+} + \\lambda^{\\circ}_{-} $$<br>Applications:<br>1. To calculate $\\Lambda^{\\circ}_m$ of <b>weak electrolytes</b>.<br>2. To calculate the <b>degree of dissociation</b> of a weak electrolyte."
   },
   {
-    "q": "What is Faraday’s Second Law of Electrolysis?",
-    "a": "If same charge passes through different electrolytes:  \n\\( \\frac{m_1}{E_1} = \\frac{m_2}{E_2} \\)  \nWhere \\( m \\) = mass deposited, \\( E \\) = equivalent weight"
+    "q": "What is <b>Faraday’s First Law of Electrolysis</b>?",
+    "a": "The mass ($m$) of any substance deposited or liberated at an electrode is directly proportional to the quantity of electricity ($Q$) passed through the electrolyte:<br>$$ m \\propto Q \\quad \\text{or} \\quad m = ZQ \\quad \\text{or} \\quad m = \\frac{E \\cdot Q}{96500} $$<br>Where $Z$ is the electrochemical equivalent, and $E$ is the equivalent weight."
   },
   {
-    "q": "What is the difference between strong and weak electrolytes?",
-    "a": "**Strong**: fully dissociate (e.g., HCl, NaOH), high conductivity  \n**Weak**: partial dissociation (e.g., CH₃COOH), \\( \\Lambda_m \\) depends on concentration"
+    "q": "What is <b>Faraday’s Second Law of Electrolysis</b>?",
+    "a": "When the same quantity of electricity is passed through different electrolytes, the masses of the substances deposited are proportional to their equivalent weights ($E$):<br>$$ \\frac{\\text{Mass}_1}{\\text{Mass}_2} = \\frac{\\text{Equivalent Weight}_1}{\\text{Equivalent Weight}_2} $$"
   },
   {
-    "q": "What is corrosion? How is it an electrochemical process?",
-    "a": "Corrosion is metal degradation via environmental reaction. Acts as an electrochemical cell:  \nFe (anode) oxidizes, O₂ (cathode) reduced → rust forms in presence of air + water."
+    "q": "Differentiate between <b>Strong</b> and <b>Weak Electrolytes</b>.",
+    "a": "1. <b>Strong Electrolytes</b>: Dissociate <b>completely</b> in solution (e.g., $\\text{HCl}, \\text{NaOH}$). They have high conductivity.<br>2. <b>Weak Electrolytes</b>: Dissociate <b>partially</b> (e.g., $\\text{CH}_3\\text{COOH}$). Their molar conductivity ($\\Lambda_m$) increases significantly with dilution."
   },
   {
-    "q": "List methods to prevent corrosion.",
-    "a": "1. Galvanization (Zn coating)  \n2. Alloying (e.g., stainless steel)  \n3. Painting/oiling  \n4. Inhibitors  \n5. Cathodic protection (sacrificial anode)"
+    "q": "What is <b>Corrosion</b>? How is it modeled as an electrochemical process?",
+    "a": "Corrosion is the process of slow degradation of metals due to reaction with the environment. It acts as a minute <b>electrochemical cell</b>:<br>Anode Site (Oxidation): $\\text{Fe} \\rightarrow \\text{Fe}^{2+} + 2e^{-}$<br>Cathode Site (Reduction): $\\text{O}_2 + 2\\text{H}_2\\text{O} + 4e^{-} \\rightarrow 4\\text{OH}^{-}$<br>The final product is rust (hydrated ferric oxide)."
+  },
+  {
+    "q": "List common methods used to <b>Prevent Corrosion</b>.",
+    "a": "1. <b>Barrier Protection</b>: Painting, oiling, or greasing.<br>2. <b>Sacrificial Protection (Galvanization)</b>: Coating iron with a more reactive metal like <b>Zinc</b> (Zn), which acts as the sacrificial anode.<br>3. <b>Alloying</b>: Creating corrosion-resistant alloys (e.g., stainless steel).<br>4. <b>Cathodic Protection</b>: Connecting the metal to a more electropositive (sacrificial) metal."
+  },
+  {
+    "q": "What is the key reaction and classification of the <b>Dry Cell (Leclanché cell)</b>?",
+    "a": "The dry cell is a <b>Primary Cell</b> (non-rechargeable).<br><b>Anode</b>: Zinc container ($\\text{Zn} \\rightarrow \\text{Zn}^{2+} + 2e^{-}$)<br><b>Cathode</b>: Carbon rod in a paste of $\\text{MnO}_2$ and carbon powder.<br>The reaction involves the reduction of $\\text{MnO}_2$ and $\\text{NH}_4^{+}$ to $\\text{Mn}(\\text{O})\\text{OH}$ and $\\text{NH}_3$."
+  },
+  {
+    "q": "Describe the composition and reactions of the <b>Lead Storage Accumulator</b>.",
+    "a": "The lead accumulator is a <b>Secondary Cell</b> (rechargeable).<br><b>Anode</b>: Lead metal ($\\text{Pb}$)<br><b>Cathode</b>: Lead dioxide paste ($\\text{PbO}_2$)<br><b>Electrolyte</b>: $38\\%$ Sulfuric acid ($\\text{H}_2\\text{SO}_4$).<br>During <b>Discharge</b>: Both $\\text{Pb}$ and $\\text{PbO}_2$ are converted to $\\text{PbSO}_4$."
+  },
+  {
+    "q": "What is a <b>Fuel Cell</b>? Give the half-reactions for the $\\mathbf{H_2 - O_2}$ Fuel Cell.",
+    "a": "A fuel cell converts the energy from the combustion of fuels (like $\\text{H}_2, \\text{CH}_4, \\text{CH}_3\\text{OH}$) directly into electrical energy. It operates continuously as long as fuel is supplied.<br><b>Anode ($\\text{H}_2$ oxidation)</b>: $\\text{H}_2 + 2\\text{OH}^{-} \\rightarrow 2\\text{H}_2\\text{O} + 2e^{-}$<br><b>Cathode ($\\text{O}_2$ reduction)</b>: $\\text{O}_2 + 2\\text{H}_2\\text{O} + 4e^{-} \\rightarrow 4\\text{OH}^{-}$<br><b>Net Reaction</b>: $2\\text{H}_2 + \\text{O}_2 \\rightarrow 2\\text{H}_2\\text{O}$"
   }
 ]
